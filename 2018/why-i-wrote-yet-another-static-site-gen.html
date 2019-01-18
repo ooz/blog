@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Why I Wrote yet Another Static Site Generator | out of zeit</title>
+<link rel="canonical" href="https://ooz.github.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html">
+<link rel="shortcut icon" href="https://ooz.github.io/blog/static/owl.png">
+
+<link rel="stylesheet" href="https://cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/styles/default.min.css">
+<link rel="stylesheet" href="https://ooz.github.io/blog/static/ooz_blog.css">
+
+<meta name="author" content="ooz" />
+<meta name="description" content="Why I Wrote yet Another Static Site Generator" />
+<meta name="keywords" content="" />
+<meta name="twitter:author" content="@oozgo" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@oozgo" />
+<meta property="og:title" content="Why I Wrote yet Another Static Site Generator" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ooz.github.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html" />
+<meta property="og:description" content="Why I Wrote yet Another Static Site Generator" />
+<meta property="og:image" content="https://ooz.github.io/blog/static/owl.png" />
+<meta property="og:locale" content="en-US" />
+<meta property="article:published_time" content="2018-03-16T21:28:03Z" />
+</head>
+
+<body class="container">
+<div style="text-align:center">
+<a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
+</div>
+<div>
+<h1 id="why-i-wrote-yet-another-static-site-generator">Why I Wrote yet Another Static Site Generator</h1>
+<small style="float:right;"><a href="https://ooz.github.io">ooz</a>, 2018-03-16</small>
+</div>
+<div style="padding-top:2.5rem;">
+<blockquote>
+<p><em>Once a while somebody wants to write a blog post...</em></p>
+</blockquote>
+<p>Previously my website and blog hosted on GitHub were statically generated using <a href="https://gohugo.io/">Hugo</a>.
+Even before Hugo I tried Jekyll, Pelican and was checking out <a href="https://www.staticgen.com/">any site generator</a>, that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.</p>
+<p>Hugo certainly is a nice tool, but keeping track of updates and dependencies is annoying.
+Even if I use a popular Hugo theme, I need to track updates of both Hugo and the theme.
+Updates usually involve messing around in the configuration file as well.
+Configuration files are almost always not compatible between different themes.
+The same applies to the folder structure and canonical links.</p>
+<h2 id="my-requirements">My Requirements</h2>
+<p>I did not find a single <abbr title="Static Site Generator">SSG</abbr> fulfilling my personal requirements:</p>
+<dl>
+<dt><strong>Leverage free GitHub infrastructure</strong></dt>
+<dd>GitHub Pages is a real asset for me. Anything static, anything just running in someone's browser, I want to deploy using GitHub. Authentication is set up for development work already. Everything is free as in "tea". The behavior is really transparent:</dd>
+<dd>
+<ul>
+<li>GitHub Pages maps my repos nicely to its <a href="https://ooz.github.io">github.io</a> subdomain. A <abbr title="Static Site Generator">SSG</abbr> should be able to leverage the repository/directory structure!</li>
+</ul>
+</dd>
+<dd>
+<ul>
+<li><code>README.md</code> files are rendered nicely on GitHub and can be edited there as well. So the <abbr title="Static Site Generator">SSG</abbr> should support rendering <code>README.md</code> files as <code>index.html</code> files for the repository/directory the file is located in!</li>
+</ul>
+</dd>
+<dd>
+<p>If you want to view the markdown file "as is" on GitHub, links to own assets/posts are usually broken in most SSGs due to templated links. GitHub Pages has Jekyll support included, but it is not as transparent as running Jekyll and deploying the result on your own.</p>
+</dd>
+<dt><strong>Responsive design and pleasant typography</strong></dt>
+<dd>Despite the mass of themes and free resources, this is still not a baseline. My website/blog should be nice to read everywhere and fonts should not strain the eye!</dd>
+<dt><strong>Markdown support</strong></dt>
+<dd>Life is too short to manually write plenty of markup. It was surprisingly hard to find a suitable markdown conversion tool/library, because there are so many dialects/extensions that lack proper implementation. I now decided for <a href="https://python-markdown.github.io/extensions/">Python Markdown and its extensions</a>.</dd>
+<dt><strong>Suitable not just for blog posts, but also for other content pages</strong></dt>
+<dd>Some static site generators and themes are limited to specific use cases, I do not want to be restricted here.</dd>
+<dt><strong>Twitter Card, Open Graph support</strong></dt>
+<dd>This is covered by most themes, but it is again theme-dependent and if you develop your own theme, you need to take care of this also.</dd>
+<dt><strong>Portability</strong></dt>
+<dd>Unix tools, bash, git, Python and some common apt packages are available even for my terminal emulator on Android. The tool should work in this environment.</dd>
+</dl>
+<p>Further there are lots of things solved by multiple SSGs that are <em>no requirements for me</em>. An excerpt:</p>
+<dl>
+<dt><strong>Full local preview and draft support</strong></dt>
+<dd>I rather deploy fast and update a post incrementally if needed.</dd>
+<dt><strong>Fast, incremental generation</strong></dt>
+<dd>With my blogging frequency this might become an issue when the sun turns red...</dd>
+<dt><strong>Big theme selection</strong></dt>
+<dd>I just need one working theme. <abbr title="Static Site Generator">SSG</abbr> themes are seldomly ranked, so it is hard to choose one to commit to.</dd>
+<dt><strong>Template engine, theme development option</strong></dt>
+<dd>See above, I just want something working to focus on writing content.</dd>
+</dl>
+<blockquote>
+<p><em>Why don't you just contribute to some project or develop your own theme?</em></p>
+</blockquote>
+<p>I attempted to develop my own Hugo theme in the past, but I estimated the effort understanding all concepts and writing the archetypes, snippets and templates greater than just developing my own <abbr title="Static Site Generator">SSG</abbr>.
+For the same reason contribution to another <abbr title="Static Site Generator">SSG</abbr> project was out of question: Too much effort catching up, esp. since most general purpose generators emphasize different features, that I do not need (see above).</p>
+<p>So instead of investing time into things that might not yield the desired result, I decided to go my own path.</p>
+<h2 id="my-solution">My Solution</h2>
+<p>This blog and website are now generated by <a href="https://github.com/ooz/ggpy"><code>gg.py</code></a>, a single Python3 file inspired by <a href="https://github.com/cfenollosa/bashblog">bashblog</a>.</p>
+<p>As CSS baseline I picked <a href="https://milligram.io/">Milligram</a>. It provides nice defaults without the need to put classes on every <abbr title="Hyper Text Markup Language">HTML</abbr> element. This is especially handy, since I do not want to post-process the <abbr title="Hyper Text Markup Language">HTML</abbr> generated from the Markdown input. Further dependencies include Google Fonts, Font Awesome and <a href="https://highlightjs.org/">highlight.js</a>.</p>
+<p>Twitter cards and Open Graph meta data are rendered. The Python configuration file enables future preprocessing steps.</p>
+<p>The mapping of GitHub repositories to (sub-)pages works nicely. Previous my website and blog were in the single repository <a href="https://github.com/ooz/ooz.github.io"><code>ooz.github.io</code></a>. Now the <a href="https://github.com/ooz/blog"><code>blog</code></a> has its own repository which fits in with the GitHub Pages of some personal projects (e.g. <code>ggpy</code>, <code>handshake</code> and <code>lifetime-clock</code>). The new repository/page tree now looks like this:</p>
+<pre class="highlight"><code>ooz.github.io      # GitHub user page
+├── index.html
+├── blog
+│   ├── index.html # Autogenerated from all blog posts
+│   ├── 2018
+│   │   ├── why-i-wrote-yet-another-static-site-gen.html
+│   │   └── why-i-wrote-yet-another-static-site-gen.md
+...
+├── ggpy           # A normal repository page
+├── handshake
+├── lifetime-clock</code></pre>
+
+<h2 id="open-ends">Open Ends</h2>
+<p>Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
+Things I am still looking forward to:</p>
+<ul>
+<li>XML sitemap and RSS feed support</li>
+<li>Smarter top-level blog post index generation with older posts hidden and a tag cloud</li>
+</ul>
+<p>I thought about supporting Disqus as well, but I will probably rather include a "web 1.0" notice about using Twitter, GitHub issues or email to comment/contact me. This also reduces the attack vector of some German/EU bogus laws.</p>
+<h2 id="generate-it-up">Generate it up!</h2>
+<p>All in all I am pleased with the result so far.
+The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
+Writing <code>gg.py</code> was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of <a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh">bashblog</a>!</p>
+</div>
+<div>
+<a href="https://ooz.github.io/blog" class="nav-arrow">back</a>
+<a href="#" class="nav-arrow">top</a>
+<a href="https://twitter.com/oozgo" class="social-icon">twitter</a>
+<a href="https://github.com/ooz" class="social-icon">github</a>
+<a href="https://ooz.github.io/about.html" class="social-icon">about</a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js"></script>
+<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+</body>
+</html>
