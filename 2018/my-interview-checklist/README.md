@@ -6,8 +6,6 @@ description: Questions for potential employers and resources to interview teams.
 
 Heavily inspired by and copied from [Julia Evans' "Questions I'm asking in interviews"](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/).
 
-WIP:
-
 ## Research
 
 Could be answered by up-front investigation:
@@ -57,10 +55,9 @@ Adapted [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-s
 * Do you fix bugs before writing new code?
 * May I see some of the code the team has written?
 * Do programmers have quiet working conditions?
-* Do you use the best tools money can buy?
 * Do you have testers, designers, tech writers?
-* Do you do hallway usability testing?
 * How is your roadmap determined?
+* May I use/test/see your software right now?
 
 ### Other
 
@@ -77,7 +74,7 @@ Adapted [Joel Test](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-s
 ## While on-site
 
 * Observe office space layout/organization
-* Observe developer desks. Multiple screens? What is the dominant non-Mac computer brand?
+* Observe developer desks: Multiple screens? Good panels? What is the dominant non-Mac computer brand?
 * Check bathroom. Any shortage of soap/paper towels towards the end of the year?
 * Could the outside smoking area affect the office climate?
 * Water dispenser, kitchen?
