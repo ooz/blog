@@ -5,6 +5,7 @@ description: Questions for potential employers and resources to interview teams.
 ---
 
 Heavily inspired by and copied from [Julia Evans' "Questions I'm asking in interviews"](https://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/).
+I intend to use this from both sides of the table: when I am the interviewee and when I need to gauge a candidate's interest.
 
 ## Research
 
@@ -12,7 +13,7 @@ Could be answered by up-front investigation:
 
 * How does the company make money?
 * Does the business model scale?
-* Ethics?
+* Any ethical concerns regarding the business model?
 
 ## Questions
 
