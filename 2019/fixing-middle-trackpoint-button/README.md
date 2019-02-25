@@ -1,6 +1,6 @@
 ---
 date: 2019-02-24T21:00:02Z
-title: Fixing the middle trackpoint button on old ThinkPad keyboards
+title: Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards
 ---
 
 I happen to own two ThinkPads:
