@@ -35,3 +35,5 @@ MacGyver score: **6 out of 10**
 * Tape fixed the issue
 * Bubble gum was only chewed, not applied
 * No evil plan was spoiled
+
+☺
