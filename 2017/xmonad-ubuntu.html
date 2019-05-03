@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -26,6 +27,8 @@
 <meta property="og:image" content="https://ooz.github.io/blog/static/owl.png" />
 <meta property="og:locale" content="en-US" />
 <meta property="article:published_time" content="2017-04-02T21:20:32+02:00" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebSite","headline":"How to configure Xmonad for Ubuntu 16.04","url":"https://ooz.github.io/blog/2017/xmonad-ubuntu.html","name":"out of zeit","description":"How to configure Xmonad for Ubuntu 16.04"}</script>
 </head>
 
 <body class="container">
@@ -65,11 +68,11 @@ sudo apt-get install gnome-session-xmonad</code></pre>
 </li>
 <li>
 <p>If you dislike the bottom panel (like I do, see above screenshot), you can disable it with:</p>
-<pre class="highlight"><code>dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel']"
+<pre class="highlight"><code>dconf write /org/gnome/gnome-panel/layout/toplevel-id-list &quot;['top-panel']&quot;
 </code></pre>
 
 <p>To redisplay it, execute:</p>
-<pre class="highlight"><code>dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel','bottom-panel']"</code></pre>
+<pre class="highlight"><code>dconf write /org/gnome/gnome-panel/layout/toplevel-id-list &quot;['top-panel','bottom-panel']&quot;</code></pre>
 
 </li>
 </ol>
