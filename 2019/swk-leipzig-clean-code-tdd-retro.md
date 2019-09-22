@@ -19,10 +19,6 @@ A little recap of what I learned/refreshed at the [Softwerkskammer Leipzig meetu
 
 > Legacy code is code without tests (by Michael Feathers)
 
-## General wisdom
-
-> Discipline are pre-made decisions
-
 ## Refactoring techniques
 
 * Inline local/private functions before refactoring
@@ -30,3 +26,10 @@ A little recap of what I learned/refreshed at the [Softwerkskammer Leipzig meetu
 * Do not use `StringBuffer` in modern Java, the compiler is smart enough
 * Multiply `if`-statements
 * Parametric loops
+
+## General education
+
+* Theories how the moon came to be
+* [Ignaz Semmelweis](https://de.wikipedia.org/wiki/Ignaz_Semmelweis) not profiting from his [radical novelty](https://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html) of hand washing during his lifetime
+
+> Discipline are pre-made decisions
