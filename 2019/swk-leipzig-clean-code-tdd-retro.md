@@ -2,7 +2,6 @@
 date: 2019-09-22T23:57:48Z
 title: Softwerkskammmer Leipzig: Clean Code Session "TDD"
 description: Lessons learned from the meetup and Uncle Bob's videos
-tags: retro
 ---
 
 A little recap of what I learned/refreshed at the [Softwerkskammer Leipzig meetup](https://www.meetup.com/de-DE/Softwerkskammer-Leipzig/events/264030290/). We watched [Robert "Uncle Bob" Martin's Clean Code Episode 6 Part 1](https://cleancoders.com/video-details/clean-code-episode-6-p1) and [part 2](https://cleancoders.com/video-details/clean-code-episode-6-p2). Quotes by R. Martin if not noted otherwise:
