@@ -1,6 +1,6 @@
 ---
 date: 2019-09-22T23:57:48Z
-title: Softwerkskammmer Leipzig - Clean Code Session "TDD"
+title: Softwerkskammmer Leipzig: Clean Code Session "TDD"
 description: Lessons learned from the meetup and Uncle Bob's videos
 tags: retro
 ---
