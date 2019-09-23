@@ -2,6 +2,7 @@
 date: 2019-02-17T22:24:09Z
 title: Post-mortem: Global Game Jam 2019
 description: Lessons learned from #ggj19
+tags: retro
 ---
 
 This year's [Global Game Jam (GGJ)](https://globalgamejam.org/2019/games/home-48) marked my fifth attendance in a row and was both my most refreshing and challenging jam so far.
