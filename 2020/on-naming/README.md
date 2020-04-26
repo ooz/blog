@@ -1,11 +1,13 @@
 ---
 date: 2020-04-26T19:02:53Z
 title: On Naming
-description: Why naming is hard and at the core of the programming profession
+description: Why naming is hard, important and at the heart of the programming profession
 tags: draft
 ---
 
+Reference two hard things: https://martinfowler.com/bliki/TwoHardThings.html
 
+R. Martin: Clean Code, entire chapter 2 on "Meaningful Names"
 
 Why is that?
 
@@ -22,3 +24,4 @@ Compilers and machines do not care about naming.
 * Dead verbs
 * Generic nouns
 * `result`
+* add, remove (git messages)
