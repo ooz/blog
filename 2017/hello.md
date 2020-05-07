@@ -12,11 +12,9 @@ I am Oliver and this is my personal blog about:
     Tied closely to 1.
 3. **Design** <br />
     What I like, what I dislike, what I learned. This will probably involve some Lego.
-4. **Technology** <br />
-    Gadgets! Tied to 3.
-5. **Software Engineering** <br />
+4. **Technology and Software Engineering** <br />
     That is what I do for a living.
-6. **Zen** <br />
+5. **Zen** <br />
     Starts with Z, too. So that is basically my second name.
 
 This post will serve me as a reference, so expect to see weird things below this line:
