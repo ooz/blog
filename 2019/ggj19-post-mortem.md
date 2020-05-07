@@ -29,4 +29,4 @@ Lessons learned to still deliver on time:
 * **Cut, then cut some more! Reuse like it is a triple-A game!** The asset matrix really helped here to show opportunities for reuse across scenes and cut assets that are not needed to convey the message. Unfortunately, this also meant skipping all sound (effects), which is usually great fun to create with fellow jammers.
 * **Focus on the story, keep gameplay minimal!** Adding more gameplay would have required way more iteration.
 
-Meta: This post was conceived on a paper notebook, then typed on my phone. All while on a train. The process was really refreshing and helped focussing on the content.
+Meta: This post was conceived on a paper notebook, then typed on a phone. All while on a train. The process was really refreshing and helped focusing on the content.

@@ -3,14 +3,14 @@ date: 2019-02-24T21:00:02Z
 title: Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards
 ---
 
-I happen to own two ThinkPads:
+So far, I worked with two ThinkPads:
 
-* T410, bought new in 2010, till today I replaced HDD/SSD, RAM, fan and keyboard.
-* X220, bought refurbished in 2016 with an IPS screen, I cleaned it thoroughly, swapped SSD, RAM and keyboard after purchase.
+* T410, bought new in 2010. I replaced HDD/SSD, RAM, fan and keyboard.
+* X220, bought refurbished in 2016 with an IPS screen. I cleaned it thoroughly, swapped SSD, RAM and keyboard.
 
 The hardware is still suitable for modern-day software development work and I have yet to find a better typing experience on a laptop keyboard!
 
-Some time ago, I broke one bolt keeping the middle trackpoint button of my X220 in place. This resulted in an unpleasant scrolling experience.
+Some time ago, I broke one bolt keeping the middle trackpoint button of the X220 keyboard in place. This resulted in an unpleasant scrolling experience.
 
 When trying to remove the button to further investigate and fix the issue (no repair manual was consulted ☹), I broke the other bolt.
 

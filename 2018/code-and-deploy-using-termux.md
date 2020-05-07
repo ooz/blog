@@ -1,7 +1,7 @@
 ---
 date: 2018-08-17T19:02:43Z
 title: Code and Deploy on Android Using Termux
-description: This post was researched, written, generated and deployed from my smartphone in ca. one hour
+description: This post was researched, written, generated and deployed from a smartphone in ca. one hour
 ---
 
 Publishing online is a rather easy task nowadays: Open some webpage or app, write something, add a few pictures and click the publish button. Done!
@@ -25,5 +25,5 @@ The wiki also contains useful instructions on [how to access local files on your
 ## Peace of mind
 
 Developing on a proper PC, with a proper keyboard is way faster and comfortable, of course.
-Knowing that I do not just have access to the Internet on my phone, but that I could also actively shape it, lets me travel more comfortably without worrying too much about bringing a laptop. :)
+Knowing that I do not just have access to the Internet on a phone, but that I could also actively shape it, lets me travel more comfortably without worrying too much about bringing a laptop. :)
 

@@ -61,7 +61,7 @@ My girlfriend liked the board so much, I needed to craft an additional one:
 
 ![Black Personal Kanban board with white ink](pkanban_black_board_open.jpg)
 
-Applying some stickers lying around (I do not like putting them on my laptop):
+Applying some stickers lying around (I do not like putting them on laptops):
 
 ![Resulting Personal Kanban boards](pkanban_result.jpg)
 

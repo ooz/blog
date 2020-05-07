@@ -6,7 +6,7 @@ tags: gaming
       ubuntu
 ---
 
-Once a while™ I like to play strategy or MMO games on my PC.
+Once a while™ I like to play strategy or MMO games on PC.
 
 Back in 2006 I bought the fantastic Logitech MX518 gaming mouse and have been using it ever since.
 
@@ -16,7 +16,7 @@ Back in 2006 I bought the fantastic Logitech MX518 gaming mouse and have been us
 
 As you can see in the picture the mouse sports extra buttons that are handy when assigned properly in games.
 This works just fine under Windows with the tools Logitech provides.
-Before Ubuntu switched to `systemd` there was a tool named [`btnx`](https://launchpad.net/btnx) that enabled you to assign keyboard keys to mouse buttons.
+Before Ubuntu switched to `systemd` there was a tool named [`btnx`](https://launchpad.net/btnx) that enabled me to assign keyboard keys to mouse buttons.
 
 It just worked!
 

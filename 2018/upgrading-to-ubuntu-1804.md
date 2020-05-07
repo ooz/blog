@@ -4,7 +4,7 @@ title: Upgrading to Ubuntu 18.04
 description: A little checklist when upgrading from Ubuntu (+ XMonad) 16.04 to 18.04
 ---
 
-So far I upgraded 3 out of my 4 Ubuntu machines from 16.04 LTS to 18.04 LTS.
+So far I upgraded three Ubuntu machines from 16.04 LTS to 18.04 LTS.
 Just my work laptop is left. A little checklist for future upgrades:
 
 ## Before upgrading
