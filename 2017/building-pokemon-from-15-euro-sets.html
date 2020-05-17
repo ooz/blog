@@ -37,6 +37,7 @@ code {
 }
 h1 { text-align: center; margin: 0 auto; }
 h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
 img { max-width: 100%; }
 ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
@@ -94,14 +95,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </head>
 
 <body onload="initTheme()">
-<div style="text-align:center">
+<header>
 <a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
-</div>
 <div style="text-align:right;">
 <h1 id="building-pokemon-from-15-to-18-euro-lego-sets">Building Pokemon from 15 to 18 Euro Lego Sets</h1>
 <small><a href="https://ooz.github.io">ooz</a>, 2017-01-08</small>
 </div>
-<div>
+</header>
+<section>
 <p>In late 2016 I bought the Lego set "Red Creatures", which sadly is not available anymore.
 I always liked dragons, so I had to get and build it.</p>
 <p>Wandering around in the Lego store I wondered why there is no Pokemon Lego yet.
@@ -156,14 +157,14 @@ You can only use the bricks being part of one less-than-20-€-set</li>
 <li><strong>Abstraction + reduction</strong><br />
 Extract the essential features of a Pokemon and translate them to the Lego design</li>
 </ul>
-</div>
-<div>
+</section>
+<footer>
 <a href="https://ooz.github.io/blog" class="nav">back</a>
 <a href="#" class="nav">top</a>
 <a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
 <a href="https://twitter.com/oozgo" class="social">twitter</a>
 <a href="https://github.com/ooz" class="social">github</a>
 <a href="https://ooz.github.io/about.html" class="social">about</a>
-</div>
+</footer>
 </body>
 </html>

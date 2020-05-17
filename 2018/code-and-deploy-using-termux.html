@@ -37,6 +37,7 @@ code {
 }
 h1 { text-align: center; margin: 0 auto; }
 h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
 img { max-width: 100%; }
 ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
@@ -94,14 +95,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </head>
 
 <body onload="initTheme()">
-<div style="text-align:center">
+<header>
 <a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
-</div>
 <div style="text-align:right;">
 <h1 id="code-and-deploy-on-android-using-termux">Code and Deploy on Android Using Termux</h1>
 <small><a href="https://ooz.github.io">ooz</a>, 2018-08-17</small>
 </div>
-<div>
+</header>
+<section>
 <p>Publishing online is a rather easy task nowadays: Open some webpage or app, write something, add a few pictures and click the publish button. Done!</p>
 <p>This blog does not have a fancy web UI nor a mobile app for administration purposes. It is statically generated using <a href="https://github.com/ooz/ggpy">gg.py</a>, a Python program, and published on GitHub Pages.</p>
 <p>So for me writing a blog post is not just writing, but also running Python programs, using git and deploying the result somewhere.</p>
@@ -114,14 +115,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 <h2 id="peace-of-mind">Peace of mind</h2>
 <p>Developing on a proper PC, with a proper keyboard is way faster and comfortable, of course.
 Knowing that I do not just have access to the Internet on a phone, but that I could also actively shape it, lets me travel more comfortably without worrying too much about bringing a laptop. :)</p>
-</div>
-<div>
+</section>
+<footer>
 <a href="https://ooz.github.io/blog" class="nav">back</a>
 <a href="#" class="nav">top</a>
 <a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
 <a href="https://twitter.com/oozgo" class="social">twitter</a>
 <a href="https://github.com/ooz" class="social">github</a>
 <a href="https://ooz.github.io/about.html" class="social">about</a>
-</div>
+</footer>
 </body>
 </html>

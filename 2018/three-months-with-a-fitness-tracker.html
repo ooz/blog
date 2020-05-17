@@ -37,6 +37,7 @@ code {
 }
 h1 { text-align: center; margin: 0 auto; }
 h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
 img { max-width: 100%; }
 ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
@@ -94,14 +95,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </head>
 
 <body onload="initTheme()">
-<div style="text-align:center">
+<header>
 <a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
-</div>
 <div style="text-align:right;">
 <h1 id="three-months-with-a-fitness-tracker">Three Months With a Fitness Tracker</h1>
 <small><a href="https://ooz.github.io">ooz</a>, 2018-06-15</small>
 </div>
-<div>
+</header>
+<section>
 <p>In March I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
 Being interested only in my daily step count and the distance/steps covered on various routine routes, I did not use any of the advanced features like sleep tracking or anything else that required interaction with the Garmin cloud.
 Initializing the tracker required the creation of an account with my birthday (Jan 1st + accurate year 😉), height and mass.</p>
@@ -116,14 +117,14 @@ In fact I was barely using the tracker after the first month. So here are the re
 </ul>
 <p>Due to the consistency of the measurements and me now knowing my metrics, I am mostly using the tracker as a watch now.
 In fact, I only need to know how much time I spent covering a distance to deduct the steps and kilometers done.</p>
-</div>
-<div>
+</section>
+<footer>
 <a href="https://ooz.github.io/blog" class="nav">back</a>
 <a href="#" class="nav">top</a>
 <a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
 <a href="https://twitter.com/oozgo" class="social">twitter</a>
 <a href="https://github.com/ooz" class="social">github</a>
 <a href="https://ooz.github.io/about.html" class="social">about</a>
-</div>
+</footer>
 </body>
 </html>

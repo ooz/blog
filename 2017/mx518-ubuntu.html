@@ -37,6 +37,7 @@ code {
 }
 h1 { text-align: center; margin: 0 auto; }
 h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
 img { max-width: 100%; }
 ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
@@ -94,14 +95,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </head>
 
 <body onload="initTheme()">
-<div style="text-align:center">
+<header>
 <a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
-</div>
 <div style="text-align:right;">
 <h1 id="how-to-assign-the-logitech-mx518-extra-buttons-under-ubuntu-1604">How to assign the Logitech MX518 extra buttons under Ubuntu 16.04</h1>
 <small><a href="https://ooz.github.io">ooz</a>, 2017-02-05</small>
 </div>
-<div>
+</header>
+<section>
 <p>Once a while™ I like to play strategy or MMO games on PC.</p>
 <p>Back in 2006 I bought the fantastic Logitech MX518 gaming mouse and have been using it ever since.</p>
 <p><img alt="Logitech MX518 gaming mouse" src="https://images-na.ssl-images-amazon.com/images/I/91YmmYMH40L._SL1500_.jpg" /></p>
@@ -182,14 +183,14 @@ sudo cp btnx.service /etc/systemd/system/graphical.target.wants/</code></pre>
 <p>Restart Ubuntu and you are done!</p>
 </li>
 </ol>
-</div>
-<div>
+</section>
+<footer>
 <a href="https://ooz.github.io/blog" class="nav">back</a>
 <a href="#" class="nav">top</a>
 <a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
 <a href="https://twitter.com/oozgo" class="social">twitter</a>
 <a href="https://github.com/ooz" class="social">github</a>
 <a href="https://ooz.github.io/about.html" class="social">about</a>
-</div>
+</footer>
 </body>
 </html>

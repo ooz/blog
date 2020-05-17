@@ -37,6 +37,7 @@ code {
 }
 h1 { text-align: center; margin: 0 auto; }
 h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
 img { max-width: 100%; }
 ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
@@ -94,14 +95,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </head>
 
 <body onload="initTheme()">
-<div style="text-align:center">
+<header>
 <a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
-</div>
 <div style="text-align:right;">
 <h1 id="fixing-the-middle-trackpoint-button-on-old-thinkpad-keyboards">Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards</h1>
 <small><a href="https://ooz.github.io">ooz</a>, 2019-02-24</small>
 </div>
-<div>
+</header>
+<section>
 <p>So far, I worked with two ThinkPads:</p>
 <ul>
 <li>T410, bought new in 2010. I replaced HDD/SSD, RAM, fan and keyboard.</li>
@@ -129,14 +130,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 <li>No evil plan was spoiled</li>
 </ul>
 <p>☺</p>
-</div>
-<div>
+</section>
+<footer>
 <a href="https://ooz.github.io/blog" class="nav">back</a>
 <a href="#" class="nav">top</a>
 <a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
 <a href="https://twitter.com/oozgo" class="social">twitter</a>
 <a href="https://github.com/ooz" class="social">github</a>
 <a href="https://ooz.github.io/about.html" class="social">about</a>
-</div>
+</footer>
 </body>
 </html>

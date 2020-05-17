@@ -37,6 +37,7 @@ code {
 }
 h1 { text-align: center; margin: 0 auto; }
 h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
 img { max-width: 100%; }
 ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
@@ -94,14 +95,14 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </head>
 
 <body onload="initTheme()">
-<div style="text-align:center">
+<header>
 <a href="https://ooz.github.io"><img src="https://ooz.github.io/blog/static/owl.png" class="avatar" /></a>
-</div>
 <div style="text-align:right;">
 <h1 id="upgrading-to-ubuntu-1804">Upgrading to Ubuntu 18.04</h1>
 <small><a href="https://ooz.github.io">ooz</a>, 2018-11-05</small>
 </div>
-<div>
+</header>
+<section>
 <p>So far I upgraded three Ubuntu machines from 16.04 LTS to 18.04 LTS.
 Just my work laptop is left. A little checklist for future upgrades:</p>
 <h2 id="before-upgrading">Before upgrading</h2>
@@ -126,14 +127,14 @@ sudo apt-get install gnome-session-xmonad</code></pre></li>
 <li>Use <code>gnome-tweaks</code> to hide desktop icons (category by category, hiding all at once resets the wallpaper as well!)</li>
 <li>Backup wineprefix under <code>~/.wine</code>, let wine 3.0 initialize the default wineprefix again, e.g. by executing <code>winecfg</code>. Then copy relevant programs back into the wineprefix</li>
 </ul>
-</div>
-<div>
+</section>
+<footer>
 <a href="https://ooz.github.io/blog" class="nav">back</a>
 <a href="#" class="nav">top</a>
 <a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
 <a href="https://twitter.com/oozgo" class="social">twitter</a>
 <a href="https://github.com/ooz" class="social">github</a>
 <a href="https://ooz.github.io/about.html" class="social">about</a>
-</div>
+</footer>
 </body>
 </html>
