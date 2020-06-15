@@ -32,7 +32,7 @@ Questions to ask ordered by stage (when to ask in the interviewing process) and 
 * How many hours does senior management work per week (CEO/CTO)?
 
 * Do you think there is any company benefit that is over-the-top, unfair or a waste of money?
-* What do you think is the biggest problem in the team/department/company right now? How do you address it?
+* What do you think is the biggest challenge in the team/department/company right now? How do you address it?
 
 ### Career, community
 
