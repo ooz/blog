@@ -20,7 +20,6 @@ Could be answered by up-front investigation:
 Questions to ask ordered by stage (when to ask in the interviewing process) and topic.
 
 * How is the interview process structured?
-* How do you typically on-board new developers?
 
 ### Organization, management, culture
 
