@@ -35,7 +35,7 @@ Spending less time with software frees you up to spend more time outside, off th
 Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
 One downside of using standard software is the loss of competitive advantage stemming from superior tools and craft. Then, [beating the averages](http://www.paulgraham.com/avg.html) and innovation are not a matter of technology, but of appropriate and repeated creative application valuing the zeitgeist.
 
-## Conclusion
+## Putting it in Perspective
 
 This cannot be an argument for minimal, custom-built software, nor standard software. Neither seems to grant an advantage inherently, so a healthy dose of pragmatism is required when developing or utilizing software in a competitive space.
 Shifting the point of view, someone's minimal software might be someone else's standard software (e.g. UNIX utilities leveraged by an advanced user) and someone's standard software might be considered "overkill" by minimalists (e.g. WYSIWYG word processors for writing plain text).
