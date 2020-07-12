@@ -3,17 +3,17 @@
 
 config = {
     'site': {
-        'base_url': 'https://ooz.github.io/blog',
+        'base_url': 'https://oliz.io/blog',
         'render_root_readme': False,
         'generate_sitemap': True,
         'additional_sitemap_entries': [],
         'title': 'out of zeit',
         'logo': 'static/owl.png',
-        'about_url': 'https://ooz.github.io/about.html'
+        'about_url': 'https://oliz.io/about.html'
     },
     'author': {
         'name': 'ooz',
-        'url': 'https://ooz.github.io'
+        'url': 'https://oliz.io'
     },
     'social': {
         'github_url': 'https://github.com/ooz',
