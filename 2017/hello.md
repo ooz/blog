@@ -4,10 +4,10 @@ description: Intro of Oliver Zeit's blog
 date: 2017-01-07T13:37:42+01:00
 ---
 
-I am Oliver and this is my personal blog about:
+I'm Oliver and this is my personal blog about:
 
 1. **Time** <br />
-    Well, it is part of the name. Also it is the only resource there is and where are chronically out of it.
+    It's in the name. Also it is the only resource there is and we are chronically out of it.
 2. **Life** <br />
     Tied closely to 1.
 3. **Design** <br />
@@ -15,7 +15,7 @@ I am Oliver and this is my personal blog about:
 4. **Technology and Software Engineering** <br />
     That is what I do for a living.
 5. **Zen** <br />
-    Starts with Z, too. So that is basically my second name.
+    Starts with Z, too.
 
 This post will serve me as a reference, so expect to see weird things below this line:
 
