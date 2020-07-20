@@ -9,6 +9,9 @@ Reference two hard things: https://martinfowler.com/bliki/TwoHardThings.html
 
 R. Martin: Clean Code, entire chapter 2 on "Meaningful Names"
 
+https://www.gnu.org/philosophy/javascript-trap.html
+* Minified JavaScript is not human-readable, thus not understandable and non-free
+
 Why is that?
 
 ## Natural language
