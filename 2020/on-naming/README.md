@@ -5,12 +5,9 @@ description: Why naming is hard, important and at the heart of the programming p
 tags: draft
 ---
 
-Reference two hard things: https://martinfowler.com/bliki/TwoHardThings.html
-
-R. Martin: Clean Code, entire chapter 2 on "Meaningful Names"
-
-https://www.gnu.org/philosophy/javascript-trap.html
-* Minified JavaScript is not human-readable, thus not understandable and non-free
+* Reference two hard things: https://martinfowler.com/bliki/TwoHardThings.html
+* R. Martin: Clean Code, entire chapter 2 on "Meaningful Names"
+* Minified JavaScript is not human-readable, thus not understandable and non-free: https://www.gnu.org/philosophy/javascript-trap.html
 
 Why is that?
 
@@ -20,7 +17,6 @@ Compilers are good at ...
 Compilers and machines do not care about naming.
 
 * Programming is abstract, metaphors and real-world analogies help. Thus they are used widely in entire computer science
-
 
 ## Examples
 
