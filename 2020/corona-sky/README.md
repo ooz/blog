@@ -2,7 +2,6 @@
 title: Corona Sky
 description: My 2020 favorite so far
 date: 2020-08-23T15:10:25Z
-tags: draft
 ---
 
 Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.
