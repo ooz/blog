@@ -12,7 +12,7 @@ Despite all the negative effects of Corona, I prefer to appreciate the novel exp
 ![Corona Sky](corona-sky.jpg)
 
 The European airspace is one of the most utilized on earth.
-Thus it is usually rare to look up the sky and not see any condensation trails.
+Thus it is rare to look up the sky and not see any condensation trails.
 
 Now, living in a city with a nearby airport, we have *Corona skies*, which I would define as:
 
