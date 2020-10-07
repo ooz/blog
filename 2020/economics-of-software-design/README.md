@@ -32,7 +32,7 @@ There's a point in time where the accumulated costs (integrals) of both approach
 
 At some further point in time, *project heat death* is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be
 
-* to have t0 as early as possible and
+* to have *t0* as early as possible and
 * to delay project heat death as long as possible.
 
 ![Project heat death](02_project_heat_death.png)
