@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J.B. Rainsberger | out of zeit</title>
+<link rel="canonical" href="https://oliz.io/blog/2020/economics-of-software-design/">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
+
+<style>
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 10px;
+    max-width: 700px;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: 80%;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: 0.3rem solid #07A; }
+pre > code {
+    font-size: 14px;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+.avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
+.nav { float: left; margin-right: 1rem; }
+.social { float: right; margin-left: 1rem; }
+
+.dark-mode { color: #FFF; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: 0.3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: 0.3rem solid #0A7; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+</script>
+
+<meta name="author" content="oz" />
+<meta name="description" content="Assessing the value of Agile software development and getting there" />
+<meta name="keywords" content="" />
+<meta name="twitter:author" content="@oozgo" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@oozgo" />
+<meta property="og:title" content="Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J.B. Rainsberger" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://oliz.io/blog/2020/economics-of-software-design/" />
+<meta property="og:description" content="Assessing the value of Agile software development and getting there" />
+<meta property="og:image" content="https://oliz.io/blog/static/owl.png" />
+<meta property="og:locale" content="en-US" />
+<meta property="article:published_time" content="2020-10-07T20:49:10Z" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebSite","headline":"Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J.B. Rainsberger","url":"https://oliz.io/blog/2020/economics-of-software-design/","name":"out of zeit","description":"Assessing the value of Agile software development and getting there"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="software-craft-community-datev-the-economics-of-software-design-manufacturing-slack-by-jb-rainsberger">Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J.B. Rainsberger</h1>
+<small><a href="https://oliz.io">oz</a>, 2020-10-07</small>
+</div>
+</header>
+<section>
+<p>On Oct 1st 2020 <a href="https://ti.to/scc-datev/jbrains/en">DATEV hosted an online meetup</a> with <a href="https://www.jbrains.ca">J.B. Rainsberger</a> ("JBR" for the rest of the post) condensing two of his workshops/talks into 1.5 hours.
+While I missed the first ten minutes of the talk (first argument?), the rest was still very interesting and spot-on!</p>
+<h2 id="cost-of-software-development-practices">Cost of Software Development Practices</h2>
+<p>JBR started with how to communicate the benefit of good software development practices to managers and co-workers. To accountants, he'd recommend the goal of evolutionary design as:</p>
+<blockquote>
+<p>"Reduce the volatility in the marginal cost of features" - JBR</p>
+</blockquote>
+<p>which basically means that good practices make software development cost more predictable, easier to account for.</p>
+<p>He illustrated this with two exponential functions (all three diagrams drawn by JBR, shot&amp;cropped by me). In Fig. 1:</p>
+<ol>
+<li>Red curve describing ad-hoc design, spaghetti code, few/no tests, no refactoring etc.</li>
+<li>Green curve following good software development practices like agile, evolutionary design, TDD etc.</li>
+</ol>
+<p>JBR acknowledged that software development cost always follows exponential functions.
+He motivated the base of the red exponential function <em>e</em> (Euler's number) with technical debt accumulating like compound interest. Good practices result in a lower base and higher initial costs.</p>
+<p><img alt="Two exponential functions for software development cost" src="00_two_functions.png" />
+[Fig. 1: cost of software development practices (green good, red poor).]</p>
+<p>There's a point in time where the accumulated cost approaches will cost the same amount of money (t0). Past this point, the project cost of evolutionary design is cheaper.
+<img alt="Equal cost of both approaches at t0" src="01_t0_equal_cost.png" />
+(Fig. 2: t0, time of equal project cost.)</p>
+<p>At some further point in time, "project heat death" is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be to</p>
+<ul>
+<li>have t0 as early as possible and to</li>
+<li>delay project heat death as long as possible.</li>
+</ul>
+<p><img alt="Project heat death" src="02_project_heat_death.png" />
+[Fig. 3: project heat death occurs when cost of change is unreasonably high.]</p>
+<p>On the contrary, spaghetti software development may still be favored by managers if they gamble on the project dying before t0. Then the big question is: Do managers account for this consciously?</p>
+<h2 id="from-waterfall-to-tdd-to-lean-startup">From Waterfall to TDD to Lean Startup</h2>
+<p>The last part was about transforming any waterfall-ish development process into the ideal <em>lean startup</em> (LS) by introducing feedback loops, repeatedly cutting feedback loops in half and as a result moving process throughput from micro-level "working code" to organization-level "money/revenue". JBR referred to foundations in queuing theory.</p>
+<p>Citing the <a href="http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf">infamous and greatly misunderstood W. W. Royce paper from 1970</a>, JBR reminded the audience, that the Waterfall model was said to only ever work for straight-forward projects. Even in the original concept, it was described as risky and prone to failures (p. 2, s. 1).</p>
+<p>To improve the Waterfall concept of</p>
+<pre class="highlight"><code>R --v               # Research / Requirements / Analysis
+   D --v            # Design
+       C --v        # Code
+           T --v    # Test
+               M    # Maintenance / Ops</code></pre>
+<p>One could first introduce the feedback loop of test-first programming (TFP) iterating between code and tests. The throughput of this feedback loop is working code. The Waterfall then becomes</p>
+<pre class="highlight"><code>R --v
+   D --v
+       TFP --v
+             M</code></pre>
+<p>Iterating between design and TFP using refactoring is essentially test-driven development (TDD), producing well-designed and working code. This replaces another part of the Waterfall</p>
+<pre class="highlight"><code>R --v
+   TDD --v
+         M</code></pre>
+<p>Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput becomes well-designed, working code which fulfills business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:</p>
+<pre class="highlight"><code>BDD --v
+      M</code></pre>
+<p>Looping feedback between BDD and maintenance/operations results in continuous delivery (CD). Eventually the throughput becomes real value: money/revenue. Further shortening the feedback cycles, CD becomes the ideal LS ("cash in my pockets sooner" - JBR).</p>
+<pre class="highlight"><code>CD --shorter cycles--&gt; LS</code></pre>
+</section>
+<footer>
+<a href="https://oliz.io/blog" class="nav">back</a>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
+<a href="https://twitter.com/oozgo" class="social">twitter</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+</footer>
+</body>
+</html>
