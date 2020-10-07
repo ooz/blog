@@ -28,7 +28,7 @@ He motivated the base of the red exponential function *e* (Euler's number) with 
 
 There's a point in time where the accumulated costs (integrals) of both approaches are equal (at *t0*). Past this point, the project following evolutionary design becomes cheaper.
 ![Equal cost of both approaches at t0](01_t0_equal_cost.png)
-(Fig. 2: t0, time of equal project cost.)
+[Fig. 2: t0, time of equal project cost.]
 
 At some further point in time, *project heat death* is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be to
 
