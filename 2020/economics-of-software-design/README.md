@@ -21,7 +21,7 @@ He illustrated this with two exponential functions (all three diagrams drawn by 
 2. Green curve following good software development practices like agile, evolutionary design, TDD etc.
 
 JBR acknowledged that software development cost always follows exponential functions.
-He motivated the base of the red exponential function *e* (Euler's number) with technical debt accumulating like compound interest. Good practices result in a lower base and higher initial costs.
+He motivated the base of the red exponential function being *e* (Euler's number) with technical debt accumulating like compound interest. Good practices result in a lower base and higher initial costs.
 
 ![Two exponential functions for software development cost](00_two_functions.png)
 [Fig. 1: cost of software development practices (green good, red poor).]
