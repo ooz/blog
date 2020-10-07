@@ -30,10 +30,10 @@ There's a point in time where the accumulated costs (integrals) of both approach
 ![Equal cost of both approaches at t0](01_t0_equal_cost.png)
 [Fig. 2: t0, time of equal project cost.]
 
-At some further point in time, *project heat death* is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be to
+At some further point in time, *project heat death* is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be
 
-* have t0 as early as possible and to
-* delay project heat death as long as possible.
+* to have t0 as early as possible and
+* to delay project heat death as long as possible.
 
 ![Project heat death](02_project_heat_death.png)
 [Fig. 3: project heat death occurs when cost of change is unreasonably high.]
