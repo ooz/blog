@@ -1,6 +1,6 @@
 ---
 date: 2017-01-08T17:51:06+01:00
-title: The Joy of Lego at 28
+title: The Joy of Lego as an Adult
 description: Why you should get your Lego box out of the basement
 tags: design
       lego
