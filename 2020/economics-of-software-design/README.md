@@ -69,8 +69,8 @@ Iterating between design and TFP using refactoring is essentially test-driven de
 
 ```
 R --v
-   TDD --v
-         M
+    TDD --v
+          M
 ```
 
 Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput becomes well-designed, working code which fulfills business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:
