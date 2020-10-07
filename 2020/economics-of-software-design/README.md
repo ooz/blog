@@ -38,7 +38,7 @@ At some further point in time, *project heat death* is reached: Change becomes t
 ![Project heat death](02_project_heat_death.png)
 [Fig. 3: project heat death occurs when cost of change is unreasonably high.]
 
-On the contrary, spaghetti software development may still be favored by managers if they gamble on the project dying before t0. Then the big question is: Do managers account for this consciously?
+On the contrary, spaghetti software development may still be favored by managers if they gamble on the project dying before *t0*. Then the big question is: Do managers account for this consciously?
 
 ## From Waterfall to TDD to Lean Startup
 
