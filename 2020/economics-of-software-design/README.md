@@ -1,10 +1,10 @@
 ---
-title: Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J.B. Rainsberger
+title: Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J. B. Rainsberger
 description: Assessing the value of Agile software development and getting there
 date: 2020-10-07T20:49:10Z
 ---
 
-On Oct 1st 2020 [DATEV hosted an online meetup](https://ti.to/scc-datev/jbrains/en) with [J.B. Rainsberger](https://www.jbrains.ca) ("JBR" for the rest of the post) condensing two of his workshops/talks into 1.5 hours.
+On Oct 1st 2020 [DATEV hosted an online meetup](https://ti.to/scc-datev/jbrains/en) with [J. B. Rainsberger](https://www.jbrains.ca) ("JBR" for the rest of the post) condensing two of his workshops/talks into 1.5 hours.
 While I missed the first ten minutes of the talk (first argument?), the rest was still very interesting and spot-on!
 
 ## Cost of Software Development Practices
