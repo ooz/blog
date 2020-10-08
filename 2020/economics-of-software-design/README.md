@@ -73,7 +73,7 @@ R --v
           M
 ```
 
-Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput will be well-designed, working code which fulfills business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:
+Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput will be well-designed, working code which reflects business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:
 
 ```
 BDD --v
