@@ -3,7 +3,7 @@ title: Software Development Talks Binge and Random Wisdom
 date: 2020-11-09T22:32:10Z
 ---
 
-While researching for [the previous blog post](economics-of-software-design/), I stumbled upon another [J. B. Rainsberger talk](https://www.youtube.com/watch?v=WSes_PexXcA) on how accidental complications sabotage estimations, which is also excellent on a meta level since he hits his talk duration estimate on the second!
+While researching for [the previous blog post](../economics-of-software-design/), I stumbled upon another [J. B. Rainsberger talk](https://www.youtube.com/watch?v=WSes_PexXcA) on how accidental complications sabotage estimations, which is also excellent on a meta level since he hits his talk duration estimate on the second!
 
 From there on the YouTube algorithm dragged me further into the maze...
 
