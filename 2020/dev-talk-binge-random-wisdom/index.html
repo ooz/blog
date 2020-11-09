@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Software Development Talks Binge and Random Wisdom | out of zeit</title>
+<link rel="canonical" href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
+
+<style>
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 10px;
+    max-width: 700px;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: 80%;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: 0.3rem solid #07A; }
+pre > code {
+    font-size: 14px;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+.avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
+.nav { float: left; margin-right: 1rem; }
+.social { float: right; margin-left: 1rem; }
+
+.dark-mode { color: #FFF; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: 0.3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: 0.3rem solid #0A7; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+</script>
+
+<meta name="author" content="oz" />
+<meta name="description" content="Software Development Talks Binge and Random Wisdom" />
+<meta name="keywords" content="" />
+<meta name="twitter:author" content="@oozgo" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@oozgo" />
+<meta property="og:title" content="Software Development Talks Binge and Random Wisdom" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/" />
+<meta property="og:description" content="Software Development Talks Binge and Random Wisdom" />
+<meta property="og:image" content="https://oliz.io/blog/static/owl.png" />
+<meta property="og:locale" content="en-US" />
+<meta property="article:published_time" content="2020-11-09T22:32:10Z" />
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebSite","headline":"Software Development Talks Binge and Random Wisdom","url":"https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/","name":"out of zeit","description":"Software Development Talks Binge and Random Wisdom"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="software-development-talks-binge-and-random-wisdom">Software Development Talks Binge and Random Wisdom</h1>
+<small><a href="https://oliz.io">oz</a>, 2020-11-09</small>
+</div>
+</header>
+<section>
+<p>While researching for <a href="economics-of-software-design/">the previous blog post</a>, I stumbled upon another <a href="https://www.youtube.com/watch?v=WSes_PexXcA">J. B. Rainsberger talk</a> on how accidental complications sabotage estimations, which is also excellent on a meta level since he hits his talk duration estimate on the second!</p>
+<p>From there on the YouTube algorithm dragged me further into the maze...</p>
+<h2 id="overwatch-gameplay-architecture-and-netcode"><a href="https://www.youtube.com/watch?v=W3aieHjyNvw">Overwatch Gameplay Architecture and Netcode</a></h2>
+<p>How Overwatch implemented Entity Component System (ECS) as an architecture:</p>
+<ul>
+<li>Components have no functions</li>
+<li>Systems have no state</li>
+<li>Systems cannot call other systems</li>
+</ul>
+<p>Some more:</p>
+<ul>
+<li>Game runs at fixed frame rate, sends a sliding window (ring buffer) of input to mitigate UDP packet loss</li>
+<li>The input buffer size is dynamic: the higher the latency, the bigger the buffer</li>
+<li>Entire simulation is deterministic, can be interpolated and re-winded</li>
+</ul>
+<blockquote>
+<p>If you take away one lesson from this talk let it be this: behaviors are much less complex if they are expressed in a single callsite, in which all major behavioral sideeffects are localized to that callsite.</p>
+</blockquote>
+<h2 id="networking-scripted-weapons-and-abilities-in-overwatch"><a href="https://www.youtube.com/watch?v=ScyZjcjTlA4">Networking Scripted Weapons and Abilities in Overwatch</a></h2>
+<ul>
+<li>"Statescript", custom scripting language for gameplay</li>
+<li>Key game design insight: "awesome moves" (specials) block re-winding, so significant player abilities/cooldowns are not rolled back</li>
+<li>Overall not as interesting as the first talk, but has some nice diagrams for the netcode and prediction:</li>
+</ul>
+<p><img alt="Predicted StatescriptPacket" src="predicted_packet.png" />
+<img alt="Mispredicted StatescriptPacket" src="mispredicted_packet.png" />
+(screenshots from the talk linked above)</p>
+<h2 id="roguelike-development"><a href="https://www.youtube.com/watch?v=jviNpRGuCIU">Roguelike Development</a></h2>
+<p>(from the <a href="https://www.gridsagegames.com/cogmind/">Cogmind</a> developer)</p>
+<ul>
+<li>Develop the critical path first, focus on the core mechanic, release early and often, blog</li>
+<li>Recommends to practice making smaller roguelikes first, e.g. 7-day roguelikes (7DRL)</li>
+<li><a href="https://www.reddit.com/r/roguelikedev/">roguelike development reddit</a> for plenty of resources, discussion and help</li>
+<li>Mind accessibility, e.g. Cogmind players prefer tileset graphics and mouse controls</li>
+<li>All in all, nice overview of plenty of roguelike themes, mechanics and layouts</li>
+</ul>
+<p>Here the binge ended, but more happened since the last blog post:</p>
+<h2 id="softwerkskammmer-leipzig-working-from-home-special"><a href="https://www.meetup.com/de-DE/LE-software-craft-community/events/273864764/">Softwerkskammmer Leipzig: Working From Home Special</a></h2>
+<p>Lean Coffee on remote work mostly due to Corona. When talking about "overcommunicating", we recalled documentation essentials:</p>
+<ul>
+<li>URL</li>
+<li>Author</li>
+<li>Timestamp, versioning</li>
+<li>Searchable</li>
+</ul>
+<h2 id="attention-economy"><a href="https://aeon.co/videos/a-handful-of-executives-control-the-attention-economy-time-for-attentive-resistance">Attention Economy</a></h2>
+<p>A nice video on the attention economy, social media selling attention of their users.</p>
+<blockquote>
+<p>[...] a wealth of information creates a poverty of attention [...]
+-- Herbert A. Simon, 1971</p>
+</blockquote>
+<h2 id="further-links">Further Links</h2>
+<ul>
+<li><a href="https://github.com/huge-success/sanic/">Python Sanic: a web app framework</a> which looks like an evolution of <a href="https://palletsprojects.com/p/flask/">Flask</a></li>
+<li><a href="https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html">systemd: basics (Fedora documentation)</a></li>
+<li><a href="https://www.raspberrypi.org/documentation/linux/usage/systemd.md">systemd: basic service template for Raspberry Pi</a></li>
+<li><a href="https://www.raspberrypi.org/documentation/linux/usage/cron.md">cron reference (Raspberry Pi documentation)</a></li>
+<li><a href="https://briarproject.org">https://briarproject.org</a> -- encrypted P2P messaging and forums, as an alternative to Telegram, WhatsApp and Threema</li>
+</ul>
+</section>
+<footer>
+<a href="https://oliz.io/blog" class="nav">back</a>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌚🌞</a>
+<a href="https://twitter.com/oozgo" class="social">twitter</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+</footer>
+</body>
+</html>
