@@ -35,3 +35,10 @@ Just my work laptop is left. A little checklist for future upgrades:
 * Use `gnome-tweaks` to hide desktop icons (category by category, hiding all at once resets the wallpaper as well!)
 * Backup wineprefix under `~/.wine`, let wine 3.0 initialize the default wineprefix again, e.g. by executing `winecfg`. Then copy relevant programs back into the wineprefix
 
+Update: previously it was needed to adapt the Gnome configuration in regards to top/bottom panels.
+If this features ever surfaces again:
+
+1. Install `dconf-editor`
+2. Go to entry `org > gnome > gnome-panel > layout`
+3. For  key `toplevel-id-list` remove `'bottom-panel'` from list
+
