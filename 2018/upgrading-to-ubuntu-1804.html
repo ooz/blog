@@ -131,6 +131,13 @@ sudo apt-get install gnome-session-xmonad</code></pre></li>
 <li>Use <code>gnome-tweaks</code> to hide desktop icons (category by category, hiding all at once resets the wallpaper as well!)</li>
 <li>Backup wineprefix under <code>~/.wine</code>, let wine 3.0 initialize the default wineprefix again, e.g. by executing <code>winecfg</code>. Then copy relevant programs back into the wineprefix</li>
 </ul>
+<p>Update: previously it was needed to adapt the Gnome configuration in regards to top/bottom panels.
+If this features ever surfaces again:</p>
+<ol>
+<li>Install <code>dconf-editor</code></li>
+<li>Go to entry <code>org &gt; gnome &gt; gnome-panel &gt; layout</code></li>
+<li>For  key <code>toplevel-id-list</code> remove <code>'bottom-panel'</code> from list</li>
+</ol>
 </section>
 <footer>
 <a href="https://oliz.io/blog" class="nav">back</a>
