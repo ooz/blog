@@ -4,7 +4,6 @@
 config = {
     'site': {
         'base_url': 'https://oliz.io/blog',
-        'render_root_readme': False,
         'generate_sitemap': True,
         'additional_sitemap_entries': [],
         'title': 'Oliver Z.',

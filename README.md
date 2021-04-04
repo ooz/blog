@@ -1,3 +1,8 @@
+---
+tags: __index
+---
+
+
 # Blog
 
 My personal blog about time, life, design and software engineering.
