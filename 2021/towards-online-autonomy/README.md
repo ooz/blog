@@ -2,7 +2,7 @@
 title: Towards Online Autonomy
 description: Migrating away from Google, Twitter etc. towards my own online presence.
 date: 2021-01-25T23:43:18Z
-tags: draft
+tags: __draft__
 ---
 
 * Ever since: you don't own smartphones:

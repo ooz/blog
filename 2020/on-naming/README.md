@@ -2,7 +2,7 @@
 date: 2020-04-26T19:02:53Z
 title: On Naming
 description: Why naming is hard, important and at the heart of the programming profession
-tags: draft
+tags: __draft__
 ---
 
 * Reference two hard things: https://martinfowler.com/bliki/TwoHardThings.html

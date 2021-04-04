@@ -1,5 +1,5 @@
 ---
-tags: __index
+tags: __index__
 ---
 
 
