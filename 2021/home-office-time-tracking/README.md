@@ -23,6 +23,7 @@ Ideally, I wanted a separate single-use device (smartphone/web browser ruled out
 Instead of writing the program first, [I went shopping for a device which suited my interface needs](https://shop.m5stack.com/products/stick-c). In the midst of the pandemic:
 
 ![Straight from Shenzhen](m5stick-c_delivery.png)
+
 (Some steps edited out for brevity)
 
 After toying around with the device for an evening, digging through part-English, part-Chinese documentation, eventually setting up UiFlow, connecting the device and getting a simple visually programmed (but wrong) program to run... I put the project to rest.
