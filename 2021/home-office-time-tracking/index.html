@@ -104,8 +104,8 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 </div>
 </header>
 <section>
-<p>Having worked in home office mode for a few months before the Corona pandemic hit, I felt like spending way too much time working without knowing, how long I actually work each day.</p>
-<p>Being on flexitime and 40h/week, I often felt like needing to compensate for small breaks or distractions.
+<p>Having worked in home office mode for a few months before the Corona pandemic hit, I felt like spending too much time working without knowing, how long I actually work each day.</p>
+<p>Being on flexitime and 40h/week, I often compensated for small breaks or distractions.
 So I wanted a proper time tracking solution.</p>
 <h2 id="requirements">Requirements</h2>
 <ul>
@@ -117,10 +117,11 @@ So I wanted a proper time tracking solution.</p>
 <p>Ideally, I wanted a separate single-use device (smartphone/web browser ruled out) with a start/stop button and a small display.</p>
 <h2 id="consumerist-detour">Consumerist Detour</h2>
 <p>Instead of writing the program first, <a href="https://shop.m5stack.com/products/stick-c">I went shopping for a device which suited my interface needs</a>. In the midst of the pandemic:</p>
-<p><img alt="Some steps edited out for brevity" src="m5stick-c_delivery.png" /></p>
+<p><img alt="Straight from Shenzhen" src="m5stick-c_delivery.png" />
+(Some steps edited out for brevity)</p>
 <p>After toying around with the device for an evening, digging through part-English, part-Chinese documentation, eventually setting up UiFlow, connecting the device and getting a simple visually programmed (but wrong) program to run... I put the project to rest.</p>
 <h2 id="the-solution">The Solution</h2>
-<p>However, the time tracking problem didn't magically disappear, so a few weeks ago I solved it with a <a href="https://github.com/ooz/olli/blob/master/.scripts/punchcard.py">simple Python script</a>.</p>
+<p>The time tracking problem didn't magically disappear, so a few weeks ago I solved it with a <a href="https://github.com/ooz/olli/blob/master/.scripts/punchcard.py">simple Python script</a>.</p>
 <p>Executing the script starts the timer:
 <pre class="highlight"><code>$ punchcard.py
 Clocking in at  2021-05-29 23:08:56.477436</code></pre></p>
@@ -129,17 +130,17 @@ Clocking in at  2021-05-29 23:08:56.477436</code></pre></p>
 Clocking out at 2021-05-29 23:09:29.253941 (after 32s)
 Today: 32s
 This week: 32h 16m</code></pre>
-<p>Every five minutes it prints the time tracked so far. All data is saved in the hidden file <code>.punchcard.csv</code> in current directory. The format is the date followed by seconds tracked that day:</p>
+<p>Every five minutes it prints the time tracked so far. All data is saved in <code>.punchcard.csv</code> in current directory. The format is the date followed by seconds tracked that day:</p>
 <pre class="highlight"><code>DATE,SECONDS
 2021-05-29,32</code></pre>
 <p>The printed output and simple format also makes it easy to correct wrongly tracked time (e.g. when forgetting to start/terminate the script). Time may be tracked for different projects, even in parallel by starting the script in different (project-specific) directories, in separate terminals or as background processes.</p>
 <h2 id="lesson-learned">Lesson Learned</h2>
-<p>The script works and the "separate, single-use device" became a separate virtual desktop with just the time tracking terminal.</p>
+<p>The script works and the "separate, single-use device" became a separate virtual desktop with just the time tracking terminal(s).</p>
 <p>Recently, I fetched the M5StickC again and tried to port the program to <a href="https://docs.micropython.org/en/latest/esp32/quickref.html">MicroPython</a>, which uses Python 2 syntax and has less batteries included (e.g. no high-level datetime package). I ended up with a stripped-down version of the punchcard script, a simple stopwatch:
 <img alt="Glorified stopwatch code" src="mc_stopwatch_code.png" />
 <img alt="Glorified stopwatch on M5StickC" src="mc_stopwatch.png" /></p>
 <p>UiFlow is nice for exploring the device API and supplied widgets, since you can compose some visual program using all desired features (e.g. sensors, UI components) and then inspect the generated Python code (however, you can't freely switch between the views: the program/source gets reset!)</p>
-<p>Ultimately, I didn't put more effort in the ESP32 microcontroller solution, because the script already covers my needs. Writing the script and doing some research first would have saved me ~15 €, but I still learned something tinkering around with the device.</p>
+<p>Ultimately, I didn't put more effort in the ESP32 microcontroller solution, because the script already covers my needs. Writing the script and doing more research first would have saved me ~15 €, but I still learned something tinkering around with the device.</p>
 </section>
 <footer>
 <a href="https://oliz.io/blog" class="nav">back</a>
