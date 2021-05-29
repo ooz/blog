@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>Time Tracking | Oliver Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2021/home-office-time-tracking/">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
+<style>
+body {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 10px;
+    max-width: 700px;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: 80%;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: 0.3rem solid #07A; }
+pre > code {
+    font-size: 14px;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: 0.3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: 0.3rem solid #0A7; }
+
+.avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
+.nav { float: left; margin-right: 1rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="My work time tracking solution">
+<meta name="twitter:author" content="@oozgo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:creator" content="@oozgo">
+<meta property="og:title" content="Time Tracking">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2021/home-office-time-tracking/">
+<meta property="og:description" content="My work time tracking solution">
+<meta property="og:image" content="https://oliz.io/blog/static/owl.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2021-05-29T21:22:41Z">
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebSite","headline":"Time Tracking","url":"https://oliz.io/blog/2021/home-office-time-tracking/","name":"Oliver Z.","description":"My work time tracking solution"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="time-tracking">Time Tracking</h1>
+<small><a href="https://oliz.io">oz</a>, 2021-05-29</small>
+</div>
+</header>
+<section>
+<p>Having worked in home office mode for a few months before the Corona pandemic hit, I felt like spending way too much time working without knowing, how long I actually work each day.</p>
+<p>Being on flexitime and 40h/week, I often felt like needing to compensate for small breaks or distractions.
+So I wanted a proper time tracking solution.</p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>Simple start/stop user interface</li>
+<li>Track work time per day and per week</li>
+<li>Data is saved in a simple format</li>
+<li>Tool may be used for project-based time tracking</li>
+</ul>
+<p>Ideally, I wanted a separate single-use device (smartphone/web browser ruled out) with a start/stop button and a small display.</p>
+<h2 id="consumerist-detour">Consumerist Detour</h2>
+<p>Instead of writing the program first, <a href="https://shop.m5stack.com/products/stick-c">I went shopping for a device which suited my interface needs</a>. In the midst of the pandemic:</p>
+<p><img alt="Some steps edited out for brevity" src="m5stick-c_delivery.png" /></p>
+<p>After toying around with the device for an evening, digging through part-English, part-Chinese documentation, eventually setting up UiFlow, connecting the device and getting a simple visually programmed (but wrong) program to run... I put the project to rest.</p>
+<h2 id="the-solution">The Solution</h2>
+<p>However, the time tracking problem didn't magically disappear, so a few weeks ago I solved it with a <a href="https://github.com/ooz/olli/blob/master/.scripts/punchcard.py">simple Python script</a>.</p>
+<p>Executing the script starts the timer:
+<pre class="highlight"><code>$ punchcard.py
+Clocking in at  2021-05-29 23:08:56.477436</code></pre></p>
+<p>Terminating the script prints time worked in the current session, today and for the week:</p>
+<pre class="highlight"><code>^C
+Clocking out at 2021-05-29 23:09:29.253941 (after 32s)
+Today: 32s
+This week: 32h 16m</code></pre>
+<p>Every five minutes it prints the time tracked so far. All data is saved in the hidden file <code>.punchcard.csv</code> in current directory. The format is the date followed by seconds tracked that day:</p>
+<pre class="highlight"><code>DATE,SECONDS
+2021-05-29,32</code></pre>
+<p>The printed output and simple format also makes it easy to correct wrongly tracked time (e.g. when forgetting to start/terminate the script). Time may be tracked for different projects, even in parallel by starting the script in different (project-specific) directories, in separate terminals or as background processes.</p>
+<h2 id="lesson-learned">Lesson Learned</h2>
+<p>The script works and the "separate, single-use device" became a separate virtual desktop with just the time tracking terminal.</p>
+<p>Recently, I fetched the M5StickC again and tried to port the program to <a href="https://docs.micropython.org/en/latest/esp32/quickref.html">MicroPython</a>, which uses Python 2 syntax and has less batteries included (e.g. no high-level datetime package). I ended up with a stripped-down version of the punchcard script, a simple stopwatch:
+<img alt="Glorified stopwatch code" src="mc_stopwatch_code.png" />
+<img alt="Glorified stopwatch on M5StickC" src="mc_stopwatch.png" /></p>
+<p>UiFlow is nice for exploring the device API and supplied widgets, since you can compose some visual program using all desired features (e.g. sensors, UI components) and then inspect the generated Python code (however, you can't freely switch between the views: the program/source gets reset!)</p>
+<p>Ultimately, I didn't put more effort in the ESP32 microcontroller solution, because the script already covers my needs. Writing the script and doing some research first would have saved me ~15 €, but I still learned something tinkering around with the device.</p>
+</section>
+<footer>
+<a href="https://oliz.io/blog" class="nav">back</a>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="https://twitter.com/oozgo" class="social">twitter</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+</footer>
+</body>
+</html>
