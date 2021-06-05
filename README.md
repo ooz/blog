@@ -16,7 +16,7 @@ For all content EXCEPT the one located under `ext_img/` (which are images from e
 All source code and code snippets are licensed under the MIT License:
 
 ```
-Copyright (c) 2017-2020 Oliver Zeit
+Copyright (c) 2017-2021 Oliver Z.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
