@@ -4,7 +4,7 @@ description: Migrating away from Google, Twitter etc. towards my own online pres
 date: 2021-06-06T21:49:18Z
 ---
 
-Smartphones have become the common folk "personal computer": dasd asd
+Smartphones have become the common folk "personal computer":
 a computer you have always with you, solving most of your non-nerd problems (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).
 
 Ever since, I'm annoyed, that we don't (can't) really *own* smartphones like we can own other computing equipment.
