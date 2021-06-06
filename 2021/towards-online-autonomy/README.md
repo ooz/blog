@@ -10,7 +10,7 @@ a computer you have always with you, solving most of your non-nerd problems (e.g
 Ever since, I'm annoyed, that we don't (can't) really *own* smartphones like we can own other computing equipment.
 Smartphones have hard- and software obsolescence built-in.
 They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
-Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through attention economy
+Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through [attention economy](https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy)
 (making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
 If you don't use your smartphone to make money (media creator? influencer?), you are paying -sometimes premium- for being used.
 
