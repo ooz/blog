@@ -70,4 +70,4 @@ Again, it's an old and known problem and I'm not the first. So here are a bunch 
 * [Website privacy checker](https://webbkoll.dataskydd.net/en)
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
 
-Let's reclaim the free and open internet!
+Let's reclaim the free-as-in-freedom and open internet!
