@@ -24,7 +24,8 @@ This entire development didn't start and won't end with smartphones.
 * In the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/)
 
 Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
-In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on *user-serviceable*, secure hard- and software not being pwn-able on a whim.
+In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on *user-serviceable*, secure hard- and software.
+State and malicious actors may like loopholes, but [insecure infrastructure ultimately harms everyone](https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/).
 
 In 2019, 2020 I noticed how I barely got any value out of Twitter anymore. Of cource, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore. So I stopped using it, although I haven't migrated my content away from it, yet.
 
