@@ -33,7 +33,7 @@ Another wake-up call has been [Google Photos' changed storage policy](https://bl
 
 So, this sped up my migration away from my previously central `gmail.com` address towards my own `oliz.io` domain in 2020. I evaluated my exposure to and reliance on "big tech", too.
 
-## Progress so far
+## Progress so Far (to Be Updated Over Time)
 
 Autonomy gained:
 
