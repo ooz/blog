@@ -17,12 +17,12 @@ If you don't use your smartphone to make money (media creator? influencer?), you
 ## Tech is Getting Consolidated
 
 This entire development didn't start and won't end with smartphones.
-[RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see the very [definition of "Useds" by RMS](https://stallman.org/glossary.html#used)). It's common knowledge by now:
+[RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see the very [definition of "Useds" by RMS](https://stallman.org/glossary.html#used)). It's common knowledge by now, some examples:
 
 * [Hardware backdoors](https://en.wikipedia.org/wiki/Intel_Management_Engine) in mainline processors
 * The internet becoming more centralized with [a dozen of mega corporations owning the majority of the traffic](https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html)
+* In the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/)
 
-For the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/).
 Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
 In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on *user-serviceable*, secure hard- and software not being pwn-able on a whim.
 
