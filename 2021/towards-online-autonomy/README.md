@@ -10,7 +10,7 @@ a computer you have always with you, solving most of your non-nerd problems (e.g
 Ever since, I'm annoyed, that we don't (can't) really *own* smartphones like we can own other computing equipment.
 Smartphones have hard- and software obsolescence built-in.
 They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
-Users may perceive value from interacting with smartphone, but the majority of interactions generate more revenue/profit for other entities through attention economy
+Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through attention economy
 (making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
 If you don't use your smartphone to make money (media creator? influencer?), you are paying -sometimes premium- for being used.
 
@@ -24,21 +24,21 @@ This entire development didn't start and won't end with smartphones.
 
 For the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/).
 Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
-In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on secure hard- and software not being pwn-able on a whim.
+In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on *user-serviceable*, secure hard- and software not being pwn-able on a whim.
 
 In 2019, 2020 I noticed how I barely got any value out of Twitter anymore. Of cource, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore. So I stopped using it, although I haven't migrated my content away from it, yet.
 
 Another wake-up call has been [Google Photos' changed storage policy](https://blog.google/products/photos/storage-changes/): Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.
 
-So, this sped up my migration away from my previously central `gmail.com` address towards my own oliz.io domain in 2020. I evaluated my exposure to and reliance on "big tech", too.
+So, this sped up my migration away from my previously central `gmail.com` address towards my own `oliz.io` domain in 2020. I evaluated my exposure to and reliance on "big tech", too.
 
 ## Progress so far
 
 Autonomy gained:
 
-* [x] Claim oliz.io domain in 2020
+* [x] Acquire `oliz.io` domain in 2020
 * [x] Use https://mailbox.org with own domain for email
-* [x] Build static website on oliz.io domain, using [`gg.py`](https://oliz.io/ggpy/)
+* [x] Build static website on `oliz.io` domain, using [`gg.py`](https://oliz.io/ggpy/)
 * [ ] Migrate contacts to KeePass
 * [ ] Find good, local solution for keeping track of birthdays (master data in KeePass)
 
@@ -51,7 +51,9 @@ Stopped/minimized using:
 Kept using:
 
 * **GitHub** ([Microsoft is a serious offender](https://sneak.berlin/20200307/the-case-against-microsoft-and-github/)): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed
-* **Google / Android**: it's still accessible and convenient, smartphone usage is work-related (2FA, communication)
+* **Google / Android**: It's still accessible and convenient, smartphone usage is work-related (2FA, communication)
+* **Dropbox**: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience
+* [**VSCodium**](https://vscodium.com/) instead of VSCode, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
 
 Educate others:
 
@@ -66,3 +68,5 @@ Again, it's an old and known problem and I'm not the first. So here are a bunch 
 * [Free messaging alternatives](https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/) (haha, this entire post reeks of [sneak.berlin](https://sneak.berlin), great content!)
 * [Website privacy checker](https://webbkoll.dataskydd.net/en)
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
+
+Let's reclaim the free and open internet!
