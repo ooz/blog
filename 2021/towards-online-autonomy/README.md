@@ -5,21 +5,21 @@ date: 2021-06-06T21:49:18Z
 ---
 
 Smartphones have become the "personal computer":
-a computer you have always with you, solving most of your non-nerd problems (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).
+a computer in your hand, solving most of your computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).
 
 Ever since, I'm annoyed, that we don't (can't) really *own* smartphones like we can own other computing equipment.
 Smartphones have hard- and software obsolescence built-in.
 They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
 Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through [attention economy](https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy)
 (making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
-If you don't use your smartphone to make money (media creator? influencer?), you are paying -sometimes premium- for being used.
+If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used.
 
-## Tech is Getting Consolidated and Boring
+## Tech is Getting Consolidated...
 
 This entire development didn't start and won't end with smartphones.
 [RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see the very [definition of "Useds" by RMS](https://stallman.org/glossary.html#used)). It's common knowledge by now, some examples:
 
-* [Hardware backdoors](https://en.wikipedia.org/wiki/Intel_Management_Engine) in mainline processors
+* Hardware backdoors ([Intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine), undocumented x86 instructions) in mainline processors
 * The internet becoming more centralized with [a dozen of mega corporations owning the majority of the traffic](https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html)
 * In the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/)
 
@@ -27,7 +27,11 @@ Expiring computers may be fine for most companies leasing or cycling every 2-3 y
 In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on *user-serviceable*, secure hard- and software.
 State and malicious actors may like loopholes, but [insecure infrastructure ultimately harms everyone](https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/).
 
-In 2019, 2020 I noticed how I barely got any value out of Twitter anymore. Of cource, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore. So I stopped using it, although I haven't migrated my content away from it, yet.
+The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.
+
+## ...and Boring
+
+Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore. So I stopped using it, although I haven't migrated my content away from it, yet.
 
 Another wake-up call has been [Google Photos' changed storage policy](https://blog.google/products/photos/storage-changes/): Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.
 
@@ -63,7 +67,7 @@ Educate others:
 
 ## Further Inspiration and Links
 
-Again, it's an old and known problem and I'm not the first. So here are a bunch of other nice, informative websites/blogs by people following the same idea:
+Again, it's an old and known problem and I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea:
 
 * https://victoria.dev/blog/make-your-own-independent-website/ (note to self: have a look at webmention)
 * [Free messaging alternatives](https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/) (haha, this entire post reeks of [sneak.berlin](https://sneak.berlin), great content!)
