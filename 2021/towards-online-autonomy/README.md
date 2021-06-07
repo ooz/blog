@@ -14,7 +14,7 @@ Users may perceive value from interacting with a smartphone, but the majority of
 (making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
 If you don't use your smartphone to make money (media creator? influencer?), you are paying -sometimes premium- for being used.
 
-## Tech is Getting Consolidated
+## Tech is Getting Consolidated and Boring
 
 This entire development didn't start and won't end with smartphones.
 [RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see the very [definition of "Useds" by RMS](https://stallman.org/glossary.html#used)). It's common knowledge by now, some examples:
