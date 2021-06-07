@@ -5,7 +5,7 @@ date: 2021-06-06T21:49:18Z
 ---
 
 Smartphones have become the "personal computer":
-a computer in your hand, solving most of your computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).
+a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).
 
 Ever since, I'm annoyed, that we don't (can't) really *own* smartphones like we can own other computing equipment.
 Smartphones have hard- and software obsolescence built-in.
