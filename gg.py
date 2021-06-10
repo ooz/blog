@@ -4,7 +4,7 @@
 Author: Oliver Z., https://oliz.io
 Description: Minimal static site generator easy to use with GitHub Pages o.s.
 Website: https://oliz.io/ggpy/
-Version: 1.1
+Version: 1.2
 License: Dual-licensed under GNU AGPLv3 or MIT License,
          see LICENSE.txt file for details.
 
@@ -129,6 +129,7 @@ def footer_navigation(root_url='', is_index=False, is_root=False):
         nav.append(f'''<a href="{root_url}" class="nav">back</a>''')
     nav.append('''<a href="#" class="nav">top</a>''')
     nav.append('''<a href="javascript:toggleTheme()" class="nav">🌓</a>''')
+    nav.append('''<a href="javascript:toggleFontSize()" class="nav">aA</a>''')
     return '\n'.join(nav)
 
 def about_and_social_icons(config=None):
@@ -267,7 +268,7 @@ def inline_style():
     background: #FFF;
     margin: 1rem auto;
     padding: 0 .6rem;
-    max-width: 42rem;
+    max-width: 44rem;
     scroll-behavior: smooth;
 }
 a { color: #07A; text-decoration: none; }
@@ -279,7 +280,7 @@ blockquote {
     padding: 0 .5rem;
 }
 code {
-    font-size: 80%;
+    font-size: .9rem;
     background: #EAEAEA;
     padding: .2rem .5rem;
     white-space: nowrap;
@@ -319,6 +320,7 @@ td, th {
 .dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
 .dark-mode code { background: #222; }
 .dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
 
 .avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
 .nav { float: left; margin-right: 1rem; }
@@ -326,7 +328,8 @@ td, th {
 # From: https://raw.githubusercontent.com/ooz/templates/master/html/oz-dark-mode.js
 def inline_javascript():
     return '''function toggleTheme() { document.body.classList.toggle("dark-mode") }
-function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }'''
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }'''
 
 ##############################################################################
 # TEMPLATES
