@@ -261,14 +261,13 @@ def html_closing_boilerplate():
 ## From: https://raw.githubusercontent.com/ooz/templates/master/html/oz.css
 def inline_style():
     return '''body {
-    font-size: 18px;
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #363636;
     background: #FFF;
     margin: 1rem auto;
-    padding: 0 10px;
-    max-width: 700px;
+    padding: 0 .6rem;
+    max-width: 42rem;
     scroll-behavior: smooth;
 }
 a { color: #07A; text-decoration: none; }
@@ -294,9 +293,9 @@ ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
     list-style-image: none;
 }
-pre { border-left: 0.3rem solid #07A; }
+pre { border-left: .3rem solid #07A; }
 pre > code {
-    font-size: 14px;
+    font-size: .9rem;
     background: #EAEAEA;
     box-sizing: inherit;
     display: block;
@@ -317,9 +316,9 @@ td, th {
 
 .dark-mode { color: #CACACA; background: #363636; }
 .dark-mode a { color: #0A7; }
-.dark-mode blockquote { background: #222; border-left: 0.3rem solid #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
 .dark-mode code { background: #222; }
-.dark-mode pre { border-left: 0.3rem solid #0A7; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
 
 .avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
 .nav { float: left; margin-right: 1rem; }

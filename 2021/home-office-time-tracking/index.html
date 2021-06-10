@@ -11,14 +11,13 @@
 <link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
 <style>
 body {
-    font-size: 18px;
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #363636;
     background: #FFF;
     margin: 1rem auto;
-    padding: 0 10px;
-    max-width: 700px;
+    padding: 0 .6rem;
+    max-width: 42rem;
     scroll-behavior: smooth;
 }
 a { color: #07A; text-decoration: none; }
@@ -44,9 +43,9 @@ ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
     list-style-image: none;
 }
-pre { border-left: 0.3rem solid #07A; }
+pre { border-left: .3rem solid #07A; }
 pre > code {
-    font-size: 14px;
+    font-size: .9rem;
     background: #EAEAEA;
     box-sizing: inherit;
     display: block;
@@ -67,9 +66,9 @@ td, th {
 
 .dark-mode { color: #CACACA; background: #363636; }
 .dark-mode a { color: #0A7; }
-.dark-mode blockquote { background: #222; border-left: 0.3rem solid #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
 .dark-mode code { background: #222; }
-.dark-mode pre { border-left: 0.3rem solid #0A7; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
 
 .avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
 .nav { float: left; margin-right: 1rem; }
@@ -130,9 +129,11 @@ Clocking in at  2021-05-29 23:08:56.477436</code></pre></p>
 Clocking out at 2021-05-29 23:09:29.253941 (after 32s)
 Today: 32s
 This week: 32h 16m</code></pre>
+
 <p>Every five minutes it prints the time tracked so far. All data is saved in <code>.punchcard.csv</code> in current directory. The format is the date followed by seconds tracked that day:</p>
 <pre class="highlight"><code>DATE,SECONDS
 2021-05-29,32</code></pre>
+
 <p>The printed output and simple format also makes it easy to correct wrongly tracked time (e.g. when forgetting to start/terminate the script). Time may be tracked for different projects, even in parallel by starting the script in different (project-specific) directories, in separate terminals or as background processes.</p>
 <h2 id="lesson-learned">Lesson Learned</h2>
 <p>The script works and the "separate, single-use device" became a separate virtual desktop with just the time tracking terminal(s).</p>

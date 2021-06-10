@@ -11,14 +11,13 @@
 <link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
 <style>
 body {
-    font-size: 18px;
     font-family: sans-serif;
-    line-height: 1.6;
+    line-height: 1.5;
     color: #363636;
     background: #FFF;
     margin: 1rem auto;
-    padding: 0 10px;
-    max-width: 700px;
+    padding: 0 .6rem;
+    max-width: 42rem;
     scroll-behavior: smooth;
 }
 a { color: #07A; text-decoration: none; }
@@ -44,9 +43,9 @@ ul.task-list, ul.task-list li.task-list-item {
     list-style-type: none;
     list-style-image: none;
 }
-pre { border-left: 0.3rem solid #07A; }
+pre { border-left: .3rem solid #07A; }
 pre > code {
-    font-size: 14px;
+    font-size: .9rem;
     background: #EAEAEA;
     box-sizing: inherit;
     display: block;
@@ -67,9 +66,9 @@ td, th {
 
 .dark-mode { color: #CACACA; background: #363636; }
 .dark-mode a { color: #0A7; }
-.dark-mode blockquote { background: #222; border-left: 0.3rem solid #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
 .dark-mode code { background: #222; }
-.dark-mode pre { border-left: 0.3rem solid #0A7; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
 
 .avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
 .nav { float: left; margin-right: 1rem; }
@@ -141,18 +140,22 @@ He motivated the base of the red exponential function being <em>e</em> (Euler's 
        C --v        # Code
            T --v    # Test
                M    # Maintenance / Ops</code></pre>
+
 <p>One could first introduce the feedback loop of test-first programming (TFP) iterating between code and tests. The throughput of this feedback loop is working code. The Waterfall then becomes</p>
 <pre class="highlight"><code>R --v
    D --v
        TFP --v
              M</code></pre>
+
 <p>Iterating between design and TFP using refactoring is essentially test-driven development (TDD), producing well-designed and working code. This replaces another part of the Waterfall</p>
 <pre class="highlight"><code>R --v
     TDD --v
           M</code></pre>
+
 <p>Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput will be well-designed, working code which reflects business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:</p>
 <pre class="highlight"><code>BDD --v
       M</code></pre>
+
 <p>Looping feedback between BDD and maintenance/operations results in continuous delivery (CD). Eventually the throughput becomes real value: money/revenue. Further shortening the feedback cycles, CD becomes the ideal LS ("cash in my pockets sooner" - JBR).</p>
 <pre class="highlight"><code>CD --shorter cycles--&gt; LS</code></pre>
 </section>
