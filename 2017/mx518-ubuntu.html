@@ -118,12 +118,10 @@ Before Ubuntu switched to <code>systemd</code> there was a tool named <a href="h
 <li>
 <p>Install lomoco:</p>
 <pre class="highlight"><code class="language-bash">sudo apt install lomoco</code></pre>
-
 </li>
 <li>
 <p>Configure lomoco and set the mouse resolution to 1200, otherwise the button reassignment is not possible:</p>
 <pre class="highlight"><code class="language-bash">sudo vim /etc/default/lomoco</code></pre>
-
 <p>The resulting file should look like this:</p>
 <pre class="highlight"><code># Configuration file for lomoco
 # see `man lomoco` for details
@@ -135,7 +133,6 @@ LOGITECH_MOUSE_RESOLUTION=1200
 # Whether to disable SmartScroll/Cruise Control. Defaults to yes if not set.
 # Values:      yes,no
 LOGITECH_MOUSE_DISABLE_CC=</code></pre>
-
 </li>
 <li>
 <p>Install the outdated packages <a href="https://launchpad.net/btnx-config/">btnx-config</a> and <a href="https://launchpad.net/btnx">btnx</a> (in this order).</p>
@@ -156,24 +153,19 @@ Type=simple
 ExecStart=/usr/sbin/btnx
 PIDFile=/var/run/btnx.pid
 Restart=on-abort</code></pre>
-
 <p>Place it at the following locations:</p>
 <pre class="highlight"><code class="language-bash">sudo cp btnx.service /etc/systemd/system/
 sudo cp btnx.service /etc/systemd/system/graphical.target.wants/</code></pre>
-
 </li>
 <li>
 <p>Start the btnx.service:</p>
 <pre class="highlight"><code class="language-bash">sudo systemctl start btnx.service</code></pre>
-
 <p>You can verify whether the service has launched with the following command:</p>
 <pre class="highlight"><code class="language-bash">systemctl status btnx.service</code></pre>
-
 </li>
 <li>
 <p>Launch btnx-config and configure your mouse!</p>
 <pre class="highlight"><code class="language-bash">sudo btnx-config</code></pre>
-
 <ul>
 <li>"Detect mouse &amp; buttons"</li>
 <li>Press every mouse button once</li>
