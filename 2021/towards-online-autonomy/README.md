@@ -50,20 +50,22 @@ Autonomy gained:
 Stopped/minimized using:
 
 * [x] **Amazon**: Haven't bought anything there for some time now and recently made a new account, just in case...
+* [x] **XING**: Preferring LinkedIn (and even that is paused since Oct 2020 due to focus on main job + lecturing).
+                Put XING in its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently
 * [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
 
 Kept using:
 
 * **GitHub** ([Microsoft is a serious offender](https://sneak.berlin/20200307/the-case-against-microsoft-and-github/)): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed
-* **Google / Android**: It's still accessible and convenient, smartphone usage is work-related (2FA, communication)
+* **Google / Android**: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)
 * **Dropbox**: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience
-* [**VSCodium**](https://vscodium.com/) instead of VSCode, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
+* [**VSCodium**](https://vscodium.com/): Microsoft-free VSCode, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
 
 Educate others:
 
 * Setup your own domain and [use it for email](https://sneak.berlin/20201029/stop-emailing-like-a-rube/)
-* Don't buy/use "walled garden ecosystems"
+* Don't buy into/use "walled garden ecosystems"
 
 ## Further Inspiration and Links
 
