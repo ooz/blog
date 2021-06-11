@@ -50,8 +50,8 @@ Autonomy gained:
 Stopped/minimized using:
 
 * [x] **Amazon**: Haven't bought anything there for some time now and recently made a new account, just in case...
-* [x] **XING**: Preferring LinkedIn (and even that is paused since Oct 2020 due to focus on main job + lecturing).
-                Put XING in its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently
+* [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
+                Preferring LinkedIn (and considering moving my data out there, too)
 * [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
 
