@@ -17,7 +17,7 @@ If you don't use your smartphone to make money (media creator, influencer?), you
 ## Tech is Getting Consolidated...
 
 This entire development didn't start and won't end with smartphones.
-[RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see the very [definition of "Useds" by RMS](https://stallman.org/glossary.html#used)). It's common knowledge by now, some examples:
+[RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see his [definition of "Useds"](https://stallman.org/glossary.html#used)). It's common knowledge by now, some examples:
 
 * Hardware backdoors ([Intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine), undocumented x86 instructions) in mainline processors
 * The internet becoming more centralized with [a dozen of mega corporations owning the majority of the traffic](https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html)
@@ -49,7 +49,7 @@ Autonomy gained:
 
 Stopped/minimized using:
 
-* [x] **Amazon**: Haven't bought anything there for some time now and recently made a new account, just in case...
+* [x] **Amazon**: Haven't bought anything there for some time now. In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
 * [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
