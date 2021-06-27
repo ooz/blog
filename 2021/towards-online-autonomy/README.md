@@ -49,11 +49,11 @@ Autonomy gained:
 
 Stopped/minimized using:
 
-* [x] **Amazon**: Haven't bought anything there for some time now. In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
 * [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
+* **Amazon**: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
 
 Kept using:
 
@@ -65,7 +65,7 @@ Kept using:
 Educate others:
 
 * Setup your own domain and [use it for email](https://sneak.berlin/20201029/stop-emailing-like-a-rube/)
-* Don't buy into/use "walled garden ecosystems", look for alternatives on https://www.privacytools.io/
+* Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on https://www.privacytools.io/
 
 ## Further Inspiration and Links
 
@@ -76,4 +76,4 @@ Again, it's an old and known problem and I'm not the first to be alienated. So h
 * [Website privacy checker](https://webbkoll.dataskydd.net/en)
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
 
-Let's reclaim the free-as-in-freedom and open internet!
+For a free-as-in-freedom and open internet!
