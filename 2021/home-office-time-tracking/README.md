@@ -60,7 +60,8 @@ The printed output and simple format also makes it easy to correct wrongly track
 
 The script works and the "separate, single-use device" became a separate virtual desktop with just the time tracking terminal(s).
 
-Recently, I fetched the M5StickC again and tried to port the program to [MicroPython](https://docs.micropython.org/en/latest/esp32/quickref.html), which uses Python 2 syntax and has less batteries included (e.g. no high-level datetime package). I ended up with a stripped-down version of the punchcard script, a simple stopwatch:
+Recently, I fetched the M5StickC again and tried to port the program to [MicroPython](https://docs.micropython.org/en/latest/esp32/quickref.html), which uses Python 2 syntax and has less batteries included (e.g. no high-level datetime package). I ended up with a [stripped-down version of the punchcard script, a simple stopwatch](punchcard_stopwatch.py):
+
 ![Glorified stopwatch code](mc_stopwatch_code.png)
 ![Glorified stopwatch on M5StickC](mc_stopwatch.png)
 
