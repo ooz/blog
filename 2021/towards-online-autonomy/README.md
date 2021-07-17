@@ -51,7 +51,8 @@ Stopped/minimized using:
 
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
-* [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
+* [x] **GitHub Gists**: Migrated to https://oliz.io/snippets/ using [ggpy's](https://oliz.io/ggpy/) new micro-blogging functionality.
+* [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate, e.g. to https://oliz.io/snippets/ and photos maybe elsewhere.
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
 * **Amazon**: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
 
