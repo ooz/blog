@@ -4,7 +4,7 @@
 Author: Oliver Z., https://oliz.io
 Description: Minimal static site generator easy to use with GitHub Pages o.s.
 Website: https://oliz.io/ggpy/
-Version: 1.2
+Version: 1.3
 License: Dual-licensed under GNU AGPLv3 or MIT License,
          see LICENSE.txt file for details.
 
@@ -158,7 +158,7 @@ def posts_index(posts):
     posts_html = '\n'.join(posts_html)
     return html_tag_block('div', posts_html)
 
-def posts_index_inline_posts(posts):
+def posts_index_inline(posts):
     posts = [post for post in posts if TAG_DRAFT not in post['tags'] and TAG_INDEX not in post['tags']]
     posts_html = []
     for post in reversed(sorted(posts, key=lambda post: post['date'])):
@@ -167,16 +167,26 @@ def posts_index_inline_posts(posts):
         html_headline = post['html_headline']
         anchor = html_headline[8:html_headline.find('">')] # Extract id from headline
         description = post.get('description', '')
-        if description == title:
-            description = 'More...'
         url = post['url']
         content = post.get('html_section', '')
         if (day != '' and title != ''):
+            content_chars_count = len(content)
+            content_lines_count = content.count('\n') + 1
             posts_html.append(f'''<div class="card"><small class="social">{day}</small>''')
-            posts_html.append(f'''<a href="#{anchor}">{html_headline.replace('h1', 'b')}</a>''')
-            posts_html.append(f'''<details><summary>{description}</summary>''')
-            posts_html.append(f'''{content}''')
-            posts_html.append(f'''</details>''')
+            if content_chars_count > 500 or content_lines_count > 10:
+                if description == title:
+                    posts_html.append(f'''<details><summary><a href="#{anchor}">{html_headline.replace('h1', 'b')}</a></summary>''')
+                else:
+                    posts_html.append(f'''<a href="#{anchor}">{html_headline.replace('h1', 'b')}</a>''')
+                    posts_html.append(f'''<details><summary>{description}</summary>''')
+                posts_html.append(f'''{content}''')
+                posts_html.append(f'''</details>''')
+            else:
+                posts_html.append(f'''<a href="#{anchor}">{html_headline.replace('h1', 'b')}</a>''')
+                if description != title and content_chars_count == 0:
+                    posts_html.append(html_tag_block('div', f'{description}'))
+                else:
+                    posts_html.append(html_tag_block('div', f'{content}'))
             posts_html.append(f'''</div>''')
     posts_html = '\n'.join(posts_html)
     return html_tag_block('div', posts_html)
@@ -347,8 +357,7 @@ td, th {
 
 .avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
 .nav { float: left; margin-right: 1rem; }
-.card { background: rgba(0, 0, 0, 0.1); box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.2); border-radius: 5px; padding: .8rem; margin-top: .8rem; transition: 0.1s; }
-.card:hover { box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.2); }
+.card { background: rgba(0, 0, 0, 0.1); box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.2); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
 .social { float: right; margin-left: 1rem; }'''
 # From: https://raw.githubusercontent.com/ooz/templates/master/html/oz-accessibility.js
 def inline_javascript():
@@ -476,9 +485,6 @@ def write_file(path, content=''):
     with open(path, 'w') as f:
         f.write(content)
 
-def create_newpost(title):
-    write_file(kebab_case(title) + '.md', template_newpost(title))
-
 def scan_posts(directories, config=None):
     config = config or {}
     posts = []
@@ -500,7 +506,7 @@ def generate(directories, config=None):
         index['html'] = template_page(index, config)
     inline_indices = [post for post in posts if TAG_INDEX_INLINE in post['tags']]
     for index in inline_indices:
-        index['html_section'] = posts_index_inline_posts(posts)
+        index['html_section'] = posts_index_inline(posts)
         index['html'] = template_page(index, config)
     if len(inline_indices) == 0 and config.get('site', {}).get('generate_sitemap', False):
         posts.append({
@@ -544,7 +550,7 @@ REPO = None
 try:
     import git
     REPO = git.Repo()
-except ImportError:
+except ImportError: # pragma: no cover because git package is normally present, last_modified tested without
     print('No gitpython package found, degrading functionality (no last_modified support)!', file=sys.stderr)
 
 def last_modified(filepath):
@@ -574,6 +580,7 @@ if __name__ == '__main__': # pragma: no cover because main wrapper
         print('No ggconfig.py found, assuming defaults!', file=sys.stderr)
 
     if args.get('newpost', None):
-        create_newpost(args.get('newpost'))
+        title = args.get('newpost')
+        write_file(kebab_case(title) + '.md', template_newpost(title))
     if len(args.get('directories')):
         generate(args.get('directories'), config)
