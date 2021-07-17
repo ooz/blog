@@ -73,6 +73,8 @@ td, th {
 
 .avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
 .nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.2); border-radius: 5px; padding: .8rem; margin-top: .8rem; transition: 0.1s; }
+.card:hover { box-shadow: 1px 3px 6px 3px rgba(0, 0, 0, 0.2); }
 .social { float: right; margin-left: 1rem; }
 </style>
 <script>
@@ -92,27 +94,27 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 </header>
 <section>
 <div>
-<p>2021-06-06<br><a href="https://oliz.io/blog/2021/towards-online-autonomy/">Towards Online Autonomy</a></p>
-<p>2021-05-29<br><a href="https://oliz.io/blog/2021/home-office-time-tracking/">Time Tracking</a></p>
-<p>2020-11-09<br><a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/">Software Development Talks Binge and Random Wisdom</a></p>
-<p>2020-10-07<br><a href="https://oliz.io/blog/2020/economics-of-software-design/">Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J. B. Rainsberger</a></p>
-<p>2020-08-23<br><a href="https://oliz.io/blog/2020/corona-sky/">Corona Sky</a></p>
-<p>2020-06-15<br><a href="https://oliz.io/blog/2020/on-software-minimalism.html">On Software Minimalism</a></p>
-<p>2019-09-22<br><a href="https://oliz.io/blog/2019/swk-leipzig-clean-code-tdd-retro.html">Softwerkskammmer Leipzig: Clean Code Session &quot;TDD&quot;</a></p>
-<p>2019-02-24<br><a href="https://oliz.io/blog/2019/fixing-middle-trackpoint-button/">Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards</a></p>
-<p>2019-02-17<br><a href="https://oliz.io/blog/2019/ggj19-post-mortem.html">Post-mortem: Global Game Jam 2019</a></p>
-<p>2018-12-02<br><a href="https://oliz.io/blog/2018/my-interview-checklist/">My Interview Checklist</a></p>
-<p>2018-11-05<br><a href="https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html">Upgrading to Ubuntu 18.04</a></p>
-<p>2018-08-17<br><a href="https://oliz.io/blog/2018/code-and-deploy-using-termux.html">Code and Deploy on Android Using Termux</a></p>
-<p>2018-06-15<br><a href="https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html">Three Months With a Fitness Tracker</a></p>
-<p>2018-03-16<br><a href="https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html">Why I Wrote yet Another Static Site Generator</a></p>
-<p>2017-10-29<br><a href="https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/">Crafting a Durable Personal Kanban Board</a></p>
-<p>2017-04-02<br><a href="https://oliz.io/blog/2017/xmonad-ubuntu.html">How to configure Xmonad for Ubuntu 16.04</a></p>
-<p>2017-02-05<br><a href="https://oliz.io/blog/2017/mx518-ubuntu.html">How to assign the Logitech MX518 extra buttons under Ubuntu 16.04</a></p>
-<p>2017-01-08<br><a href="https://oliz.io/blog/2017/building-pokemon-from-15-euro-sets.html">Building Pokemon from 15 to 18 Euro Lego Sets</a></p>
-<p>2017-01-08<br><a href="https://oliz.io/blog/2017/lego-architecture-studio2drone-carrier.html">So My Girlfriend Ordered Lego Architecture Studio...</a></p>
-<p>2017-01-08<br><a href="https://oliz.io/blog/2017/joy-of-lego.html">The Joy of Lego as an Adult</a></p>
-<p>2017-01-07<br><a href="https://oliz.io/blog/2017/hello.html">Hello!</a></p>
+<div class="card"><small class="social">2021-06-06</small><a href="https://oliz.io/blog/2021/towards-online-autonomy/">Towards Online Autonomy</a></div>
+<div class="card"><small class="social">2021-05-29</small><a href="https://oliz.io/blog/2021/home-office-time-tracking/">Time Tracking</a></div>
+<div class="card"><small class="social">2020-11-09</small><a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/">Software Development Talks Binge and Random Wisdom</a></div>
+<div class="card"><small class="social">2020-10-07</small><a href="https://oliz.io/blog/2020/economics-of-software-design/">Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J. B. Rainsberger</a></div>
+<div class="card"><small class="social">2020-08-23</small><a href="https://oliz.io/blog/2020/corona-sky/">Corona Sky</a></div>
+<div class="card"><small class="social">2020-06-15</small><a href="https://oliz.io/blog/2020/on-software-minimalism.html">On Software Minimalism</a></div>
+<div class="card"><small class="social">2019-09-22</small><a href="https://oliz.io/blog/2019/swk-leipzig-clean-code-tdd-retro.html">Softwerkskammmer Leipzig: Clean Code Session &quot;TDD&quot;</a></div>
+<div class="card"><small class="social">2019-02-24</small><a href="https://oliz.io/blog/2019/fixing-middle-trackpoint-button/">Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards</a></div>
+<div class="card"><small class="social">2019-02-17</small><a href="https://oliz.io/blog/2019/ggj19-post-mortem.html">Post-mortem: Global Game Jam 2019</a></div>
+<div class="card"><small class="social">2018-12-02</small><a href="https://oliz.io/blog/2018/my-interview-checklist/">My Interview Checklist</a></div>
+<div class="card"><small class="social">2018-11-05</small><a href="https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html">Upgrading to Ubuntu 18.04</a></div>
+<div class="card"><small class="social">2018-08-17</small><a href="https://oliz.io/blog/2018/code-and-deploy-using-termux.html">Code and Deploy on Android Using Termux</a></div>
+<div class="card"><small class="social">2018-06-15</small><a href="https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html">Three Months With a Fitness Tracker</a></div>
+<div class="card"><small class="social">2018-03-16</small><a href="https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html">Why I Wrote yet Another Static Site Generator</a></div>
+<div class="card"><small class="social">2017-10-29</small><a href="https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/">Crafting a Durable Personal Kanban Board</a></div>
+<div class="card"><small class="social">2017-04-02</small><a href="https://oliz.io/blog/2017/xmonad-ubuntu.html">How to configure Xmonad for Ubuntu 16.04</a></div>
+<div class="card"><small class="social">2017-02-05</small><a href="https://oliz.io/blog/2017/mx518-ubuntu.html">How to assign the Logitech MX518 extra buttons under Ubuntu 16.04</a></div>
+<div class="card"><small class="social">2017-01-08</small><a href="https://oliz.io/blog/2017/building-pokemon-from-15-euro-sets.html">Building Pokemon from 15 to 18 Euro Lego Sets</a></div>
+<div class="card"><small class="social">2017-01-08</small><a href="https://oliz.io/blog/2017/lego-architecture-studio2drone-carrier.html">So My Girlfriend Ordered Lego Architecture Studio...</a></div>
+<div class="card"><small class="social">2017-01-08</small><a href="https://oliz.io/blog/2017/joy-of-lego.html">The Joy of Lego as an Adult</a></div>
+<div class="card"><small class="social">2017-01-07</small><a href="https://oliz.io/blog/2017/hello.html">Hello!</a></div>
 </div>
 </section>
 <footer>
