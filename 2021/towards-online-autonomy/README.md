@@ -60,7 +60,7 @@ Kept using:
 
 * **GitHub** ([Microsoft is a serious offender](https://sneak.berlin/20200307/the-case-against-microsoft-and-github/)): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed
 * **Google / Android**: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)
-* **Dropbox**: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience
+* **Dropbox**: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox)
 * [**VSCodium**](https://vscodium.com/): Microsoft-free VSCode, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
 
 Educate others:
