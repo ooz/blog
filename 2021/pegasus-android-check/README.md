@@ -19,7 +19,7 @@ Further read:
 
 ## Installing MVT in a pipenv
 
-I installed the project's dependencies in a [`pipenv`](https://pipenv.pypa.io/en/latest/) to not pollute the system's python packages:
+I installed the project's dependencies in a [`pipenv`](https://pipenv.pypa.io/en/latest/) to not pollute the system's python packages and `$PATH`:
 
 ```bash
 # Clone repository
