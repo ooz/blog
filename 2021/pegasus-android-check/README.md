@@ -4,9 +4,9 @@ date: 2021-07-22T22:40:11Z
 ---
 
 After [Amnesty International’s Methodology Report](https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/) from last Sunday, I early-adopted the [Mobile Verification Toolkit](https://github.com/mvt-project/mvt) on Monday evening.
-At that time, parts of the documentation and cross-referencing were pretty barebone, so I'm documenting my process and concentrating links to all resources here.
+At that time, parts of the documentation and cross-referencing were pretty basic, so I'm documenting my process and concentrating links to all resources here.
 
-Less tech-savy users may want to wait for the [announced GUI](https://github.com/mvt-project/mvt/issues/38).
+Less tech-savvy users may want to wait for the [announced GUI](https://github.com/mvt-project/mvt/issues/38).
 Others may want to use the  if you don't have an Android development setup yet and don't want to install all the dependencies.
 
 Preconditions:
@@ -43,7 +43,7 @@ mkdir android-apks
 pipenv run mvt-android download-apks -o android-apks/ --virustotal
 ```
 
-Sometimes the Android device is busy and mvt recommends to reset the adb server. This works just fine:
+Sometimes the Android device is busy and MVT recommends to reset the adb server. This works just fine:
 
 ```bash
 adb kill-server
