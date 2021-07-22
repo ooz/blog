@@ -133,7 +133,7 @@ it's best to do this right away.
 Otherwise you'd need to download the packages twice:</p>
 <pre class="highlight"><code class="language-bash">mkdir android-apks
 pipenv run mvt-android download-apks -o android-apks/ --virustotal</code></pre>
-<p>Sometimes the Android device is busy and MVT recommends to reset the adb server. This works just fine:</p>
+<p>Sometimes the Android device is busy and MVT recommends to reset the <code>adb</code> server. This works just fine:</p>
 <pre class="highlight"><code class="language-bash">adb kill-server</code></pre>
 <p>On the phone, when downloading the APKs, you will be asked (multiple times, even if you check the 'allow future access' box) to allow <code>adb</code> access, this dialog needs to be accepted within 5 seconds, otherwise MVT times out. It's best to be attentive and watch the phone screen. ;)</p>
 <h2 id="check-sms-backup-for-malicious-links">Check SMS backup for malicious links</h2>
