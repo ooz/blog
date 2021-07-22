@@ -12,7 +12,7 @@ Others may want to use the  if you don't have an Android development setup yet a
 Preconditions:
 
 * Have `adb` installed or use the [Docker image](https://github.com/mvt-project/mvt/pull/16) (this saves some MVT installation steps, too)
-* Enable developer mode on the Android device, enable USB debugging in developer options
+* [Enable developer mode on the Android device, enable USB debugging in developer options](https://developer.android.com/studio/debug/dev-options#enable)
 
 Further read:
 
