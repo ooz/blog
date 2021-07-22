@@ -7,7 +7,6 @@ After [Amnesty International’s Methodology Report](https://www.amnesty.org/en/
 At that time, parts of the documentation and cross-referencing were pretty basic, so I'm documenting my process and concentrating links to all resources here.
 
 Less tech-savvy users may want to wait for the [announced GUI](https://github.com/mvt-project/mvt/issues/38).
-Others may want to use the  if you don't have an Android development setup yet and don't want to install all the dependencies.
 
 Preconditions:
 
