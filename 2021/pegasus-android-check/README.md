@@ -31,7 +31,7 @@ pipenv --python 3
 pipenv run pip3 install .
 ```
 
-## [Check APKs](https://mvt-docs.readthedocs.io/en/latest/android/download_apks.html)
+## [Check APKs for malware signatures](https://mvt-docs.readthedocs.io/en/latest/android/download_apks.html)
 
 Since you can't use the tool to download the APKs and check for malware signatures later,
 it's best to do this right away.
