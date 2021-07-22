@@ -42,7 +42,7 @@ mkdir android-apks
 pipenv run mvt-android download-apks -o android-apks/ --virustotal
 ```
 
-Sometimes the Android device is busy and MVT recommends to reset the adb server. This works just fine:
+Sometimes the Android device is busy and MVT recommends to reset the `adb` server. This works just fine:
 
 ```bash
 adb kill-server
