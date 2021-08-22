@@ -12,7 +12,7 @@ Smartphones have hard- and software obsolescence built-in.
 They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
 Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through [attention economy](https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy)
 (making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
-If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used.
+If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.
 
 ## Tech is Getting Consolidated...
 
@@ -46,19 +46,20 @@ Autonomy gained:
 * [x] Build static website on `oliz.io` domain, using [`gg.py`](https://oliz.io/ggpy/)
 * [ ] Migrate contacts to KeePass
 * [ ] Find good, local solution for keeping track of birthdays (master data in KeePass)
+* [ ] Add RSS feed generation to ggpy to make it easier for others to subscribe to my content
 
 Stopped/minimized using:
 
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
-* [x] **GitHub Gists**: Migrated to https://oliz.io/snippets/ using [ggpy's](https://oliz.io/ggpy/) new micro-blogging functionality.
-* [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate, e.g. to https://oliz.io/snippets/ and photos maybe elsewhere.
+* [x] **GitHub Gists**: Integrated into this blog using [ggpy's](https://oliz.io/ggpy/) new micro-blogging functionality.
+* [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
 * **Amazon**: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
 
 Kept using:
 
-* **GitHub** ([Microsoft is a serious offender](https://sneak.berlin/20200307/the-case-against-microsoft-and-github/)): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed
+* **GitHub** ([Microsoft is a serious offender](https://sneak.berlin/20200307/the-case-against-microsoft-and-github/)): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed.
 * **Google / Android**: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)
 * **Dropbox**: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox)
 * [**VSCodium**](https://vscodium.com/): Microsoft-free VSCode, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
