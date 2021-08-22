@@ -106,9 +106,183 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 <div class="card"><small class="social">2019-02-17</small><a href="https://oliz.io/blog/2019/ggj19-post-mortem.html">Post-mortem: Global Game Jam 2019</a></div>
 <div class="card"><small class="social">2018-12-02</small><a href="https://oliz.io/blog/2018/my-interview-checklist/">My Interview Checklist</a></div>
 <div class="card"><small class="social">2018-11-05</small><a href="https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html">Upgrading to Ubuntu 18.04</a></div>
+<div class="card"><small class="social">2018-09-25</small>
+<a href="https://oliz.io/blog/2018/communication-misunderstandings.html"><b id="communication-misunderstandings-k-lorenz">Communication Misunderstandings (K. Lorenz)</b></a>
+<div>
+<p>Konrad Lorenz:</p>
+<ul>
+<li>Thought is not said</li>
+<li>Said is not heard</li>
+<li>Heard is not understood</li>
+<li>Understood is not agreed</li>
+<li>Agreed is not done</li>
+<li>Done is not continued</li>
+<li>Continued is not valid for ever</li>
+</ul>
+</div>
+</div>
 <div class="card"><small class="social">2018-08-17</small><a href="https://oliz.io/blog/2018/code-and-deploy-using-termux.html">Code and Deploy on Android Using Termux</a></div>
+<div class="card"><small class="social">2018-08-17</small>
+<a href="https://oliz.io/blog/2018/gradle-test-execution-order.html"><b id="list-gradle-test-execution-order">List gradle test execution order</b></a>
+<div>
+<pre class="highlight"><code>tasks.matching {it instanceof Test}.all {
+    testLogging.events = ["failed", "passed", "skipped"]
+}</code></pre>
+<p>Useful for finding tests that do not clean up properly!</p>
+</div>
+</div>
 <div class="card"><small class="social">2018-06-15</small><a href="https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html">Three Months With a Fitness Tracker</a></div>
 <div class="card"><small class="social">2018-03-16</small><a href="https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html">Why I Wrote yet Another Static Site Generator</a></div>
+<div class="card"><small class="social">2018-02-22</small>
+<a href="https://oliz.io/blog/2018/the_truth_is_the_log.html"><b id="the-truth-is-in-the-log">The Truth is in the Log</b></a>
+<div>
+&quot;The truth is the log. The database is a cache of a subset of the log.&quot; - Pat Helland, Immutability Changes Everything, 2015
+</div>
+</div>
+<div class="card"><small class="social">2018-02-12</small>
+<a href="https://oliz.io/blog/2018/the_prime_directive.html"><b id="the-prime-directive">The Prime Directive</b></a>
+<div>
+<blockquote>
+<p>"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand."</p>
+</blockquote>
+<p>Source: Norm Kerth, Project Retrospectives: A Handbook for Team Review</p>
+</div>
+</div>
+<div class="card"><small class="social">2018-02-02</small>
+<a href="https://oliz.io/blog/2018/dell_trackpoint_fix.html"><b id="dell-trackpoint-fix">Dell Trackpoint Fix</b></a>
+<details><summary>Alter Dell laptop trackpoint sensitivity under Linux</summary>
+<pre class="highlight"><code>xinput list
+xinput list-props 13
+xinput set-prop 13 269 1.0
+xinput set-prop 13 269 0.8
+xinput set-prop 13 269 0.5
+xinput set-prop 13 269 0.1
+xinput set-prop 13 268 0.5
+xinput set-prop 13 268 0.9
+xinput list-props 13
+xinput set-prop 13 267 0.9
+xinput set-prop 13 267 0.1
+xinput set-prop 13 267 2.0
+xinput set-prop 13 268 2.0
+xinput set-prop 13 268 1.0
+xinput set-prop 13 269 0.05
+xinput set-prop 13 267 3.0
+xinput set-prop 13 267 5.0
+xinput set-prop 13 268 2.0
+xinput set-prop 13 268 1.5
+xinput set-prop 13 267 1.0
+xinput set-prop 13 267 2.0
+xinput set-prop 13 267 3.0
+xinput set-prop 13 267 4.0
+xinput set-prop 13 268 2.0
+xinput list-props 13
+xinput set-prop 13 267 2.5
+xinput set-prop 13 268 1.0
+xinput set-prop 13 269 12.5
+xinput set-prop 13 267 5.0
+xinput set-prop 13 267 7.0
+xinput set-prop 13 268 2.0
+xinput set-prop 13 267 10.0
+xinput set-prop 13 268 3.0
+xinput set-prop 13 268 5.0
+xinput set-prop 13 267 15.0
+xinput set-prop 13 267 12.0
+xinput set-prop 13 267 11.0
+
+# $ xinput list-props 13
+# Device 'AlpsPS/2 ALPS DualPoint Stick':
+#   Device Enabled (140):   1
+#   Coordinate Transformation Matrix (142): 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+#   Device Accel Profile (266): 0
+#   Device Accel Constant Deceleration (267):   11.000000
+#   Device Accel Adaptive Deceleration (268):   5.000000
+#   Device Accel Velocity Scaling (269):    12.500000
+#   Device Product ID (261):    2, 8
+#   Device Node (262):  "/dev/input/event6"
+#   Evdev Axis Inversion (305): 0, 0
+#   Evdev Axes Swap (307):  0
+#   Axis Labels (308):  "Rel X" (150), "Rel Y" (151)
+#   Button Labels (309):    "Button Left" (143), "Button Middle" (144), "Button Right" (145), "Button Wheel Up" (146), "Button Wheel Down" (147), "Button Horiz Wheel Left" (148), "Button Horiz Wheel Right" (149)
+#   Evdev Scrolling Distance (310): 0, 0, 0
+#   Evdev Middle Button Emulation (311):    1
+#   Evdev Middle Button Timeout (312):  50
+#   Evdev Third Button Emulation (313): 0
+#   Evdev Third Button Emulation Timeout (314): 1000
+#   Evdev Third Button Emulation Button (315):  3
+#   Evdev Third Button Emulation Threshold (316):   20
+#   Evdev Wheel Emulation (317):    1
+#   Evdev Wheel Emulation Axes (318):   6, 7, 4, 5
+#   Evdev Wheel Emulation Inertia (319):    10
+#   Evdev Wheel Emulation Timeout (320):    200
+#   Evdev Wheel Emulation Button (321): 2
+#   Evdev Drag Lock Buttons (322):  0</code></pre>
+</details>
+</div>
+<div class="card"><small class="social">2018-02-02</small>
+<a href="https://oliz.io/blog/2018/bullshit_definition.html"><b id="bullshit-definition">Bullshit Definition</b></a>
+<div>
+<blockquote>
+<p>The philosopher Harry Frankfurt at Princeton University defined bullshit as talk that has no relationship to the truth.
+Lying covers up the truth, while bullshit is empty, and bears no relationship to the truth.</p>
+</blockquote>
+<p>Source: <a href="https://aeon.co/ideas/how-to-fight-work-bullshit-and-keep-your-job-and-your-dignity">https://aeon.co/ideas/how-to-fight-work-bullshit-and-keep-your-job-and-your-dignity</a></p>
+</div>
+</div>
+<div class="card"><small class="social">2018-02-02</small>
+<a href="https://oliz.io/blog/2018/grep_rename.html"><b id="grep_renamesh">grep_rename.sh</b></a>
+<div>
+<pre class="highlight"><code>grep -rl 'old' ./ | xargs sed -i 's/old/new/g'</code></pre>
+</div>
+</div>
+<div class="card"><small class="social">2018-02-02</small>
+<details><summary><a href="https://oliz.io/blog/2018/10_ways_to_have_a_better_conversation.html"><b id="10-ways-to-have-a-better-conversation">10 ways to have a better conversation</b></a></summary>
+<p><a href="https://www.ted.com/talks/celeste_headlee_10_ways_to_have_a_better_conversation">Celeste Headlee</a>:</p>
+<p><strong>Listen!</strong></p>
+<p>Forget what you have heard!</p>
+<ol>
+<li>Don't multitask!</li>
+<li>Don't pontificate! (express one's opinions in a way considered annoyingly pompous and dogmatic)
+   Assume that you have something to learn</li>
+<li>Use open ended questions!</li>
+<li>Go with the flow!</li>
+<li>If you don't know, say that you don't know!</li>
+<li>Don't equate your experience with their's!</li>
+<li>Try not to repeat yourself!</li>
+<li>Forget the details!</li>
+<li>Listen!</li>
+<li>Be brief!</li>
+</ol>
+<p><strong>Always be prepared to be amazed!</strong></p>
+</details>
+</div>
+<div class="card"><small class="social">2018-02-02</small>
+<a href="https://oliz.io/blog/2018/xcompmgr_init.html"><b id="xcompmgr_initsh">xcompmgr_init.sh</b></a>
+<div>
+<p>For smoother transitions between xmonad screens (e.g. for presentations):</p>
+<pre class="highlight"><code>#!/bin/bash
+
+xcompmgr -f -C -n -D 3</code></pre>
+</div>
+</div>
+<div class="card"><small class="social">2018-02-02</small>
+<details><summary><a href="https://oliz.io/blog/2018/obstsalat.html"><b id="obstsalat">Obstsalat</b></a></summary>
+<ul>
+<li>Äpfel</li>
+<li>Birnen</li>
+<li>Orangen</li>
+<li>Grapefruit</li>
+<li>Pomelo</li>
+<li>Chikoree</li>
+<li>Walnüsse</li>
+<li>Banane</li>
+</ul>
+<p>Plus:</p>
+<ul>
+<li>2 Zitronen (Saft)</li>
+<li>Zucker</li>
+</ul>
+</details>
+</div>
 <div class="card"><small class="social">2017-10-29</small><a href="https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/">Crafting a Durable Personal Kanban Board</a></div>
 <div class="card"><small class="social">2017-04-02</small><a href="https://oliz.io/blog/2017/xmonad-ubuntu.html">How to configure Xmonad for Ubuntu 16.04</a></div>
 <div class="card"><small class="social">2017-02-05</small><a href="https://oliz.io/blog/2017/mx518-ubuntu.html">How to assign the Logitech MX518 extra buttons under Ubuntu 16.04</a></div>
