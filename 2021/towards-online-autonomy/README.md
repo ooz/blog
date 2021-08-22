@@ -22,6 +22,7 @@ This entire development didn't start and won't end with smartphones.
 * Hardware backdoors ([Intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine), undocumented x86 instructions) in mainline processors
 * The internet becoming more centralized with [a dozen of mega corporations owning the majority of the traffic](https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html)
 * In the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/)
+* [Pegasus anyone?](https://oliz.io/blog/2021/pegasus-android-check/)
 
 Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
 In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on *user-serviceable*, secure hard- and software.
@@ -46,14 +47,12 @@ Autonomy gained:
 * [x] Build static website on `oliz.io` domain, using [`gg.py`](https://oliz.io/ggpy/)
 * [ ] Migrate contacts to KeePass
 * [ ] Find good, local solution for keeping track of birthdays (master data in KeePass)
-* [ ] Add RSS feed generation to ggpy to make it easier for others to subscribe to my content
 
 Stopped/minimized using:
 
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
 * [x] **GitHub Gists**: Integrated into this blog using [ggpy's](https://oliz.io/ggpy/) new micro-blogging functionality.
-* [ ] **Twitter**: Not using it anymore, but still have content there I want to migrate
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
 * **Amazon**: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
 
@@ -68,6 +67,13 @@ Educate others:
 
 * Setup your own domain and [use it for email](https://sneak.berlin/20201029/stop-emailing-like-a-rube/)
 * Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on https://www.privacytools.io/
+
+**Twitter**:
+
+* Not using it anymore
+* [ ] WIP: Migrating my content to this blog
+* [ ] I still need a solution to follow some people I know or like
+* [ ] Add RSS feed generation to ggpy to make it easier for others to subscribe to my content
 
 ## Further Inspiration and Links
 
