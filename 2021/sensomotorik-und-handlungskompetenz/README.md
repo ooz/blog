@@ -7,7 +7,7 @@ date: 2021-08-21T22:58:18Z
 The thesis is roughly structured in three parts.
 First, the author researches theory, definitions, commons grounds in sports science and neuroscience.
 He then formulates three hypotheses, which are falsified after further literature research and deductions.
-Last, the findings are further confirmed by four examples from his experience as a [karate) trainer](https://sendo-karate.com/professionelle-betreuung) and as a occupational safety instructor.
+Last, the findings are further confirmed by four examples from his experience as a [karate trainer](https://sendo-karate.com/professionelle-betreuung) and as a occupational safety instructor.
 
 Key findings:
 
@@ -29,5 +29,7 @@ but also to "thought work" like computer science and software engineering.
 * Ties in with understanding and interdependence of language, intelligence, physical affordances and perception of "the real world". How related research on language, intelligence, child development, AI, sports and design is converging (which should probably be a blog post of its own).
 
 In general, separation of "body and mind" [rooted in western philosophy](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes#Mind%E2%80%93Body_Dualism) can be seen as an ill-path.
-Or like the Romans used to say: [*Mens sana in corpore sano*](https://en.wikipedia.org/wiki/Mens_sana_in_corpore_sano)
+Or like the Romans used to say:
+
+> [*Mens sana in corpore sano*](https://en.wikipedia.org/wiki/Mens_sana_in_corpore_sano)
 
