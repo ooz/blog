@@ -1,7 +1,6 @@
 ---
 title: Communication Misunderstandings (K. Lorenz)
 date: 2018-09-25T02:37:04Z
-tags: __inline__
 ---
 
 Konrad Lorenz:

@@ -1,9 +1,9 @@
 ---
 title: Dell Trackpoint Fix
-description: Alter Dell laptop trackpoint sensitivity under Linux
 date: 2018-02-02T04:00:53Z
-tags: __inline__
 ---
+
+Alter Dell laptop trackpoint sensitivity under Linux:
 
 ```
 xinput list

@@ -1,10 +1,9 @@
 ---
-title: xcompmgr_init.sh
+title: Smoother transitions between xmonad screens
 date: 2018-02-02T02:44:21Z
-tags: __inline__
 ---
 
-For smoother transitions between xmonad screens (e.g. for presentations):
+E.g. for presentations, `xcompmgr_init.sh`:
 
 ```
 #!/bin/bash
