@@ -1,5 +1,5 @@
 ---
-title: Jeff Langr on Twitter: Top IntelliJ IDEA refactoring keys
+title: J. Langr on Twitter: Top IntelliJ IDEA refactoring keys
 date: 2019-12-15T14:15:49Z
 tags: __inline__
 ---

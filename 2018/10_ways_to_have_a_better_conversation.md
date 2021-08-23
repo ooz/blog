@@ -1,5 +1,5 @@
 ---
-title: 10 ways to have a better conversation
+title: C. Headlee: 10 ways to have a better conversation
 date: 2018-02-02T02:56:59Z
 tags: __inline__
 ---
