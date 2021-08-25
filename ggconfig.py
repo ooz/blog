@@ -19,6 +19,7 @@ config = {
     },
     'social': {
         'about': 'https://oliz.io/about.html',
+        'blog': 'https://oliz.io/blog/',
         'github': 'https://github.com/ooz',
         'twitter': 'https://twitter.com/oozgo'
     }
