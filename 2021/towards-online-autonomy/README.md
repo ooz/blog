@@ -84,4 +84,5 @@ Certainly, I'm not the first to be alienated. So here are a bunch of other nice,
 * https://riseup.net/ (various independent communication and collaboration services)
 * [Website privacy checker](https://webbkoll.dataskydd.net/en)
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
+* [Curated list of libre Android apps](https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md)
 
