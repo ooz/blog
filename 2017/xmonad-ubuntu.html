@@ -141,25 +141,27 @@ sudo apt-get install gnome-session-xmonad</code></pre>
 <p>The above guide also works for Ubuntu 18.04 and 20.04.
 However, for version 20.04 further tweaks are needed:</p>
 <ol>
-<li><strong>Fix layout switch (Super+Space)</strong></li>
-</ol>
+<li>
+<p>Fix layout switch (Super+Space):</p>
 <p>The shortcut is claimed by GNOME and needs to be disabled in "Settings &gt; Keyboard Shortcuts &gt; Switch to next input source"</p>
-<ol start="2">
-<li><strong>Remove the Terminal title bar</strong></li>
-</ol>
+</li>
+<li>
+<p>Remove the Terminal title bar:</p>
 <pre class="highlight"><code>sudo apt install gnome-shell-extension-pixelsaver
 gnome-extensions enable pixel-saver@deadalnix.me
 gsettings set org.gnome.Terminal.Legacy.Settings headerbar false</code></pre>
 <p>Source: <a href="https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04">https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04</a></p>
-<ol start="3">
-<li><strong>Hide desktop icons</strong></li>
-</ol>
+</li>
+<li>
+<p>Hide desktop icons:</p>
 <p>Inspired by: <a href="https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04">https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04</a> (the keys however don't work for <code>GNOME + XMonad</code> session). Correct key:</p>
 <pre class="highlight"><code>gsettings set org.gnome.gnome-flashback.desktop show-icons false</code></pre>
-<ol start="4">
-<li><strong>Dark theme</strong></li>
-</ol>
+</li>
+<li>
+<p>Dark theme:</p>
 <p>It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under <code>org.gnome.desktop.interface.gtk-theme</code>.</p>
+</li>
+</ol>
 </section>
 <footer>
 <a href="#" class="nav">top</a>
