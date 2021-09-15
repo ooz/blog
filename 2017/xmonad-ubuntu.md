@@ -1,6 +1,6 @@
 ---
 date: 2017-04-02T21:20:32+02:00
-title: How to configure Xmonad for Ubuntu 16.04
+title: How to configure Xmonad for Ubuntu
 tags: xmonad
       ubuntu
 ---
@@ -49,4 +49,36 @@ Here is a small guide for future reference:
     ```
 
 Have fun!
+
+## Update 2021-09-14
+
+The above guide also works for Ubuntu 18.04 and 20.04.
+However, for version 20.04 further tweaks are needed:
+
+1. Fix layout switch (Super+Space):
+
+  The shortcut is claimed by GNOME and needs to be disabled in "Settings > Keyboard Shortcuts > Switch to next input source"
+
+
+2. Remove the Terminal title bar:
+
+  ```
+  sudo apt install gnome-shell-extension-pixelsaver
+  gnome-extensions enable pixel-saver@deadalnix.me
+  gsettings set org.gnome.Terminal.Legacy.Settings headerbar false
+  ```
+
+  Source: https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04
+
+3. Hide desktop icons:
+
+  Inspired by: https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04 (the keys however don't work for `GNOME + XMonad` session). Correct key:
+
+  ```
+  gsettings set org.gnome.gnome-flashback.desktop show-icons false
+  ```
+
+4. Dark theme:
+
+  It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under `org.gnome.desktop.interface.gtk-theme`.
 
