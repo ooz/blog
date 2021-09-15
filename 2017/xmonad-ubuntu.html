@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
 <meta name="referrer" content="no-referrer">
-<title>How to configure Xmonad for Ubuntu 16.04 | Oliver Z.</title>
+<title>How to configure Xmonad for Ubuntu | Oliver Z.</title>
 <link rel="canonical" href="https://oliz.io/blog/2017/xmonad-ubuntu.html">
 <link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
 <style>
@@ -82,24 +82,24 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 function toggleFontSize() { document.body.classList.toggle("large-font") }
 </script>
 <meta name="author" content="oz">
-<meta name="description" content="How to configure Xmonad for Ubuntu 16.04">
+<meta name="description" content="How to configure Xmonad for Ubuntu">
 <meta name="keywords" content="xmonad, ubuntu">
-<meta property="og:title" content="How to configure Xmonad for Ubuntu 16.04">
+<meta property="og:title" content="How to configure Xmonad for Ubuntu">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://oliz.io/blog/2017/xmonad-ubuntu.html">
-<meta property="og:description" content="How to configure Xmonad for Ubuntu 16.04">
+<meta property="og:description" content="How to configure Xmonad for Ubuntu">
 <meta property="og:image" content="https://oliz.io/blog/static/owl.png">
 <meta property="og:locale" content="en-US">
 <meta property="article:published_time" content="2017-04-02T21:20:32+02:00">
 <script type="application/ld+json">
-{"@context":"http://schema.org","@type":"WebSite","headline":"How to configure Xmonad for Ubuntu 16.04","url":"https://oliz.io/blog/2017/xmonad-ubuntu.html","name":"Oliver Z.","description":"How to configure Xmonad for Ubuntu 16.04"}</script>
+{"@context":"http://schema.org","@type":"WebSite","headline":"How to configure Xmonad for Ubuntu","url":"https://oliz.io/blog/2017/xmonad-ubuntu.html","name":"Oliver Z.","description":"How to configure Xmonad for Ubuntu"}</script>
 </head>
 
 <body onload="initTheme()">
 <header>
 <a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl.png" class="avatar" /></a>
 <div style="text-align:right;">
-<h1 id="how-to-configure-xmonad-for-ubuntu-1604">How to configure Xmonad for Ubuntu 16.04</h1>
+<h1 id="how-to-configure-xmonad-for-ubuntu">How to configure Xmonad for Ubuntu</h1>
 <small><a href="https://oliz.io">oz</a>, 2017-04-02</small>
 </div>
 </header>
@@ -137,6 +137,29 @@ sudo apt-get install gnome-session-xmonad</code></pre>
 </li>
 </ol>
 <p>Have fun!</p>
+<h2 id="update-2021-09-14">Update 2021-09-14</h2>
+<p>The above guide also works for Ubuntu 18.04 and 20.04.
+However, for version 20.04 further tweaks are needed:</p>
+<ol>
+<li>Fix layout switch (Super+Space):</li>
+</ol>
+<p>The shortcut is claimed by GNOME and needs to be disabled in "Settings &gt; Keyboard Shortcuts &gt; Switch to next input source"</p>
+<ol start="2">
+<li>Remove the Terminal title bar:</li>
+</ol>
+<pre class="highlight"><code>sudo apt install gnome-shell-extension-pixelsaver
+gnome-extensions enable pixel-saver@deadalnix.me
+gsettings set org.gnome.Terminal.Legacy.Settings headerbar false</code></pre>
+<p>Source: <a href="https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04">https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04</a></p>
+<ol start="3">
+<li>Hide desktop icons:</li>
+</ol>
+<p>Inspired by: <a href="https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04">https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04</a> (the keys however don't work for <code>GNOME + XMonad</code> session). Correct key:</p>
+<pre class="highlight"><code>gsettings set org.gnome.gnome-flashback.desktop show-icons false</code></pre>
+<ol start="4">
+<li>Dark theme:</li>
+</ol>
+<p>It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under <code>org.gnome.desktop.interface.gtk-theme</code>.</p>
 </section>
 <footer>
 <a href="#" class="nav">top</a>
