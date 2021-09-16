@@ -20,7 +20,7 @@ This entire development didn't start and won't end with smartphones.
 [RMS](https://stallman.org/) has been anticipating and warning about it for decades already (see his [definition of "Useds"](https://stallman.org/glossary.html#used)). It's common knowledge by now, some examples:
 
 * Hardware backdoors ([Intel ME](https://en.wikipedia.org/wiki/Intel_Management_Engine), undocumented x86 instructions) in mainline processors
-* The internet becoming more centralized with [a dozen of mega corporations owning the majority of the traffic](https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html)
+* [The internet becoming more centralized](https://staltz.com/the-web-began-dying-in-2014-heres-how.html) with [a dozen of mega corporations owning the majority of the traffic](https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html)
 * In the near future, [we'll get smartphone-level surveillance and "ownership" for our other computers, too](https://sneak.berlin/20201112/your-computer-isnt-yours/)
 * [Pegasus anyone?](https://oliz.io/blog/2021/pegasus-android-check/)
 
