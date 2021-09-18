@@ -66,7 +66,7 @@ Kept using:
 Educate others:
 
 * Setup your own domain and [use it for email](https://sneak.berlin/20201029/stop-emailing-like-a-rube/)
-* Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on https://www.privacytools.io/
+* Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on ~~https://www.privacytools.io~~, https://privacyguides.org
 
 **Twitter**:
 
