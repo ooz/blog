@@ -82,3 +82,7 @@ However, for version 20.04 further tweaks are needed:
 
     It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under `org.gnome.desktop.interface.gtk-theme`.
 
+5. Chromium snap context menu
+
+    For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
+    The solution is to [disable hardware accerlation](https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag).
