@@ -21,8 +21,10 @@ Key findings:
 
 ## My Learnings
 
-From my observation, the same holistic approach not just applies to learning/teaching sports and mechanical work tasks,
-but also to "thought work" like computer science and software engineering.
+I was surprised to learn that the effectiveness of *Shisa Kanko* ("finger pointing and calling", [example](https://youtu.be/D8A_Hu_WqeQ?t=317), [another one](https://youtu.be/gjCzavpZoZI?t=726)) is well-supported by science and aligned with the thesis' findings.
+Before, it looked like a misguided Japanese efficiency ritual or make-work to me.
+
+From my observation, the holistic learning/teaching approach is also applicable to "thought work" like computer science and software engineering:
 
 * It's not enough to learn the theory, it needs to be applied and used regularly.
 * Raw repetition is not valuable. Quality, variety and challenge matter to grow in the profession.
