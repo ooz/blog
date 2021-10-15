@@ -52,6 +52,8 @@ Stopped/minimized using:
 
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
+* **LinkedIn**: Doing minimal effort there, keeping resume up-to-date and accepting connections I either know or seem to be real humans.
+                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, [but then again I'm probably not using it right](https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/)
 * [x] **GitHub Gists**: Integrated into this blog using [ggpy's](https://oliz.io/ggpy/) new micro-blogging functionality.
 * [ ] **Gmail**: Contacts aren't migrated yet. Haven't actively reached out to anyone regarding the email change, yet
 * **Amazon**: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.
