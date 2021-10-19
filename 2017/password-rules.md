@@ -13,3 +13,5 @@ TL;DR:
 1. Be aware of Unicode
 1. Think like a user
 
+How to not do it: https://twitter.com/AaronToponce/status/988761412464857088
+
