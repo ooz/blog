@@ -124,17 +124,14 @@ cd mvt/
 # Install dependencies in pipenv
 pipenv --python 3
 pipenv run pip3 install .</code></pre>
-
 <h2 id="check-apks-for-malware-signatures"><a href="https://mvt-docs.readthedocs.io/en/latest/android/download_apks.html">Check APKs for malware signatures</a></h2>
 <p>Since you can't use the tool to download the APKs and check for malware signatures later,
 it's best to do this right away.
 Otherwise you'd need to download the packages twice:</p>
 <pre class="highlight"><code class="language-bash">mkdir android-apks
 pipenv run mvt-android download-apks -o android-apks/ --virustotal</code></pre>
-
 <p>Sometimes the Android device is busy and MVT recommends to reset the <code>adb</code> server. This works just fine:</p>
 <pre class="highlight"><code class="language-bash">adb kill-server</code></pre>
-
 <p>On the phone, when downloading the APKs, you will be asked (multiple times, even if you check the 'allow future access' box) to allow <code>adb</code> access, this dialog needs to be accepted within 5 seconds, otherwise MVT times out. It's best to be attentive and watch the phone screen. ;)</p>
 <h2 id="check-sms-backup-for-malicious-links">Check SMS backup for malicious links</h2>
 <p>This process is <a href="https://mvt-docs.readthedocs.io/en/latest/android/backup.html">well-documented</a>:</p>

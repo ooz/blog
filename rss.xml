@@ -5,55 +5,489 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 23 Oct 2021 19:10:31 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Oct 2021 19:18:06 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>TIL: User Story Mapping</title>
-      <link>https://oliz.io/blog/2018/user-story-mapping.html</link>
-      <pubDate>Thu, 04 Oct 2018 20:18:58 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/user-story-mapping.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://manifesto.co.uk/user-story-mapping/"&gt;https://manifesto.co.uk/user-story-mapping/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;With the map dimensions being feature, process (user journey) and priority. Milestones are cut by priority, not by feature/process.&lt;/p&gt;</description>
+      <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
+      <link>https://oliz.io/blog/2016/benjamin-franklin.html</link>
+      <pubDate>Sun, 17 Apr 2016 13:37:41 +0000</pubDate>
+      <guid>https://oliz.io/blog/2016/benjamin-franklin.html</guid>
+      <description></description>
     </item>
     <item>
-      <title>Smoother transitions between xmonad screens</title>
-      <link>https://oliz.io/blog/2018/xcompmgr_init.html</link>
-      <pubDate>Fri, 02 Feb 2018 02:44:21 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/xcompmgr_init.html</guid>
-      <description>&lt;p&gt;E.g. for presentations, &lt;code&gt;xcompmgr_init.sh&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;#!/bin/bash
-
-xcompmgr -f -C -n -D 3&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>Three Months With a Fitness Tracker</title>
-      <link>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</link>
-      <pubDate>Fri, 15 Jun 2018 18:00:23 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</guid>
-      <description>&lt;p&gt;In March I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
-Being interested only in my daily step count and the distance/steps covered on various routine routes, I did not use any of the advanced features like sleep tracking or anything else that required interaction with the Garmin cloud.
-Initializing the tracker required the creation of an account with my birthday (Jan 1st + accurate year 😉), height and mass.&lt;/p&gt;
-&lt;p&gt;Originally this blog post should have been called "One Month With a Fitness Tracker".
-In fact I was barely using the tracker after the first month. So here are the results:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The tracker's measurement of distance was surprisingly accurate (to 10 meters, over the course of multiple 5 kilometer tracks), the step count/length was consistent between samples&lt;/li&gt;
-&lt;li&gt;As an office worker, going to the water dispenser or toilet is &lt;em&gt;not enough&lt;/em&gt; to get rid of the sedentary warning bar (for me around 400 steps seem to be required to get rid of the full bar)&lt;/li&gt;
-&lt;li&gt;Even on good (as in active) working days, I do not manage to cover 10000 steps (then the step count is within the 8000-9000 range)&lt;/li&gt;
-&lt;li&gt;Going to lunch outside the office adds at most 2000 steps&lt;/li&gt;
-&lt;li&gt;Doing 10000 steps a day is equivalent to a 1.5 hour walk a day for me&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Due to the consistency of the measurements and me now knowing my metrics, I am mostly using the tracker as a watch now.
-In fact, I only need to know how much time I spent covering a distance to deduct the steps and kilometers done.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>The Truth is in the Log</title>
-      <link>https://oliz.io/blog/2018/the_truth_is_the_log.html</link>
-      <pubDate>Thu, 22 Feb 2018 02:38:59 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/the_truth_is_the_log.html</guid>
+      <title>Just English Things</title>
+      <link>https://oliz.io/blog/2016/english-things.html</link>
+      <pubDate>Sun, 24 Apr 2016 00:27:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2016/english-things.html</guid>
       <description>&lt;blockquote&gt;
-&lt;p&gt;"The truth is the log. The database is a cache of a subset of the log."&lt;/p&gt;
+&lt;p&gt;Yes, English can be weird.
+It can be understood through tough thorough thought, though.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Source: Pat Helland, Immutability Changes Everything, 2015&lt;/p&gt;</description>
+&lt;p&gt;Source: &lt;a href="https://twitter.com/olamy/status/723732629674041345"&gt;https://twitter.com/olamy/status/723732629674041345&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How TED Talks Work</title>
+      <link>https://oliz.io/blog/2016/how-ted-talks-work.html</link>
+      <pubDate>Tue, 20 Sep 2016 00:34:17 +0000</pubDate>
+      <guid>https://oliz.io/blog/2016/how-ted-talks-work.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Dr._Fox_effect"&gt;https://en.wikipedia.org/wiki/Dr._Fox_effect&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Via: &lt;a href="https://twitter.com/mr_scientism/status/777938499999830017"&gt;https://twitter.com/mr_scientism/status/777938499999830017&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>K. Reitz: &amp;quot;Attention is the only currency we have in life. Thanks for gifting me yours.&amp;quot;</title>
+      <link>https://oliz.io/blog/2016/kenneth-reitz-attention.html</link>
+      <pubDate>Sat, 02 Apr 2016 13:37:48 +0000</pubDate>
+      <guid>https://oliz.io/blog/2016/kenneth-reitz-attention.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lean: OSS Theorem Prover</title>
+      <link>https://oliz.io/blog/2016/lean-theorem-prover.html</link>
+      <pubDate>Mon, 22 Aug 2016 13:37:37 +0000</pubDate>
+      <guid>https://oliz.io/blog/2016/lean-theorem-prover.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://leanprover.github.io/about/"&gt;https://leanprover.github.io/about/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Brackets, Parentheses, Braces</title>
+      <link>https://oliz.io/blog/2017/brackets-parentheses-braces.html</link>
+      <pubDate>Mon, 06 Nov 2017 21:09:22 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/brackets-parentheses-braces.html</guid>
+      <description>&lt;pre class="highlight"&gt;&lt;code&gt;[] brackets (US), square brackets
+() parentheses, brackets (non-US English), round brackets
+&amp;lt;&amp;gt; angle brackets
+{} curly braces (US), curly brackets&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Parenthesis is the singular of parentheses (short: parens)! ;)&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href="https://twitter.com/gfixler/status/926950212760870913"&gt;https://twitter.com/gfixler/status/926950212760870913&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bracket"&gt;https://en.wikipedia.org/wiki/Bracket&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building Pokemon from 15 to 18 Euro Lego Sets</title>
+      <link>https://oliz.io/blog/2017/building-pokemon-from-15-euro-sets.html</link>
+      <pubDate>Sun, 08 Jan 2017 23:44:24 +0100</pubDate>
+      <guid>https://oliz.io/blog/2017/building-pokemon-from-15-euro-sets.html</guid>
+      <description>&lt;p&gt;In late 2016 I bought the Lego set "Red Creatures", which sadly is not available anymore.
+I always liked dragons, so I had to get and build it.&lt;/p&gt;
+&lt;p&gt;Wandering around in the Lego store I wondered why there is no Pokemon Lego yet.
+I mean they have made so many deals: Star Wars, Minecraft, Marvel, DC, ... and Pokemon is still targeted mostly at children. So why not join forces?&lt;/p&gt;
+&lt;p&gt;Anyway, back in 1999 I had built a Blastoise and a Pikachu from simple bricks.
+Sadly I did not have any camera at that time (not counting the 14336 pixel (!) Game Boy Camera) to record my achievement.&lt;/p&gt;
+&lt;p&gt;So I had this 15 € "Red Creatures" set, another 15 € set with a dog and a duck (lots of joint and hinge elements - I love those!)
+But it was not until I bought the relatively new green dinosaur set, I certified just by looking at the box: Yep, this should make a really nice &lt;strong&gt;Venusaur&lt;/strong&gt; (ger.: Bisaflor)! And this time I have a smartphone camera:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Venusaur" src="lego_bisaflor.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Real Venusaur" src="http://www.pokewiki.de/images/1/19/Sugimori_003.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="http://www.pokewiki.de/Datei:Sugimori_003.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
+&lt;p&gt;Close enough! Overall it was straight-forward to build and I had lots of fun!
+By the way, this is the package of the original set:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Dinosaur" src="/blog/ext_img/2017/lego_dinosaur.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="https://shop.lego.com/de-DE/Dinosaurier-31058"&gt;Source of the screenshot&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
+&lt;p&gt;Highly motivated I had to build my all-time favorite: &lt;strong&gt;Charizard&lt;/strong&gt; (ger.: Glurak)!
+I kept the trunk from the "Red Creatures" model, removed the black spikes made from design elements, reduced the head size and simplified legs, arms, tail as well as wings. In my opinion this is even a better, more play-able dragon than the original model (the original wings are way too complicated and hinder you when you actually want to &lt;em&gt;use&lt;/em&gt; the model).
+This is the result:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Charizard" src="lego_glurak.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Real Charizard" src="http://www.pokewiki.de/images/9/96/Sugimori_006.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="http://www.pokewiki.de/Datei:Sugimori_006.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FEUER! YEAH!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;(The original set again, just for reference:)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Red Creatures" src="/blog/ext_img/2017/lego_rote_kreaturen.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="https://shop.lego.com/de-DE/Rote-Kreaturen-31032"&gt;Source of the screenshot&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
+&lt;p&gt;The next day I was on a mission: Find a set to build the third starter Pokemon, &lt;strong&gt;Blastoise&lt;/strong&gt; (ger.: Turtok)!
+So I looked for more cheap 3-in-1 Lego sets containing some blue bricks. There it was:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Robot" src="/blog/ext_img/2017/lego_robot.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="https://shop.lego.com/de-DE/Forschungsroboter-31062"&gt;Source of the screenshot&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
+&lt;p&gt;Just looking at the set, I knew it would be a challenge to build Blastoise. The more so, I was pleased with the result:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Blastoise" src="lego_turtok.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;But it has most features of the real Blastoise like movable cannons!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Real Blastoise" src="http://www.pokewiki.de/images/9/9a/Sugimori_009.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="http://www.pokewiki.de/Datei:Sugimori_009.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
+&lt;p&gt;Being in a flow state I created another Pokemon: &lt;strong&gt;Pidgeot&lt;/strong&gt; (ger.: Tauboss)!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Real Pidgeot" src="http://pokewiki.de/images/2/23/Sugimori_018.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="http://pokewiki.de/Datei:Sugimori_018.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Pidgeot" src="lego_tauboss.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;From this set:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Park Animals" src="/blog/ext_img/2017/lego_park_animals.png" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="https://www.lego.com/de-de/creator/products/park-animals-31044"&gt;Source&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
+&lt;p&gt;Technically one should be able to build any brown-whitish Pokemon from this set.
+Feel free to email me or drop a comment, if you have any ideas or suggestions!&lt;/p&gt;
+&lt;h2 id="what-to-take-home"&gt;What to Take Home&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;So why should anyone bother building Pokemon?&lt;/em&gt;&lt;br /&gt;
+Well, this "exercise" could be seen as a training for the following skills:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation + estimation&lt;/strong&gt;&lt;br /&gt;
+Look at a package and try to guess which Pokemon you can build&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Staying within budget / limits&lt;/strong&gt;&lt;br /&gt;
+You can only use the bricks being part of one less-than-20-€-set&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abstraction + reduction&lt;/strong&gt;&lt;br /&gt;
+Extract the essential features of a Pokemon and translate them to the Lego design&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Convert curl commands to Python, JavaScript fetch, Go, PHP and more</title>
+      <link>https://oliz.io/blog/2017/convert-curl-commands.html</link>
+      <pubDate>Sun, 17 Sep 2017 21:29:19 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/convert-curl-commands.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://curl.trillworks.com"&gt;https://curl.trillworks.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hello World, Hello New Blog!</title>
+      <link>https://oliz.io/blog/2017/hello.html</link>
+      <pubDate>Sat, 07 Jan 2017 13:37:42 +0100</pubDate>
+      <guid>https://oliz.io/blog/2017/hello.html</guid>
+      <description>&lt;p&gt;I'm Oliver and this is my personal blog about:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt; &lt;br /&gt;
+    It's sometimes in the name. Also it is the only resource there is and we are chronically out of it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Life&lt;/strong&gt; &lt;br /&gt;
+    Tied closely to 1.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt; &lt;br /&gt;
+    What I like, what I dislike, what I learned. This will probably involve some Lego.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Technology and Software Engineering&lt;/strong&gt; &lt;br /&gt;
+    That is what I do for a living.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zen&lt;/strong&gt; &lt;br /&gt;
+    Starts with Z, too.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This post will serve me as a reference, so expect to see weird things below this line:&lt;/p&gt;
+&lt;hr /&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tables&lt;/th&gt;
+&lt;th&gt;work&lt;/th&gt;
+&lt;th align="right"&gt;just&lt;/th&gt;
+&lt;th&gt;fine&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;for&lt;/td&gt;
+&lt;td&gt;real&lt;/td&gt;
+&lt;td align="right"&gt;yep&lt;/td&gt;
+&lt;td&gt;yeah.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-python"&gt;def python():
+    return "does as well!"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Let there be...&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;another
+code
+block
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Various &lt;code&gt;inline&lt;/code&gt; &lt;em&gt;highlighting&lt;/em&gt; &lt;strong&gt;works&lt;/strong&gt; &lt;del&gt;too&lt;/del&gt;!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is so smart.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Checklists&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; work!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Images with alt work!" src="/blog/static/owl.png" /&gt;&lt;/p&gt;
+&lt;h2 id="markdown-extensions"&gt;Markdown Extensions&lt;/h2&gt;
+&lt;dl&gt;
+&lt;dt&gt;Definition List&lt;/dt&gt;
+&lt;dd&gt;is defined here.&lt;/dd&gt;
+&lt;dt&gt;Other List&lt;/dt&gt;
+&lt;dd&gt;is defined here.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h2 id="abbreviations"&gt;Abbreviations&lt;/h2&gt;
+&lt;p&gt;&lt;abbr title="Hyper Text Markup Language"&gt;HTML&lt;/abbr&gt;&lt;/p&gt;
+&lt;h2 id="footnotes1"&gt;Footnotes&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;Other footnote &lt;sup id="fnref:blub"&gt;&lt;a class="footnote-ref" href="#fn:blub"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;div class="footnote"&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id="fn:1"&gt;
+&lt;p&gt;First footnote&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id="fn:blub"&gt;
+&lt;p&gt;Blub footnote&amp;#160;&lt;a class="footnote-backref" href="#fnref:blub" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>The Joy of Lego as an Adult</title>
+      <link>https://oliz.io/blog/2017/joy-of-lego.html</link>
+      <pubDate>Sun, 08 Jan 2017 17:51:06 +0100</pubDate>
+      <guid>https://oliz.io/blog/2017/joy-of-lego.html</guid>
+      <description>&lt;p&gt;I think most people having access to Lego in their childhood can relate to this: At some point you have built it all, you get your first computer and suddenly you are wondering why you are still bringing this box of colorful bricks everytime you relocate.&lt;/p&gt;
+&lt;p&gt;In 2016 I bought my first Lego set after a long hiatus. &lt;a href="https://shop.lego.com/de-DE/WALL-E-21303"&gt;WALL-E&lt;/a&gt; set me back 50 € (and another 50 € for the motors - yes, I was ambitious).
+They say you should rather invest in experiences instead of &lt;a href="https://www.youtube.com/watch?v=MvgN5gCuLac"&gt;stuff&lt;/a&gt;. I wholeheartedly agree!
+Those 50 € did not buy me a box of bricks. They bought me 1.5 hours of pure joy: How the rounded pieces fit into the square ones, how vertical accents spanned multiple horizontal layers, how rubber parts interact with ABS plastic, how known bricks locked with new design elements etc.&lt;/p&gt;
+&lt;p&gt;Eventually I bought other sets, completely redesigned the rear of my WALL-E to support a "battery backpack" alongside motors and the infrared control, created a tablet/smartphone stand, envisioned a drone carrier from simple design bricks, built multiple Pokemon within the constraints of one set and enjoyed all the possibilities with the new design and joint/hinge elements.&lt;/p&gt;
+&lt;p&gt;In the next posts I will write about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="lego-architecture-studio2drone-carrier.html"&gt;the drone carrier and tablet/smartphone stand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="building-pokemon-from-15-euro-sets.html"&gt;my "Pokemon challenge"&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>So My Girlfriend Ordered Lego Architecture Studio...</title>
+      <link>https://oliz.io/blog/2017/lego-architecture-studio2drone-carrier.html</link>
+      <pubDate>Sun, 08 Jan 2017 22:57:58 +0100</pubDate>
+      <guid>https://oliz.io/blog/2017/lego-architecture-studio2drone-carrier.html</guid>
+      <description>&lt;p&gt;...and I could not resist building a drone carrier!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Lego Drone Carrier - Pew! Pew!" src="lego_drone_carrier.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;At first I was sceptical: The set is overpriced, yielding only white and transparent bricks, no special functional parts (e.g. joints/hinges) etc.&lt;/p&gt;
+&lt;p&gt;My better half ordered the set anyway and I found those limits inspiring. While she built a house, I wanted something &lt;em&gt;practical&lt;/em&gt;. Like a drone carrier for world domination, you know?&lt;/p&gt;
+&lt;p&gt;The bricks also make a nice tablet stand:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Tablet/smartphone stand made from Lego" src="lego_tablet_stand.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to assign the Logitech MX518 extra buttons under Ubuntu 16.04</title>
+      <link>https://oliz.io/blog/2017/mx518-ubuntu.html</link>
+      <pubDate>Sun, 05 Feb 2017 10:26:46 +0100</pubDate>
+      <guid>https://oliz.io/blog/2017/mx518-ubuntu.html</guid>
+      <description>&lt;p&gt;Once a while™ I like to play strategy or MMO games on PC.&lt;/p&gt;
+&lt;p&gt;Back in 2006 I bought the fantastic Logitech MX518 gaming mouse and have been using it ever since.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Logitech MX518 gaming mouse" src="https://images-na.ssl-images-amazon.com/images/I/91YmmYMH40L._SL1500_.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;(&lt;a href="https://www.amazon.com/Logitech-910-000616-MX518-Optical-Gaming/dp/B0015R8M7U"&gt;Image source: Amazon&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;As you can see in the picture the mouse sports extra buttons that are handy when assigned properly in games.
+This works just fine under Windows with the tools Logitech provides.
+Before Ubuntu switched to &lt;code&gt;systemd&lt;/code&gt; there was a tool named &lt;a href="https://launchpad.net/btnx"&gt;&lt;code&gt;btnx&lt;/code&gt;&lt;/a&gt; that enabled me to assign keyboard keys to mouse buttons.&lt;/p&gt;
+&lt;p&gt;It just worked!&lt;/p&gt;
+&lt;p&gt;With the adaption of &lt;code&gt;systemd&lt;/code&gt; in Ubuntu (16.04 was my first version with systemd, since I only use LTS versions), &lt;code&gt;btnx&lt;/code&gt; stopped working since it relied on &lt;code&gt;init.d&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;So here is how I got it to work with &lt;code&gt;systemd&lt;/code&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Install lomoco:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install lomoco&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configure lomoco and set the mouse resolution to 1200, otherwise the button reassignment is not possible:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo vim /etc/default/lomoco&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The resulting file should look like this:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;# Configuration file for lomoco
+# see `man lomoco` for details
+
+# Define which resolution should be used
+# Values:      800,400,1200,1600
+LOGITECH_MOUSE_RESOLUTION=1200
+
+# Whether to disable SmartScroll/Cruise Control. Defaults to yes if not set.
+# Values:      yes,no
+LOGITECH_MOUSE_DISABLE_CC=&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install the outdated packages &lt;a href="https://launchpad.net/btnx-config/"&gt;btnx-config&lt;/a&gt; and &lt;a href="https://launchpad.net/btnx"&gt;btnx&lt;/a&gt; (in this order).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restart Ubuntu.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create the btnx.service for systemd (I still think one of those files is redundant, I did not dive that deep into systemd yet):&lt;/p&gt;
+&lt;p&gt;Content of the btnx.service file:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;[Unit]
+Description=Btnx
+Documentation=https://ooz.github.io
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart=/usr/sbin/btnx
+PIDFile=/var/run/btnx.pid
+Restart=on-abort&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Place it at the following locations:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo cp btnx.service /etc/systemd/system/
+sudo cp btnx.service /etc/systemd/system/graphical.target.wants/&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Start the btnx.service:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo systemctl start btnx.service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can verify whether the service has launched with the following command:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;systemctl status btnx.service&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Launch btnx-config and configure your mouse!&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo btnx-config&lt;/code&gt;&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;"Detect mouse &amp;amp; buttons"&lt;/li&gt;
+&lt;li&gt;Press every mouse button once&lt;/li&gt;
+&lt;li&gt;Switch tab, select mouse button, enable keyboard overwrite, assign keyboard key to mouse button&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Restart Ubuntu and you are done!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Naming Schemes</title>
+      <link>https://oliz.io/blog/2017/naming-schemes.html</link>
+      <pubDate>Tue, 31 Oct 2017 21:22:07 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/naming-schemes.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;A good naming scheme is scalable, unique, and easy to remember. The purpose of these naming schemes is to name networked servers, wireless access points or client computers, but it can also be used to name projects, products, variables, streets, pets, kids, or any other project where unique names and rememberable names are required.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href="https://namingschemes.com"&gt;https://namingschemes.com&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Password Rules</title>
+      <link>https://oliz.io/blog/2017/password-rules.html</link>
+      <pubDate>Sun, 19 Mar 2017 00:39:24 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/password-rules.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://blog.codinghorror.com/password-rules-are-bullshit/"&gt;https://blog.codinghorror.com/password-rules-are-bullshit/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;TL;DR:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Minimum length&lt;/li&gt;
+&lt;li&gt;Reasonable maximum length&lt;/li&gt;
+&lt;li&gt;Be aware of Unicode&lt;/li&gt;
+&lt;li&gt;Think like a user&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;How to not do it: &lt;a href="https://twitter.com/AaronToponce/status/988761412464857088"&gt;https://twitter.com/AaronToponce/status/988761412464857088&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Anti-Patterns</title>
+      <link>https://oliz.io/blog/2017/python-anti-patterns.html</link>
+      <pubDate>Mon, 20 Nov 2017 21:03:08 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/python-anti-patterns.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://lignos.org/py_antipatterns/"&gt;https://lignos.org/py_antipatterns/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>High-performance Web Server for Rapid Development of Web Apps</title>
+      <link>https://oliz.io/blog/2017/rapid-asm-web-app-dev.html</link>
+      <pubDate>Tue, 18 Apr 2017 13:37:49 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/rapid-asm-web-app-dev.html</guid>
+      <description>&lt;p&gt;...in Assembler: &lt;a href="https://2ton.com.au/rwasa/"&gt;https://2ton.com.au/rwasa/&lt;/a&gt; ;)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Serverless in One Slide</title>
+      <link>https://oliz.io/blog/2017/serverless-in-one-slide.html</link>
+      <pubDate>Sat, 01 Apr 2017 00:06:33 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/serverless-in-one-slide.html</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;short running functions&lt;/li&gt;
+&lt;li&gt;compute containers&lt;/li&gt;
+&lt;li&gt;stateless&lt;/li&gt;
+&lt;li&gt;3rd-party managed&lt;/li&gt;
+&lt;li&gt;event-triggered&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Source: &lt;a href="https://twitter.com/coderbyheart/status/847522021990895621"&gt;https://twitter.com/coderbyheart/status/847522021990895621&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Survivorship Bias</title>
+      <link>https://oliz.io/blog/2017/survivorship-bias.html</link>
+      <pubDate>Sat, 03 Jun 2017 13:37:53 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/survivorship-bias.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Survivorship_bias#In_the_military"&gt;https://en.wikipedia.org/wiki/Survivorship_bias#In_the_military&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to configure Xmonad for Ubuntu</title>
+      <link>https://oliz.io/blog/2017/xmonad-ubuntu.html</link>
+      <pubDate>Sun, 02 Apr 2017 21:20:32 +0200</pubDate>
+      <guid>https://oliz.io/blog/2017/xmonad-ubuntu.html</guid>
+      <description>&lt;p&gt;In the last six months I must have set up my default Ubuntu 16.04 + Xmonad desktop environment on like four or more machines.
+The goal looks like this (I like to have the top bar for status and widgets):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ubuntu and Xmonad" src="ubuntu_xmonad.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Here is a small guide for future reference:&lt;/p&gt;
+&lt;h2 id="step-by-step-guide"&gt;Step-by-step Guide&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Install the Xmonad package:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install xmonad&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;At this point you can already select an Xmonad session at the login screen.
+But this is not recommended.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;So additionally you should install the &lt;a href="https://github.com/Gekkio/gnome-session-xmonad"&gt;&lt;code&gt;gnome-session-xmonad&lt;/code&gt; package&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo add-apt-repository ppa:gekkio/xmonad
+sudo apt-get update
+sudo apt-get install gnome-session-xmonad&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Configure Xmonad. The Xmonad configuration is written in Haskell. If you are uncertain or need something working to start from, you are free to take &lt;a href="https://github.com/ooz/olli/blob/master/.xmonad/xmonad.hs"&gt;my configuration&lt;/a&gt;. Place it here: &lt;code&gt;~/.xmonad/xmonad.hs&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Relog and choose the &lt;strong&gt;GNOME + XMonad&lt;/strong&gt; session at the login screen.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you dislike the bottom panel (like I do, see above screenshot), you can disable it with:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel']"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To redisplay it, execute:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel','bottom-panel']"&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Have fun!&lt;/p&gt;
+&lt;h2 id="update-2021-09-14"&gt;Update 2021-09-14&lt;/h2&gt;
+&lt;p&gt;The above guide also works for Ubuntu 18.04 and 20.04.
+However, for version 20.04 further tweaks are needed:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Fix layout switch (Super+Space):&lt;/p&gt;
+&lt;p&gt;The shortcut is claimed by GNOME and needs to be disabled in "Settings &amp;gt; Keyboard Shortcuts &amp;gt; Switch to next input source"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Remove the Terminal title bar:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;sudo apt install gnome-shell-extension-pixelsaver
+gnome-extensions enable pixel-saver@deadalnix.me
+gsettings set org.gnome.Terminal.Legacy.Settings headerbar false&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hide desktop icons:&lt;/p&gt;
+&lt;p&gt;Inspired by: &lt;a href="https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04&lt;/a&gt; (the keys however don't work for &lt;code&gt;GNOME + XMonad&lt;/code&gt; session). Correct key:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback.desktop show-icons false&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dark theme:&lt;/p&gt;
+&lt;p&gt;It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under &lt;code&gt;org.gnome.desktop.interface.gtk-theme&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Chromium snap context menu&lt;/p&gt;
+&lt;p&gt;For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
+The solution is to &lt;a href="https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag"&gt;disable hardware accerlation&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Crafting a Durable Personal Kanban Board</title>
+      <link>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</link>
+      <pubDate>Sun, 29 Oct 2017 00:40:20 +0200</pubDate>
+      <guid>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</guid>
+      <description>&lt;p&gt;One of my highlights at this year's &lt;a href="https://www.socrates-conference.de/"&gt;SoCraTes in Soltau&lt;/a&gt; was a session about Personal Kanban hosted by &lt;a href="https://twitter.com/rradczewski/"&gt;Raimo&lt;/a&gt; and &lt;a href="https://twitter.com/janernsting/"&gt;Jan&lt;/a&gt;.
+They shared their experiences, practises and highlighted the advantages of a physical board.
+We even got provided material to build our own Personal Kanban boards. Mine looked like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Opened Personal Kanban board from SoCraTes 2017" src="pkanban_paper_open.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Front cover of my Personal Kanban board from SoCraTes 2017" src="pkanban_paper_front.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;While it was really neat that you could start using it right away, I felt the need to have a more durable board to really start utilizing it.
+The solution was simple:&lt;/p&gt;
+&lt;h2 id="more-plastic"&gt;&lt;a href="https://youtu.be/7W33HRc1A6c?t=350"&gt;MORE PLASTIC!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;During the session I already had the idea, that my old plastic clipboard would be the perfect board material. The plastic is really smooth and sticky notes just, well, &lt;em&gt;stick&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This week I made it to a stationery shop in Hamburg and bought some more transparent and black clipboards:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Clipboard base material" src="pkanban_clipboards.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;With some skill, tools and the right amount of force you can remove the clipboard part:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plastic boards without clip" src="pkanban_remove_clip.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;It goes faster after the second bolt, since you know how much force you can apply without damaging the plastic board. Still I cracked one of the transparent boards slightly. Be careful!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Waste" src="pkanban_waste.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="tools-used"&gt;Tools used&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Used tools" src="pkanban_tools.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Adhesive tape" src="pkanban_krepp.jpg" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flat screwdriver to pry open the bolts&lt;/li&gt;
+&lt;li&gt;A strong pincer to destroy and remove the bolts&lt;/li&gt;
+&lt;li&gt;Adhesive tape to join 2 boards&lt;/li&gt;
+&lt;li&gt;Scissors to cut the tape&lt;/li&gt;
+&lt;li&gt;A ruler for drawing lines&lt;/li&gt;
+&lt;li&gt;Black / white permanent markers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="actually-composing-the-board"&gt;Actually composing the board&lt;/h2&gt;
+&lt;p&gt;The hard part is over, the rest is just joining and labeling the board.&lt;/p&gt;
+&lt;p&gt;If you put two of those boards back to back, you get a laptop-ish clamshell design. You need to keep a gap when joining the two boards, so they stay foldable:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mind the gap" src="pkanban_fold.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;After drawing the sections and labels:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_transparent_open.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="result"&gt;Result&lt;/h2&gt;
+&lt;p&gt;My girlfriend liked the board so much, I needed to craft an additional one:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_black_board_open.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Applying some stickers lying around (I do not like putting them on laptops):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Resulting Personal Kanban boards" src="pkanban_result.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Costs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Money: 9.60 € for 2 plastic clipboards, 4.30 € for a new adhesive tape reel, 7.50 € for the two (black + white) permanent markers. So ca. 30 € for two Personal Kanban boards, ca. 11 € per board if you consider the amount of tape / ink used.&lt;/li&gt;
+&lt;li&gt;Time: ca. 40 minutes for the transparent board with black permanent marker (incl. learning how to remove the board clips), ca. 1 hour for the black board with white permanent marker (be careful with the ink, it can get really messy!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, the best result is that I actually apply Personal Kanban now! :)&lt;/p&gt;</description>
     </item>
     <item>
       <title>C. Headlee: 10 ways to have a better conversation</title>
@@ -77,6 +511,300 @@ In fact, I only need to know how much time I spent covering a distance to deduct
 &lt;li&gt;Be brief!&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Always be prepared to be amazed!&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bad Code</title>
+      <link>https://oliz.io/blog/2018/bad-code.html</link>
+      <pubDate>Fri, 31 Aug 2018 17:04:02 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/bad-code.html</guid>
+      <description>&lt;p&gt;Today, I discovered three distinct cases of poorly written code in our team's code base. Each time it bothered me so much, that before improving, I checked the author of those lines: me, a year ago.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bullshit Definition</title>
+      <link>https://oliz.io/blog/2018/bullshit_definition.html</link>
+      <pubDate>Fri, 02 Feb 2018 03:59:23 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/bullshit_definition.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;The philosopher Harry Frankfurt at Princeton University defined bullshit as talk that has no relationship to the truth.
+Lying covers up the truth, while bullshit is empty, and bears no relationship to the truth.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Source: &lt;a href="https://aeon.co/ideas/how-to-fight-work-bullshit-and-keep-your-job-and-your-dignity"&gt;https://aeon.co/ideas/how-to-fight-work-bullshit-and-keep-your-job-and-your-dignity&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Code and Deploy on Android Using Termux</title>
+      <link>https://oliz.io/blog/2018/code-and-deploy-using-termux.html</link>
+      <pubDate>Fri, 17 Aug 2018 19:02:43 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/code-and-deploy-using-termux.html</guid>
+      <description>&lt;p&gt;Publishing online is a rather easy task nowadays: Open some webpage or app, write something, add a few pictures and click the publish button. Done!&lt;/p&gt;
+&lt;p&gt;This blog does not have a fancy web UI nor a mobile app for administration purposes. It is statically generated using &lt;a href="https://github.com/ooz/ggpy"&gt;gg.py&lt;/a&gt;, a Python program, and published on GitHub Pages.&lt;/p&gt;
+&lt;p&gt;So for me writing a blog post is not just writing, but also running Python programs, using git and deploying the result somewhere.&lt;/p&gt;
+&lt;p&gt;If I find a way to write my blog posts on a smartphone, I could in theory write plenty of other software on it as well, right?&lt;/p&gt;
+&lt;h2 id="enter-termux"&gt;Enter Termux&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://wiki.termux.com/wiki/Main_Page"&gt;Termux&lt;/a&gt; is an Android terminal emulator featuring bash, Unix commandline tools, ssh and an apt-like package manager (incl. vim, git, Python etc.)&lt;/p&gt;
+&lt;p&gt;After &lt;a href="https://wiki.termux.com/wiki/Touch_Keyboard"&gt;configuring the keyboard&lt;/a&gt; and &lt;a href="https://github.com/ooz/olli"&gt;downloading my dotfiles&lt;/a&gt;, writing a blog post in vim looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Screenshot of vim running inside Termux" src="termux-blog-post.png" /&gt;&lt;/p&gt;
+&lt;p&gt;The wiki also contains useful instructions on &lt;a href="https://wiki.termux.com/wiki/Internal_and_external_storage"&gt;how to access local files on your phone from inside Termux&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="peace-of-mind"&gt;Peace of mind&lt;/h2&gt;
+&lt;p&gt;Developing on a proper PC, with a proper keyboard is way faster and comfortable, of course.
+Knowing that I do not just have access to the Internet on a phone, but that I could also actively shape it, lets me travel more comfortably without worrying too much about bringing a laptop. :)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Communication Misunderstandings (K. Lorenz)</title>
+      <link>https://oliz.io/blog/2018/communication-misunderstandings.html</link>
+      <pubDate>Tue, 25 Sep 2018 02:37:04 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/communication-misunderstandings.html</guid>
+      <description>&lt;p&gt;Konrad Lorenz:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Thought is not said&lt;/li&gt;
+&lt;li&gt;Said is not heard&lt;/li&gt;
+&lt;li&gt;Heard is not understood&lt;/li&gt;
+&lt;li&gt;Understood is not agreed&lt;/li&gt;
+&lt;li&gt;Agreed is not done&lt;/li&gt;
+&lt;li&gt;Done is not continued&lt;/li&gt;
+&lt;li&gt;Continued is not valid for ever&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Dell Trackpoint Fix</title>
+      <link>https://oliz.io/blog/2018/dell_trackpoint_fix.html</link>
+      <pubDate>Fri, 02 Feb 2018 04:00:53 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/dell_trackpoint_fix.html</guid>
+      <description>&lt;p&gt;Alter Dell laptop trackpoint sensitivity under Linux:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;xinput list
+xinput list-props 13
+xinput set-prop 13 269 1.0
+xinput set-prop 13 269 0.8
+xinput set-prop 13 269 0.5
+xinput set-prop 13 269 0.1
+xinput set-prop 13 268 0.5
+xinput set-prop 13 268 0.9
+xinput list-props 13
+xinput set-prop 13 267 0.9
+xinput set-prop 13 267 0.1
+xinput set-prop 13 267 2.0
+xinput set-prop 13 268 2.0
+xinput set-prop 13 268 1.0
+xinput set-prop 13 269 0.05
+xinput set-prop 13 267 3.0
+xinput set-prop 13 267 5.0
+xinput set-prop 13 268 2.0
+xinput set-prop 13 268 1.5
+xinput set-prop 13 267 1.0
+xinput set-prop 13 267 2.0
+xinput set-prop 13 267 3.0
+xinput set-prop 13 267 4.0
+xinput set-prop 13 268 2.0
+xinput list-props 13
+xinput set-prop 13 267 2.5
+xinput set-prop 13 268 1.0
+xinput set-prop 13 269 12.5
+xinput set-prop 13 267 5.0
+xinput set-prop 13 267 7.0
+xinput set-prop 13 268 2.0
+xinput set-prop 13 267 10.0
+xinput set-prop 13 268 3.0
+xinput set-prop 13 268 5.0
+xinput set-prop 13 267 15.0
+xinput set-prop 13 267 12.0
+xinput set-prop 13 267 11.0
+
+# $ xinput list-props 13
+# Device 'AlpsPS/2 ALPS DualPoint Stick':
+#   Device Enabled (140):   1
+#   Coordinate Transformation Matrix (142): 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
+#   Device Accel Profile (266): 0
+#   Device Accel Constant Deceleration (267):   11.000000
+#   Device Accel Adaptive Deceleration (268):   5.000000
+#   Device Accel Velocity Scaling (269):    12.500000
+#   Device Product ID (261):    2, 8
+#   Device Node (262):  "/dev/input/event6"
+#   Evdev Axis Inversion (305): 0, 0
+#   Evdev Axes Swap (307):  0
+#   Axis Labels (308):  "Rel X" (150), "Rel Y" (151)
+#   Button Labels (309):    "Button Left" (143), "Button Middle" (144), "Button Right" (145), "Button Wheel Up" (146), "Button Wheel Down" (147), "Button Horiz Wheel Left" (148), "Button Horiz Wheel Right" (149)
+#   Evdev Scrolling Distance (310): 0, 0, 0
+#   Evdev Middle Button Emulation (311):    1
+#   Evdev Middle Button Timeout (312):  50
+#   Evdev Third Button Emulation (313): 0
+#   Evdev Third Button Emulation Timeout (314): 1000
+#   Evdev Third Button Emulation Button (315):  3
+#   Evdev Third Button Emulation Threshold (316):   20
+#   Evdev Wheel Emulation (317):    1
+#   Evdev Wheel Emulation Axes (318):   6, 7, 4, 5
+#   Evdev Wheel Emulation Inertia (319):    10
+#   Evdev Wheel Emulation Timeout (320):    200
+#   Evdev Wheel Emulation Button (321): 2
+#   Evdev Drag Lock Buttons (322):  0&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Firefox Address Bar Search</title>
+      <link>https://oliz.io/blog/2018/firefox-address-bar-search.html</link>
+      <pubDate>Tue, 01 May 2018 20:26:03 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/firefox-address-bar-search.html</guid>
+      <description>&lt;p&gt;In Firefox's addressbar, you can limit results by typing special characters before or after your term&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;^ for matches in your browsing history.
+* for matches in your bookmarks.
+% for matches in your currently open tabs.
+# for matches in page titles.
+@ for matches in web addresses.&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Copied from: &lt;a href="https://twitter.com/asadotzler/status/991061409839562752"&gt;https://twitter.com/asadotzler/status/991061409839562752&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>List gradle test execution order</title>
+      <link>https://oliz.io/blog/2018/gradle-test-execution-order.html</link>
+      <pubDate>Fri, 17 Aug 2018 02:53:42 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/gradle-test-execution-order.html</guid>
+      <description>&lt;pre class="highlight"&gt;&lt;code&gt;tasks.matching {it instanceof Test}.all {
+    testLogging.events = ["failed", "passed", "skipped"]
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Useful for finding tests that do not clean up properly!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>grep_rename.sh</title>
+      <link>https://oliz.io/blog/2018/grep_rename.html</link>
+      <pubDate>Fri, 02 Feb 2018 03:23:19 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/grep_rename.html</guid>
+      <description>&lt;pre class="highlight"&gt;&lt;code&gt;grep -rl 'old' ./ | xargs sed -i 's/old/new/g'&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Obstsalat</title>
+      <link>https://oliz.io/blog/2018/obstsalat.html</link>
+      <pubDate>Fri, 02 Feb 2018 02:13:04 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/obstsalat.html</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;Äpfel&lt;/li&gt;
+&lt;li&gt;Birnen&lt;/li&gt;
+&lt;li&gt;Orangen&lt;/li&gt;
+&lt;li&gt;Grapefruit&lt;/li&gt;
+&lt;li&gt;Pomelo&lt;/li&gt;
+&lt;li&gt;Chikoree&lt;/li&gt;
+&lt;li&gt;Walnüsse&lt;/li&gt;
+&lt;li&gt;Banane&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Plus:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2 Zitronen (Saft)&lt;/li&gt;
+&lt;li&gt;Zucker&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>The 25 Most Popular Icebreaker Questions</title>
+      <link>https://oliz.io/blog/2018/the-25-most-popular-icebreaker-questions.html</link>
+      <pubDate>Wed, 24 Jan 2018 20:39:03 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/the-25-most-popular-icebreaker-questions.html</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;What was your first job?&lt;/li&gt;
+&lt;li&gt;Have you ever met anyone famous?&lt;/li&gt;
+&lt;li&gt;What are you reading right now?&lt;/li&gt;
+&lt;li&gt;If you could pick up a new skill in an instant what would it be?&lt;/li&gt;
+&lt;li&gt;Who's someone you really admire?&lt;/li&gt;
+&lt;li&gt;Seen any good movies lately you'd recommend?&lt;/li&gt;
+&lt;li&gt;Got any favorite quotes?&lt;/li&gt;
+&lt;li&gt;Been pleasantly surprised by anything lately?&lt;/li&gt;
+&lt;li&gt;What was your favorite band 10 years ago?&lt;/li&gt;
+&lt;li&gt;What's your earliest memory?&lt;/li&gt;
+&lt;li&gt;Been anywhere recently for the first time?&lt;/li&gt;
+&lt;li&gt;What's your favorite family tradition?&lt;/li&gt;
+&lt;li&gt;Who had the most influence on you growing up?&lt;/li&gt;
+&lt;li&gt;What was the first thing you bought with your own money?&lt;/li&gt;
+&lt;li&gt;What's something you want to do in the next year that you've never done before?&lt;/li&gt;
+&lt;li&gt;Seen anything lately that made you smile?&lt;/li&gt;
+&lt;li&gt;What's your favorite place you've ever visited?&lt;/li&gt;
+&lt;li&gt;Have you had your 15 minutes of fame yet?&lt;/li&gt;
+&lt;li&gt;What's the best advice you've ever heard?&lt;/li&gt;
+&lt;li&gt;How do you like your eggs?&lt;/li&gt;
+&lt;li&gt;Do you have a favorite charity you wish more people knew about?&lt;/li&gt;
+&lt;li&gt;Got any phobias you'd like to break?&lt;/li&gt;
+&lt;li&gt;Have you returned anything you've purchased recently? Why?&lt;/li&gt;
+&lt;li&gt;Do you collect anything?&lt;/li&gt;
+&lt;li&gt;What's your favorite breakfast cereal?&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Source: &lt;a href="https://m.signalvnoise.com/the-25-most-popular-icebreaker-questions-based-on-four-years-of-data/"&gt;https://m.signalvnoise.com/the-25-most-popular-icebreaker-questions-based-on-four-years-of-data/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Prime Directive</title>
+      <link>https://oliz.io/blog/2018/the_prime_directive.html</link>
+      <pubDate>Mon, 12 Feb 2018 02:47:31 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/the_prime_directive.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Source: Norm Kerth, Project Retrospectives: A Handbook for Team Review&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Truth is in the Log</title>
+      <link>https://oliz.io/blog/2018/the_truth_is_the_log.html</link>
+      <pubDate>Thu, 22 Feb 2018 02:38:59 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/the_truth_is_the_log.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;"The truth is the log. The database is a cache of a subset of the log."&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Source: Pat Helland, Immutability Changes Everything, 2015&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Three Months With a Fitness Tracker</title>
+      <link>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</link>
+      <pubDate>Fri, 15 Jun 2018 18:00:23 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</guid>
+      <description>&lt;p&gt;In March I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
+Being interested only in my daily step count and the distance/steps covered on various routine routes, I did not use any of the advanced features like sleep tracking or anything else that required interaction with the Garmin cloud.
+Initializing the tracker required the creation of an account with my birthday (Jan 1st + accurate year 😉), height and mass.&lt;/p&gt;
+&lt;p&gt;Originally this blog post should have been called "One Month With a Fitness Tracker".
+In fact I was barely using the tracker after the first month. So here are the results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The tracker's measurement of distance was surprisingly accurate (to 10 meters, over the course of multiple 5 kilometer tracks), the step count/length was consistent between samples&lt;/li&gt;
+&lt;li&gt;As an office worker, going to the water dispenser or toilet is &lt;em&gt;not enough&lt;/em&gt; to get rid of the sedentary warning bar (for me around 400 steps seem to be required to get rid of the full bar)&lt;/li&gt;
+&lt;li&gt;Even on good (as in active) working days, I do not manage to cover 10000 steps (then the step count is within the 8000-9000 range)&lt;/li&gt;
+&lt;li&gt;Going to lunch outside the office adds at most 2000 steps&lt;/li&gt;
+&lt;li&gt;Doing 10000 steps a day is equivalent to a 1.5 hour walk a day for me&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Due to the consistency of the measurements and me now knowing my metrics, I am mostly using the tracker as a watch now.
+In fact, I only need to know how much time I spent covering a distance to deduct the steps and kilometers done.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Upgrading to Ubuntu 18.04</title>
+      <link>https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html</link>
+      <pubDate>Mon, 05 Nov 2018 23:08:49 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html</guid>
+      <description>&lt;p&gt;So far I upgraded three Ubuntu machines from 16.04 LTS to 18.04 LTS.
+Just my work laptop is left. A little checklist for future upgrades:&lt;/p&gt;
+&lt;h2 id="before-upgrading"&gt;Before upgrading&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cleanup unneeded packages to minimize the need to update&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="upgrade"&gt;Upgrade!&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Do the actual upgrade to Ubuntu 18.04:
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt update
+sudo do-release-upgrade&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Add PPA for &lt;a href="https://github.com/Gekkio/gnome-session-xmonad"&gt;Gnome + XMonad&lt;/a&gt; again:
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo add-apt-repository ppa:gekkio/xmonad
+sudo apt-get update
+sudo apt-get install gnome-session-xmonad&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Select &lt;code&gt;GNOME + XMonad&lt;/code&gt; session at login&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="polish"&gt;Polish&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Install Gnome tweak tool:
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install gnome-tweak-tool&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;gnome-tweaks&lt;/code&gt; to hide desktop icons (category by category, hiding all at once resets the wallpaper as well!)&lt;/li&gt;
+&lt;li&gt;Backup wineprefix under &lt;code&gt;~/.wine&lt;/code&gt;, let wine 3.0 initialize the default wineprefix again, e.g. by executing &lt;code&gt;winecfg&lt;/code&gt;. Then copy relevant programs back into the wineprefix&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Update: previously it was needed to adapt the Gnome configuration in regards to top/bottom panels.
+If this features ever surfaces again:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install &lt;code&gt;dconf-editor&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Go to entry &lt;code&gt;org &amp;gt; gnome &amp;gt; gnome-panel &amp;gt; layout&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For  key &lt;code&gt;toplevel-id-list&lt;/code&gt; remove &lt;code&gt;'bottom-panel'&lt;/code&gt; from list&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>TIL: User Story Mapping</title>
+      <link>https://oliz.io/blog/2018/user-story-mapping.html</link>
+      <pubDate>Thu, 04 Oct 2018 20:18:58 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/user-story-mapping.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://manifesto.co.uk/user-story-mapping/"&gt;https://manifesto.co.uk/user-story-mapping/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With the map dimensions being feature, process (user journey) and priority. Milestones are cut by priority, not by feature/process.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I Wrote yet Another Static Site Generator</title>
@@ -155,7 +883,6 @@ For the same reason contribution to another &lt;abbr title="Static Site Generato
 ├── ggpy           # A normal repository page
 ├── handshake
 ├── lifetime-clock&lt;/code&gt;&lt;/pre&gt;
-
 &lt;h2 id="open-ends"&gt;Open Ends&lt;/h2&gt;
 &lt;p&gt;Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
 Things I am still looking forward to:&lt;/p&gt;
@@ -170,262 +897,14 @@ The CSS framework, Markdown library and font selection were the biggest pain poi
 Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The 25 Most Popular Icebreaker Questions</title>
-      <link>https://oliz.io/blog/2018/the-25-most-popular-icebreaker-questions.html</link>
-      <pubDate>Wed, 24 Jan 2018 20:39:03 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/the-25-most-popular-icebreaker-questions.html</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;What was your first job?&lt;/li&gt;
-&lt;li&gt;Have you ever met anyone famous?&lt;/li&gt;
-&lt;li&gt;What are you reading right now?&lt;/li&gt;
-&lt;li&gt;If you could pick up a new skill in an instant what would it be?&lt;/li&gt;
-&lt;li&gt;Who's someone you really admire?&lt;/li&gt;
-&lt;li&gt;Seen any good movies lately you'd recommend?&lt;/li&gt;
-&lt;li&gt;Got any favorite quotes?&lt;/li&gt;
-&lt;li&gt;Been pleasantly surprised by anything lately?&lt;/li&gt;
-&lt;li&gt;What was your favorite band 10 years ago?&lt;/li&gt;
-&lt;li&gt;What's your earliest memory?&lt;/li&gt;
-&lt;li&gt;Been anywhere recently for the first time?&lt;/li&gt;
-&lt;li&gt;What's your favorite family tradition?&lt;/li&gt;
-&lt;li&gt;Who had the most influence on you growing up?&lt;/li&gt;
-&lt;li&gt;What was the first thing you bought with your own money?&lt;/li&gt;
-&lt;li&gt;What's something you want to do in the next year that you've never done before?&lt;/li&gt;
-&lt;li&gt;Seen anything lately that made you smile?&lt;/li&gt;
-&lt;li&gt;What's your favorite place you've ever visited?&lt;/li&gt;
-&lt;li&gt;Have you had your 15 minutes of fame yet?&lt;/li&gt;
-&lt;li&gt;What's the best advice you've ever heard?&lt;/li&gt;
-&lt;li&gt;How do you like your eggs?&lt;/li&gt;
-&lt;li&gt;Do you have a favorite charity you wish more people knew about?&lt;/li&gt;
-&lt;li&gt;Got any phobias you'd like to break?&lt;/li&gt;
-&lt;li&gt;Have you returned anything you've purchased recently? Why?&lt;/li&gt;
-&lt;li&gt;Do you collect anything?&lt;/li&gt;
-&lt;li&gt;What's your favorite breakfast cereal?&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Source: &lt;a href="https://m.signalvnoise.com/the-25-most-popular-icebreaker-questions-based-on-four-years-of-data/"&gt;https://m.signalvnoise.com/the-25-most-popular-icebreaker-questions-based-on-four-years-of-data/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Firefox Address Bar Search</title>
-      <link>https://oliz.io/blog/2018/firefox-address-bar-search.html</link>
-      <pubDate>Tue, 01 May 2018 20:26:03 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/firefox-address-bar-search.html</guid>
-      <description>&lt;p&gt;In Firefox's addressbar, you can limit results by typing special characters before or after your term&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;^ for matches in your browsing history.
-* for matches in your bookmarks.
-% for matches in your currently open tabs.
-# for matches in page titles.
-@ for matches in web addresses.&lt;/code&gt;&lt;/pre&gt;
+      <title>Smoother transitions between xmonad screens</title>
+      <link>https://oliz.io/blog/2018/xcompmgr_init.html</link>
+      <pubDate>Fri, 02 Feb 2018 02:44:21 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/xcompmgr_init.html</guid>
+      <description>&lt;p&gt;E.g. for presentations, &lt;code&gt;xcompmgr_init.sh&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;#!/bin/bash
 
-&lt;p&gt;Copied from: &lt;a href="https://twitter.com/asadotzler/status/991061409839562752"&gt;https://twitter.com/asadotzler/status/991061409839562752&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bullshit Definition</title>
-      <link>https://oliz.io/blog/2018/bullshit_definition.html</link>
-      <pubDate>Fri, 02 Feb 2018 03:59:23 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/bullshit_definition.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;The philosopher Harry Frankfurt at Princeton University defined bullshit as talk that has no relationship to the truth.
-Lying covers up the truth, while bullshit is empty, and bears no relationship to the truth.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Source: &lt;a href="https://aeon.co/ideas/how-to-fight-work-bullshit-and-keep-your-job-and-your-dignity"&gt;https://aeon.co/ideas/how-to-fight-work-bullshit-and-keep-your-job-and-your-dignity&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>grep_rename.sh</title>
-      <link>https://oliz.io/blog/2018/grep_rename.html</link>
-      <pubDate>Fri, 02 Feb 2018 03:23:19 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/grep_rename.html</guid>
-      <description>&lt;pre class="highlight"&gt;&lt;code&gt;grep -rl 'old' ./ | xargs sed -i 's/old/new/g'&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>List gradle test execution order</title>
-      <link>https://oliz.io/blog/2018/gradle-test-execution-order.html</link>
-      <pubDate>Fri, 17 Aug 2018 02:53:42 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/gradle-test-execution-order.html</guid>
-      <description>&lt;pre class="highlight"&gt;&lt;code&gt;tasks.matching {it instanceof Test}.all {
-    testLogging.events = ["failed", "passed", "skipped"]
-}&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Useful for finding tests that do not clean up properly!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Code and Deploy on Android Using Termux</title>
-      <link>https://oliz.io/blog/2018/code-and-deploy-using-termux.html</link>
-      <pubDate>Fri, 17 Aug 2018 19:02:43 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/code-and-deploy-using-termux.html</guid>
-      <description>&lt;p&gt;Publishing online is a rather easy task nowadays: Open some webpage or app, write something, add a few pictures and click the publish button. Done!&lt;/p&gt;
-&lt;p&gt;This blog does not have a fancy web UI nor a mobile app for administration purposes. It is statically generated using &lt;a href="https://github.com/ooz/ggpy"&gt;gg.py&lt;/a&gt;, a Python program, and published on GitHub Pages.&lt;/p&gt;
-&lt;p&gt;So for me writing a blog post is not just writing, but also running Python programs, using git and deploying the result somewhere.&lt;/p&gt;
-&lt;p&gt;If I find a way to write my blog posts on a smartphone, I could in theory write plenty of other software on it as well, right?&lt;/p&gt;
-&lt;h2 id="enter-termux"&gt;Enter Termux&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://wiki.termux.com/wiki/Main_Page"&gt;Termux&lt;/a&gt; is an Android terminal emulator featuring bash, Unix commandline tools, ssh and an apt-like package manager (incl. vim, git, Python etc.)&lt;/p&gt;
-&lt;p&gt;After &lt;a href="https://wiki.termux.com/wiki/Touch_Keyboard"&gt;configuring the keyboard&lt;/a&gt; and &lt;a href="https://github.com/ooz/olli"&gt;downloading my dotfiles&lt;/a&gt;, writing a blog post in vim looks like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Screenshot of vim running inside Termux" src="termux-blog-post.png" /&gt;&lt;/p&gt;
-&lt;p&gt;The wiki also contains useful instructions on &lt;a href="https://wiki.termux.com/wiki/Internal_and_external_storage"&gt;how to access local files on your phone from inside Termux&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="peace-of-mind"&gt;Peace of mind&lt;/h2&gt;
-&lt;p&gt;Developing on a proper PC, with a proper keyboard is way faster and comfortable, of course.
-Knowing that I do not just have access to the Internet on a phone, but that I could also actively shape it, lets me travel more comfortably without worrying too much about bringing a laptop. :)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Obstsalat</title>
-      <link>https://oliz.io/blog/2018/obstsalat.html</link>
-      <pubDate>Fri, 02 Feb 2018 02:13:04 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/obstsalat.html</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Äpfel&lt;/li&gt;
-&lt;li&gt;Birnen&lt;/li&gt;
-&lt;li&gt;Orangen&lt;/li&gt;
-&lt;li&gt;Grapefruit&lt;/li&gt;
-&lt;li&gt;Pomelo&lt;/li&gt;
-&lt;li&gt;Chikoree&lt;/li&gt;
-&lt;li&gt;Walnüsse&lt;/li&gt;
-&lt;li&gt;Banane&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Plus:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2 Zitronen (Saft)&lt;/li&gt;
-&lt;li&gt;Zucker&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>The Prime Directive</title>
-      <link>https://oliz.io/blog/2018/the_prime_directive.html</link>
-      <pubDate>Mon, 12 Feb 2018 02:47:31 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/the_prime_directive.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand."&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Source: Norm Kerth, Project Retrospectives: A Handbook for Team Review&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Dell Trackpoint Fix</title>
-      <link>https://oliz.io/blog/2018/dell_trackpoint_fix.html</link>
-      <pubDate>Fri, 02 Feb 2018 04:00:53 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/dell_trackpoint_fix.html</guid>
-      <description>&lt;p&gt;Alter Dell laptop trackpoint sensitivity under Linux:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;xinput list
-xinput list-props 13
-xinput set-prop 13 269 1.0
-xinput set-prop 13 269 0.8
-xinput set-prop 13 269 0.5
-xinput set-prop 13 269 0.1
-xinput set-prop 13 268 0.5
-xinput set-prop 13 268 0.9
-xinput list-props 13
-xinput set-prop 13 267 0.9
-xinput set-prop 13 267 0.1
-xinput set-prop 13 267 2.0
-xinput set-prop 13 268 2.0
-xinput set-prop 13 268 1.0
-xinput set-prop 13 269 0.05
-xinput set-prop 13 267 3.0
-xinput set-prop 13 267 5.0
-xinput set-prop 13 268 2.0
-xinput set-prop 13 268 1.5
-xinput set-prop 13 267 1.0
-xinput set-prop 13 267 2.0
-xinput set-prop 13 267 3.0
-xinput set-prop 13 267 4.0
-xinput set-prop 13 268 2.0
-xinput list-props 13
-xinput set-prop 13 267 2.5
-xinput set-prop 13 268 1.0
-xinput set-prop 13 269 12.5
-xinput set-prop 13 267 5.0
-xinput set-prop 13 267 7.0
-xinput set-prop 13 268 2.0
-xinput set-prop 13 267 10.0
-xinput set-prop 13 268 3.0
-xinput set-prop 13 268 5.0
-xinput set-prop 13 267 15.0
-xinput set-prop 13 267 12.0
-xinput set-prop 13 267 11.0
-
-# $ xinput list-props 13
-# Device 'AlpsPS/2 ALPS DualPoint Stick':
-#   Device Enabled (140):   1
-#   Coordinate Transformation Matrix (142): 1.000000, 0.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000, 0.000000, 1.000000
-#   Device Accel Profile (266): 0
-#   Device Accel Constant Deceleration (267):   11.000000
-#   Device Accel Adaptive Deceleration (268):   5.000000
-#   Device Accel Velocity Scaling (269):    12.500000
-#   Device Product ID (261):    2, 8
-#   Device Node (262):  "/dev/input/event6"
-#   Evdev Axis Inversion (305): 0, 0
-#   Evdev Axes Swap (307):  0
-#   Axis Labels (308):  "Rel X" (150), "Rel Y" (151)
-#   Button Labels (309):    "Button Left" (143), "Button Middle" (144), "Button Right" (145), "Button Wheel Up" (146), "Button Wheel Down" (147), "Button Horiz Wheel Left" (148), "Button Horiz Wheel Right" (149)
-#   Evdev Scrolling Distance (310): 0, 0, 0
-#   Evdev Middle Button Emulation (311):    1
-#   Evdev Middle Button Timeout (312):  50
-#   Evdev Third Button Emulation (313): 0
-#   Evdev Third Button Emulation Timeout (314): 1000
-#   Evdev Third Button Emulation Button (315):  3
-#   Evdev Third Button Emulation Threshold (316):   20
-#   Evdev Wheel Emulation (317):    1
-#   Evdev Wheel Emulation Axes (318):   6, 7, 4, 5
-#   Evdev Wheel Emulation Inertia (319):    10
-#   Evdev Wheel Emulation Timeout (320):    200
-#   Evdev Wheel Emulation Button (321): 2
-#   Evdev Drag Lock Buttons (322):  0&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>Upgrading to Ubuntu 18.04</title>
-      <link>https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html</link>
-      <pubDate>Mon, 05 Nov 2018 23:08:49 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/upgrading-to-ubuntu-1804.html</guid>
-      <description>&lt;p&gt;So far I upgraded three Ubuntu machines from 16.04 LTS to 18.04 LTS.
-Just my work laptop is left. A little checklist for future upgrades:&lt;/p&gt;
-&lt;h2 id="before-upgrading"&gt;Before upgrading&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Cleanup unneeded packages to minimize the need to update&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="upgrade"&gt;Upgrade!&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Do the actual upgrade to Ubuntu 18.04:
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt update
-sudo do-release-upgrade&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Add PPA for &lt;a href="https://github.com/Gekkio/gnome-session-xmonad"&gt;Gnome + XMonad&lt;/a&gt; again:
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo add-apt-repository ppa:gekkio/xmonad
-sudo apt-get update
-sudo apt-get install gnome-session-xmonad&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Select &lt;code&gt;GNOME + XMonad&lt;/code&gt; session at login&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="polish"&gt;Polish&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Install Gnome tweak tool:
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install gnome-tweak-tool&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Use &lt;code&gt;gnome-tweaks&lt;/code&gt; to hide desktop icons (category by category, hiding all at once resets the wallpaper as well!)&lt;/li&gt;
-&lt;li&gt;Backup wineprefix under &lt;code&gt;~/.wine&lt;/code&gt;, let wine 3.0 initialize the default wineprefix again, e.g. by executing &lt;code&gt;winecfg&lt;/code&gt;. Then copy relevant programs back into the wineprefix&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Update: previously it was needed to adapt the Gnome configuration in regards to top/bottom panels.
-If this features ever surfaces again:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install &lt;code&gt;dconf-editor&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Go to entry &lt;code&gt;org &amp;gt; gnome &amp;gt; gnome-panel &amp;gt; layout&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;For  key &lt;code&gt;toplevel-id-list&lt;/code&gt; remove &lt;code&gt;'bottom-panel'&lt;/code&gt; from list&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Bad Code</title>
-      <link>https://oliz.io/blog/2018/bad-code.html</link>
-      <pubDate>Fri, 31 Aug 2018 17:04:02 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/bad-code.html</guid>
-      <description>&lt;p&gt;Today, I discovered three distinct cases of poorly written code in our team's code base. Each time it bothered me so much, that before improving, I checked the author of those lines: me, a year ago.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Communication Misunderstandings (K. Lorenz)</title>
-      <link>https://oliz.io/blog/2018/communication-misunderstandings.html</link>
-      <pubDate>Tue, 25 Sep 2018 02:37:04 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/communication-misunderstandings.html</guid>
-      <description>&lt;p&gt;Konrad Lorenz:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Thought is not said&lt;/li&gt;
-&lt;li&gt;Said is not heard&lt;/li&gt;
-&lt;li&gt;Heard is not understood&lt;/li&gt;
-&lt;li&gt;Understood is not agreed&lt;/li&gt;
-&lt;li&gt;Agreed is not done&lt;/li&gt;
-&lt;li&gt;Done is not continued&lt;/li&gt;
-&lt;li&gt;Continued is not valid for ever&lt;/li&gt;
-&lt;/ul&gt;</description>
+xcompmgr -f -C -n -D 3&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>My Interview Checklist</title>
@@ -518,14 +997,327 @@ I intend to use this from both sides of the table: when I am the interviewee and
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Makefile Hacks</title>
-      <link>https://oliz.io/blog/2021/makefile-hacks.html</link>
-      <pubDate>Sun, 17 Oct 2021 02:40:13 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/makefile-hacks.html</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://blog.melski.net/2010/11/30/makefile-hacks-print-the-value-of-any-variable/"&gt;Makefile variable debugging&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/"&gt;Self-documenting Makefile&lt;/a&gt; (&lt;a href="https://github.com/ooz/ggpy/blob/master/Makefile"&gt;example&lt;/a&gt;)&lt;/li&gt;
+      <title>Post-mortem: Global Game Jam 2019</title>
+      <link>https://oliz.io/blog/2019/ggj19-post-mortem.html</link>
+      <pubDate>Sun, 17 Feb 2019 22:24:09 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/ggj19-post-mortem.html</guid>
+      <description>&lt;p&gt;This year's &lt;a href="https://globalgamejam.org/2019/games/home-48"&gt;Global Game Jam (GGJ)&lt;/a&gt; marked my fifth attendance in a row and was both my most refreshing and challenging jam so far.&lt;/p&gt;
+&lt;h2 id="what-home-means-to-you"&gt;"what home means to you"&lt;/h2&gt;
+&lt;p&gt;The theme did not resonate with me.
+The irony that I am on vacation, in my home town, on a weekend, participating in a GGJ, while my girlfriend waits at home, bogged my mind.&lt;/p&gt;
+&lt;p&gt;I had gameplay ideas, none of which seemed right considering the previous.
+As a result I ditched my ideas and started from scratch. Already 17 hours into the jam.&lt;/p&gt;
+&lt;h2 id="home-is"&gt;home is&lt;/h2&gt;
+&lt;p&gt;Instead I followed the advice of the first pair of keynote speakers to create a game that tries to invoke everyday or unusual feelings.&lt;/p&gt;
+&lt;p&gt;I have spent ca. 16 hours working on the game, 24 out of the 48 jam hours I spent at home with my girlfriend.
+I consider this a great on-topic success! :)&lt;/p&gt;
+&lt;p&gt;Lessons learned to still deliver on time:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Phaser.js and GitHub Pages are still a winning combo for game jams!&lt;/strong&gt; I reused my &lt;a href="https://github.com/ooz/handshake"&gt;template from last year&lt;/a&gt;. Creating a game that runs in the browser also makes it really easy to do slight changes after game submission.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plan!&lt;/strong&gt; I made exactly two paper sketches: 1. A list of all the 12 scenes and their respective topics. 2. A matrix of all assets I needed to create.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cut, then cut some more! Reuse like it is a triple-A game!&lt;/strong&gt; The asset matrix really helped here to show opportunities for reuse across scenes and cut assets that are not needed to convey the message. Unfortunately, this also meant skipping all sound (effects), which is usually great fun to create with fellow jammers.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focus on the story, keep gameplay minimal!&lt;/strong&gt; Adding more gameplay would have required way more iteration.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Meta: This post was conceived on a paper notebook, then typed on a phone. All while on a train. The process was really refreshing and helped focusing on the content.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Not Buying Things Like a Pro</title>
+      <link>https://oliz.io/blog/2019/not-buying-things-like-a-pro.html</link>
+      <pubDate>Mon, 18 Feb 2019 10:24:42 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/not-buying-things-like-a-pro.html</guid>
+      <description>&lt;p&gt;Anytime I catch myself not buying things, I put the money I was already willing to spend in a savings account. Requires introspection and discipline, though.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Originally posted on Twitter in reply to &lt;a href="https://twitter.com/farbodsaraf/status/1097239350759297030"&gt;Farbod Saraf&lt;/a&gt;:&lt;/em&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Life lesson:&lt;/p&gt;
+&lt;p&gt;"If something cost $1,000, and it is on sale for $750, and then you decide to buy it, you did not save $250. You spent $750."&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Softwerkskammmer Leipzig: Clean Code Session &amp;quot;TDD&amp;quot;</title>
+      <link>https://oliz.io/blog/2019/swk-leipzig-clean-code-tdd-retro.html</link>
+      <pubDate>Sun, 22 Sep 2019 23:57:48 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/swk-leipzig-clean-code-tdd-retro.html</guid>
+      <description>&lt;p&gt;A little recap of what I learned/refreshed at the &lt;a href="https://www.meetup.com/de-DE/Softwerkskammer-Leipzig/events/264030290/"&gt;Softwerkskammer Leipzig meetup&lt;/a&gt;. We watched &lt;a href="https://cleancoders.com/video-details/clean-code-episode-6-p1"&gt;Robert "Uncle Bob" Martin's Clean Code Episode 6 Part 1&lt;/a&gt; and &lt;a href="https://cleancoders.com/video-details/clean-code-episode-6-p2"&gt;part 2&lt;/a&gt;. Quotes by R. Martin if not noted otherwise:&lt;/p&gt;
+&lt;h2 id="programming-wisdom"&gt;Programming wisdom&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Classes protect us from new types, data structures protect us from new functions&lt;/p&gt;
+&lt;p&gt;High debugging skill correlates with low productivity&lt;/p&gt;
+&lt;p&gt;Another word for testable is decoupled&lt;/p&gt;
+&lt;p&gt;TDD is a prerequisite for professionalism&lt;/p&gt;
+&lt;p&gt;Legacy code is code without tests (by Michael Feathers)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="refactoring-techniques"&gt;Refactoring techniques&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inline local/private functions before refactoring&lt;/li&gt;
+&lt;li&gt;Extract code into inner class (quite commonly used by Uncle Bob)&lt;/li&gt;
+&lt;li&gt;Do not use &lt;code&gt;StringBuffer&lt;/code&gt; in modern Java, the compiler is smart enough&lt;/li&gt;
+&lt;li&gt;Multiply &lt;code&gt;if&lt;/code&gt;-statements&lt;/li&gt;
+&lt;li&gt;Parametric loops&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="general-education"&gt;General education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Theories how the moon came to be&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/Ignaz_Semmelweis"&gt;Ignaz Semmelweis&lt;/a&gt; not profiting from his &lt;a href="https://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html"&gt;radical novelty&lt;/a&gt; of hand washing during his lifetime&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Discipline are pre-made decisions&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>J. Langr on Twitter: Top IntelliJ IDEA refactoring keys</title>
+      <link>https://oliz.io/blog/2019/top-intellij-idea-refactoring-shortcuts.html</link>
+      <pubDate>Sun, 15 Dec 2019 14:15:49 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/top-intellij-idea-refactoring-shortcuts.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://twitter.com/jlangr/status/1204482861845250048"&gt;Jeff Langr&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;top IntelliJ IDEA refactoring keys:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;extract Method: Cmd-Alt-M&lt;/li&gt;
+&lt;li&gt;extract Variable: Cmd-Alt-V&lt;/li&gt;
+&lt;li&gt;iNline: Cmd-Alt-N&lt;/li&gt;
+&lt;li&gt;rename: Sh-F6&lt;/li&gt;
+&lt;li&gt;move method:  F6&lt;/li&gt;
+&lt;li&gt;change sig: Cmd-F6&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These 6 operations represent &amp;gt;80% of your minute-to-minute transforms. Ingrain them! (And don't forget Alt-Enter.)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    <item>
+      <title>Today I Created my First Lego Instruction</title>
+      <link>https://oliz.io/blog/2019/first-lego-instruction/</link>
+      <pubDate>Sun, 14 Apr 2019 10:06:48 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/first-lego-instruction/</guid>
+      <description>&lt;p&gt;"The Mosquito": &lt;a href="https://oliz.io/mocs/spaceships/the-mosquito/"&gt;https://oliz.io/mocs/spaceships/the-mosquito/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I have 4-5 more spaceships/rockets to be digitalized, freeing up bricks.
+&lt;a href="https://www.bricklink.com/v3/studio/download.page"&gt;BrickLink Studio&lt;/a&gt; is an amazing tool -- unfortunately, I did not even have a camera as a child... :D&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards</title>
+      <link>https://oliz.io/blog/2019/fixing-middle-trackpoint-button/</link>
+      <pubDate>Sun, 24 Feb 2019 21:00:02 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/fixing-middle-trackpoint-button/</guid>
+      <description>&lt;p&gt;So far, I worked with two ThinkPads:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;T410, bought new in 2010. I replaced HDD/SSD, RAM, fan and keyboard.&lt;/li&gt;
+&lt;li&gt;X220, bought refurbished in 2016 with an IPS screen. I cleaned it thoroughly, swapped SSD, RAM and keyboard.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The hardware is still suitable for modern-day software development work and I have yet to find a better typing experience on a laptop keyboard!&lt;/p&gt;
+&lt;p&gt;Some time ago, I broke one bolt keeping the middle trackpoint button of the X220 keyboard in place. This resulted in an unpleasant scrolling experience.&lt;/p&gt;
+&lt;p&gt;When trying to remove the button to further investigate and fix the issue (no repair manual was consulted ☹), I broke the other bolt.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Middle trackpoint button hinges" src="middle_trackpoint_button.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="isolation-tape-to-the-rescue"&gt;Isolation tape to the rescue!&lt;/h2&gt;
+&lt;p&gt;The solution was straightforward:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Push the hooks into the hook catchers, ensure the button rubber does not dislocate&lt;/li&gt;
+&lt;li&gt;Cut a strip of isolation tape in half&lt;/li&gt;
+&lt;li&gt;Attach the tape to the button and wrap it around to the backside of the keyboard, firmly&lt;/li&gt;
+&lt;li&gt;Use the second half to secure the first half below the keyboard&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The result:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Final result" src="result.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;MacGyver score: &lt;strong&gt;6 out of 10&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Swiss Army Knife was used to (un-)screw the keyboard&lt;/li&gt;
+&lt;li&gt;Tape fixed the issue&lt;/li&gt;
+&lt;li&gt;Bubble gum was only chewed, not applied&lt;/li&gt;
+&lt;li&gt;No evil plan was spoiled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;☺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Fact Checks</title>
+      <link>https://oliz.io/blog/2020/on-fact-checks.html</link>
+      <pubDate>Thu, 01 Oct 2020 17:30:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/on-fact-checks.html</guid>
+      <description>&lt;p&gt;Isn't it ironic after decades of framing and "appeal to emotion" by media and PR, those techniques are now so universally used that the same organisations losing control are urged to provide "fact checks"? 😅&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Software Minimalism</title>
+      <link>https://oliz.io/blog/2020/on-software-minimalism.html</link>
+      <pubDate>Mon, 15 Jun 2020 22:27:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/on-software-minimalism.html</guid>
+      <description>&lt;p&gt;Recently, I iterated on &lt;a href="https://ooz.github.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt; again, which ultimately led to the age-old question:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why (re-inventing the wheel)?&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="minimal-software"&gt;Minimal Software&lt;/h2&gt;
+&lt;p&gt;I like the idea of minimal software, just the amount of software needed to solve a problem, to fulfill a need. Typical characteristics of minimal software are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://suckless.org/philosophy/"&gt;Simple, elegant, usable, focused, reasonable and attainable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Easier to understand&lt;/li&gt;
+&lt;li&gt;Less prone to errors&lt;/li&gt;
+&lt;li&gt;Less need for maintenance&lt;/li&gt;
+&lt;li&gt;Less code (maybe)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I acknowledge that &lt;code&gt;gg.py&lt;/code&gt; could have also been realized in shell using the &lt;a href="https://busybox.net/"&gt;BusyBox set of UNIX utilities&lt;/a&gt;.
+Regardless, I enjoy working with Python and having a pet project keeps my language skills and tool chain sharp.
+Software minimalism followed to the extreme would consider Python and anything written in it as "bloat" and not minimal. On a second look, the above traits of minimal software seem to be rather &lt;em&gt;means goals&lt;/em&gt; than end goals. Extrapolated, I see one over-arching objective:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To spend less time with software!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="standard-software-and-innovation"&gt;Standard Software and Innovation&lt;/h2&gt;
+&lt;p&gt;Spending less time with software frees you up to spend more time outside, off the computer, with friends and family. Or to focus on the business side of things. Shell one-liners and clever single-file programs may be one approach, but for plenty of people the use of &lt;em&gt;standard software&lt;/em&gt; is exactly that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The majority of people use it&lt;/li&gt;
+&lt;li&gt;The majority of people has good-enough understanding of its benefits and constraints&lt;/li&gt;
+&lt;li&gt;Someone else develops, maintains and supports it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
+One downside of using standard software is the loss of competitive advantage stemming from superior tools and craft. Then, &lt;a href="http://www.paulgraham.com/avg.html"&gt;beating the averages&lt;/a&gt; and innovation are not a matter of technology, but of appropriate and repeated creative application valuing the zeitgeist.&lt;/p&gt;
+&lt;h2 id="in-perspective"&gt;In Perspective&lt;/h2&gt;
+&lt;p&gt;This cannot be an argument for minimal, custom-built software, nor standard software. Neither seems to grant an advantage inherently, so a healthy dose of pragmatism is required when developing or utilizing software in a competitive space.
+Shifting the point of view, someone's minimal software might be someone else's standard software (e.g. UNIX utilities leveraged by an advanced user) and someone's standard software might be considered "overkill" by minimalists (e.g. WYSIWYG word processors for writing plain text).
+At the end of the day, users minding their respective computer skills could still all agree that their preferred software tool enables them &lt;em&gt;to spend less time&lt;/em&gt; with the computer.&lt;/p&gt;
+&lt;p&gt;This turns the question &lt;em&gt;"does this software enable me to spend more quality time off (or on) the machine?"&lt;/em&gt; into a metric for gauging software value.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does this social network enrich my life or is it just artificially keeping me hooked to my phone for corporate profits?&lt;/li&gt;
+&lt;li&gt;Does this computer game offer quality experience and immersion or is it just a paint over grind to grow &lt;a href="https://www.investopedia.com/terms/m/monthly-active-user-mau.asp"&gt;MAU&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;Does this software tool enable me to get more things done and turn off the computer earlier?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As for &lt;code&gt;gg.py&lt;/code&gt;, it covers my static site generator needs. Growing with it and having full creative expression are their own rewards. ☺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Corona Sky</title>
+      <link>https://oliz.io/blog/2020/corona-sky/</link>
+      <pubDate>Sun, 23 Aug 2020 15:10:25 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/corona-sky/</guid>
+      <description>&lt;p&gt;Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.&lt;/p&gt;
+&lt;h2 id="corona-skies"&gt;Corona skies&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Corona Sky" src="corona-sky.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The European airspace is one of the most utilized on earth.
+Thus it is rare to look up the sky and not see any condensation trails.&lt;/p&gt;
+&lt;p&gt;Now, living in a city with a nearby airport, we have &lt;em&gt;Corona skies&lt;/em&gt;, which I would define as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The natural sky either clouded or cloudless without any signs of human flight.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="Corona Sky panorama" src="corona-sky_pano.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="dystopian-malls"&gt;Dystopian malls&lt;/h2&gt;
+&lt;p&gt;Whenever getting supplies, there are recorded public announcements playing.
+The content always boils down to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mind the &lt;em&gt;government&lt;/em&gt; Corona &lt;em&gt;laws&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stay &lt;em&gt;safe and healthy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Enjoy and &lt;em&gt;keep shopping&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Which perfectly aligns with any dystopian story ever.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Software Development Talks Binge and Random Wisdom</title>
+      <link>https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/</link>
+      <pubDate>Mon, 09 Nov 2020 22:32:10 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/</guid>
+      <description>&lt;p&gt;While researching for &lt;a href="../economics-of-software-design/"&gt;the previous blog post&lt;/a&gt;, I stumbled upon another &lt;a href="https://www.youtube.com/watch?v=WSes_PexXcA"&gt;J. B. Rainsberger talk&lt;/a&gt; on how accidental complications sabotage estimations, which is also excellent on a meta level since he hits his talk duration estimate on the second!&lt;/p&gt;
+&lt;p&gt;From there on the YouTube algorithm dragged me further into the maze...&lt;/p&gt;
+&lt;h2 id="overwatch-gameplay-architecture-and-netcode"&gt;&lt;a href="https://www.youtube.com/watch?v=W3aieHjyNvw"&gt;Overwatch Gameplay Architecture and Netcode&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;How Overwatch implemented Entity Component System (ECS) as an architecture:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Components have no functions&lt;/li&gt;
+&lt;li&gt;Systems have no state&lt;/li&gt;
+&lt;li&gt;Systems cannot call other systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game runs at fixed frame rate, sends a sliding window (ring buffer) of input to mitigate UDP packet loss&lt;/li&gt;
+&lt;li&gt;The input buffer size is dynamic: the higher the latency, the bigger the buffer&lt;/li&gt;
+&lt;li&gt;Entire simulation is deterministic, can be interpolated and re-winded&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you take away one lesson from this talk let it be this: behaviors are much less complex if they are expressed in a single callsite, in which all major behavioral sideeffects are localized to that callsite.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="networking-scripted-weapons-and-abilities-in-overwatch"&gt;&lt;a href="https://www.youtube.com/watch?v=ScyZjcjTlA4"&gt;Networking Scripted Weapons and Abilities in Overwatch&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;"Statescript", custom scripting language for gameplay&lt;/li&gt;
+&lt;li&gt;Key game design insight: "awesome moves" (specials) block re-winding, so significant player abilities/cooldowns are not rolled back&lt;/li&gt;
+&lt;li&gt;Overall not as interesting as the first talk, but has some nice diagrams for the netcode and prediction:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Predicted StatescriptPacket" src="predicted_packet.png" /&gt;
+&lt;img alt="Mispredicted StatescriptPacket" src="mispredicted_packet.png" /&gt;
+(screenshots from the talk linked above)&lt;/p&gt;
+&lt;h2 id="roguelike-development"&gt;&lt;a href="https://www.youtube.com/watch?v=jviNpRGuCIU"&gt;Roguelike Development&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;(from the &lt;a href="https://www.gridsagegames.com/cogmind/"&gt;Cogmind&lt;/a&gt; developer)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop the critical path first, focus on the core mechanic, release early and often, blog&lt;/li&gt;
+&lt;li&gt;Recommends to practice making smaller roguelikes first, e.g. 7-day roguelikes (7DRL)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.reddit.com/r/roguelikedev/"&gt;roguelike development reddit&lt;/a&gt; for plenty of resources, discussion and help&lt;/li&gt;
+&lt;li&gt;Mind accessibility, e.g. Cogmind players prefer tileset graphics and mouse controls&lt;/li&gt;
+&lt;li&gt;All in all, nice overview of plenty of roguelike themes, mechanics and layouts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here the binge ended, but more happened since the last blog post:&lt;/p&gt;
+&lt;h2 id="softwerkskammmer-leipzig-working-from-home-special"&gt;&lt;a href="https://www.meetup.com/de-DE/LE-software-craft-community/events/273864764/"&gt;Softwerkskammmer Leipzig: Working From Home Special&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lean Coffee on remote work mostly due to Corona. When talking about "overcommunicating", we recalled documentation essentials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;URL&lt;/li&gt;
+&lt;li&gt;Author&lt;/li&gt;
+&lt;li&gt;Timestamp, versioning&lt;/li&gt;
+&lt;li&gt;Searchable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attention-economy"&gt;&lt;a href="https://aeon.co/videos/a-handful-of-executives-control-the-attention-economy-time-for-attentive-resistance"&gt;Attention Economy&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A nice video on the attention economy, social media selling attention of their users.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...] a wealth of information creates a poverty of attention [...]
+-- Herbert A. Simon, 1971&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="further-links"&gt;Further Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/huge-success/sanic/"&gt;Python Sanic: a web app framework&lt;/a&gt; which looks like an evolution of &lt;a href="https://palletsprojects.com/p/flask/"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html"&gt;systemd: basics (Fedora documentation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/linux/usage/systemd.md"&gt;systemd: basic service template for Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/linux/usage/cron.md"&gt;cron reference (Raspberry Pi documentation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://briarproject.org"&gt;https://briarproject.org&lt;/a&gt; -- encrypted P2P messaging and forums, as an alternative to Telegram, WhatsApp and Threema&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J. B. Rainsberger</title>
+      <link>https://oliz.io/blog/2020/economics-of-software-design/</link>
+      <pubDate>Wed, 07 Oct 2020 20:49:10 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/economics-of-software-design/</guid>
+      <description>&lt;p&gt;On Oct 1st 2020 &lt;a href="https://ti.to/scc-datev/jbrains/en"&gt;DATEV hosted an online meetup&lt;/a&gt; with &lt;a href="https://www.jbrains.ca"&gt;J. B. Rainsberger&lt;/a&gt; ("JBR" for the rest of the post) condensing two of his workshops/talks into 1.5 hours.
+While I missed the first ten minutes of the talk (first argument?), the rest was still very interesting and spot-on!&lt;/p&gt;
+&lt;h2 id="cost-of-changing-software"&gt;Cost of Changing Software&lt;/h2&gt;
+&lt;p&gt;JBR started with how to communicate the benefit of good software development practices to managers and co-workers. To accountants, he'd recommend the goal of evolutionary design as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Reduce the volatility in the marginal cost of features" - JBR&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;which basically means that good practices make software development cost more predictable, easier to account for.&lt;/p&gt;
+&lt;p&gt;He illustrated this with two exponential functions (all three diagrams drawn by JBR, shot&amp;amp;cropped by me). In Fig. 1:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Red curve describing ad-hoc design, spaghetti code, few/no tests, no refactoring etc.&lt;/li&gt;
+&lt;li&gt;Green curve following good software development practices like agile, evolutionary design, TDD etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;JBR acknowledged that software development cost always follows exponential functions.
+He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&gt; (Euler's number) with technical debt accumulating like compound interest. Good practices result in a lower base and higher initial cost.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Two exponential functions for software development cost" src="00_two_functions.png" /&gt;
+[Fig. 1: cost of software development practices (green good, red poor).]&lt;/p&gt;
+&lt;p&gt;There's a point in time where the accumulated costs (integrals) of both approaches are equal (at &lt;em&gt;t0&lt;/em&gt;). Past this point, the project following evolutionary design becomes cheaper.
+&lt;img alt="Equal cost of both approaches at t0" src="01_t0_equal_cost.png" /&gt;
+[Fig. 2: t0, time of equal project cost.]&lt;/p&gt;
+&lt;p&gt;At some further point in time, &lt;em&gt;project heat death&lt;/em&gt; is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to have &lt;em&gt;t0&lt;/em&gt; as early as possible and&lt;/li&gt;
+&lt;li&gt;to delay project heat death as long as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Project heat death" src="02_project_heat_death.png" /&gt;
+[Fig. 3: project heat death occurs when cost of change is unreasonably high.]&lt;/p&gt;
+&lt;p&gt;On the contrary, spaghetti software development may still be favored by managers if they gamble on the project dying before &lt;em&gt;t0&lt;/em&gt;. Then the big question is: Do managers account for this consciously?&lt;/p&gt;
+&lt;h2 id="from-waterfall-to-tdd-to-lean-startup"&gt;From Waterfall to TDD to Lean Startup&lt;/h2&gt;
+&lt;p&gt;The last part was about transforming any waterfall-ish development process into the ideal &lt;em&gt;lean startup&lt;/em&gt; (LS) by introducing feedback loops, repeatedly cutting feedback loops in half and as a result moving process throughput from micro-level "working code" to organization-level "money/revenue". JBR referred to foundations in queuing theory.&lt;/p&gt;
+&lt;p&gt;Citing the &lt;a href="http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf"&gt;infamous and greatly misunderstood W. W. Royce paper from 1970&lt;/a&gt;, JBR reminded the audience, that the Waterfall model was said to only ever work for straight-forward projects. Even in the original concept, it was described as risky and prone to failures (p. 2, s. 1).&lt;/p&gt;
+&lt;p&gt;To improve the Waterfall concept of&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;R --v               # Research / Requirements / Analysis
+   D --v            # Design
+       C --v        # Code
+           T --v    # Test
+               M    # Maintenance / Ops&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One could first introduce the feedback loop of test-first programming (TFP) iterating between code and tests. The throughput of this feedback loop is working code. The Waterfall then becomes&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;R --v
+   D --v
+       TFP --v
+             M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Iterating between design and TFP using refactoring is essentially test-driven development (TDD), producing well-designed and working code. This replaces another part of the Waterfall&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;R --v
+    TDD --v
+          M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput will be well-designed, working code which reflects business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;BDD --v
+      M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Looping feedback between BDD and maintenance/operations results in continuous delivery (CD). Eventually the throughput becomes real value: money/revenue. Further shortening the feedback cycles, CD becomes the ideal LS ("cash in my pockets sooner" - JBR).&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;CD --shorter cycles--&amp;gt; LS&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>If computers are bicycles for our minds [†], then smartphones are clown shoes for our attention.</title>
@@ -626,6 +1418,16 @@ I intend to use this from both sides of the table: when I am the interviewee and
 &lt;p&gt;Source: &lt;a href="https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/"&gt;https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Makefile Hacks</title>
+      <link>https://oliz.io/blog/2021/makefile-hacks.html</link>
+      <pubDate>Sun, 17 Oct 2021 02:40:13 +0000</pubDate>
+      <guid>https://oliz.io/blog/2021/makefile-hacks.html</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://blog.melski.net/2010/11/30/makefile-hacks-print-the-value-of-any-variable/"&gt;Makefile variable debugging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/"&gt;Self-documenting Makefile&lt;/a&gt; (&lt;a href="https://github.com/ooz/ggpy/blob/master/Makefile"&gt;example&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
       <title>Pulse Width Modulation (PWM) and Mobile Screens</title>
       <link>https://oliz.io/blog/2021/pwm-screen-ranking.html</link>
       <pubDate>Wed, 25 Aug 2021 20:43:46 +0000</pubDate>
@@ -664,11 +1466,9 @@ Clocking in at  2021-05-29 23:08:56.477436&lt;/code&gt;&lt;/pre&gt;&lt;/p&gt;
 Clocking out at 2021-05-29 23:09:29.253941 (after 32s)
 Today: 32s
 This week: 32h 16m&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Every five minutes it prints the time tracked so far. All data is saved in &lt;code&gt;.punchcard.csv&lt;/code&gt; in current directory. The format is the date followed by seconds tracked that day:&lt;/p&gt;
 &lt;pre class="highlight"&gt;&lt;code&gt;DATE,SECONDS
 2021-05-29,32&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;The printed output and simple format also makes it easy to correct wrongly tracked time (e.g. when forgetting to start/terminate the script). Time may be tracked for different projects, even in parallel by starting the script in different (project-specific) directories, in separate terminals or as background processes.&lt;/p&gt;
 &lt;h2 id="lesson-learned"&gt;Lesson Learned&lt;/h2&gt;
 &lt;p&gt;The script works and the "separate, single-use device" became a separate virtual desktop with just the time tracking terminal(s).&lt;/p&gt;
@@ -677,6 +1477,57 @@ This week: 32h 16m&lt;/code&gt;&lt;/pre&gt;
 &lt;img alt="Glorified stopwatch on M5StickC" src="mc_stopwatch.png" /&gt;&lt;/p&gt;
 &lt;p&gt;UiFlow is nice for exploring the device API and supplied widgets, since you can compose some visual program using all desired features (e.g. sensors, UI components) and then inspect the generated Python code (however, you can't freely switch between the views: the program/source gets reset!)&lt;/p&gt;
 &lt;p&gt;Ultimately, I didn't put more effort in the ESP32 microcontroller solution, because the script already covers my needs. Writing the script and doing more research first would have saved me ~15 €, but I still learned something tinkering around with the device.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Checking an Android Phone for NSO Group&amp;#x27;s Pegasus Malware</title>
+      <link>https://oliz.io/blog/2021/pegasus-android-check/</link>
+      <pubDate>Thu, 22 Jul 2021 22:40:11 +0000</pubDate>
+      <guid>https://oliz.io/blog/2021/pegasus-android-check/</guid>
+      <description>&lt;p&gt;After &lt;a href="https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/"&gt;Amnesty International’s Methodology Report&lt;/a&gt; from last Sunday, I early-adopted the &lt;a href="https://github.com/mvt-project/mvt"&gt;Mobile Verification Toolkit&lt;/a&gt; on Monday evening.
+At that time, parts of the documentation and cross-referencing were pretty basic, so I'm documenting my process and concentrating links to all resources here.&lt;/p&gt;
+&lt;p&gt;Less tech-savvy users may want to wait for the &lt;a href="https://github.com/mvt-project/mvt/issues/38"&gt;announced GUI&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Preconditions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Have &lt;code&gt;adb&lt;/code&gt; installed or use the &lt;a href="https://github.com/mvt-project/mvt/pull/16"&gt;Docker image&lt;/a&gt; (this saves some MVT installation steps, too)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://developer.android.com/studio/debug/dev-options#enable"&gt;Enable developer mode on the Android device, enable USB debugging in developer options&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further read:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf"&gt;Lookout's Analysis of Pegasus Spyware (2016 version)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="installing-mvt-in-a-pipenv"&gt;Installing MVT in a pipenv&lt;/h2&gt;
+&lt;p&gt;I installed the project's dependencies in a &lt;a href="https://pipenv.pypa.io/en/latest/"&gt;&lt;code&gt;pipenv&lt;/code&gt;&lt;/a&gt; to not pollute the system's python packages and &lt;code&gt;$PATH&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;# Clone repository
+git clone https://github.com/mvt-project/mvt.git
+cd mvt/
+
+# Install dependencies in pipenv
+pipenv --python 3
+pipenv run pip3 install .&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="check-apks-for-malware-signatures"&gt;&lt;a href="https://mvt-docs.readthedocs.io/en/latest/android/download_apks.html"&gt;Check APKs for malware signatures&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Since you can't use the tool to download the APKs and check for malware signatures later,
+it's best to do this right away.
+Otherwise you'd need to download the packages twice:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;mkdir android-apks
+pipenv run mvt-android download-apks -o android-apks/ --virustotal&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Sometimes the Android device is busy and MVT recommends to reset the &lt;code&gt;adb&lt;/code&gt; server. This works just fine:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;adb kill-server&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On the phone, when downloading the APKs, you will be asked (multiple times, even if you check the 'allow future access' box) to allow &lt;code&gt;adb&lt;/code&gt; access, this dialog needs to be accepted within 5 seconds, otherwise MVT times out. It's best to be attentive and watch the phone screen. ;)&lt;/p&gt;
+&lt;h2 id="check-sms-backup-for-malicious-links"&gt;Check SMS backup for malicious links&lt;/h2&gt;
+&lt;p&gt;This process is &lt;a href="https://mvt-docs.readthedocs.io/en/latest/android/backup.html"&gt;well-documented&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A malware definition file in &lt;a href="https://github.com/AmnestyTech/investigations/tree/master/2021-07-18_nso"&gt;STIX v2 format (pegasus.stix2)&lt;/a&gt; is needed. MVT is not compatible with STIX v1.&lt;/li&gt;
+&lt;li&gt;Also, &lt;a href="https://github.com/nelenkov/android-backup-extractor/releases"&gt;Android Backup Extractor&lt;/a&gt; is needed. Download &lt;code&gt;abe.jar&lt;/code&gt; from the releases page.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;# Backup SMS from Android device
+adb backup com.android.providers.telephony
+
+# Extract SMS backup
+java -jar abe.jar unpack backup.ab backup.tar
+tar xvf backup.tar
+
+# Check backup against STIX v2 file
+pipenv run mvt-android check-backup . --iocs pegasus.stix2&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
     <item>
       <title>Master Thesis M. Beschnidt: Sensomotorik und Handlungskompetenz</title>
@@ -790,885 +1641,6 @@ State and malicious actors may like loopholes, but &lt;a href="https://www.wired
 &lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Checking an Android Phone for NSO Group&amp;#x27;s Pegasus Malware</title>
-      <link>https://oliz.io/blog/2021/pegasus-android-check/</link>
-      <pubDate>Thu, 22 Jul 2021 22:40:11 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/pegasus-android-check/</guid>
-      <description>&lt;p&gt;After &lt;a href="https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/"&gt;Amnesty International’s Methodology Report&lt;/a&gt; from last Sunday, I early-adopted the &lt;a href="https://github.com/mvt-project/mvt"&gt;Mobile Verification Toolkit&lt;/a&gt; on Monday evening.
-At that time, parts of the documentation and cross-referencing were pretty basic, so I'm documenting my process and concentrating links to all resources here.&lt;/p&gt;
-&lt;p&gt;Less tech-savvy users may want to wait for the &lt;a href="https://github.com/mvt-project/mvt/issues/38"&gt;announced GUI&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Preconditions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Have &lt;code&gt;adb&lt;/code&gt; installed or use the &lt;a href="https://github.com/mvt-project/mvt/pull/16"&gt;Docker image&lt;/a&gt; (this saves some MVT installation steps, too)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://developer.android.com/studio/debug/dev-options#enable"&gt;Enable developer mode on the Android device, enable USB debugging in developer options&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Further read:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://info.lookout.com/rs/051-ESQ-475/images/lookout-pegasus-technical-analysis.pdf"&gt;Lookout's Analysis of Pegasus Spyware (2016 version)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="installing-mvt-in-a-pipenv"&gt;Installing MVT in a pipenv&lt;/h2&gt;
-&lt;p&gt;I installed the project's dependencies in a &lt;a href="https://pipenv.pypa.io/en/latest/"&gt;&lt;code&gt;pipenv&lt;/code&gt;&lt;/a&gt; to not pollute the system's python packages and &lt;code&gt;$PATH&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;# Clone repository
-git clone https://github.com/mvt-project/mvt.git
-cd mvt/
-
-# Install dependencies in pipenv
-pipenv --python 3
-pipenv run pip3 install .&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id="check-apks-for-malware-signatures"&gt;&lt;a href="https://mvt-docs.readthedocs.io/en/latest/android/download_apks.html"&gt;Check APKs for malware signatures&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Since you can't use the tool to download the APKs and check for malware signatures later,
-it's best to do this right away.
-Otherwise you'd need to download the packages twice:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;mkdir android-apks
-pipenv run mvt-android download-apks -o android-apks/ --virustotal&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Sometimes the Android device is busy and MVT recommends to reset the &lt;code&gt;adb&lt;/code&gt; server. This works just fine:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;adb kill-server&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;On the phone, when downloading the APKs, you will be asked (multiple times, even if you check the 'allow future access' box) to allow &lt;code&gt;adb&lt;/code&gt; access, this dialog needs to be accepted within 5 seconds, otherwise MVT times out. It's best to be attentive and watch the phone screen. ;)&lt;/p&gt;
-&lt;h2 id="check-sms-backup-for-malicious-links"&gt;Check SMS backup for malicious links&lt;/h2&gt;
-&lt;p&gt;This process is &lt;a href="https://mvt-docs.readthedocs.io/en/latest/android/backup.html"&gt;well-documented&lt;/a&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A malware definition file in &lt;a href="https://github.com/AmnestyTech/investigations/tree/master/2021-07-18_nso"&gt;STIX v2 format (pegasus.stix2)&lt;/a&gt; is needed. MVT is not compatible with STIX v1.&lt;/li&gt;
-&lt;li&gt;Also, &lt;a href="https://github.com/nelenkov/android-backup-extractor/releases"&gt;Android Backup Extractor&lt;/a&gt; is needed. Download &lt;code&gt;abe.jar&lt;/code&gt; from the releases page.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;# Backup SMS from Android device
-adb backup com.android.providers.telephony
-
-# Extract SMS backup
-java -jar abe.jar unpack backup.ab backup.tar
-tar xvf backup.tar
-
-# Check backup against STIX v2 file
-pipenv run mvt-android check-backup . --iocs pegasus.stix2&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>J. Langr on Twitter: Top IntelliJ IDEA refactoring keys</title>
-      <link>https://oliz.io/blog/2019/top-intellij-idea-refactoring-shortcuts.html</link>
-      <pubDate>Sun, 15 Dec 2019 14:15:49 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/top-intellij-idea-refactoring-shortcuts.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://twitter.com/jlangr/status/1204482861845250048"&gt;Jeff Langr&lt;/a&gt;:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;top IntelliJ IDEA refactoring keys:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;extract Method: Cmd-Alt-M&lt;/li&gt;
-&lt;li&gt;extract Variable: Cmd-Alt-V&lt;/li&gt;
-&lt;li&gt;iNline: Cmd-Alt-N&lt;/li&gt;
-&lt;li&gt;rename: Sh-F6&lt;/li&gt;
-&lt;li&gt;move method:  F6&lt;/li&gt;
-&lt;li&gt;change sig: Cmd-F6&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These 6 operations represent &amp;gt;80% of your minute-to-minute transforms. Ingrain them! (And don't forget Alt-Enter.)&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>Not Buying Things Like a Pro</title>
-      <link>https://oliz.io/blog/2019/not-buying-things-like-a-pro.html</link>
-      <pubDate>Mon, 18 Feb 2019 10:24:42 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/not-buying-things-like-a-pro.html</guid>
-      <description>&lt;p&gt;Anytime I catch myself not buying things, I put the money I was already willing to spend in a savings account. Requires introspection and discipline, though.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Originally posted on Twitter in reply to &lt;a href="https://twitter.com/farbodsaraf/status/1097239350759297030"&gt;Farbod Saraf&lt;/a&gt;:&lt;/em&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Life lesson:&lt;/p&gt;
-&lt;p&gt;"If something cost $1,000, and it is on sale for $750, and then you decide to buy it, you did not save $250. You spent $750."&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>Softwerkskammmer Leipzig: Clean Code Session &amp;quot;TDD&amp;quot;</title>
-      <link>https://oliz.io/blog/2019/swk-leipzig-clean-code-tdd-retro.html</link>
-      <pubDate>Sun, 22 Sep 2019 23:57:48 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/swk-leipzig-clean-code-tdd-retro.html</guid>
-      <description>&lt;p&gt;A little recap of what I learned/refreshed at the &lt;a href="https://www.meetup.com/de-DE/Softwerkskammer-Leipzig/events/264030290/"&gt;Softwerkskammer Leipzig meetup&lt;/a&gt;. We watched &lt;a href="https://cleancoders.com/video-details/clean-code-episode-6-p1"&gt;Robert "Uncle Bob" Martin's Clean Code Episode 6 Part 1&lt;/a&gt; and &lt;a href="https://cleancoders.com/video-details/clean-code-episode-6-p2"&gt;part 2&lt;/a&gt;. Quotes by R. Martin if not noted otherwise:&lt;/p&gt;
-&lt;h2 id="programming-wisdom"&gt;Programming wisdom&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Classes protect us from new types, data structures protect us from new functions&lt;/p&gt;
-&lt;p&gt;High debugging skill correlates with low productivity&lt;/p&gt;
-&lt;p&gt;Another word for testable is decoupled&lt;/p&gt;
-&lt;p&gt;TDD is a prerequisite for professionalism&lt;/p&gt;
-&lt;p&gt;Legacy code is code without tests (by Michael Feathers)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="refactoring-techniques"&gt;Refactoring techniques&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Inline local/private functions before refactoring&lt;/li&gt;
-&lt;li&gt;Extract code into inner class (quite commonly used by Uncle Bob)&lt;/li&gt;
-&lt;li&gt;Do not use &lt;code&gt;StringBuffer&lt;/code&gt; in modern Java, the compiler is smart enough&lt;/li&gt;
-&lt;li&gt;Multiply &lt;code&gt;if&lt;/code&gt;-statements&lt;/li&gt;
-&lt;li&gt;Parametric loops&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="general-education"&gt;General education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Theories how the moon came to be&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://de.wikipedia.org/wiki/Ignaz_Semmelweis"&gt;Ignaz Semmelweis&lt;/a&gt; not profiting from his &lt;a href="https://www.cs.utexas.edu/users/EWD/transcriptions/EWD10xx/EWD1036.html"&gt;radical novelty&lt;/a&gt; of hand washing during his lifetime&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Discipline are pre-made decisions&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
-    <item>
-      <title>Post-mortem: Global Game Jam 2019</title>
-      <link>https://oliz.io/blog/2019/ggj19-post-mortem.html</link>
-      <pubDate>Sun, 17 Feb 2019 22:24:09 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/ggj19-post-mortem.html</guid>
-      <description>&lt;p&gt;This year's &lt;a href="https://globalgamejam.org/2019/games/home-48"&gt;Global Game Jam (GGJ)&lt;/a&gt; marked my fifth attendance in a row and was both my most refreshing and challenging jam so far.&lt;/p&gt;
-&lt;h2 id="what-home-means-to-you"&gt;"what home means to you"&lt;/h2&gt;
-&lt;p&gt;The theme did not resonate with me.
-The irony that I am on vacation, in my home town, on a weekend, participating in a GGJ, while my girlfriend waits at home, bogged my mind.&lt;/p&gt;
-&lt;p&gt;I had gameplay ideas, none of which seemed right considering the previous.
-As a result I ditched my ideas and started from scratch. Already 17 hours into the jam.&lt;/p&gt;
-&lt;h2 id="home-is"&gt;home is&lt;/h2&gt;
-&lt;p&gt;Instead I followed the advice of the first pair of keynote speakers to create a game that tries to invoke everyday or unusual feelings.&lt;/p&gt;
-&lt;p&gt;I have spent ca. 16 hours working on the game, 24 out of the 48 jam hours I spent at home with my girlfriend.
-I consider this a great on-topic success! :)&lt;/p&gt;
-&lt;p&gt;Lessons learned to still deliver on time:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Phaser.js and GitHub Pages are still a winning combo for game jams!&lt;/strong&gt; I reused my &lt;a href="https://github.com/ooz/handshake"&gt;template from last year&lt;/a&gt;. Creating a game that runs in the browser also makes it really easy to do slight changes after game submission.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Plan!&lt;/strong&gt; I made exactly two paper sketches: 1. A list of all the 12 scenes and their respective topics. 2. A matrix of all assets I needed to create.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cut, then cut some more! Reuse like it is a triple-A game!&lt;/strong&gt; The asset matrix really helped here to show opportunities for reuse across scenes and cut assets that are not needed to convey the message. Unfortunately, this also meant skipping all sound (effects), which is usually great fun to create with fellow jammers.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Focus on the story, keep gameplay minimal!&lt;/strong&gt; Adding more gameplay would have required way more iteration.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Meta: This post was conceived on a paper notebook, then typed on a phone. All while on a train. The process was really refreshing and helped focusing on the content.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Today I Created my First Lego Instruction</title>
-      <link>https://oliz.io/blog/2019/first-lego-instruction/</link>
-      <pubDate>Sun, 14 Apr 2019 10:06:48 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/first-lego-instruction/</guid>
-      <description>&lt;p&gt;"The Mosquito": &lt;a href="https://oliz.io/mocs/spaceships/the-mosquito/"&gt;https://oliz.io/mocs/spaceships/the-mosquito/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;I have 4-5 more spaceships/rockets to be digitalized, freeing up bricks.
-&lt;a href="https://www.bricklink.com/v3/studio/download.page"&gt;BrickLink Studio&lt;/a&gt; is an amazing tool -- unfortunately, I did not even have a camera as a child... :D&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards</title>
-      <link>https://oliz.io/blog/2019/fixing-middle-trackpoint-button/</link>
-      <pubDate>Sun, 24 Feb 2019 21:00:02 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/fixing-middle-trackpoint-button/</guid>
-      <description>&lt;p&gt;So far, I worked with two ThinkPads:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;T410, bought new in 2010. I replaced HDD/SSD, RAM, fan and keyboard.&lt;/li&gt;
-&lt;li&gt;X220, bought refurbished in 2016 with an IPS screen. I cleaned it thoroughly, swapped SSD, RAM and keyboard.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The hardware is still suitable for modern-day software development work and I have yet to find a better typing experience on a laptop keyboard!&lt;/p&gt;
-&lt;p&gt;Some time ago, I broke one bolt keeping the middle trackpoint button of the X220 keyboard in place. This resulted in an unpleasant scrolling experience.&lt;/p&gt;
-&lt;p&gt;When trying to remove the button to further investigate and fix the issue (no repair manual was consulted ☹), I broke the other bolt.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Middle trackpoint button hinges" src="middle_trackpoint_button.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="isolation-tape-to-the-rescue"&gt;Isolation tape to the rescue!&lt;/h2&gt;
-&lt;p&gt;The solution was straightforward:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Push the hooks into the hook catchers, ensure the button rubber does not dislocate&lt;/li&gt;
-&lt;li&gt;Cut a strip of isolation tape in half&lt;/li&gt;
-&lt;li&gt;Attach the tape to the button and wrap it around to the backside of the keyboard, firmly&lt;/li&gt;
-&lt;li&gt;Use the second half to secure the first half below the keyboard&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The result:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Final result" src="result.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;MacGyver score: &lt;strong&gt;6 out of 10&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Swiss Army Knife was used to (un-)screw the keyboard&lt;/li&gt;
-&lt;li&gt;Tape fixed the issue&lt;/li&gt;
-&lt;li&gt;Bubble gum was only chewed, not applied&lt;/li&gt;
-&lt;li&gt;No evil plan was spoiled&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;☺&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>On Software Minimalism</title>
-      <link>https://oliz.io/blog/2020/on-software-minimalism.html</link>
-      <pubDate>Mon, 15 Jun 2020 22:27:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2020/on-software-minimalism.html</guid>
-      <description>&lt;p&gt;Recently, I iterated on &lt;a href="https://ooz.github.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt; again, which ultimately led to the age-old question:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Why (re-inventing the wheel)?&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="minimal-software"&gt;Minimal Software&lt;/h2&gt;
-&lt;p&gt;I like the idea of minimal software, just the amount of software needed to solve a problem, to fulfill a need. Typical characteristics of minimal software are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://suckless.org/philosophy/"&gt;Simple, elegant, usable, focused, reasonable and attainable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Easier to understand&lt;/li&gt;
-&lt;li&gt;Less prone to errors&lt;/li&gt;
-&lt;li&gt;Less need for maintenance&lt;/li&gt;
-&lt;li&gt;Less code (maybe)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I acknowledge that &lt;code&gt;gg.py&lt;/code&gt; could have also been realized in shell using the &lt;a href="https://busybox.net/"&gt;BusyBox set of UNIX utilities&lt;/a&gt;.
-Regardless, I enjoy working with Python and having a pet project keeps my language skills and tool chain sharp.
-Software minimalism followed to the extreme would consider Python and anything written in it as "bloat" and not minimal. On a second look, the above traits of minimal software seem to be rather &lt;em&gt;means goals&lt;/em&gt; than end goals. Extrapolated, I see one over-arching objective:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;To spend less time with software!&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="standard-software-and-innovation"&gt;Standard Software and Innovation&lt;/h2&gt;
-&lt;p&gt;Spending less time with software frees you up to spend more time outside, off the computer, with friends and family. Or to focus on the business side of things. Shell one-liners and clever single-file programs may be one approach, but for plenty of people the use of &lt;em&gt;standard software&lt;/em&gt; is exactly that:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The majority of people use it&lt;/li&gt;
-&lt;li&gt;The majority of people has good-enough understanding of its benefits and constraints&lt;/li&gt;
-&lt;li&gt;Someone else develops, maintains and supports it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
-One downside of using standard software is the loss of competitive advantage stemming from superior tools and craft. Then, &lt;a href="http://www.paulgraham.com/avg.html"&gt;beating the averages&lt;/a&gt; and innovation are not a matter of technology, but of appropriate and repeated creative application valuing the zeitgeist.&lt;/p&gt;
-&lt;h2 id="in-perspective"&gt;In Perspective&lt;/h2&gt;
-&lt;p&gt;This cannot be an argument for minimal, custom-built software, nor standard software. Neither seems to grant an advantage inherently, so a healthy dose of pragmatism is required when developing or utilizing software in a competitive space.
-Shifting the point of view, someone's minimal software might be someone else's standard software (e.g. UNIX utilities leveraged by an advanced user) and someone's standard software might be considered "overkill" by minimalists (e.g. WYSIWYG word processors for writing plain text).
-At the end of the day, users minding their respective computer skills could still all agree that their preferred software tool enables them &lt;em&gt;to spend less time&lt;/em&gt; with the computer.&lt;/p&gt;
-&lt;p&gt;This turns the question &lt;em&gt;"does this software enable me to spend more quality time off (or on) the machine?"&lt;/em&gt; into a metric for gauging software value.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Does this social network enrich my life or is it just artificially keeping me hooked to my phone for corporate profits?&lt;/li&gt;
-&lt;li&gt;Does this computer game offer quality experience and immersion or is it just a paint over grind to grow &lt;a href="https://www.investopedia.com/terms/m/monthly-active-user-mau.asp"&gt;MAU&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;Does this software tool enable me to get more things done and turn off the computer earlier?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As for &lt;code&gt;gg.py&lt;/code&gt;, it covers my static site generator needs. Growing with it and having full creative expression are their own rewards. ☺&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>On Fact Checks</title>
-      <link>https://oliz.io/blog/2020/on-fact-checks.html</link>
-      <pubDate>Thu, 01 Oct 2020 17:30:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2020/on-fact-checks.html</guid>
-      <description>&lt;p&gt;Isn't it ironic after decades of framing and "appeal to emotion" by media and PR, those techniques are now so universally used that the same organisations losing control are urged to provide "fact checks"? 😅&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software Development Talks Binge and Random Wisdom</title>
-      <link>https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/</link>
-      <pubDate>Mon, 09 Nov 2020 22:32:10 +0000</pubDate>
-      <guid>https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/</guid>
-      <description>&lt;p&gt;While researching for &lt;a href="../economics-of-software-design/"&gt;the previous blog post&lt;/a&gt;, I stumbled upon another &lt;a href="https://www.youtube.com/watch?v=WSes_PexXcA"&gt;J. B. Rainsberger talk&lt;/a&gt; on how accidental complications sabotage estimations, which is also excellent on a meta level since he hits his talk duration estimate on the second!&lt;/p&gt;
-&lt;p&gt;From there on the YouTube algorithm dragged me further into the maze...&lt;/p&gt;
-&lt;h2 id="overwatch-gameplay-architecture-and-netcode"&gt;&lt;a href="https://www.youtube.com/watch?v=W3aieHjyNvw"&gt;Overwatch Gameplay Architecture and Netcode&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;How Overwatch implemented Entity Component System (ECS) as an architecture:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Components have no functions&lt;/li&gt;
-&lt;li&gt;Systems have no state&lt;/li&gt;
-&lt;li&gt;Systems cannot call other systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Some more:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Game runs at fixed frame rate, sends a sliding window (ring buffer) of input to mitigate UDP packet loss&lt;/li&gt;
-&lt;li&gt;The input buffer size is dynamic: the higher the latency, the bigger the buffer&lt;/li&gt;
-&lt;li&gt;Entire simulation is deterministic, can be interpolated and re-winded&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;p&gt;If you take away one lesson from this talk let it be this: behaviors are much less complex if they are expressed in a single callsite, in which all major behavioral sideeffects are localized to that callsite.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="networking-scripted-weapons-and-abilities-in-overwatch"&gt;&lt;a href="https://www.youtube.com/watch?v=ScyZjcjTlA4"&gt;Networking Scripted Weapons and Abilities in Overwatch&lt;/a&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;"Statescript", custom scripting language for gameplay&lt;/li&gt;
-&lt;li&gt;Key game design insight: "awesome moves" (specials) block re-winding, so significant player abilities/cooldowns are not rolled back&lt;/li&gt;
-&lt;li&gt;Overall not as interesting as the first talk, but has some nice diagrams for the netcode and prediction:&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Predicted StatescriptPacket" src="predicted_packet.png" /&gt;
-&lt;img alt="Mispredicted StatescriptPacket" src="mispredicted_packet.png" /&gt;
-(screenshots from the talk linked above)&lt;/p&gt;
-&lt;h2 id="roguelike-development"&gt;&lt;a href="https://www.youtube.com/watch?v=jviNpRGuCIU"&gt;Roguelike Development&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;(from the &lt;a href="https://www.gridsagegames.com/cogmind/"&gt;Cogmind&lt;/a&gt; developer)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Develop the critical path first, focus on the core mechanic, release early and often, blog&lt;/li&gt;
-&lt;li&gt;Recommends to practice making smaller roguelikes first, e.g. 7-day roguelikes (7DRL)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.reddit.com/r/roguelikedev/"&gt;roguelike development reddit&lt;/a&gt; for plenty of resources, discussion and help&lt;/li&gt;
-&lt;li&gt;Mind accessibility, e.g. Cogmind players prefer tileset graphics and mouse controls&lt;/li&gt;
-&lt;li&gt;All in all, nice overview of plenty of roguelike themes, mechanics and layouts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Here the binge ended, but more happened since the last blog post:&lt;/p&gt;
-&lt;h2 id="softwerkskammmer-leipzig-working-from-home-special"&gt;&lt;a href="https://www.meetup.com/de-DE/LE-software-craft-community/events/273864764/"&gt;Softwerkskammmer Leipzig: Working From Home Special&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Lean Coffee on remote work mostly due to Corona. When talking about "overcommunicating", we recalled documentation essentials:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;URL&lt;/li&gt;
-&lt;li&gt;Author&lt;/li&gt;
-&lt;li&gt;Timestamp, versioning&lt;/li&gt;
-&lt;li&gt;Searchable&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="attention-economy"&gt;&lt;a href="https://aeon.co/videos/a-handful-of-executives-control-the-attention-economy-time-for-attentive-resistance"&gt;Attention Economy&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;A nice video on the attention economy, social media selling attention of their users.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;[...] a wealth of information creates a poverty of attention [...]
--- Herbert A. Simon, 1971&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id="further-links"&gt;Further Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://github.com/huge-success/sanic/"&gt;Python Sanic: a web app framework&lt;/a&gt; which looks like an evolution of &lt;a href="https://palletsprojects.com/p/flask/"&gt;Flask&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html"&gt;systemd: basics (Fedora documentation)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/linux/usage/systemd.md"&gt;systemd: basic service template for Raspberry Pi&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/linux/usage/cron.md"&gt;cron reference (Raspberry Pi documentation)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://briarproject.org"&gt;https://briarproject.org&lt;/a&gt; -- encrypted P2P messaging and forums, as an alternative to Telegram, WhatsApp and Threema&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Corona Sky</title>
-      <link>https://oliz.io/blog/2020/corona-sky/</link>
-      <pubDate>Sun, 23 Aug 2020 15:10:25 +0000</pubDate>
-      <guid>https://oliz.io/blog/2020/corona-sky/</guid>
-      <description>&lt;p&gt;Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.&lt;/p&gt;
-&lt;h2 id="corona-skies"&gt;Corona skies&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Corona Sky" src="corona-sky.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;The European airspace is one of the most utilized on earth.
-Thus it is rare to look up the sky and not see any condensation trails.&lt;/p&gt;
-&lt;p&gt;Now, living in a city with a nearby airport, we have &lt;em&gt;Corona skies&lt;/em&gt;, which I would define as:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The natural sky either clouded or cloudless without any signs of human flight.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img alt="Corona Sky panorama" src="corona-sky_pano.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="dystopian-malls"&gt;Dystopian malls&lt;/h2&gt;
-&lt;p&gt;Whenever getting supplies, there are recorded public announcements playing.
-The content always boils down to:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Mind the &lt;em&gt;government&lt;/em&gt; Corona &lt;em&gt;laws&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Stay &lt;em&gt;safe and healthy&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;Enjoy and &lt;em&gt;keep shopping&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Which perfectly aligns with any dystopian story ever.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J. B. Rainsberger</title>
-      <link>https://oliz.io/blog/2020/economics-of-software-design/</link>
-      <pubDate>Wed, 07 Oct 2020 20:49:10 +0000</pubDate>
-      <guid>https://oliz.io/blog/2020/economics-of-software-design/</guid>
-      <description>&lt;p&gt;On Oct 1st 2020 &lt;a href="https://ti.to/scc-datev/jbrains/en"&gt;DATEV hosted an online meetup&lt;/a&gt; with &lt;a href="https://www.jbrains.ca"&gt;J. B. Rainsberger&lt;/a&gt; ("JBR" for the rest of the post) condensing two of his workshops/talks into 1.5 hours.
-While I missed the first ten minutes of the talk (first argument?), the rest was still very interesting and spot-on!&lt;/p&gt;
-&lt;h2 id="cost-of-changing-software"&gt;Cost of Changing Software&lt;/h2&gt;
-&lt;p&gt;JBR started with how to communicate the benefit of good software development practices to managers and co-workers. To accountants, he'd recommend the goal of evolutionary design as:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;"Reduce the volatility in the marginal cost of features" - JBR&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;which basically means that good practices make software development cost more predictable, easier to account for.&lt;/p&gt;
-&lt;p&gt;He illustrated this with two exponential functions (all three diagrams drawn by JBR, shot&amp;amp;cropped by me). In Fig. 1:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Red curve describing ad-hoc design, spaghetti code, few/no tests, no refactoring etc.&lt;/li&gt;
-&lt;li&gt;Green curve following good software development practices like agile, evolutionary design, TDD etc.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;JBR acknowledged that software development cost always follows exponential functions.
-He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&gt; (Euler's number) with technical debt accumulating like compound interest. Good practices result in a lower base and higher initial cost.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Two exponential functions for software development cost" src="00_two_functions.png" /&gt;
-[Fig. 1: cost of software development practices (green good, red poor).]&lt;/p&gt;
-&lt;p&gt;There's a point in time where the accumulated costs (integrals) of both approaches are equal (at &lt;em&gt;t0&lt;/em&gt;). Past this point, the project following evolutionary design becomes cheaper.
-&lt;img alt="Equal cost of both approaches at t0" src="01_t0_equal_cost.png" /&gt;
-[Fig. 2: t0, time of equal project cost.]&lt;/p&gt;
-&lt;p&gt;At some further point in time, &lt;em&gt;project heat death&lt;/em&gt; is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;to have &lt;em&gt;t0&lt;/em&gt; as early as possible and&lt;/li&gt;
-&lt;li&gt;to delay project heat death as long as possible.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Project heat death" src="02_project_heat_death.png" /&gt;
-[Fig. 3: project heat death occurs when cost of change is unreasonably high.]&lt;/p&gt;
-&lt;p&gt;On the contrary, spaghetti software development may still be favored by managers if they gamble on the project dying before &lt;em&gt;t0&lt;/em&gt;. Then the big question is: Do managers account for this consciously?&lt;/p&gt;
-&lt;h2 id="from-waterfall-to-tdd-to-lean-startup"&gt;From Waterfall to TDD to Lean Startup&lt;/h2&gt;
-&lt;p&gt;The last part was about transforming any waterfall-ish development process into the ideal &lt;em&gt;lean startup&lt;/em&gt; (LS) by introducing feedback loops, repeatedly cutting feedback loops in half and as a result moving process throughput from micro-level "working code" to organization-level "money/revenue". JBR referred to foundations in queuing theory.&lt;/p&gt;
-&lt;p&gt;Citing the &lt;a href="http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf"&gt;infamous and greatly misunderstood W. W. Royce paper from 1970&lt;/a&gt;, JBR reminded the audience, that the Waterfall model was said to only ever work for straight-forward projects. Even in the original concept, it was described as risky and prone to failures (p. 2, s. 1).&lt;/p&gt;
-&lt;p&gt;To improve the Waterfall concept of&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;R --v               # Research / Requirements / Analysis
-   D --v            # Design
-       C --v        # Code
-           T --v    # Test
-               M    # Maintenance / Ops&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;One could first introduce the feedback loop of test-first programming (TFP) iterating between code and tests. The throughput of this feedback loop is working code. The Waterfall then becomes&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;R --v
-   D --v
-       TFP --v
-             M&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Iterating between design and TFP using refactoring is essentially test-driven development (TDD), producing well-designed and working code. This replaces another part of the Waterfall&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;R --v
-    TDD --v
-          M&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput will be well-designed, working code which reflects business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;BDD --v
-      M&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Looping feedback between BDD and maintenance/operations results in continuous delivery (CD). Eventually the throughput becomes real value: money/revenue. Further shortening the feedback cycles, CD becomes the ideal LS ("cash in my pockets sooner" - JBR).&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;CD --shorter cycles--&amp;gt; LS&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>The Joy of Lego as an Adult</title>
-      <link>https://oliz.io/blog/2017/joy-of-lego.html</link>
-      <pubDate>Sun, 08 Jan 2017 17:51:06 +0100</pubDate>
-      <guid>https://oliz.io/blog/2017/joy-of-lego.html</guid>
-      <description>&lt;p&gt;I think most people having access to Lego in their childhood can relate to this: At some point you have built it all, you get your first computer and suddenly you are wondering why you are still bringing this box of colorful bricks everytime you relocate.&lt;/p&gt;
-&lt;p&gt;In 2016 I bought my first Lego set after a long hiatus. &lt;a href="https://shop.lego.com/de-DE/WALL-E-21303"&gt;WALL-E&lt;/a&gt; set me back 50 € (and another 50 € for the motors - yes, I was ambitious).
-They say you should rather invest in experiences instead of &lt;a href="https://www.youtube.com/watch?v=MvgN5gCuLac"&gt;stuff&lt;/a&gt;. I wholeheartedly agree!
-Those 50 € did not buy me a box of bricks. They bought me 1.5 hours of pure joy: How the rounded pieces fit into the square ones, how vertical accents spanned multiple horizontal layers, how rubber parts interact with ABS plastic, how known bricks locked with new design elements etc.&lt;/p&gt;
-&lt;p&gt;Eventually I bought other sets, completely redesigned the rear of my WALL-E to support a "battery backpack" alongside motors and the infrared control, created a tablet/smartphone stand, envisioned a drone carrier from simple design bricks, built multiple Pokemon within the constraints of one set and enjoyed all the possibilities with the new design and joint/hinge elements.&lt;/p&gt;
-&lt;p&gt;In the next posts I will write about:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="lego-architecture-studio2drone-carrier.html"&gt;the drone carrier and tablet/smartphone stand&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="building-pokemon-from-15-euro-sets.html"&gt;my "Pokemon challenge"&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to assign the Logitech MX518 extra buttons under Ubuntu 16.04</title>
-      <link>https://oliz.io/blog/2017/mx518-ubuntu.html</link>
-      <pubDate>Sun, 05 Feb 2017 10:26:46 +0100</pubDate>
-      <guid>https://oliz.io/blog/2017/mx518-ubuntu.html</guid>
-      <description>&lt;p&gt;Once a while™ I like to play strategy or MMO games on PC.&lt;/p&gt;
-&lt;p&gt;Back in 2006 I bought the fantastic Logitech MX518 gaming mouse and have been using it ever since.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Logitech MX518 gaming mouse" src="https://images-na.ssl-images-amazon.com/images/I/91YmmYMH40L._SL1500_.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://www.amazon.com/Logitech-910-000616-MX518-Optical-Gaming/dp/B0015R8M7U"&gt;Image source: Amazon&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;As you can see in the picture the mouse sports extra buttons that are handy when assigned properly in games.
-This works just fine under Windows with the tools Logitech provides.
-Before Ubuntu switched to &lt;code&gt;systemd&lt;/code&gt; there was a tool named &lt;a href="https://launchpad.net/btnx"&gt;&lt;code&gt;btnx&lt;/code&gt;&lt;/a&gt; that enabled me to assign keyboard keys to mouse buttons.&lt;/p&gt;
-&lt;p&gt;It just worked!&lt;/p&gt;
-&lt;p&gt;With the adaption of &lt;code&gt;systemd&lt;/code&gt; in Ubuntu (16.04 was my first version with systemd, since I only use LTS versions), &lt;code&gt;btnx&lt;/code&gt; stopped working since it relied on &lt;code&gt;init.d&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;So here is how I got it to work with &lt;code&gt;systemd&lt;/code&gt;:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install lomoco:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install lomoco&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure lomoco and set the mouse resolution to 1200, otherwise the button reassignment is not possible:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo vim /etc/default/lomoco&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The resulting file should look like this:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;# Configuration file for lomoco
-# see `man lomoco` for details
-
-# Define which resolution should be used
-# Values:      800,400,1200,1600
-LOGITECH_MOUSE_RESOLUTION=1200
-
-# Whether to disable SmartScroll/Cruise Control. Defaults to yes if not set.
-# Values:      yes,no
-LOGITECH_MOUSE_DISABLE_CC=&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Install the outdated packages &lt;a href="https://launchpad.net/btnx-config/"&gt;btnx-config&lt;/a&gt; and &lt;a href="https://launchpad.net/btnx"&gt;btnx&lt;/a&gt; (in this order).&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Restart Ubuntu.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Create the btnx.service for systemd (I still think one of those files is redundant, I did not dive that deep into systemd yet):&lt;/p&gt;
-&lt;p&gt;Content of the btnx.service file:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;[Unit]
-Description=Btnx
-Documentation=https://ooz.github.io
-After=graphical.target
-
-[Service]
-Type=simple
-ExecStart=/usr/sbin/btnx
-PIDFile=/var/run/btnx.pid
-Restart=on-abort&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Place it at the following locations:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo cp btnx.service /etc/systemd/system/
-sudo cp btnx.service /etc/systemd/system/graphical.target.wants/&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Start the btnx.service:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo systemctl start btnx.service&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;You can verify whether the service has launched with the following command:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;systemctl status btnx.service&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Launch btnx-config and configure your mouse!&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo btnx-config&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;"Detect mouse &amp;amp; buttons"&lt;/li&gt;
-&lt;li&gt;Press every mouse button once&lt;/li&gt;
-&lt;li&gt;Switch tab, select mouse button, enable keyboard overwrite, assign keyboard key to mouse button&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Restart Ubuntu and you are done!&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Building Pokemon from 15 to 18 Euro Lego Sets</title>
-      <link>https://oliz.io/blog/2017/building-pokemon-from-15-euro-sets.html</link>
-      <pubDate>Sun, 08 Jan 2017 23:44:24 +0100</pubDate>
-      <guid>https://oliz.io/blog/2017/building-pokemon-from-15-euro-sets.html</guid>
-      <description>&lt;p&gt;In late 2016 I bought the Lego set "Red Creatures", which sadly is not available anymore.
-I always liked dragons, so I had to get and build it.&lt;/p&gt;
-&lt;p&gt;Wandering around in the Lego store I wondered why there is no Pokemon Lego yet.
-I mean they have made so many deals: Star Wars, Minecraft, Marvel, DC, ... and Pokemon is still targeted mostly at children. So why not join forces?&lt;/p&gt;
-&lt;p&gt;Anyway, back in 1999 I had built a Blastoise and a Pikachu from simple bricks.
-Sadly I did not have any camera at that time (not counting the 14336 pixel (!) Game Boy Camera) to record my achievement.&lt;/p&gt;
-&lt;p&gt;So I had this 15 € "Red Creatures" set, another 15 € set with a dog and a duck (lots of joint and hinge elements - I love those!)
-But it was not until I bought the relatively new green dinosaur set, I certified just by looking at the box: Yep, this should make a really nice &lt;strong&gt;Venusaur&lt;/strong&gt; (ger.: Bisaflor)! And this time I have a smartphone camera:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Venusaur" src="lego_bisaflor.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Real Venusaur" src="http://www.pokewiki.de/images/1/19/Sugimori_003.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="http://www.pokewiki.de/Datei:Sugimori_003.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
-&lt;p&gt;Close enough! Overall it was straight-forward to build and I had lots of fun!
-By the way, this is the package of the original set:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Dinosaur" src="/blog/ext_img/2017/lego_dinosaur.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://shop.lego.com/de-DE/Dinosaurier-31058"&gt;Source of the screenshot&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
-&lt;p&gt;Highly motivated I had to build my all-time favorite: &lt;strong&gt;Charizard&lt;/strong&gt; (ger.: Glurak)!
-I kept the trunk from the "Red Creatures" model, removed the black spikes made from design elements, reduced the head size and simplified legs, arms, tail as well as wings. In my opinion this is even a better, more play-able dragon than the original model (the original wings are way too complicated and hinder you when you actually want to &lt;em&gt;use&lt;/em&gt; the model).
-This is the result:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Charizard" src="lego_glurak.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Real Charizard" src="http://www.pokewiki.de/images/9/96/Sugimori_006.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="http://www.pokewiki.de/Datei:Sugimori_006.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;FEUER! YEAH!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;(The original set again, just for reference:)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Red Creatures" src="/blog/ext_img/2017/lego_rote_kreaturen.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://shop.lego.com/de-DE/Rote-Kreaturen-31032"&gt;Source of the screenshot&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
-&lt;p&gt;The next day I was on a mission: Find a set to build the third starter Pokemon, &lt;strong&gt;Blastoise&lt;/strong&gt; (ger.: Turtok)!
-So I looked for more cheap 3-in-1 Lego sets containing some blue bricks. There it was:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Robot" src="/blog/ext_img/2017/lego_robot.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://shop.lego.com/de-DE/Forschungsroboter-31062"&gt;Source of the screenshot&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
-&lt;p&gt;Just looking at the set, I knew it would be a challenge to build Blastoise. The more so, I was pleased with the result:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Blastoise" src="lego_turtok.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;But it has most features of the real Blastoise like movable cannons!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Real Blastoise" src="http://www.pokewiki.de/images/9/9a/Sugimori_009.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="http://www.pokewiki.de/Datei:Sugimori_009.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
-&lt;p&gt;Being in a flow state I created another Pokemon: &lt;strong&gt;Pidgeot&lt;/strong&gt; (ger.: Tauboss)!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Real Pidgeot" src="http://pokewiki.de/images/2/23/Sugimori_018.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="http://pokewiki.de/Datei:Sugimori_018.png"&gt;Source&lt;/a&gt;, see license, ™ &amp;amp; © Nintendo)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Pidgeot" src="lego_tauboss.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;From this set:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Park Animals" src="/blog/ext_img/2017/lego_park_animals.png" /&gt;&lt;/p&gt;
-&lt;p&gt;(&lt;a href="https://www.lego.com/de-de/creator/products/park-animals-31044"&gt;Source&lt;/a&gt;, © LEGO Group)&lt;/p&gt;
-&lt;p&gt;Technically one should be able to build any brown-whitish Pokemon from this set.
-Feel free to email me or drop a comment, if you have any ideas or suggestions!&lt;/p&gt;
-&lt;h2 id="what-to-take-home"&gt;What to Take Home&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;So why should anyone bother building Pokemon?&lt;/em&gt;&lt;br /&gt;
-Well, this "exercise" could be seen as a training for the following skills:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Evaluation + estimation&lt;/strong&gt;&lt;br /&gt;
-Look at a package and try to guess which Pokemon you can build&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Staying within budget / limits&lt;/strong&gt;&lt;br /&gt;
-You can only use the bricks being part of one less-than-20-€-set&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Abstraction + reduction&lt;/strong&gt;&lt;br /&gt;
-Extract the essential features of a Pokemon and translate them to the Lego design&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Convert curl commands to Python, JavaScript fetch, Go, PHP and more</title>
-      <link>https://oliz.io/blog/2017/convert-curl-commands.html</link>
-      <pubDate>Sun, 17 Sep 2017 21:29:19 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/convert-curl-commands.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://curl.trillworks.com"&gt;https://curl.trillworks.com&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hello World, Hello New Blog!</title>
-      <link>https://oliz.io/blog/2017/hello.html</link>
-      <pubDate>Sat, 07 Jan 2017 13:37:42 +0100</pubDate>
-      <guid>https://oliz.io/blog/2017/hello.html</guid>
-      <description>&lt;p&gt;I'm Oliver and this is my personal blog about:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Time&lt;/strong&gt; &lt;br /&gt;
-    It's sometimes in the name. Also it is the only resource there is and we are chronically out of it.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Life&lt;/strong&gt; &lt;br /&gt;
-    Tied closely to 1.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Design&lt;/strong&gt; &lt;br /&gt;
-    What I like, what I dislike, what I learned. This will probably involve some Lego.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Technology and Software Engineering&lt;/strong&gt; &lt;br /&gt;
-    That is what I do for a living.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Zen&lt;/strong&gt; &lt;br /&gt;
-    Starts with Z, too.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;This post will serve me as a reference, so expect to see weird things below this line:&lt;/p&gt;
-&lt;hr /&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Tables&lt;/th&gt;
-&lt;th&gt;work&lt;/th&gt;
-&lt;th align="right"&gt;just&lt;/th&gt;
-&lt;th&gt;fine&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;for&lt;/td&gt;
-&lt;td&gt;real&lt;/td&gt;
-&lt;td align="right"&gt;yep&lt;/td&gt;
-&lt;td&gt;yeah.&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-python"&gt;def python():
-    return "does as well!"&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Let there be...&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;another
-code
-block
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Various &lt;code&gt;inline&lt;/code&gt; &lt;em&gt;highlighting&lt;/em&gt; &lt;strong&gt;works&lt;/strong&gt; &lt;del&gt;too&lt;/del&gt;!&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;This is so smart.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Checklists&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; work!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Images with alt work!" src="/blog/static/owl.png" /&gt;&lt;/p&gt;
-&lt;h2 id="markdown-extensions"&gt;Markdown Extensions&lt;/h2&gt;
-&lt;dl&gt;
-&lt;dt&gt;Definition List&lt;/dt&gt;
-&lt;dd&gt;is defined here.&lt;/dd&gt;
-&lt;dt&gt;Other List&lt;/dt&gt;
-&lt;dd&gt;is defined here.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;h2 id="abbreviations"&gt;Abbreviations&lt;/h2&gt;
-&lt;p&gt;&lt;abbr title="Hyper Text Markup Language"&gt;HTML&lt;/abbr&gt;&lt;/p&gt;
-&lt;h2 id="footnotes1"&gt;Footnotes&lt;sup id="fnref:1"&gt;&lt;a class="footnote-ref" href="#fn:1"&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-&lt;p&gt;Other footnote &lt;sup id="fnref:blub"&gt;&lt;a class="footnote-ref" href="#fn:blub"&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;div class="footnote"&gt;
-&lt;hr /&gt;
-&lt;ol&gt;
-&lt;li id="fn:1"&gt;
-&lt;p&gt;First footnote&amp;#160;&lt;a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li id="fn:blub"&gt;
-&lt;p&gt;Blub footnote&amp;#160;&lt;a class="footnote-backref" href="#fnref:blub" title="Jump back to footnote 2 in the text"&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;</description>
-    </item>
-    <item>
-      <title>High-performance Web Server for Rapid Development of Web Apps</title>
-      <link>https://oliz.io/blog/2017/rapid-asm-web-app-dev.html</link>
-      <pubDate>Tue, 18 Apr 2017 13:37:49 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/rapid-asm-web-app-dev.html</guid>
-      <description>&lt;p&gt;...in Assembler: &lt;a href="https://2ton.com.au/rwasa/"&gt;https://2ton.com.au/rwasa/&lt;/a&gt; ;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Naming Schemes</title>
-      <link>https://oliz.io/blog/2017/naming-schemes.html</link>
-      <pubDate>Tue, 31 Oct 2017 21:22:07 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/naming-schemes.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;A good naming scheme is scalable, unique, and easy to remember. The purpose of these naming schemes is to name networked servers, wireless access points or client computers, but it can also be used to name projects, products, variables, streets, pets, kids, or any other project where unique names and rememberable names are required.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;a href="https://namingschemes.com"&gt;https://namingschemes.com&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Serverless in One Slide</title>
-      <link>https://oliz.io/blog/2017/serverless-in-one-slide.html</link>
-      <pubDate>Sat, 01 Apr 2017 00:06:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/serverless-in-one-slide.html</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;short running functions&lt;/li&gt;
-&lt;li&gt;compute containers&lt;/li&gt;
-&lt;li&gt;stateless&lt;/li&gt;
-&lt;li&gt;3rd-party managed&lt;/li&gt;
-&lt;li&gt;event-triggered&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/coderbyheart/status/847522021990895621"&gt;https://twitter.com/coderbyheart/status/847522021990895621&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Survivorship Bias</title>
-      <link>https://oliz.io/blog/2017/survivorship-bias.html</link>
-      <pubDate>Sat, 03 Jun 2017 13:37:53 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/survivorship-bias.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Survivorship_bias#In_the_military"&gt;https://en.wikipedia.org/wiki/Survivorship_bias#In_the_military&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Python Anti-Patterns</title>
-      <link>https://oliz.io/blog/2017/python-anti-patterns.html</link>
-      <pubDate>Mon, 20 Nov 2017 21:03:08 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/python-anti-patterns.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://lignos.org/py_antipatterns/"&gt;https://lignos.org/py_antipatterns/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>So My Girlfriend Ordered Lego Architecture Studio...</title>
-      <link>https://oliz.io/blog/2017/lego-architecture-studio2drone-carrier.html</link>
-      <pubDate>Sun, 08 Jan 2017 22:57:58 +0100</pubDate>
-      <guid>https://oliz.io/blog/2017/lego-architecture-studio2drone-carrier.html</guid>
-      <description>&lt;p&gt;...and I could not resist building a drone carrier!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Lego Drone Carrier - Pew! Pew!" src="lego_drone_carrier.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;At first I was sceptical: The set is overpriced, yielding only white and transparent bricks, no special functional parts (e.g. joints/hinges) etc.&lt;/p&gt;
-&lt;p&gt;My better half ordered the set anyway and I found those limits inspiring. While she built a house, I wanted something &lt;em&gt;practical&lt;/em&gt;. Like a drone carrier for world domination, you know?&lt;/p&gt;
-&lt;p&gt;The bricks also make a nice tablet stand:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Tablet/smartphone stand made from Lego" src="lego_tablet_stand.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;;)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Brackets, Parentheses, Braces</title>
-      <link>https://oliz.io/blog/2017/brackets-parentheses-braces.html</link>
-      <pubDate>Mon, 06 Nov 2017 21:09:22 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/brackets-parentheses-braces.html</guid>
-      <description>&lt;pre class="highlight"&gt;&lt;code&gt;[] brackets (US), square brackets
-() parentheses, brackets (non-US English), round brackets
-&amp;lt;&amp;gt; angle brackets
-{} curly braces (US), curly brackets&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Parenthesis is the singular of parentheses (short: parens)! ;)&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/gfixler/status/926950212760870913"&gt;https://twitter.com/gfixler/status/926950212760870913&lt;/a&gt;, &lt;a href="https://en.wikipedia.org/wiki/Bracket"&gt;https://en.wikipedia.org/wiki/Bracket&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Password Rules</title>
-      <link>https://oliz.io/blog/2017/password-rules.html</link>
-      <pubDate>Sun, 19 Mar 2017 00:39:24 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/password-rules.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://blog.codinghorror.com/password-rules-are-bullshit/"&gt;https://blog.codinghorror.com/password-rules-are-bullshit/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;TL;DR:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Minimum length&lt;/li&gt;
-&lt;li&gt;Reasonable maximum length&lt;/li&gt;
-&lt;li&gt;Be aware of Unicode&lt;/li&gt;
-&lt;li&gt;Think like a user&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;How to not do it: &lt;a href="https://twitter.com/AaronToponce/status/988761412464857088"&gt;https://twitter.com/AaronToponce/status/988761412464857088&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How to configure Xmonad for Ubuntu</title>
-      <link>https://oliz.io/blog/2017/xmonad-ubuntu.html</link>
-      <pubDate>Sun, 02 Apr 2017 21:20:32 +0200</pubDate>
-      <guid>https://oliz.io/blog/2017/xmonad-ubuntu.html</guid>
-      <description>&lt;p&gt;In the last six months I must have set up my default Ubuntu 16.04 + Xmonad desktop environment on like four or more machines.
-The goal looks like this (I like to have the top bar for status and widgets):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Ubuntu and Xmonad" src="ubuntu_xmonad.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Here is a small guide for future reference:&lt;/p&gt;
-&lt;h2 id="step-by-step-guide"&gt;Step-by-step Guide&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install the Xmonad package:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install xmonad&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;At this point you can already select an Xmonad session at the login screen.
-But this is not recommended.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;So additionally you should install the &lt;a href="https://github.com/Gekkio/gnome-session-xmonad"&gt;&lt;code&gt;gnome-session-xmonad&lt;/code&gt; package&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo add-apt-repository ppa:gekkio/xmonad
-sudo apt-get update
-sudo apt-get install gnome-session-xmonad&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure Xmonad. The Xmonad configuration is written in Haskell. If you are uncertain or need something working to start from, you are free to take &lt;a href="https://github.com/ooz/olli/blob/master/.xmonad/xmonad.hs"&gt;my configuration&lt;/a&gt;. Place it here: &lt;code&gt;~/.xmonad/xmonad.hs&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Relog and choose the &lt;strong&gt;GNOME + XMonad&lt;/strong&gt; session at the login screen.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you dislike the bottom panel (like I do, see above screenshot), you can disable it with:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel']"
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;To redisplay it, execute:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel','bottom-panel']"&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Have fun!&lt;/p&gt;
-&lt;h2 id="update-2021-09-14"&gt;Update 2021-09-14&lt;/h2&gt;
-&lt;p&gt;The above guide also works for Ubuntu 18.04 and 20.04.
-However, for version 20.04 further tweaks are needed:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Fix layout switch (Super+Space):&lt;/p&gt;
-&lt;p&gt;The shortcut is claimed by GNOME and needs to be disabled in "Settings &amp;gt; Keyboard Shortcuts &amp;gt; Switch to next input source"&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Remove the Terminal title bar:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;sudo apt install gnome-shell-extension-pixelsaver
-gnome-extensions enable pixel-saver@deadalnix.me
-gsettings set org.gnome.Terminal.Legacy.Settings headerbar false&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Hide desktop icons:&lt;/p&gt;
-&lt;p&gt;Inspired by: &lt;a href="https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04&lt;/a&gt; (the keys however don't work for &lt;code&gt;GNOME + XMonad&lt;/code&gt; session). Correct key:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback.desktop show-icons false&lt;/code&gt;&lt;/pre&gt;
-
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dark theme:&lt;/p&gt;
-&lt;p&gt;It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under &lt;code&gt;org.gnome.desktop.interface.gtk-theme&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Chromium snap context menu&lt;/p&gt;
-&lt;p&gt;For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
-The solution is to &lt;a href="https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag"&gt;disable hardware accerlation&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>Crafting a Durable Personal Kanban Board</title>
-      <link>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</link>
-      <pubDate>Sun, 29 Oct 2017 00:40:20 +0200</pubDate>
-      <guid>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</guid>
-      <description>&lt;p&gt;One of my highlights at this year's &lt;a href="https://www.socrates-conference.de/"&gt;SoCraTes in Soltau&lt;/a&gt; was a session about Personal Kanban hosted by &lt;a href="https://twitter.com/rradczewski/"&gt;Raimo&lt;/a&gt; and &lt;a href="https://twitter.com/janernsting/"&gt;Jan&lt;/a&gt;.
-They shared their experiences, practises and highlighted the advantages of a physical board.
-We even got provided material to build our own Personal Kanban boards. Mine looked like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Opened Personal Kanban board from SoCraTes 2017" src="pkanban_paper_open.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Front cover of my Personal Kanban board from SoCraTes 2017" src="pkanban_paper_front.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;While it was really neat that you could start using it right away, I felt the need to have a more durable board to really start utilizing it.
-The solution was simple:&lt;/p&gt;
-&lt;h2 id="more-plastic"&gt;&lt;a href="https://youtu.be/7W33HRc1A6c?t=350"&gt;MORE PLASTIC!&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;During the session I already had the idea, that my old plastic clipboard would be the perfect board material. The plastic is really smooth and sticky notes just, well, &lt;em&gt;stick&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;This week I made it to a stationery shop in Hamburg and bought some more transparent and black clipboards:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Clipboard base material" src="pkanban_clipboards.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;With some skill, tools and the right amount of force you can remove the clipboard part:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plastic boards without clip" src="pkanban_remove_clip.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;It goes faster after the second bolt, since you know how much force you can apply without damaging the plastic board. Still I cracked one of the transparent boards slightly. Be careful!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Waste" src="pkanban_waste.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="tools-used"&gt;Tools used&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Used tools" src="pkanban_tools.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Adhesive tape" src="pkanban_krepp.jpg" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A flat screwdriver to pry open the bolts&lt;/li&gt;
-&lt;li&gt;A strong pincer to destroy and remove the bolts&lt;/li&gt;
-&lt;li&gt;Adhesive tape to join 2 boards&lt;/li&gt;
-&lt;li&gt;Scissors to cut the tape&lt;/li&gt;
-&lt;li&gt;A ruler for drawing lines&lt;/li&gt;
-&lt;li&gt;Black / white permanent markers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="actually-composing-the-board"&gt;Actually composing the board&lt;/h2&gt;
-&lt;p&gt;The hard part is over, the rest is just joining and labeling the board.&lt;/p&gt;
-&lt;p&gt;If you put two of those boards back to back, you get a laptop-ish clamshell design. You need to keep a gap when joining the two boards, so they stay foldable:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Mind the gap" src="pkanban_fold.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;After drawing the sections and labels:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_transparent_open.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="result"&gt;Result&lt;/h2&gt;
-&lt;p&gt;My girlfriend liked the board so much, I needed to craft an additional one:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_black_board_open.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Applying some stickers lying around (I do not like putting them on laptops):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Resulting Personal Kanban boards" src="pkanban_result.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Costs:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Money: 9.60 € for 2 plastic clipboards, 4.30 € for a new adhesive tape reel, 7.50 € for the two (black + white) permanent markers. So ca. 30 € for two Personal Kanban boards, ca. 11 € per board if you consider the amount of tape / ink used.&lt;/li&gt;
-&lt;li&gt;Time: ca. 40 minutes for the transparent board with black permanent marker (incl. learning how to remove the board clips), ca. 1 hour for the black board with white permanent marker (be careful with the ink, it can get really messy!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Of course, the best result is that I actually apply Personal Kanban now! :)&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
-      <link>https://oliz.io/blog/2016/benjamin-franklin.html</link>
-      <pubDate>Sun, 17 Apr 2016 13:37:41 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/benjamin-franklin.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>K. Reitz: &amp;quot;Attention is the only currency we have in life. Thanks for gifting me yours.&amp;quot;</title>
-      <link>https://oliz.io/blog/2016/kenneth-reitz-attention.html</link>
-      <pubDate>Sat, 02 Apr 2016 13:37:48 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/kenneth-reitz-attention.html</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>How TED Talks Work</title>
-      <link>https://oliz.io/blog/2016/how-ted-talks-work.html</link>
-      <pubDate>Tue, 20 Sep 2016 00:34:17 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/how-ted-talks-work.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Dr._Fox_effect"&gt;https://en.wikipedia.org/wiki/Dr._Fox_effect&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Via: &lt;a href="https://twitter.com/mr_scientism/status/777938499999830017"&gt;https://twitter.com/mr_scientism/status/777938499999830017&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Lean: OSS Theorem Prover</title>
-      <link>https://oliz.io/blog/2016/lean-theorem-prover.html</link>
-      <pubDate>Mon, 22 Aug 2016 13:37:37 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/lean-theorem-prover.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://leanprover.github.io/about/"&gt;https://leanprover.github.io/about/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Just English Things</title>
-      <link>https://oliz.io/blog/2016/english-things.html</link>
-      <pubDate>Sun, 24 Apr 2016 00:27:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/english-things.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Yes, English can be weird.
-It can be understood through tough thorough thought, though.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/olamy/status/723732629674041345"&gt;https://twitter.com/olamy/status/723732629674041345&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
