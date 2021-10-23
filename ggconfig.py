@@ -20,6 +20,7 @@ config = {
     },
     'social': {
         'blog': 'https://oliz.io/blog/',
+        'rss': 'https://oliz.io/blog/rss.xml',
         'github': 'https://github.com/ooz',
         'about': 'https://oliz.io/about.html'
     }
