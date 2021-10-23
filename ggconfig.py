@@ -5,6 +5,7 @@ config = {
     'site': {
         'base_url': 'https://oliz.io/blog',
         'generate_sitemap': True,
+        'generate_rss': True,
         'additional_sitemap_entries': [],
         'title': 'Oliver Z.',
         'logo': 'static/owl.png',
