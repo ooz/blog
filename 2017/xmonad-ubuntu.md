@@ -86,3 +86,10 @@ However, for version 20.04 further tweaks are needed:
 
     For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
     The solution is to [disable hardware accerlation](https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag).
+
+6. [If top Gnome Panel disappears randomly on login](https://github.com/Gekkio/gnome-session-xmonad/issues/14#issuecomment-663922710):
+
+    ```
+    gsettings set org.gnome.gnome-flashback root-background true
+    gsettings set org.gnome.gnome-flashback desktop false
+    ```
