@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 23 Oct 2021 19:18:06 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Nov 2021 22:24:31 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
@@ -437,6 +437,11 @@ gsettings set org.gnome.Terminal.Legacy.Settings headerbar false&lt;/code&gt;&lt
 &lt;p&gt;Chromium snap context menu&lt;/p&gt;
 &lt;p&gt;For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
 The solution is to &lt;a href="https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag"&gt;disable hardware accerlation&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://github.com/Gekkio/gnome-session-xmonad/issues/14#issuecomment-663922710"&gt;If top Gnome Panel disappears randomly on login&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback root-background true
+gsettings set org.gnome.gnome-flashback desktop false&lt;/code&gt;&lt;/pre&gt;
 &lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
