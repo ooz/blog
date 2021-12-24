@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 27 Nov 2021 13:20:15 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Dec 2021 22:56:52 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
@@ -1431,6 +1431,29 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
 &lt;li&gt;&lt;a href="https://blog.melski.net/2010/11/30/makefile-hacks-print-the-value-of-any-variable/"&gt;Makefile variable debugging&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/"&gt;Self-documenting Makefile&lt;/a&gt; (&lt;a href="https://github.com/ooz/ggpy/blob/master/Makefile"&gt;example&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>My Online Chat Philosophy</title>
+      <link>https://oliz.io/blog/2021/my-online-chat-philosophy.html</link>
+      <pubDate>Fri, 24 Dec 2021 17:42:18 +0000</pubDate>
+      <guid>https://oliz.io/blog/2021/my-online-chat-philosophy.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;This post has been stuck in my "drawer" since September 2019. &lt;a href="https://drewdevault.com/2021/11/24/A-philosophy-for-instant-messaging.html"&gt;Drew DeVault's recent blog post on the same subject&lt;/a&gt; motivated me to finish and publish it!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="situation"&gt;Situation&lt;/h2&gt;
+&lt;p&gt;Since April 2019 I've been working fully remote for &lt;a href="https://developer.epages.com/blog/"&gt;ePages&lt;/a&gt;.
+Pre-COVID-19, I still visited the office once a while for important discussions, interviews, on-boarding and team lunches.&lt;/p&gt;
+&lt;p&gt;When the west started reacting to the pandemic, it had pretty much no impact on my work situation.&lt;/p&gt;
+&lt;p&gt;For online chat, we use &lt;a href="https://github.com/mattermost/mattermost-server"&gt;Mattermost&lt;/a&gt;.
+Further used knowledge management and communication tools are Confluence, Jira, GitHub and email.&lt;/p&gt;
+&lt;p&gt;Before, I was writing a lot already and I am aware that over-communication is helpful in a remote environment.&lt;/p&gt;
+&lt;h2 id="my-approach"&gt;My approach&lt;/h2&gt;
+&lt;p&gt;... is pretty much the same as Drew's:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Asynchronous&lt;/strong&gt;: While typing indicators help to get a conversation going, it's unreasonable to expect all addressees to read a message immediately. Chat tools are asynchronous by nature, but can be used in a synchronous fashion until a conversation ebbs away. For this it helps to provide more information at once, so no delayed message ping-pong is needed to gather relevant pieces.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ephemeral&lt;/strong&gt;: I don't read up on longer conversation I missed ("go with the flow"). If there is important info in the chat, it should be persisted elsewhere, too!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No notifications&lt;/strong&gt;: Plays in with the asynchronous approach: Same as email, I check chat tools on my own schedule to reduce distractions and increase focus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To me it seems, that sometimes all three points are misunderstood by deciders introducing Slack o.s. to their organization and expecting communication problems to disappear magically, maybe trying to get rid of email in the same stroke.&lt;/p&gt;
+&lt;p&gt;Merry Christmas!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pulse Width Modulation (PWM) and Mobile Screens</title>
