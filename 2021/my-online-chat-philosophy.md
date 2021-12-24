@@ -26,6 +26,7 @@ Before, I was writing a lot already and I am aware that over-communication is he
 * **Ephemeral**: I don't read up on longer conversation I missed ("go with the flow"). If there is important info in the chat, it should be persisted elsewhere, too!
 * **No notifications**: Plays in with the asynchronous approach: Same as email, I check chat tools on my own schedule to reduce distractions and increase focus.
 
-To me it seems, that sometimes all three points are misunderstood by deciders introducing Slack o.s. to their organization and expecting communication problems to disappear magically, maybe trying to get rid of email in the same stroke.
+To me it seems, that sometimes those points are misunderstood by deciders introducing Slack o.s. to their organization and expecting communication problems to drop, maybe trying to get rid of email in the same stroke.
+Whereas chat tools are another helper from the box, they don't supersede face-to-face conversations, video calls, email, or proper writing, documentation and knowledge management.
 
 Merry Christmas!
