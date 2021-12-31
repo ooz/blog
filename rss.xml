@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Fri, 31 Dec 2021 20:49:36 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 20:55:25 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
@@ -1436,7 +1436,7 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
       <link>https://oliz.io/blog/2021/leftovers.html</link>
       <pubDate>Fri, 31 Dec 2021 20:51:48 +0000</pubDate>
       <guid>https://oliz.io/blog/2021/leftovers.html</guid>
-      <description>&lt;p&gt;Various things I discovered in 2021 which didn't make it into a dedicated post:&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Various things I discovered in 2021 which didn't make it into a dedicated post.&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id="software-development-and-communication"&gt;Software Development and Communication&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.lesswrong.com/tag/crockers-rules"&gt;Crocker's Rules&lt;/a&gt; for effective communication&lt;/li&gt;
@@ -1444,17 +1444,13 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
 &lt;li&gt;&lt;a href="https://sneak.berlin/20191011/stupid-unix-tricks/"&gt;Unix shell and SSH tricks&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html"&gt;Behind a zero-click iOS hack&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/"&gt;Token entropy explained by GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.golem.de/news/cto-coach-stephan-schmidt-ich-dachte-ich-bin-in-der-pate-geraten-2105-156026-2.html"&gt;Interview with CTO Stephan Schmidt (German)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.golem.de/news/cto-coach-stephan-schmidt-ich-dachte-ich-bin-in-der-pate-geraten-2105-156026-2.html"&gt;Interview with CTO Stephan Schmidt (German)&lt;/a&gt;:&lt;ul&gt;
 &lt;li&gt;When starting as CTO, don't wait with changes until "you got to know the company". Check &lt;em&gt;security&lt;/em&gt;, &lt;em&gt;systems&lt;/em&gt; and &lt;em&gt;source code&lt;/em&gt; right away and initiate necessary changes.&lt;/li&gt;
 &lt;li&gt;When setting OKRs, include your employees in the process&lt;/li&gt;
 &lt;li&gt;"Estimating software is fractal, it gets bigger the closer you look"&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/"&gt;Writing an effective developer resume - from hiring manager PoV&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/"&gt;Writing an effective developer resume - from hiring manager PoV&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://betterprogramming.pub/build-a-simple-todolist-app-in-golang-82297ec25c7d"&gt;Building a simple TODO list app in Go&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://postgrest.org"&gt;RESTful API from any Postgres database&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.thomas-krenn.com/en/wiki/Perform_a_SSD_Secure_Erase"&gt;How-to securely erase a SSD&lt;/a&gt;&lt;/li&gt;
@@ -1462,18 +1458,10 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
 &lt;/ul&gt;
 &lt;h2 id="game-development"&gt;Game Development&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://ebiten.org/examples/2048.html"&gt;2048 Game&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Basic 2D game library, written in Go: &lt;a href="https://github.com/hajimehoshi/ebiten"&gt;Ebiten&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Cross-platform rendering library: &lt;a href="https://github.com/bkaradzic/bgfx"&gt;bgfx&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jason Gregory (lead programmer at Naughty Dog): "Game Engine Architecture"&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ebiten.org/examples/2048.html"&gt;2048 Game&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Basic 2D game library, written in Go: &lt;a href="https://github.com/hajimehoshi/ebiten"&gt;Ebiten&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cross-platform rendering library: &lt;a href="https://github.com/bkaradzic/bgfx"&gt;bgfx&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Jason Gregory (lead programmer at Naughty Dog): "Game Engine Architecture"&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/lettier/3d-game-shaders-for-beginners"&gt;Introduction to 3D game shaders&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/mxgmn/WaveFunctionCollapse"&gt;WaveFunctionCollapse&lt;/a&gt;: generating asset and map variations&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://ondras.zarovi.cz/"&gt;Creator of rot.js&lt;/a&gt; and &lt;a href="https://github.com/ondras/star-wars"&gt;a little Star Wars roguelike built using rot.js&lt;/a&gt;&lt;/li&gt;
@@ -1484,7 +1472,8 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
 &lt;li&gt;&lt;a href="https://arxiv.org/pdf/2101.12332.pdf"&gt;Atomic Swaps between BTC and XMR&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tevador/RandomX"&gt;RandomX algorithm used by XMR&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.crunchbase.com"&gt;Basic overview of companies&lt;/a&gt; (e.g. when applying)&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+&lt;p&gt;Happy New Year!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Makefile Hacks</title>
@@ -1683,7 +1672,8 @@ In my opinion, sustainable, exhaustive tech usage should be preferred, which is 
 State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
 &lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
-&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore. So I stopped using it, although I haven't migrated my content away from it, yet.&lt;/p&gt;
+&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
+So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
 &lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
 &lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
 &lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
