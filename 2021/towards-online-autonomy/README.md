@@ -33,7 +33,8 @@ The general population (not just the nerds) is spending more screentime consumin
 ## ...and Boring
 
 Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
-So I stopped using it, [social media isn't there to connect us anyway](https://sneak.berlin/20200211/instagram/).I'm still in the process of migrating my content away from the platform.
+So I stopped using it, [social media isn't there to connect us anyway](https://sneak.berlin/20200211/instagram/).
+I'm still in the process of migrating my content away from the platform.
 
 Another wake-up call has been [Google Photos' changed storage policy](https://blog.google/products/photos/storage-changes/): Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.
 
