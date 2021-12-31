@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Fri, 31 Dec 2021 20:28:00 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 20:49:36 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
@@ -1432,16 +1432,11 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
 &lt;p&gt;Source: &lt;a href="https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/"&gt;https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>https://oliz.io/blog/2021/leftovers.html</title>
+      <title>2021 Leftovers</title>
       <link>https://oliz.io/blog/2021/leftovers.html</link>
-      <pubDate>Fri, 31 Dec 2021 00:00:00 -0000</pubDate>
+      <pubDate>Fri, 31 Dec 2021 20:51:48 +0000</pubDate>
       <guid>https://oliz.io/blog/2021/leftovers.html</guid>
-      <description>&lt;p&gt;--
-title: 2021 Leftovers
-description: Bag of assorted links, learnings and interesting things
-date: 2021-12-31T20:51:48Z&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;Various things I discovered in 2021 which didn't make it into a dedicated post:&lt;/p&gt;
+      <description>&lt;p&gt;Various things I discovered in 2021 which didn't make it into a dedicated post:&lt;/p&gt;
 &lt;h2 id="software-development-and-communication"&gt;Software Development and Communication&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://www.lesswrong.com/tag/crockers-rules"&gt;Crocker's Rules&lt;/a&gt; for effective communication&lt;/li&gt;
