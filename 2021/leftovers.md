@@ -1,4 +1,4 @@
---
+---
 title: 2021 Leftovers
 description: Bag of assorted links, learnings and interesting things
 date: 2021-12-31T20:51:48Z
