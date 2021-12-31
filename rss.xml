@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 29 Dec 2021 23:00:20 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 20:28:00 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>B. Franklin: &amp;quot;Either write something worth reading or do something worth writing.&amp;quot;</title>
@@ -1430,6 +1430,66 @@ He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&g
 &lt;li&gt;Escape and Evasion&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Source: &lt;a href="https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/"&gt;https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>https://oliz.io/blog/2021/leftovers.html</title>
+      <link>https://oliz.io/blog/2021/leftovers.html</link>
+      <pubDate>Fri, 31 Dec 2021 00:00:00 -0000</pubDate>
+      <guid>https://oliz.io/blog/2021/leftovers.html</guid>
+      <description>&lt;p&gt;--
+title: 2021 Leftovers
+description: Bag of assorted links, learnings and interesting things
+date: 2021-12-31T20:51:48Z&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Various things I discovered in 2021 which didn't make it into a dedicated post:&lt;/p&gt;
+&lt;h2 id="software-development-and-communication"&gt;Software Development and Communication&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.lesswrong.com/tag/crockers-rules"&gt;Crocker's Rules&lt;/a&gt; for effective communication&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://michalzalecki.com/why-using-localStorage-directly-is-a-bad-idea/"&gt;Why using localStorage directly is a bad idea&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sneak.berlin/20191011/stupid-unix-tricks/"&gt;Unix shell and SSH tricks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html"&gt;Behind a zero-click iOS hack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/"&gt;Token entropy explained by GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://www.golem.de/news/cto-coach-stephan-schmidt-ich-dachte-ich-bin-in-der-pate-geraten-2105-156026-2.html"&gt;Interview with CTO Stephan Schmidt (German)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;When starting as CTO, don't wait with changes until "you got to know the company". Check &lt;em&gt;security&lt;/em&gt;, &lt;em&gt;systems&lt;/em&gt; and &lt;em&gt;source code&lt;/em&gt; right away and initiate necessary changes.&lt;/li&gt;
+&lt;li&gt;When setting OKRs, include your employees in the process&lt;/li&gt;
+&lt;li&gt;"Estimating software is fractal, it gets bigger the closer you look"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/"&gt;Writing an effective developer resume - from hiring manager PoV&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://betterprogramming.pub/build-a-simple-todolist-app-in-golang-82297ec25c7d"&gt;Building a simple TODO list app in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://postgrest.org"&gt;RESTful API from any Postgres database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.thomas-krenn.com/en/wiki/Perform_a_SSD_Secure_Erase"&gt;How-to securely erase a SSD&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dbartolini/data-oriented-design"&gt;Data Oriented Design: a collection of resources&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="game-development"&gt;Game Development&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://ebiten.org/examples/2048.html"&gt;2048 Game&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Basic 2D game library, written in Go: &lt;a href="https://github.com/hajimehoshi/ebiten"&gt;Ebiten&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Cross-platform rendering library: &lt;a href="https://github.com/bkaradzic/bgfx"&gt;bgfx&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jason Gregory (lead programmer at Naughty Dog): "Game Engine Architecture"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/lettier/3d-game-shaders-for-beginners"&gt;Introduction to 3D game shaders&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/mxgmn/WaveFunctionCollapse"&gt;WaveFunctionCollapse&lt;/a&gt;: generating asset and map variations&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://ondras.zarovi.cz/"&gt;Creator of rot.js&lt;/a&gt; and &lt;a href="https://github.com/ondras/star-wars"&gt;a little Star Wars roguelike built using rot.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="investing"&gt;Investing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tickertick.com/"&gt;Stock market news ticker&lt;/a&gt; and its &lt;a href="https://github.com/hczhu/TickerTick-API"&gt;API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2101.12332.pdf"&gt;Atomic Swaps between BTC and XMR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/tevador/RandomX"&gt;RandomX algorithm used by XMR&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.crunchbase.com"&gt;Basic overview of companies&lt;/a&gt; (e.g. when applying)&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Makefile Hacks</title>

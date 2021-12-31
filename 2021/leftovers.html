@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>Oliver Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2021/leftovers.html">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); max-width: 3rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); box-shadow: 1px 3px 6px 0 rgba(0, 0, 0, 0.2); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta property="og:title" content="">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2021/leftovers.html">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://oliz.io/blog/static/owl.png">
+<meta property="og:locale" content="en-US">
+<script type="application/ld+json">
+{"@context":"http://schema.org","@type":"WebSite","headline":"","url":"https://oliz.io/blog/2021/leftovers.html","name":"Oliver Z.","description":""}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl.png" class="avatar" /></a>
+</header>
+<section>
+<p>--
+title: 2021 Leftovers
+description: Bag of assorted links, learnings and interesting things
+date: 2021-12-31T20:51:48Z</p>
+<hr />
+<p>Various things I discovered in 2021 which didn't make it into a dedicated post:</p>
+<h2 id="software-development-and-communication">Software Development and Communication</h2>
+<ul>
+<li><a href="https://www.lesswrong.com/tag/crockers-rules">Crocker's Rules</a> for effective communication</li>
+<li><a href="https://michalzalecki.com/why-using-localStorage-directly-is-a-bad-idea/">Why using localStorage directly is a bad idea</a></li>
+<li><a href="https://sneak.berlin/20191011/stupid-unix-tricks/">Unix shell and SSH tricks</a></li>
+<li><a href="https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html">Behind a zero-click iOS hack</a></li>
+<li><a href="https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/">Token entropy explained by GitHub</a></li>
+<li>
+<p><a href="https://www.golem.de/news/cto-coach-stephan-schmidt-ich-dachte-ich-bin-in-der-pate-geraten-2105-156026-2.html">Interview with CTO Stephan Schmidt (German)</a></p>
+<ul>
+<li>When starting as CTO, don't wait with changes until "you got to know the company". Check <em>security</em>, <em>systems</em> and <em>source code</em> right away and initiate necessary changes.</li>
+<li>When setting OKRs, include your employees in the process</li>
+<li>"Estimating software is fractal, it gets bigger the closer you look"</li>
+</ul>
+</li>
+<li>
+<p><a href="https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/">Writing an effective developer resume - from hiring manager PoV</a></p>
+</li>
+<li><a href="https://betterprogramming.pub/build-a-simple-todolist-app-in-golang-82297ec25c7d">Building a simple TODO list app in Go</a></li>
+<li><a href="https://postgrest.org">RESTful API from any Postgres database</a></li>
+<li><a href="https://www.thomas-krenn.com/en/wiki/Perform_a_SSD_Secure_Erase">How-to securely erase a SSD</a></li>
+<li><a href="https://github.com/dbartolini/data-oriented-design">Data Oriented Design: a collection of resources</a></li>
+</ul>
+<h2 id="game-development">Game Development</h2>
+<ul>
+<li>
+<p><a href="https://ebiten.org/examples/2048.html">2048 Game</a></p>
+</li>
+<li>
+<p>Basic 2D game library, written in Go: <a href="https://github.com/hajimehoshi/ebiten">Ebiten</a></p>
+</li>
+<li>
+<p>Cross-platform rendering library: <a href="https://github.com/bkaradzic/bgfx">bgfx</a></p>
+</li>
+<li>
+<p>Jason Gregory (lead programmer at Naughty Dog): "Game Engine Architecture"</p>
+</li>
+<li><a href="https://github.com/lettier/3d-game-shaders-for-beginners">Introduction to 3D game shaders</a></li>
+<li><a href="https://github.com/mxgmn/WaveFunctionCollapse">WaveFunctionCollapse</a>: generating asset and map variations</li>
+<li><a href="https://ondras.zarovi.cz/">Creator of rot.js</a> and <a href="https://github.com/ondras/star-wars">a little Star Wars roguelike built using rot.js</a></li>
+</ul>
+<h2 id="investing">Investing</h2>
+<ul>
+<li><a href="https://tickertick.com/">Stock market news ticker</a> and its <a href="https://github.com/hczhu/TickerTick-API">API</a></li>
+<li><a href="https://arxiv.org/pdf/2101.12332.pdf">Atomic Swaps between BTC and XMR</a></li>
+<li><a href="https://github.com/tevador/RandomX">RandomX algorithm used by XMR</a></li>
+<li><a href="https://www.crunchbase.com">Basic overview of companies</a> (e.g. when applying)</li>
+</ul>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>
