@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 02 Jan 2022 21:49:11 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jan 2022 21:54:03 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Five Phases of an Operation</title>
@@ -285,10 +285,10 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul class="task-list"&gt;
-&lt;li&gt;Not using it anymore&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
 &lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
 &lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
 &lt;p&gt;Certainly, I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet:&lt;/p&gt;
@@ -299,6 +299,7 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
