@@ -74,10 +74,10 @@ Educate others:
 
 **Twitter**:
 
-* Not using it anymore
+* [x] Not using it anymore
+* [x] Add RSS feed generation to ggpy to make it easier for others to subscribe to my content
 * [ ] WIP: Migrating my content to this blog
 * [ ] I still need a solution to follow some people I know or like
-* [ ] Add RSS feed generation to ggpy to make it easier for others to subscribe to my content
 
 ## Further Inspiration and Links
 
@@ -89,4 +89,5 @@ Certainly, I'm not the first to be alienated. So here are a bunch of other nice,
 * [Website privacy checker](https://webbkoll.dataskydd.net/en)
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
 * [Curated list of libre Android apps](https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md)
+* [Web browser privacy comparison](https://privacytests.org/)
 
