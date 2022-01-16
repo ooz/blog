@@ -5,22 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 16 Jan 2022 21:33:06 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 21:48:17 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Serverless in One Slide</title>
-      <link>https://oliz.io/blog/2017/serverless-in-one-slide.html</link>
-      <pubDate>Sat, 01 Apr 2017 00:06:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/serverless-in-one-slide.html</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;short running functions&lt;/li&gt;
-&lt;li&gt;compute containers&lt;/li&gt;
-&lt;li&gt;stateless&lt;/li&gt;
-&lt;li&gt;3rd-party managed&lt;/li&gt;
-&lt;li&gt;event-triggered&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/coderbyheart/status/847522021990895621"&gt;https://twitter.com/coderbyheart/status/847522021990895621&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Just English Things</title>
       <link>https://oliz.io/blog/2016/english-things.html</link>
@@ -377,6 +363,14 @@ Things I am still looking forward to:&lt;/p&gt;
 &lt;p&gt;All in all I am pleased with the result so far.
 The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
 Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&amp;quot;Why we are not doing TDD&amp;quot;</title>
+      <link>https://oliz.io/blog/2019/why-we-are-not-doing-tdd.html</link>
+      <pubDate>Wed, 21 Aug 2019 22:44:45 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/why-we-are-not-doing-tdd.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://blog.code-cop.org/2019/08/y-u-no-tdd.html"&gt;https://blog.code-cop.org/2019/08/y-u-no-tdd.html&lt;/a&gt; (&lt;a href="https://twitter.com/codecopkofler"&gt;Peter Kofler&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://twitter.com/dkoller82/status/1163700712007770112"&gt;via Twitter&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
