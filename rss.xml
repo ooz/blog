@@ -5,19 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 16 Jan 2022 22:09:08 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 22:15:31 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Just English Things</title>
-      <link>https://oliz.io/blog/2016/english-things.html</link>
-      <pubDate>Sun, 24 Apr 2016 00:27:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/english-things.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Yes, English can be weird.
-It can be understood through tough thorough thought, though.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/olamy/status/723732629674041345"&gt;https://twitter.com/olamy/status/723732629674041345&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>How TED Talks Work</title>
       <link>https://oliz.io/blog/2016/how-ted-talks-work.html</link>
@@ -371,6 +360,25 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://www.crunchbase.com"&gt;Basic overview of companies&lt;/a&gt; (e.g. when applying), &lt;a href="https://www.progression.fyi/"&gt;career paths of various organizations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Happy New Year!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Just English Things</title>
+      <link>https://oliz.io/blog/2016/english-things.html</link>
+      <pubDate>Sun, 24 Apr 2016 00:27:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2016/english-things.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;Yes, English can be weird.
+It can be understood through tough thorough thought, though.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Source: &lt;a href="https://twitter.com/olamy/status/723732629674041345"&gt;https://twitter.com/olamy/status/723732629674041345&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="2018-edition"&gt;2018 edition&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Boris said, "Theresa may resign".
+"Boris", said Theresa, "may resign".
+Boris said, "Theresa May: Resign!"
+"Boris," said Theresa May: "Resign".&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Source: &lt;a href="https://twitter.com/katiejanegraham/status/1074377268284276737"&gt;https://twitter.com/katiejanegraham/status/1074377268284276737&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
