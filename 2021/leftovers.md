@@ -38,7 +38,7 @@ date: 2021-12-31T20:51:48Z
 * [Stock market news ticker](https://tickertick.com/) and its [API](https://github.com/hczhu/TickerTick-API)
 * [Atomic Swaps between BTC and XMR](https://arxiv.org/pdf/2101.12332.pdf)
 * [RandomX algorithm used by XMR](https://github.com/tevador/RandomX)
-* [Basic overview of companies](https://www.crunchbase.com) (e.g. when applying)
+* [Basic overview of companies](https://www.crunchbase.com) (e.g. when applying), [career paths of various organizations](https://www.progression.fyi/)
 
 Happy New Year!
 
