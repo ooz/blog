@@ -5,22 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 16 Jan 2022 21:01:21 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 21:33:06 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Five Phases of an Operation</title>
-      <link>https://oliz.io/blog/2021/five-phases-of-an-operation.html</link>
-      <pubDate>Mon, 18 Oct 2021 21:26:06 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/five-phases-of-an-operation.html</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Target Selection&lt;/li&gt;
-&lt;li&gt;Planning (and Surveillance)&lt;/li&gt;
-&lt;li&gt;Deployment&lt;/li&gt;
-&lt;li&gt;Execution&lt;/li&gt;
-&lt;li&gt;Escape and Evasion&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Source: &lt;a href="https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/"&gt;https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Serverless in One Slide</title>
       <link>https://oliz.io/blog/2017/serverless-in-one-slide.html</link>
@@ -301,6 +287,96 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Why I Wrote yet Another Static Site Generator</title>
+      <link>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</link>
+      <pubDate>Fri, 16 Mar 2018 21:28:03 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Once a while somebody wants to write a blog post...&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Previously my website and blog hosted on GitHub were statically generated using &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;.
+Even before Hugo I tried Jekyll, Pelican and was checking out &lt;a href="https://www.staticgen.com/"&gt;any site generator&lt;/a&gt;, that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.&lt;/p&gt;
+&lt;p&gt;Hugo certainly is a nice tool, but keeping track of updates and dependencies is annoying.
+Even if I use a popular Hugo theme, I need to track updates of both Hugo and the theme.
+Updates usually involve messing around in the configuration file as well.
+Configuration files are almost always not compatible between different themes.
+The same applies to the folder structure and canonical links.&lt;/p&gt;
+&lt;h2 id="my-requirements"&gt;My Requirements&lt;/h2&gt;
+&lt;p&gt;I did not find a single &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; fulfilling my personal requirements:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Leverage free GitHub infrastructure&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;GitHub Pages is a real asset for me. Anything static, anything just running in someone's browser, I want to deploy using GitHub. Authentication is set up for development work already. Everything is free as in "tea". The behavior is really transparent:&lt;/dd&gt;
+&lt;dd&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages maps my repos nicely to its &lt;a href="https://ooz.github.io"&gt;github.io&lt;/a&gt; subdomain. A &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should be able to leverage the repository/directory structure!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dd&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; files are rendered nicely on GitHub and can be edited there as well. So the &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should support rendering &lt;code&gt;README.md&lt;/code&gt; files as &lt;code&gt;index.html&lt;/code&gt; files for the repository/directory the file is located in!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dd&gt;
+&lt;p&gt;If you want to view the markdown file "as is" on GitHub, links to own assets/posts are usually broken in most SSGs due to templated links. GitHub Pages has Jekyll support included, but it is not as transparent as running Jekyll and deploying the result on your own.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Responsive design and pleasant typography&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Despite the mass of themes and free resources, this is still not a baseline. My website/blog should be nice to read everywhere and fonts should not strain the eye!&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Markdown support&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Life is too short to manually write plenty of markup. It was surprisingly hard to find a suitable markdown conversion tool/library, because there are so many dialects/extensions that lack proper implementation. I now decided for &lt;a href="https://python-markdown.github.io/extensions/"&gt;Python Markdown and its extensions&lt;/a&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Suitable not just for blog posts, but also for other content pages&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Some static site generators and themes are limited to specific use cases, I do not want to be restricted here.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Twitter Card, Open Graph support&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;This is covered by most themes, but it is again theme-dependent and if you develop your own theme, you need to take care of this also.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Portability&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Unix tools, bash, git, Python and some common apt packages are available even for my terminal emulator on Android. The tool should work in this environment.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Further there are lots of things solved by multiple SSGs that are &lt;em&gt;no requirements for me&lt;/em&gt;. An excerpt:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Full local preview and draft support&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;I rather deploy fast and update a post incrementally if needed.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Fast, incremental generation&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;With my blogging frequency this might become an issue when the sun turns red...&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Big theme selection&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;I just need one working theme. &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; themes are seldomly ranked, so it is hard to choose one to commit to.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Template engine, theme development option&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;See above, I just want something working to focus on writing content.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Why don't you just contribute to some project or develop your own theme?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I attempted to develop my own Hugo theme in the past, but I estimated the effort understanding all concepts and writing the archetypes, snippets and templates greater than just developing my own &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt;.
+For the same reason contribution to another &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; project was out of question: Too much effort catching up, esp. since most general purpose generators emphasize different features, that I do not need (see above).&lt;/p&gt;
+&lt;p&gt;So instead of investing time into things that might not yield the desired result, I decided to go my own path.&lt;/p&gt;
+&lt;h2 id="my-solution"&gt;My Solution&lt;/h2&gt;
+&lt;p&gt;This blog and website are now generated by &lt;a href="https://github.com/ooz/ggpy"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;, a single Python3 file inspired by &lt;a href="https://github.com/cfenollosa/bashblog"&gt;bashblog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;As CSS baseline I picked &lt;a href="https://milligram.io/"&gt;Milligram&lt;/a&gt;. It provides nice defaults without the need to put classes on every HTML element. This is especially handy, since I do not want to post-process the HTML generated from the Markdown input. Further dependencies include Google Fonts, Font Awesome and &lt;a href="https://highlightjs.org/"&gt;highlight.js&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Twitter cards and Open Graph meta data are rendered. The Python configuration file enables future preprocessing steps.&lt;/p&gt;
+&lt;p&gt;The mapping of GitHub repositories to (sub-)pages works nicely. Previous my website and blog were in the single repository &lt;a href="https://github.com/ooz/ooz.github.io"&gt;&lt;code&gt;ooz.github.io&lt;/code&gt;&lt;/a&gt;. Now the &lt;a href="https://github.com/ooz/blog"&gt;&lt;code&gt;blog&lt;/code&gt;&lt;/a&gt; has its own repository which fits in with the GitHub Pages of some personal projects (e.g. &lt;code&gt;ggpy&lt;/code&gt;, &lt;code&gt;handshake&lt;/code&gt; and &lt;code&gt;lifetime-clock&lt;/code&gt;). The new repository/page tree now looks like this:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;ooz.github.io      # GitHub user page
+├── index.html
+├── blog
+│   ├── index.html # Autogenerated from all blog posts
+│   ├── 2018
+│   │   ├── why-i-wrote-yet-another-static-site-gen.html
+│   │   └── why-i-wrote-yet-another-static-site-gen.md
+...
+├── ggpy           # A normal repository page
+├── handshake
+├── lifetime-clock&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="open-ends"&gt;Open Ends&lt;/h2&gt;
+&lt;p&gt;Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
+Things I am still looking forward to:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; XML sitemap and RSS feed support&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Smarter top-level blog post index generation with older posts hidden and a tag cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I thought about supporting Disqus as well, but I will probably rather include a "web 1.0" notice about using Twitter, GitHub issues or email to comment/contact me. This also reduces the attack vector of some German/EU bogus laws.&lt;/p&gt;
+&lt;h2 id="generate-it-up"&gt;Generate it up!&lt;/h2&gt;
+&lt;p&gt;All in all I am pleased with the result so far.
+The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
+Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
