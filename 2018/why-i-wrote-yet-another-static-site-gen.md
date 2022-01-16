@@ -89,8 +89,8 @@ ooz.github.io      # GitHub user page
 Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
 Things I am still looking forward to:
 
-* XML sitemap and RSS feed support
-* Smarter top-level blog post index generation with older posts hidden and a tag cloud
+* [x] XML sitemap and RSS feed support
+* [ ] Smarter top-level blog post index generation with older posts hidden and a tag cloud
 
 I thought about supporting Disqus as well, but I will probably rather include a "web 1.0" notice about using Twitter, GitHub issues or email to comment/contact me. This also reduces the attack vector of some German/EU bogus laws.
 
