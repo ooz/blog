@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 09 Jan 2022 21:54:49 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jan 2022 21:01:21 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Five Phases of an Operation</title>
@@ -20,6 +20,20 @@
 &lt;li&gt;Escape and Evasion&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Source: &lt;a href="https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/"&gt;https://grugq.github.io/blog/2013/12/21/in-search-of-opsec-magic-sauce/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Serverless in One Slide</title>
+      <link>https://oliz.io/blog/2017/serverless-in-one-slide.html</link>
+      <pubDate>Sat, 01 Apr 2017 00:06:33 +0000</pubDate>
+      <guid>https://oliz.io/blog/2017/serverless-in-one-slide.html</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;short running functions&lt;/li&gt;
+&lt;li&gt;compute containers&lt;/li&gt;
+&lt;li&gt;stateless&lt;/li&gt;
+&lt;li&gt;3rd-party managed&lt;/li&gt;
+&lt;li&gt;event-triggered&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Source: &lt;a href="https://twitter.com/coderbyheart/status/847522021990895621"&gt;https://twitter.com/coderbyheart/status/847522021990895621&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Just English Things</title>
@@ -54,20 +68,6 @@ It can be understood through tough thorough thought, though.&lt;/p&gt;
 &lt;li&gt;Think like a user&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;How to not do it: &lt;a href="https://twitter.com/AaronToponce/status/988761412464857088"&gt;https://twitter.com/AaronToponce/status/988761412464857088&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Serverless in One Slide</title>
-      <link>https://oliz.io/blog/2017/serverless-in-one-slide.html</link>
-      <pubDate>Sat, 01 Apr 2017 00:06:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2017/serverless-in-one-slide.html</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;short running functions&lt;/li&gt;
-&lt;li&gt;compute containers&lt;/li&gt;
-&lt;li&gt;stateless&lt;/li&gt;
-&lt;li&gt;3rd-party managed&lt;/li&gt;
-&lt;li&gt;event-triggered&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/coderbyheart/status/847522021990895621"&gt;https://twitter.com/coderbyheart/status/847522021990895621&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>How to configure Xmonad for Ubuntu</title>
