@@ -9,3 +9,12 @@ tags: __inline__
 
 Source: https://twitter.com/olamy/status/723732629674041345
 
+## 2018 edition
+
+> Boris said, "Theresa may resign".
+> "Boris", said Theresa, "may resign".
+> Boris said, "Theresa May: Resign!"
+> "Boris," said Theresa May: "Resign".
+
+Source: https://twitter.com/katiejanegraham/status/1074377268284276737
+
