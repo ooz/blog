@@ -81,12 +81,9 @@ Using paid Pokemon Bank/Home services (attachment has its price!), Gen3 Pokemon 
 Those services also support official emulations of Gen1 and Gen2.
 
 However, recent games lacked quality and substance.
-I personally stopped "buying 'em all" in Gen5 when B2W2 (lame naming btw!) released before I was even done with BW.
-Gen7 and Gen8 have been lackluster.
+"Pokemon Legends: Arceus" (PLA) is around the corner and it looks like a promising but unpolished experiment,
+a glimpse at what Pokemon games could be in the future.
 
-"Pokemon Legends: Arceus" (PLA) is around the corner.
-Leaks confirm it as a modern but unpolished experiment.
+In the meantime, I'll stay comfy in Johto:
 
-For me this means: wait, see and stay comfy in Johto:
-
-<div style="text-align:center"><img alt="My boy: Typhlosion!" src="absolute-unit.png" /></div>
+<div style="text-align:center"><img alt="Typhlosion!" src="absolute-unit.png" /></div>
