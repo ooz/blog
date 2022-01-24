@@ -14,7 +14,7 @@ I fired up Pokemon Red again:
 ![Charizard still #1!](glurak-still-nr1.png)
 
 No hand-holding, direct action, freedom to explore and a weirdly motivating grind.
-Despite non-existent postgame and the difficulty boiling down to "pick fire starter and press A", *it was fun*.
+Despite non-existent postgame and the difficulty boiling down to "pick starter and press A", *it was fun*.
 
 ## What makes a Pokemon game?
 
@@ -31,7 +31,7 @@ In interviews, Game Freak confirmed the target audience to be:
 
 ### The core gameplay
 
-...I'd condense to: *battle*, *catch*, *grow*, *explore*, *connect* and *gimmicks*.
+...can be condensed to: *battle*, *catch*, *grow*, *explore*, *connect* and *gimmicks*.
 The first five are constants. Gimmicks vary by generation, offering some optional experiments that may not carry over to later installments (e.g. secret base building, Pokemon grooming contests).
 
 ### Battle mechanics
@@ -63,16 +63,16 @@ To this day, the fundamental mechanics have been established with the first thre
 
 Later generations then continued with balancing, [physical/special split](https://bulbapedia.bulbagarden.net/wiki/Damage_category), Fairy type, affection and further minor changes.
 
-All features marked with "*", I'd consider not in the interest of the player.
+All features marked with "*", are not in the interest of the player.
 Meaning, the additional play time required to get optimal IV and natures is in no reasonable relation to the strategic benefit of getting a few more viable builds.
 So much, that competitive Pokemon play mostly happens on simulators, where you are free to build the desired Mon without any grind.
 Recent mainline games are acknowledging this by adding ingame means to [fix IV](https://bulbapedia.bulbagarden.net/wiki/Hyper_Training) and [force natures](https://bulbapedia.bulbagarden.net/wiki/Nature#Synchronize).
 
 ### The "story"
 
-Well, gotta mention it for completeness' sake:
+Well, it has to be mentioned for completeness' sake:
 The MC child (you) and rival(s) head out to explore the Pokemon world, grow and beat bad guys/save world.
-Eventually, you'll beat the Pokemon League, Elite 4, champ, catch legendaries, explore the postgame and maybe complete the Pokedex.
+Eventually, you'll beat the Pokemon League, Elite 4, champ, catch legendaries and maybe complete the Pokedex.
 
 ## Where is it going?
 
@@ -84,9 +84,8 @@ However, recent games lacked quality and substance.
 I personally stopped "buying 'em all" in Gen5 when B2W2 (lame naming btw!) released before I was even done with BW.
 Gen7 and Gen8 have been lackluster.
 
-Pokemon Legends: Arceus (PLA) is around the corner.
-Leaks confirm it as a modern (seamless fighting/catching in the world) but unpolished (empty, boring open areas, no interaction) take, a concept game.
-Considering BotW released in 2017, Pokemon games are still far from where they could be.
+"Pokemon Legends: Arceus" (PLA) is around the corner.
+Leaks confirm it as a modern but unpolished experiment.
 
 For me this means: wait, see and stay comfy in Johto:
 
