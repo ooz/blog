@@ -76,7 +76,7 @@ Eventually, you'll beat the Pokemon League, Elite 4, champ, catch legendaries, e
 
 ## Where is it going?
 
-On the pro side, backwards compatibility is pretty much unrivaled in the video game industry.
+On the pro side, backwards compatibility is unrivaled in the video game industry.
 Using paid Pokemon Bank/Home services (attachment has its price!), Gen3 Pokemon (from 2002/2003) can be transferred all the way up to current generation.
 Those services also support official emulations of Gen1 and Gen2.
 
