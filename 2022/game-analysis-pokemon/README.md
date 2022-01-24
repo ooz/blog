@@ -42,7 +42,7 @@ To this day, the fundamental mechanics have been established with the first thre
 
 **Gen1**:
 
-* [The Pokemon itself with its type and stat distribution](](https://pokemondb.net/pokedex))
+* [The Pokemon itself with its type and stat distribution](https://pokemondb.net/pokedex)
 * Attacks (same-type attack bonus, STAB)
 * *[IV](https://bulbapedia.bulbagarden.net/wiki/Individual_values) + [EV](https://bulbapedia.bulbagarden.net/wiki/Effort_values) ([calculator](https://pycosites.com/pkmn/ivcalc_gen2.php))
 
@@ -72,7 +72,7 @@ Recent mainline games are acknowledging this by adding ingame means to [fix IV](
 
 Well, gotta mention it for completeness' sake:
 The MC child (you) and rival(s) head out to explore the Pokemon world, grow and beat bad guys/save world.
-Eventually, you'll beat the Pokemon League, Elite 4, champ, catch legendaries, explore the postgame and maybe complete the PokeDex.
+Eventually, you'll beat the Pokemon League, Elite 4, champ, catch legendaries, explore the postgame and maybe complete the Pokedex.
 
 ## Where is it going?
 
@@ -90,4 +90,4 @@ Considering BotW released in 2017, Pokemon games are still far from where they c
 
 For me this means: wait, see and stay comfy in Johto:
 
-<div style="text-align:center"><img alt="Look at my boy!" src="absolute-unit.png" /></div>
+<div style="text-align:center"><img alt="My boy: Typhlosion!" src="absolute-unit.png" /></div>
