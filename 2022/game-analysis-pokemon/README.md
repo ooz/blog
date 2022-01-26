@@ -13,6 +13,8 @@ I fired up Pokemon Red again:
 
 ![Charizard still #1!](glurak-still-nr1.png)
 
+Sure, it's not the same as being a child targeted by a multi-channel marketing campaign.
+Imagination augmenting the limited Game Boy graphics to turn Pokemon into more than it is.
 No hand-holding, direct action, freedom to explore and a weirdly motivating grind.
 Despite non-existent postgame and the difficulty boiling down to "pick starter and press A", *it was fun*.
 
@@ -84,6 +86,6 @@ However, recent games lacked quality and substance.
 "Pokemon Legends: Arceus" (PLA) is around the corner and it looks like a promising but unpolished experiment,
 a glimpse at what Pokemon games could be in the future.
 
-In the meantime, I'll stay comfy in Johto:
+In the meantime, Johto is still comfy:
 
 <div style="text-align:center"><img alt="Typhlosion!" src="absolute-unit.png" /></div>
