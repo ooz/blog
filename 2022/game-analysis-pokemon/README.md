@@ -33,7 +33,7 @@ In interviews, Game Freak confirmed the target audience to be:
 
 ### The core gameplay
 
-...can be condensed to: *battle*, *catch*, *grow*, *explore*, *connect* and *gimmicks*.
+...in essence: *battle*, *catch*, *grow*, *explore*, *connect* and *gimmicks*.
 The first five are constants. Gimmicks vary by generation, offering some optional experiments that may not carry over to later installments (e.g. secret base building, Pokemon grooming contests).
 
 ### Battle mechanics
