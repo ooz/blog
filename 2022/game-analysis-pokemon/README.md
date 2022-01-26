@@ -54,8 +54,7 @@ To this day, the fundamental mechanics have been established with the first thre
 * Dark/Steel types, balancing Psychic type
 * Held items
 * Friendship o.s.
-* Genders and breeding
-* Shiny
+* Genders, breeding and shiny
 
 **Gen3**:
 
