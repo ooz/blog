@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 26 Jan 2022 22:35:34 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jan 2022 18:43:28 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Password Rules</title>
@@ -442,7 +442,9 @@ Those services also support official emulations of Gen1 and Gen2.&lt;/p&gt;
 "Pokemon Legends: Arceus" (PLA) is around the corner and it looks like a promising but unpolished experiment,
 a glimpse at what Pokemon games could be in the future.&lt;/p&gt;
 &lt;p&gt;In the meantime, Johto is still comfy:&lt;/p&gt;
-&lt;div style="text-align:center"&gt;&lt;img alt="Typhlosion!" src="absolute-unit.png" /&gt;&lt;/div&gt;</description>
+&lt;div style="text-align:center"&gt;&lt;img alt="Typhlosion!" src="absolute-unit.png" /&gt;&lt;/div&gt;
+
+&lt;p&gt;...and I'm working on my own "Monster Tamagotchi": &lt;a href="https://netmons.net"&gt;https://netmons.net&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
