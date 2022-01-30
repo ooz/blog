@@ -88,3 +88,5 @@ a glimpse at what Pokemon games could be in the future.
 In the meantime, Johto is still comfy:
 
 <div style="text-align:center"><img alt="Typhlosion!" src="absolute-unit.png" /></div>
+
+ ...and I'm working on my own "Monster Tamagotchi": https://netmons.net
