@@ -15,9 +15,9 @@ It's not a "real world" analogy, but at least builds on top of the accessible po
 
 Imagine, besides the One Ring ("private key"), Sauron mass-forged further, cheap knock-off rings ("public key") with the following properties:
 
-* Once put on, you can't take it off again and you are phased to the spirit plane, essentially becoming invisible.
+* Once put on, you can't take the ring off again and you are phased to the spirit plane, essentially becoming invisible.
 * You are unable to interact with anyone in the real world or spirit plane, except for
-* The wearer of the One Ring (Sauron) is the only one who can see you and is able to remove the ring from your finger.
+* the wearer of the One Ring (Sauron), who can see you and remove the ring from your finger.
 
 Sauron spreads those cheap rings everywhere, all over Middle-earth, and widely announces what power those rings grant.
 But most people don't really like Sauron!
