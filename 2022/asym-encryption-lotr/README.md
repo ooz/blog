@@ -30,8 +30,8 @@ He wants to send a messenger and tell Sauron about it, but all paths to Mordor a
 anyone who tries to sneak past.
 So, Saruman ("sender") picks up one of those mass-forged rings littering around everywhere and forces a messenger to put it on ("encrypted message").
 
-At last, the messenger makes their way to Sauron in Mordor, unnoticed.
-Sauron ("recipient") then removes the ring, gets to know the great discovery, and everyone lived happily thereafter!
+At last, the messenger makes their way to Sauron in Mordor ("recipient"), unnoticed.
+Sauron then removes the ring, gets to know the great discovery, and everyone lived happily thereafter!
 
 ## The Meme Version
 
