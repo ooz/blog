@@ -4,7 +4,7 @@ date: 2022-02-06T14:28:49Z
 ---
 
 Recently, I gave a company-internal talk for mostly non-techies about cryptography fundamentals and their applications.
-On the basics side, I covered encryption (symmetric), hashing and signing (symmetric, asymmetric) with relatable analogies.
+On the basics side, I covered *encryption* (symmetric), *hashing* and *signing* (symmetric, asymmetric) with relatable analogies.
 I skipped asymmetric encryption both due to time constraints and lack of a good analogy.
 After the talk, a fellow developer asked me, whether I'd know a good analogy for asymmetric encryption and we both knew not a single one!
 
