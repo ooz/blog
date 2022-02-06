@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 17:07:31 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Feb 2022 17:09:30 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to configure Xmonad for Ubuntu</title>
@@ -437,7 +437,7 @@ a glimpse at what Pokemon games could be in the future.&lt;/p&gt;
       <pubDate>Sun, 06 Feb 2022 14:28:49 +0000</pubDate>
       <guid>https://oliz.io/blog/2022/asym-encryption-lotr/</guid>
       <description>&lt;p&gt;Recently, I gave a company-internal talk for mostly non-techies about cryptography fundamentals and their applications.
-On the basics side, I covered encryption (symmetric), hashing and signing (symmetric, asymmetric) with relatable analogies.
+On the basics side, I covered &lt;em&gt;encryption&lt;/em&gt; (symmetric), &lt;em&gt;hashing&lt;/em&gt; and &lt;em&gt;signing&lt;/em&gt; (symmetric, asymmetric) with relatable analogies.
 I skipped asymmetric encryption both due to time constraints and lack of a good analogy.
 After the talk, a fellow developer asked me, whether I'd know a good analogy for asymmetric encryption and we both knew not a single one!&lt;/p&gt;
 &lt;p&gt;This bothered me quite a bit. Eventually, I came up with the story below.
