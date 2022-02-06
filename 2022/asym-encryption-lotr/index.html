@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>Asymmetric Encryption and Middle-earth | Oliver Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/asym-encryption-lotr/">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; max-width: 5rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="Asymmetric Encryption and Middle-earth">
+<meta property="og:title" content="Asymmetric Encryption and Middle-earth">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2022/asym-encryption-lotr/">
+<meta property="og:description" content="Asymmetric Encryption and Middle-earth">
+<meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2022-02-06T14:28:49Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"Asymmetric Encryption and Middle-earth","url":"https://oliz.io/blog/2022/asym-encryption-lotr/","name":"Oliver Z.","description":"Asymmetric Encryption and Middle-earth"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="asymmetric-encryption-and-middle-earth">Asymmetric Encryption and Middle-earth</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-02-06</small>
+</div>
+</header>
+<section>
+<p>Recently, I gave a company-internal talk for mostly non-techies about cryptography fundamentals and their applications.
+On the basics side, I covered encryption (symmetric), hashing and signing (symmetric, asymmetric) with relatable analogies.
+I skipped asymmetric encryption both due to time constraints and lack of a good analogy.
+After the talk, a fellow developer asked me, whether I'd know a good analogy for asymmetric encryption and we both knew not a single one!</p>
+<p>This bothered me quite a bit. Eventually, I came up with the story below.
+It's not a "real world" analogy, but at least builds on top of the accessible pop culture that is "Lord of the Rings":</p>
+<h2 id="the-one-ring-and-the-safe-passage-to-mordor-rings">The One Ring and the "Safe Passage to Mordor" Rings</h2>
+<p>Imagine, besides the One Ring (private key), Sauron mass-forged further, cheap knock-off rings (public key) with the following properties:</p>
+<ul>
+<li>Once put on, you can't take it off again and you are phased to the spirit plane, essentially becoming invisible.</li>
+<li>You are unable to interact with anyone in the real world or spirit plane, except for</li>
+<li>The wearer of the One Ring (Sauron) is the only one who can see you and is able to remove the ring from your finger.</li>
+</ul>
+<p>Sauron spreads those cheap rings everywhere, all over Middle-earth, and widely announces what power those rings grant.
+But most people don't really like Sauron!
+They don't see the point in equipping one of those rings just to need to walk into Mordor,
+where the very air you breathe is a poisonous fume, and ask Sauron to remove the ring from their finger.</p>
+<p>In Isengard, the young wizard Saruman, a good buddy of Sauron, studies orc nutrition.
+Saruman made a break-through discovery that could lead to orcs being able to march in broad daylight!
+He wants to send a messenger and tell Sauron about it, but all paths to Mordor are roamed by humans, elves and dwarves capturing or killing
+anyone who tries to sneak past.
+So, Saruman picks up one of those mass-forged rings littering around everywhere and forces a messenger put it on.
+At last, the messenger makes their way to Sauron in Mordor, unnoticed.
+Sauron then removes the ring, gets to know the great discovery, and everyone lived happily thereafter!</p>
+<h2 id="the-meme-version">The Meme Version</h2>
+<p>TBD</p>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>
