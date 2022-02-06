@@ -35,4 +35,8 @@ Sauron then removes the ring, gets to know the great discovery, and everyone liv
 
 ## The Meme Version
 
-TBD
+(contains graphic scene from the movies)
+
+![](asym-encryption-lotr-meme.jpg)
+
+Screenshots taken from various Youtube clips of ["The Lord of the Rings" by Peter Jackson](https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)).
