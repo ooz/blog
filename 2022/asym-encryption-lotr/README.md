@@ -6,7 +6,7 @@ date: 2022-02-06T14:28:49Z
 Recently, I gave a company-internal talk for mostly non-techies about cryptography fundamentals and their applications.
 On the basics side, I covered *encryption* (symmetric), *hashing* and *signing* (symmetric, asymmetric) with relatable analogies.
 I skipped asymmetric encryption both due to time constraints and lack of a good analogy.
-After the talk, a fellow developer asked me, whether I'd know a good analogy for asymmetric encryption and we both knew not a single one!
+After the talk, a fellow developer asked me, whether I'd know a good analogy for asymmetric encryption and we both did not know a single one!
 
 This bothered me quite a bit. Eventually, I came up with the story below.
 It's not a "real world" analogy, but at least builds on top of the accessible pop culture that is "Lord of the Rings":
