@@ -28,7 +28,8 @@ In Isengard, the young wizard Saruman, a good buddy of Sauron, studies orc nutri
 Saruman made a break-through discovery that could lead to orcs being able to march in broad daylight ("message")!
 He wants to send a messenger and tell Sauron about it, but all paths to Mordor are roamed by humans, elves and dwarves capturing or killing
 anyone who tries to sneak past.
-So, Saruman ("sender") picks up one of those mass-forged rings littering around everywhere and forces a messenger put it on ("encrypted message").
+So, Saruman ("sender") picks up one of those mass-forged rings littering around everywhere and forces a messenger to put it on ("encrypted message").
+
 At last, the messenger makes their way to Sauron in Mordor, unnoticed.
 Sauron ("recipient") then removes the ring, gets to know the great discovery, and everyone lived happily thereafter!
 
