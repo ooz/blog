@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 17:11:12 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Feb 2022 17:14:02 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to configure Xmonad for Ubuntu</title>
@@ -445,9 +445,9 @@ It's not a "real world" analogy, but at least builds on top of the accessible po
 &lt;h2 id="the-one-ring-and-the-safe-passage-to-mordor-rings"&gt;The One Ring and the "Safe Passage to Mordor" Rings&lt;/h2&gt;
 &lt;p&gt;Imagine, besides the One Ring ("private key"), Sauron mass-forged further, cheap knock-off rings ("public key") with the following properties:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Once put on, you can't take it off again and you are phased to the spirit plane, essentially becoming invisible.&lt;/li&gt;
+&lt;li&gt;Once put on, you can't take the ring off again and you are phased to the spirit plane, essentially becoming invisible.&lt;/li&gt;
 &lt;li&gt;You are unable to interact with anyone in the real world or spirit plane, except for&lt;/li&gt;
-&lt;li&gt;The wearer of the One Ring (Sauron) is the only one who can see you and is able to remove the ring from your finger.&lt;/li&gt;
+&lt;li&gt;the wearer of the One Ring (Sauron), who can see you and remove the ring from your finger.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Sauron spreads those cheap rings everywhere, all over Middle-earth, and widely announces what power those rings grant.
 But most people don't really like Sauron!
