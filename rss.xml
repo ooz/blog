@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 12 Feb 2022 18:52:42 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Feb 2022 18:58:06 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Online Chat Philosophy</title>
@@ -399,13 +399,13 @@ Sauron then removes the ring, gets to know the great discovery, and everyone liv
       <description>&lt;ol&gt;
 &lt;li&gt;Install Termux&lt;/li&gt;
 &lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
-&lt;li&gt;Setup an Ubuntu environment:&lt;/li&gt;
-&lt;/ol&gt;
+&lt;li&gt;
+&lt;p&gt;Setup an Ubuntu environment:&lt;/p&gt;
 &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
 proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;
-&lt;ol start="4"&gt;
-&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;&lt;/p&gt;
 &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
 apt-get install git build-essential cmake automake libtool autoconf
 git clone https://github.com/xmrig/xmrig.git
@@ -413,7 +413,9 @@ git clone https://github.com/xmrig/xmrig.git
 mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
 ./build_deps.sh &amp;amp;&amp;amp; cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;</description>
+make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>
