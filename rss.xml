@@ -5,82 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 06 Feb 2022 19:25:43 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Feb 2022 18:52:42 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to configure Xmonad for Ubuntu</title>
-      <link>https://oliz.io/blog/2017/xmonad-ubuntu.html</link>
-      <pubDate>Sun, 02 Apr 2017 21:20:32 +0200</pubDate>
-      <guid>https://oliz.io/blog/2017/xmonad-ubuntu.html</guid>
-      <description>&lt;p&gt;In the last six months I must have set up my default Ubuntu 16.04 + Xmonad desktop environment on like four or more machines.
-The goal looks like this (I like to have the top bar for status and widgets):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Ubuntu and Xmonad" src="ubuntu_xmonad.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Here is a small guide for future reference:&lt;/p&gt;
-&lt;h2 id="step-by-step-guide"&gt;Step-by-step Guide&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install the Xmonad package:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install xmonad&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;At this point you can already select an Xmonad session at the login screen.
-But this is not recommended.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;So additionally you should install the &lt;a href="https://github.com/Gekkio/gnome-session-xmonad"&gt;&lt;code&gt;gnome-session-xmonad&lt;/code&gt; package&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo add-apt-repository ppa:gekkio/xmonad
-sudo apt-get update
-sudo apt-get install gnome-session-xmonad&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure Xmonad. The Xmonad configuration is written in Haskell. If you are uncertain or need something working to start from, you are free to take &lt;a href="https://github.com/ooz/olli/blob/master/.xmonad/xmonad.hs"&gt;my configuration&lt;/a&gt;. Place it here: &lt;code&gt;~/.xmonad/xmonad.hs&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Relog and choose the &lt;strong&gt;GNOME + XMonad&lt;/strong&gt; session at the login screen.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you dislike the bottom panel (like I do, see above screenshot), you can disable it with:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel']"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To redisplay it, execute:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel','bottom-panel']"&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Have fun!&lt;/p&gt;
-&lt;h2 id="update-2021-09-14"&gt;Update 2021-09-14&lt;/h2&gt;
-&lt;p&gt;The above guide also works for Ubuntu 18.04 and 20.04.
-However, for version 20.04 further tweaks are needed:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Fix layout switch (Super+Space):&lt;/p&gt;
-&lt;p&gt;The shortcut is claimed by GNOME and needs to be disabled in "Settings &amp;gt; Keyboard Shortcuts &amp;gt; Switch to next input source"&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Remove the Terminal title bar:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;sudo apt install gnome-shell-extension-pixelsaver
-gnome-extensions enable pixel-saver@deadalnix.me
-gsettings set org.gnome.Terminal.Legacy.Settings headerbar false&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Hide desktop icons:&lt;/p&gt;
-&lt;p&gt;Inspired by: &lt;a href="https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04&lt;/a&gt; (the keys however don't work for &lt;code&gt;GNOME + XMonad&lt;/code&gt; session). Correct key:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback.desktop show-icons false&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dark theme:&lt;/p&gt;
-&lt;p&gt;It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under &lt;code&gt;org.gnome.desktop.interface.gtk-theme&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Chromium snap context menu&lt;/p&gt;
-&lt;p&gt;For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
-The solution is to &lt;a href="https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag"&gt;disable hardware accerlation&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/Gekkio/gnome-session-xmonad/issues/14#issuecomment-663922710"&gt;If top Gnome Panel disappears randomly on login&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback root-background true
-gsettings set org.gnome.gnome-flashback desktop false&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
     <item>
       <title>My Online Chat Philosophy</title>
       <link>https://oliz.io/blog/2021/my-online-chat-philosophy.html</link>
@@ -464,6 +390,30 @@ Sauron then removes the ring, gets to know the great discovery, and everyone liv
 &lt;p&gt;(contains graphic scene from the movies)&lt;/p&gt;
 &lt;p&gt;&lt;img alt="" src="asym-encryption-lotr-meme.jpg" /&gt;&lt;/p&gt;
 &lt;p&gt;Screenshots taken from various Youtube clips of &lt;a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)"&gt;"The Lord of the Rings" by Peter Jackson&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XMRig on Android</title>
+      <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
+      <pubDate>Sat, 12 Feb 2022 19:40:33 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/xmrig-on-android.html</guid>
+      <description>&lt;ol&gt;
+&lt;li&gt;Install Termux&lt;/li&gt;
+&lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
+&lt;li&gt;Setup an Ubuntu environment:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
+proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start="4"&gt;
+&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
+apt-get install git build-essential cmake automake libtool autoconf
+git clone https://github.com/xmrig/xmrig.git
+# Change donation rate if desired
+mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
+./build_deps.sh &amp;amp;&amp;amp; cd ../build
+cmake .. -DXMRIG_DEPS=scripts/deps
+make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
