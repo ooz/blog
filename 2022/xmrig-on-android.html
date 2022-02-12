@@ -105,22 +105,18 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 <ol>
 <li>Install Termux</li>
 <li>Install <code>proot-distro</code> package in Termux</li>
-<li>
-<p>Setup an Ubuntu environment:</p>
-<pre class="highlight"><code class="language-bash">proot-distro install ubuntu
-proot-distro login ubuntu</code></pre>
-</li>
-<li>
-<p>Follow <a href="https://xmrig.com/docs/miner/build/ubuntu">https://xmrig.com/docs/miner/build/ubuntu</a></p>
-<pre class="highlight"><code class="language-bash">apt update &amp;&amp; apt upgrade
+<li>Setup an Ubuntu environment:
+    <pre class="highlight"><code class="language-bash">proot-distro install ubuntu
+proot-distro login ubuntu</code></pre></li>
+<li>Follow <a href="https://xmrig.com/docs/miner/build/ubuntu">https://xmrig.com/docs/miner/build/ubuntu</a>
+    <pre class="highlight"><code class="language-bash">apt update &amp;&amp; apt upgrade
 apt-get install git build-essential cmake automake libtool autoconf
 git clone https://github.com/xmrig/xmrig.git
 # Change donation rate if desired
 mkdir xmrig/build &amp;&amp; cd xmrig/scripts
 ./build_deps.sh &amp;&amp; cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)</code></pre>
-</li>
+make -j$(nproc)</code></pre></li>
 </ol>
 </section>
 <footer>
