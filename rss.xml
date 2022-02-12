@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 12 Feb 2022 19:00:07 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Feb 2022 19:14:25 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Online Chat Philosophy</title>
@@ -399,7 +399,7 @@ Sauron then removes the ring, gets to know the great discovery, and everyone liv
       <description>&lt;ol&gt;
 &lt;li&gt;Install Termux&lt;/li&gt;
 &lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
-&lt;li&gt;Setup an Ubuntu environment:
+&lt;li&gt;Setup an Ubuntu environment
     &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
 proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;
