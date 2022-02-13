@@ -21,3 +21,8 @@ date: 2022-02-12T19:40:33Z
     cmake .. -DXMRIG_DEPS=scripts/deps
     make -j$(nproc)
     ```
+5. Start `xmrig` with minimal configuration
+    ```bash
+    modprobe msr # if supported by the system
+	./xmrig -o ${POOL} -u ${WALLET} -k --tls
+    ```
