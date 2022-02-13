@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 12 Feb 2022 19:14:25 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Feb 2022 20:55:04 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Online Chat Philosophy</title>
@@ -411,6 +411,9 @@ mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
 ./build_deps.sh &amp;amp;&amp;amp; cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
 make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Start &lt;code&gt;xmrig&lt;/code&gt; with minimal configuration
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;modprobe msr # if supported by the system
+./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
   </channel>

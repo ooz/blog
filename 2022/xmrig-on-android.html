@@ -117,6 +117,9 @@ mkdir xmrig/build &amp;&amp; cd xmrig/scripts
 ./build_deps.sh &amp;&amp; cd ../build
 cmake .. -DXMRIG_DEPS=scripts/deps
 make -j$(nproc)</code></pre></li>
+<li>Start <code>xmrig</code> with minimal configuration
+    <pre class="highlight"><code class="language-bash">modprobe msr # if supported by the system
+./xmrig -o ${POOL} -u ${WALLET} -k --tls</code></pre></li>
 </ol>
 </section>
 <footer>
