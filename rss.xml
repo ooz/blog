@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 23 Feb 2022 02:29:45 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Feb 2022 10:46:26 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&amp;quot;Why we are not doing TDD&amp;quot;</title>
@@ -352,7 +352,7 @@ It starts humble with manual paperclip assembly but you (and your swarm of drone
 &lt;ul&gt;
 &lt;li&gt;Goal: acquire all matter, check that energy production and consumption are in balance&lt;/li&gt;
 &lt;li&gt;Manage: energy (production + storage), drones (harvester + wire), clip factories&lt;/li&gt;
-&lt;li&gt;Resources: clips and creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!&lt;/li&gt;
+&lt;li&gt;Resources: clips and Creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;UI and interaction:&lt;/p&gt;
 &lt;ul&gt;
@@ -370,14 +370,14 @@ It starts humble with manual paperclip assembly but you (and your swarm of drone
 &lt;p&gt;UI and interaction:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters&lt;/li&gt;
-&lt;li&gt;"Combat" animation illustrates the fight against drifted drones&lt;/li&gt;
+&lt;li&gt;A simplistic combat animation illustrates the fight against drifted drones&lt;/li&gt;
 &lt;li&gt;Certain research triggers music&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Eventually, you will learn names of large numbers and reach the maximum paperclip counter:&lt;/p&gt;
 &lt;pre class="highlight"&gt;&lt;code&gt;Paperclips: 30,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;(30 septendecillion)&lt;/p&gt;
 &lt;h2 id="game-over"&gt;Game Over&lt;/h2&gt;
-&lt;p&gt;Most of the lore and story are told via "research projects", e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".&lt;/p&gt;
+&lt;p&gt;Most of the lore and story are told via research projects, e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".&lt;/p&gt;
 &lt;p&gt;The epilogue uses the same UI. Eventually, you are presented two options:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Start over in new universe (with slightly different parameters)&lt;/li&gt;
