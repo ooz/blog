@@ -37,7 +37,7 @@ Researching "Release the HypnoDrones" (100 Trust) starts Stage 2.
 
 * Goal: acquire all matter, check that energy production and consumption are in balance
 * Manage: energy (production + storage), drones (harvester + wire), clip factories
-* Resources: clips and creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!
+* Resources: clips and Creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!
 
 UI and interaction:
 
@@ -56,7 +56,7 @@ Researching "Space Exploration" (120000 ops, 10000k MW-seconds, 5 oct clips) sta
 UI and interaction:
 
 * Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters
-* "Combat" animation illustrates the fight against drifted drones
+* A simplistic combat animation illustrates the fight against drifted drones
 * Certain research triggers music
 
 Eventually, you will learn names of large numbers and reach the maximum paperclip counter:
@@ -69,7 +69,7 @@ Paperclips: 30,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,0
 
 ## Game Over
 
-Most of the lore and story are told via "research projects", e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".
+Most of the lore and story are told via research projects, e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".
 
 The epilogue uses the same UI. Eventually, you are presented two options:
 
