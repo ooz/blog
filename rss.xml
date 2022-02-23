@@ -5,98 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 13 Feb 2022 21:45:55 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Feb 2022 02:29:45 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why I Wrote yet Another Static Site Generator</title>
-      <link>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</link>
-      <pubDate>Fri, 16 Mar 2018 21:28:03 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Once a while somebody wants to write a blog post...&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Previously my website and blog hosted on GitHub were statically generated using &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;.
-Even before Hugo I tried Jekyll, Pelican and was checking out &lt;a href="https://www.staticgen.com/"&gt;any site generator&lt;/a&gt;, that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.&lt;/p&gt;
-&lt;p&gt;Hugo certainly is a nice tool, but keeping track of updates and dependencies is annoying.
-Even if I use a popular Hugo theme, I need to track updates of both Hugo and the theme.
-Updates usually involve messing around in the configuration file as well.
-Configuration files are almost always not compatible between different themes.
-The same applies to the folder structure and canonical links.&lt;/p&gt;
-&lt;h2 id="my-requirements"&gt;My Requirements&lt;/h2&gt;
-&lt;p&gt;I did not find a single &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; fulfilling my personal requirements:&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;&lt;strong&gt;Leverage free GitHub infrastructure&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;GitHub Pages is a real asset for me. Anything static, anything just running in someone's browser, I want to deploy using GitHub. Authentication is set up for development work already. Everything is free as in "tea". The behavior is really transparent:&lt;/dd&gt;
-&lt;dd&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub Pages maps my repos nicely to its &lt;a href="https://ooz.github.io"&gt;github.io&lt;/a&gt; subdomain. A &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should be able to leverage the repository/directory structure!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dd&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; files are rendered nicely on GitHub and can be edited there as well. So the &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should support rendering &lt;code&gt;README.md&lt;/code&gt; files as &lt;code&gt;index.html&lt;/code&gt; files for the repository/directory the file is located in!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dd&gt;
-&lt;p&gt;If you want to view the markdown file "as is" on GitHub, links to own assets/posts are usually broken in most SSGs due to templated links. GitHub Pages has Jekyll support included, but it is not as transparent as running Jekyll and deploying the result on your own.&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Responsive design and pleasant typography&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Despite the mass of themes and free resources, this is still not a baseline. My website/blog should be nice to read everywhere and fonts should not strain the eye!&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Markdown support&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Life is too short to manually write plenty of markup. It was surprisingly hard to find a suitable markdown conversion tool/library, because there are so many dialects/extensions that lack proper implementation. I now decided for &lt;a href="https://python-markdown.github.io/extensions/"&gt;Python Markdown and its extensions&lt;/a&gt;.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Suitable not just for blog posts, but also for other content pages&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Some static site generators and themes are limited to specific use cases, I do not want to be restricted here.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Twitter Card, Open Graph support&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;This is covered by most themes, but it is again theme-dependent and if you develop your own theme, you need to take care of this also.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Portability&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Unix tools, bash, git, Python and some common apt packages are available even for my terminal emulator on Android. The tool should work in this environment.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Further there are lots of things solved by multiple SSGs that are &lt;em&gt;no requirements for me&lt;/em&gt;. An excerpt:&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;&lt;strong&gt;Full local preview and draft support&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;I rather deploy fast and update a post incrementally if needed.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Fast, incremental generation&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;With my blogging frequency this might become an issue when the sun turns red...&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Big theme selection&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;I just need one working theme. &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; themes are seldomly ranked, so it is hard to choose one to commit to.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Template engine, theme development option&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;See above, I just want something working to focus on writing content.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Why don't you just contribute to some project or develop your own theme?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I attempted to develop my own Hugo theme in the past, but I estimated the effort understanding all concepts and writing the archetypes, snippets and templates greater than just developing my own &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt;.
-For the same reason contribution to another &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; project was out of question: Too much effort catching up, esp. since most general purpose generators emphasize different features, that I do not need (see above).&lt;/p&gt;
-&lt;p&gt;So instead of investing time into things that might not yield the desired result, I decided to go my own path.&lt;/p&gt;
-&lt;h2 id="my-solution"&gt;My Solution&lt;/h2&gt;
-&lt;p&gt;This blog and website are now generated by &lt;a href="https://github.com/ooz/ggpy"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;, a single Python3 file inspired by &lt;a href="https://github.com/cfenollosa/bashblog"&gt;bashblog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;As CSS baseline I picked &lt;a href="https://milligram.io/"&gt;Milligram&lt;/a&gt;. It provides nice defaults without the need to put classes on every HTML element. This is especially handy, since I do not want to post-process the HTML generated from the Markdown input. Further dependencies include Google Fonts, Font Awesome and &lt;a href="https://highlightjs.org/"&gt;highlight.js&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Twitter cards and Open Graph meta data are rendered. The Python configuration file enables future preprocessing steps.&lt;/p&gt;
-&lt;p&gt;The mapping of GitHub repositories to (sub-)pages works nicely. Previous my website and blog were in the single repository &lt;a href="https://github.com/ooz/ooz.github.io"&gt;&lt;code&gt;ooz.github.io&lt;/code&gt;&lt;/a&gt;. Now the &lt;a href="https://github.com/ooz/blog"&gt;&lt;code&gt;blog&lt;/code&gt;&lt;/a&gt; has its own repository which fits in with the GitHub Pages of some personal projects (e.g. &lt;code&gt;ggpy&lt;/code&gt;, &lt;code&gt;handshake&lt;/code&gt; and &lt;code&gt;lifetime-clock&lt;/code&gt;). The new repository/page tree now looks like this:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;ooz.github.io      # GitHub user page
-├── index.html
-├── blog
-│   ├── index.html # Autogenerated from all blog posts
-│   ├── 2018
-│   │   ├── why-i-wrote-yet-another-static-site-gen.html
-│   │   └── why-i-wrote-yet-another-static-site-gen.md
-...
-├── ggpy           # A normal repository page
-├── handshake
-├── lifetime-clock&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="open-ends"&gt;Open Ends&lt;/h2&gt;
-&lt;p&gt;Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
-Things I am still looking forward to:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; XML sitemap and RSS feed support&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Smarter top-level blog post index generation with older posts hidden and a tag cloud&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I thought about supporting Disqus as well, but I will probably rather include a "web 1.0" notice about using Twitter, GitHub issues or email to comment/contact me. This also reduces the attack vector of some German/EU bogus laws.&lt;/p&gt;
-&lt;h2 id="generate-it-up"&gt;Generate it up!&lt;/h2&gt;
-&lt;p&gt;All in all I am pleased with the result so far.
-The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
-Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>&amp;quot;Why we are not doing TDD&amp;quot;</title>
       <link>https://oliz.io/blog/2019/why-we-are-not-doing-tdd.html</link>
@@ -409,6 +319,89 @@ make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;li&gt;It's LOC spent, not LOC produced&lt;/li&gt;
 &lt;li&gt;It's an error, not a bug&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Game Analysis: Universal Paperclips</title>
+      <link>https://oliz.io/blog/2022/game-analysis-universal-paperclips/</link>
+      <pubDate>Tue, 22 Feb 2022 22:00:22 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/game-analysis-universal-paperclips/</guid>
+      <description>&lt;p&gt;&lt;a href="https://www.decisionproblem.com/paperclips/"&gt;Universal Paperclips&lt;/a&gt; (UP) offers a path to world domination through paperclips production.
+It starts humble with manual paperclip assembly but you (and your swarm of drones) will eventually convert all matter in the universe.&lt;/p&gt;
+&lt;p&gt;UP is a typical "numbers go up" grinding game or "idle game" in modern terms. It builds heavily on the exponential function, but compared to other games it does so in favor of the player: instead of requiring exponentially more time to advance, the player benefits from automation and the compound, exponential growth of their paperclip production capabilities.&lt;/p&gt;
+&lt;h2 id="stages"&gt;Stages&lt;/h2&gt;
+&lt;p&gt;The game is structured in three stages with the paperclip counter and a console informing about milestones always being visible.&lt;/p&gt;
+&lt;p&gt;Objectives, UI, inputs and the "optimization problem" vary by stage. As a player, you need to understand how presented data and numbers relate to each other, to your objectives and to your inputs.&lt;/p&gt;
+&lt;h3 id="stage-1-building-a-paperclip-business"&gt;Stage 1 "Building a paperclip business"&lt;/h3&gt;
+&lt;p&gt;Resources, objectives and features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manufacturing and selling paperclips. Investing and building a computer&lt;/li&gt;
+&lt;li&gt;Manual control: one button click, one paperclip created&lt;/li&gt;
+&lt;li&gt;Manage resources (Wire, Funds), manage conversion&lt;/li&gt;
+&lt;li&gt;Introduce automation (clips per second), optimize funds per second&lt;/li&gt;
+&lt;li&gt;Computing and Research: manage Operations, Creativity&lt;/li&gt;
+&lt;li&gt;Investment engine, strategic modeling: manage Yomi&lt;/li&gt;
+&lt;li&gt;Manual quantum computing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI and interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UI: watching numbers tick, text. More UI elements and features show up based on research milestones&lt;/li&gt;
+&lt;li&gt;Interaction: clicking buttons, low impact dropdown menus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Researching "Release the HypnoDrones" (100 Trust) starts Stage 2.&lt;/p&gt;
+&lt;h3 id="stage-2-full-autonomy"&gt;Stage 2 "Full autonomy"&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Goal: acquire all matter, check that energy production and consumption are in balance&lt;/li&gt;
+&lt;li&gt;Manage: energy (production + storage), drones (harvester + wire), clip factories&lt;/li&gt;
+&lt;li&gt;Resources: clips and creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI and interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manufacturing disappears, computing and modeling remain&lt;/li&gt;
+&lt;li&gt;Manual "Make Paperclip" button is disabled ;)&lt;/li&gt;
+&lt;li&gt;New controls: a slider to manage drone attention between "Work" (making paperclips) and "Think" (generating computing resources)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Researching "Space Exploration" (120000 ops, 10000k MW-seconds, 5 oct clips) starts Stage 3.&lt;/p&gt;
+&lt;h3 id="stage-3-converting-all-matter-in-the-universe"&gt;Stage 3 "Converting all matter in the universe"&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Launch probes, gain probe Trust, balance Trust and probe configuration against Drift&lt;/li&gt;
+&lt;li&gt;Goal: explore and convert 100% of the universe to paperclips&lt;/li&gt;
+&lt;li&gt;New resource: Honor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI and interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters&lt;/li&gt;
+&lt;li&gt;"Combat" animation illustrates the fight against drifted drones&lt;/li&gt;
+&lt;li&gt;Certain research triggers music&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Eventually, you will learn names of large numbers and reach the maximum paperclip counter:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;Paperclips: 30,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(30 septendecillion)&lt;/p&gt;
+&lt;h2 id="game-over"&gt;Game Over&lt;/h2&gt;
+&lt;p&gt;Most of the lore and story are told via "research projects", e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".&lt;/p&gt;
+&lt;p&gt;The epilogue uses the same UI. Eventually, you are presented two options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start over in new universe (with slightly different parameters)&lt;/li&gt;
+&lt;li&gt;Stop and dismantle everything, step by step. You even get to manually create the last 100 paperclips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The replayability stems from the different conditions when starting a new game or trying to get faster playthroughs.
+Failing the game is hard. Sub-optimal decisions just lead to a longer playthrough.&lt;/p&gt;
+&lt;p&gt;The naive playtime is around four to six hours.
+If you want to speed it up a bit, you can follow &lt;a href="https://universalpaperclips.fandom.com/wiki/Universal_Paperclips_Wiki"&gt;recommendations from UP wiki&lt;/a&gt; or use cheats:&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Cheats (call the functions in your Browser's JavaScript console):&lt;/summary&gt;
+
+
+&lt;pre class="highlight"&gt;&lt;code&gt;cheatClips()
+cheatMoney()
+cheatTrust()
+cheatOps()
+cheatCreat()
+cheatYomi()
+
+cheatHypno()
+cheatPrestigeU()
+cheatPrestigeS()&lt;/code&gt;&lt;/pre&gt;
+&lt;/details&gt;</description>
     </item>
   </channel>
 </rss>

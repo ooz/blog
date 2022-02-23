@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>Game Analysis: Universal Paperclips | Oliver Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/game-analysis-universal-paperclips/">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; max-width: 5rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="Game Analysis: Universal Paperclips">
+<meta property="og:title" content="Game Analysis: Universal Paperclips">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2022/game-analysis-universal-paperclips/">
+<meta property="og:description" content="Game Analysis: Universal Paperclips">
+<meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2022-02-22T22:00:22Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"Game Analysis: Universal Paperclips","url":"https://oliz.io/blog/2022/game-analysis-universal-paperclips/","name":"Oliver Z.","description":"Game Analysis: Universal Paperclips"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="game-analysis-universal-paperclips">Game Analysis: Universal Paperclips</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-02-22</small>
+</div>
+</header>
+<section>
+<p><a href="https://www.decisionproblem.com/paperclips/">Universal Paperclips</a> (UP) offers a path to world domination through paperclips production.
+It starts humble with manual paperclip assembly but you (and your swarm of drones) will eventually convert all matter in the universe.</p>
+<p>UP is a typical "numbers go up" grinding game or "idle game" in modern terms. It builds heavily on the exponential function, but compared to other games it does so in favor of the player: instead of requiring exponentially more time to advance, the player benefits from automation and the compound, exponential growth of their paperclip production capabilities.</p>
+<h2 id="stages">Stages</h2>
+<p>The game is structured in three stages with the paperclip counter and a console informing about milestones always being visible.</p>
+<p>Objectives, UI, inputs and the "optimization problem" vary by stage. As a player, you need to understand how presented data and numbers relate to each other, to your objectives and to your inputs.</p>
+<h3 id="stage-1-building-a-paperclip-business">Stage 1 "Building a paperclip business"</h3>
+<p>Resources, objectives and features:</p>
+<ul>
+<li>Manufacturing and selling paperclips. Investing and building a computer</li>
+<li>Manual control: one button click, one paperclip created</li>
+<li>Manage resources (Wire, Funds), manage conversion</li>
+<li>Introduce automation (clips per second), optimize funds per second</li>
+<li>Computing and Research: manage Operations, Creativity</li>
+<li>Investment engine, strategic modeling: manage Yomi</li>
+<li>Manual quantum computing</li>
+</ul>
+<p>UI and interaction:</p>
+<ul>
+<li>UI: watching numbers tick, text. More UI elements and features show up based on research milestones</li>
+<li>Interaction: clicking buttons, low impact dropdown menus</li>
+</ul>
+<p>Researching "Release the HypnoDrones" (100 Trust) starts Stage 2.</p>
+<h3 id="stage-2-full-autonomy">Stage 2 "Full autonomy"</h3>
+<ul>
+<li>Goal: acquire all matter, check that energy production and consumption are in balance</li>
+<li>Manage: energy (production + storage), drones (harvester + wire), clip factories</li>
+<li>Resources: clips and creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!</li>
+</ul>
+<p>UI and interaction:</p>
+<ul>
+<li>Manufacturing disappears, computing and modeling remain</li>
+<li>Manual "Make Paperclip" button is disabled ;)</li>
+<li>New controls: a slider to manage drone attention between "Work" (making paperclips) and "Think" (generating computing resources)</li>
+</ul>
+<p>Researching "Space Exploration" (120000 ops, 10000k MW-seconds, 5 oct clips) starts Stage 3.</p>
+<h3 id="stage-3-converting-all-matter-in-the-universe">Stage 3 "Converting all matter in the universe"</h3>
+<ul>
+<li>Launch probes, gain probe Trust, balance Trust and probe configuration against Drift</li>
+<li>Goal: explore and convert 100% of the universe to paperclips</li>
+<li>New resource: Honor</li>
+</ul>
+<p>UI and interaction:</p>
+<ul>
+<li>Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters</li>
+<li>"Combat" animation illustrates the fight against drifted drones</li>
+<li>Certain research triggers music</li>
+</ul>
+<p>Eventually, you will learn names of large numbers and reach the maximum paperclip counter:</p>
+<pre class="highlight"><code>Paperclips: 30,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000</code></pre>
+<p>(30 septendecillion)</p>
+<h2 id="game-over">Game Over</h2>
+<p>Most of the lore and story are told via "research projects", e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".</p>
+<p>The epilogue uses the same UI. Eventually, you are presented two options:</p>
+<ul>
+<li>Start over in new universe (with slightly different parameters)</li>
+<li>Stop and dismantle everything, step by step. You even get to manually create the last 100 paperclips</li>
+</ul>
+<p>The replayability stems from the different conditions when starting a new game or trying to get faster playthroughs.
+Failing the game is hard. Sub-optimal decisions just lead to a longer playthrough.</p>
+<p>The naive playtime is around four to six hours.
+If you want to speed it up a bit, you can follow <a href="https://universalpaperclips.fandom.com/wiki/Universal_Paperclips_Wiki">recommendations from UP wiki</a> or use cheats:</p>
+<details>
+<summary>Cheats (call the functions in your Browser's JavaScript console):</summary>
+
+
+<pre class="highlight"><code>cheatClips()
+cheatMoney()
+cheatTrust()
+cheatOps()
+cheatCreat()
+cheatYomi()
+
+cheatHypno()
+cheatPrestigeU()
+cheatPrestigeS()</code></pre>
+</details>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>
