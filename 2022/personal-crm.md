@@ -11,7 +11,7 @@ In the last year, I missed quite some birthdays, address updates and have genera
 ## History and Requirements
 
 I already made it a habit to note key learnings after interactions with people I don't meet regularly.
-When companies do this, it's called [Customer Relationship Management (CRM)](https://en.wikipedia.org/wiki/Customer_relationship_management), so the ever rotating support clerks know of all your correspondence.
+When companies do this, it's called [Customer Relationship Management (CRM)](https://en.wikipedia.org/wiki/Customer_relationship_management), so the ever rotating clerks know of your correspondence.
 This may sound [creepy](https://en.wikipedia.org/wiki/Stasi#Recovery_of_Stasi_files), but has the benefit of being more considerate and respectful with each other's time.
 No more *"I thought, I already told you"* or *"What was the name of your child again?"*
 That "database" was a set of local text files and I wanted to combine it with the contacts list exported from Google (`.csv`).
