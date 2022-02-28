@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>Personal Contacts CRM INI File | Oliver Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/personal-crm.html">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; max-width: 5rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="Personal Contacts CRM INI File">
+<meta property="og:title" content="Personal Contacts CRM INI File">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2022/personal-crm.html">
+<meta property="og:description" content="Personal Contacts CRM INI File">
+<meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2022-02-27T23:33:38Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"Personal Contacts CRM INI File","url":"https://oliz.io/blog/2022/personal-crm.html","name":"Oliver Z.","description":"Personal Contacts CRM INI File"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="personal-contacts-crm-ini-file">Personal Contacts CRM INI File</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-02-27</small>
+</div>
+</header>
+<section>
+<p>Wow, even without a clickbait, SEO-optimized <em>"How-to ..."</em> or <em>"X Reasons ..."</em> prefix, the post title sounds like a heap of BS! 😅</p>
+<p>So far, my biggest pain point <a href="https://oliz.io/blog/2021/towards-online-autonomy/">migrating away from BigTech</a> was my contacts list neatly synchronized by Google.
+In the last year, I missed quite some birthdays, address updates and have generally been "minimal-social" due to lack of proper bookkeeping!</p>
+<h2 id="history-and-requirements">History and Requirements</h2>
+<p>I already made it a habit to note key learnings after interactions with people I don't meet regularly.
+When companies do this, it's called <a href="https://en.wikipedia.org/wiki/Customer_relationship_management">Customer Relationship Management (CRM)</a>, so the ever rotating support clerks know of all your correspondence.
+This may sound <a href="https://en.wikipedia.org/wiki/Stasi#Recovery_of_Stasi_files">creepy</a>, but has the benefit of being more considerate and respectful with each other's time.
+No more <em>"I thought, I already told you"</em> or <em>"What was the name of your child again?"</em>
+That "database" was a set of local text files and I wanted to combine it with the contacts list exported from Google (<code>.csv</code>).</p>
+<p>Requirements:</p>
+<ul>
+<li>Human- and machine-readable, plaintext, easy to edit and process</li>
+<li>Support structured master data like name, birthday, email, phone, address</li>
+<li>Support optional, arbitrary fields</li>
+<li>Support timestamped list of events, meaning what interaction happened with that person on a specific day, key insights gained</li>
+<li>All data in a single file</li>
+<li>Store master file/backups in KeePass, have a local copy for scripts to access</li>
+</ul>
+<h2 id="solution-and-format">Solution and Format</h2>
+<p>Eventually, I settled for an <a href="https://en.wikipedia.org/wiki/INI_file">INI file</a>.
+<a href="https://docs.python.org/3/library/configparser.html">Python has built-in support</a> and <code>grep</code>ing works, too.</p>
+<p>Each person gets a section.
+Master data are key-value pairs, notable events are date-note pairs.</p>
+<p>Example:</p>
+<pre class="highlight"><code>[FirstName_LastName]
+bday = 1990-09-29
+email = foobar@example.com
+address = Foo St. 23, 01234 City
+2020-06-22 = Met for lunch, recently switched to ABCorp, children are well
+2021-09-29 = Birthday telephone call, vegan for 6 months
+
+[FirstName_?]
+phone = +49 123456789
+info = Met at festival
+
+[unsorted]
+Alice = XYZ user group meetup 2022-02-02, new to City and topic
+John = XYZ user group meetup 2022-02-02, did Karate (6th Kyu) in school</code></pre>
+<p>Keys for unknown values may be omitted, unknown values in structured data may be masked with <code>?</code> characters (e.g. unknown birth year may become <code>????</code>).
+This has the benefit of easy parsing/<code>grep</code>ing.
+I made a little <a href="https://github.com/ooz/olli/tree/master/.scripts">unpublished script</a> which reads all birthdays (if present), sorts them by month and day, and prints the entire list with a "today" marker.
+For me, this is a good-enough substitute for Google Calendar birthday notifications.</p>
+<h2 id="next-steps">Next Steps</h2>
+<p>Currently, I keep the INI file locally and back it up to KeePass.
+More automated encryption and synchronization would be nice.</p>
+<p>But first, I still need to migrate a good chunk of contacts data. 🙂</p>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://github.com/ooz" class="social">github</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>
