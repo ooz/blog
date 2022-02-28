@@ -5,16 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 23 Feb 2022 10:46:26 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Feb 2022 00:35:58 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>&amp;quot;Why we are not doing TDD&amp;quot;</title>
-      <link>https://oliz.io/blog/2019/why-we-are-not-doing-tdd.html</link>
-      <pubDate>Wed, 21 Aug 2019 22:44:45 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/why-we-are-not-doing-tdd.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://blog.code-cop.org/2019/08/y-u-no-tdd.html"&gt;https://blog.code-cop.org/2019/08/y-u-no-tdd.html&lt;/a&gt; (&lt;a href="https://twitter.com/codecopkofler"&gt;Peter Kofler&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://twitter.com/dkoller82/status/1163700712007770112"&gt;via Twitter&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Towards Online Autonomy</title>
       <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
@@ -402,6 +394,58 @@ cheatHypno()
 cheatPrestigeU()
 cheatPrestigeS()&lt;/code&gt;&lt;/pre&gt;
 &lt;/details&gt;</description>
+    </item>
+    <item>
+      <title>Personal Contacts CRM INI File</title>
+      <link>https://oliz.io/blog/2022/personal-crm.html</link>
+      <pubDate>Sun, 27 Feb 2022 23:33:38 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/personal-crm.html</guid>
+      <description>&lt;p&gt;Wow, even without a clickbait, SEO-optimized &lt;em&gt;"How-to ..."&lt;/em&gt; or &lt;em&gt;"X Reasons ..."&lt;/em&gt; prefix, the post title sounds like a heap of BS! 😅&lt;/p&gt;
+&lt;p&gt;So far, my biggest pain point &lt;a href="https://oliz.io/blog/2021/towards-online-autonomy/"&gt;migrating away from BigTech&lt;/a&gt; was my contacts list neatly synchronized by Google.
+In the last year, I missed quite some birthdays, address updates and have generally been "minimal-social" due to lack of proper bookkeeping!&lt;/p&gt;
+&lt;h2 id="history-and-requirements"&gt;History and Requirements&lt;/h2&gt;
+&lt;p&gt;I already made it a habit to note key learnings after interactions with people I don't meet regularly.
+When companies do this, it's called &lt;a href="https://en.wikipedia.org/wiki/Customer_relationship_management"&gt;Customer Relationship Management (CRM)&lt;/a&gt;, so the ever rotating support clerks know of all your correspondence.
+This may sound &lt;a href="https://en.wikipedia.org/wiki/Stasi#Recovery_of_Stasi_files"&gt;creepy&lt;/a&gt;, but has the benefit of being more considerate and respectful with each other's time.
+No more &lt;em&gt;"I thought, I already told you"&lt;/em&gt; or &lt;em&gt;"What was the name of your child again?"&lt;/em&gt;
+That "database" was a set of local text files and I wanted to combine it with the contacts list exported from Google (&lt;code&gt;.csv&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Human- and machine-readable, plaintext, easy to edit and process&lt;/li&gt;
+&lt;li&gt;Support structured master data like name, birthday, email, phone, address&lt;/li&gt;
+&lt;li&gt;Support optional, arbitrary fields&lt;/li&gt;
+&lt;li&gt;Support timestamped list of events, meaning what interaction happened with that person on a specific day, key insights gained&lt;/li&gt;
+&lt;li&gt;All data in a single file&lt;/li&gt;
+&lt;li&gt;Store master file/backups in KeePass, have a local copy for scripts to access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="solution-and-format"&gt;Solution and Format&lt;/h2&gt;
+&lt;p&gt;Eventually, I settled for an &lt;a href="https://en.wikipedia.org/wiki/INI_file"&gt;INI file&lt;/a&gt;.
+&lt;a href="https://docs.python.org/3/library/configparser.html"&gt;Python has built-in support&lt;/a&gt; and &lt;code&gt;grep&lt;/code&gt;ing works, too.&lt;/p&gt;
+&lt;p&gt;Each person gets a section.
+Master data are key-value pairs, notable events are date-note pairs.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;[FirstName_LastName]
+bday = 1990-09-29
+email = foobar@example.com
+address = Foo St. 23, 01234 City
+2020-06-22 = Met for lunch, recently switched to ABCorp, children are well
+2021-09-29 = Birthday telephone call, vegan for 6 months
+
+[FirstName_?]
+phone = +49 123456789
+info = Met at festival
+
+[unsorted]
+Alice = XYZ user group meetup 2022-02-02, new to City and topic
+John = XYZ user group meetup 2022-02-02, did Karate (6th Kyu) in school&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Keys for unknown values may be omitted, unknown values in structured data may be masked with &lt;code&gt;?&lt;/code&gt; characters (e.g. unknown birth year may become &lt;code&gt;????&lt;/code&gt;).
+This has the benefit of easy parsing/&lt;code&gt;grep&lt;/code&gt;ing.
+I made a little &lt;a href="https://github.com/ooz/olli/tree/master/.scripts"&gt;unpublished script&lt;/a&gt; which reads all birthdays (if present), sorts them by month and day, and prints the entire list with a "today" marker.
+For me, this is a good-enough substitute for Google Calendar birthday notifications.&lt;/p&gt;
+&lt;h2 id="next-steps"&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Currently, I keep the INI file locally and back it up to KeePass.
+More automated encryption and synchronization would be nice.&lt;/p&gt;
+&lt;p&gt;But first, I still need to migrate a good chunk of contacts data. 🙂&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
