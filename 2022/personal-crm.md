@@ -29,7 +29,6 @@ Requirements:
 
 Eventually, I settled for an [INI file](https://en.wikipedia.org/wiki/INI_file).
 [Python has built-in support](https://docs.python.org/3/library/configparser.html) and `grep`ing works, too.
-
 Each person gets a section.
 Master data are key-value pairs, notable events are date-note pairs.
 
