@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Mon, 28 Feb 2022 00:47:55 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Feb 2022 00:51:08 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021 Leftovers</title>
@@ -314,88 +314,6 @@ cheatPrestigeS()&lt;/code&gt;&lt;/pre&gt;
 &lt;/details&gt;</description>
     </item>
     <item>
-      <title>Towards Online Autonomy</title>
-      <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
-      <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/towards-online-autonomy/</guid>
-      <description>&lt;p&gt;Smartphones have become the "personal computer":
-a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).&lt;/p&gt;
-&lt;p&gt;Ever since, I'm annoyed, that we don't (can't) really &lt;em&gt;own&lt;/em&gt; smartphones like we can own other computing equipment.
-Smartphones have hard- and software obsolescence built-in.
-They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
-Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through &lt;a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy"&gt;attention economy&lt;/a&gt;
-(making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
-If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.&lt;/p&gt;
-&lt;h2 id="tech-is-getting-consolidated"&gt;Tech is Getting Consolidated...&lt;/h2&gt;
-&lt;p&gt;This entire development didn't start and won't end with smartphones.
-&lt;a href="https://stallman.org/"&gt;RMS&lt;/a&gt; has been anticipating and warning about it for decades already (see his &lt;a href="https://stallman.org/glossary.html#used"&gt;definition of "Useds"&lt;/a&gt;). It's common knowledge by now, some examples:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware backdoors (&lt;a href="https://en.wikipedia.org/wiki/Intel_Management_Engine"&gt;Intel ME&lt;/a&gt;, undocumented x86 instructions) in mainline processors&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html"&gt;The internet becoming more centralized&lt;/a&gt; with &lt;a href="https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html"&gt;a dozen of mega corporations owning the majority of the traffic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In the near future, &lt;a href="https://sneak.berlin/20201112/your-computer-isnt-yours/"&gt;we'll get smartphone-level surveillance and "ownership" for our other computers, too&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://oliz.io/blog/2021/pegasus-android-check/"&gt;Pegasus anyone?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
-In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on &lt;em&gt;user-serviceable&lt;/em&gt;, secure hard- and software.
-State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
-&lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
-&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
-So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.
-I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
-&lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
-&lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
-&lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
-&lt;p&gt;Autonomy gained:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays (master data in KeePass)&lt;/a&gt;&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating contacts to new solution&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Stopped/minimized using:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;XING&lt;/strong&gt;: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
-                Preferring LinkedIn (and considering moving my data out there, too)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: Doing minimal effort there, keeping resume up-to-date and accepting connections I either know or who seem to be real humans reading profiles.
-                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, &lt;a href="https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/"&gt;but then again I'm probably not using it right&lt;/a&gt; nor &lt;a href="https://twitter.com/j4n0/status/1125380024733925377"&gt;properly&lt;/a&gt;. The CV tooling is neat, still I may just abandon it at some point and put the resume on here&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;GitHub Gists&lt;/strong&gt;: Integrated into this blog using &lt;a href="https://oliz.io/ggpy/"&gt;ggpy's&lt;/a&gt; new micro-blogging functionality.&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; &lt;strong&gt;Gmail&lt;/strong&gt;: Contacts are exported. Haven't actively reached out to anyone regarding the email change, yet&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Kept using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; (&lt;a href="https://sneak.berlin/20200307/the-case-against-microsoft-and-github/"&gt;Microsoft is a serious offender&lt;/a&gt;): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: Microsoft-free VSCode, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Educate others:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;, &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
-&lt;p&gt;Certainly, I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
       <title>Personal Contacts CRM INI File</title>
       <link>https://oliz.io/blog/2022/personal-crm.html</link>
       <pubDate>Sun, 27 Feb 2022 23:33:38 +0000</pubDate>
@@ -446,6 +364,88 @@ For me, this is a good-enough substitute for Google Calendar birthday notificati
 &lt;p&gt;Currently, I keep the INI file locally and back it up to KeePass.
 More automated encryption and synchronization would be nice.&lt;/p&gt;
 &lt;p&gt;But first, I still need to migrate a good chunk of contacts data. 🙂&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Towards Online Autonomy</title>
+      <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
+      <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
+      <guid>https://oliz.io/blog/2021/towards-online-autonomy/</guid>
+      <description>&lt;p&gt;Smartphones have become the "personal computer":
+a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).&lt;/p&gt;
+&lt;p&gt;Ever since, I'm annoyed, that we don't (can't) really &lt;em&gt;own&lt;/em&gt; smartphones like we can own other computing equipment.
+Smartphones have hard- and software obsolescence built-in.
+They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
+Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through &lt;a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy"&gt;attention economy&lt;/a&gt;
+(making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
+If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.&lt;/p&gt;
+&lt;h2 id="tech-is-getting-consolidated"&gt;Tech is Getting Consolidated...&lt;/h2&gt;
+&lt;p&gt;This entire development didn't start and won't end with smartphones.
+&lt;a href="https://stallman.org/"&gt;RMS&lt;/a&gt; has been anticipating and warning about it for decades already (see his &lt;a href="https://stallman.org/glossary.html#used"&gt;definition of "Useds"&lt;/a&gt;). It's common knowledge by now, some examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware backdoors (&lt;a href="https://en.wikipedia.org/wiki/Intel_Management_Engine"&gt;Intel ME&lt;/a&gt;, undocumented x86 instructions) in mainline processors&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html"&gt;The internet becoming more centralized&lt;/a&gt; with &lt;a href="https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html"&gt;a dozen of mega corporations owning the majority of the traffic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In the near future, &lt;a href="https://sneak.berlin/20201112/your-computer-isnt-yours/"&gt;we'll get smartphone-level surveillance and "ownership" for our other computers, too&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://oliz.io/blog/2021/pegasus-android-check/"&gt;Pegasus anyone?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
+In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on &lt;em&gt;user-serviceable&lt;/em&gt;, secure hard- and software.
+State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
+&lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
+&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
+So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.
+I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
+&lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
+&lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
+&lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
+&lt;p&gt;Autonomy gained:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating contacts to new solution&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stopped/minimized using:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;XING&lt;/strong&gt;: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
+                Preferring LinkedIn (and considering moving my data out there, too)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: Doing minimal effort there, keeping resume up-to-date and accepting connections I either know or who seem to be real humans reading profiles.
+                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, &lt;a href="https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/"&gt;but then again I'm probably not using it right&lt;/a&gt; nor &lt;a href="https://twitter.com/j4n0/status/1125380024733925377"&gt;properly&lt;/a&gt;. The CV tooling is neat, still I may just abandon it at some point and put the resume on here&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;GitHub Gists&lt;/strong&gt;: Integrated into this blog using &lt;a href="https://oliz.io/ggpy/"&gt;ggpy's&lt;/a&gt; new micro-blogging functionality.&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; &lt;strong&gt;Gmail&lt;/strong&gt;: Contacts are exported. Haven't actively reached out to anyone regarding the email change, yet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;: In general, I prefer to buy in local or specialized (online) shops. Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kept using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; (&lt;a href="https://sneak.berlin/20200307/the-case-against-microsoft-and-github/"&gt;Microsoft is a serious offender&lt;/a&gt;): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: Microsoft-free VSCode, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Educate others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;, &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
+&lt;p&gt;Certainly, I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
