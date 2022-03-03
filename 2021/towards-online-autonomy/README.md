@@ -47,8 +47,7 @@ Autonomy gained:
 * [x] Acquire `oliz.io` domain in 2020
 * [x] Use https://mailbox.org with own domain for email
 * [x] Build static website on `oliz.io` domain, using [`gg.py`](https://oliz.io/ggpy/)
-* [x] [Find good, local solution for keeping track of birthdays and contacts](https://oliz.io/blog/2022/personal-crm.html)
-* [ ] WIP: Migrating contacts to new solution
+* [x] [Find good, local solution for keeping track of birthdays and contacts](https://oliz.io/blog/2022/personal-crm.html), migrate contacts
 
 Stopped/minimized using:
 
