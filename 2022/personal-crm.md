@@ -53,7 +53,7 @@ John = XYZ user group meetup 2022-02-02, did Karate (6th Kyu) in school
 
 Keys for unknown values may be omitted, unknown values in structured data may be masked with `?` characters (e.g. unknown birth year may become `????`).
 This has the benefit of easy parsing/`grep`ing.
-I made a little [unpublished script](https://github.com/ooz/olli/tree/master/.scripts) which reads all birthdays (if present), sorts them by month and day, and prints the entire list with a "today" marker.
+I made a little [script](https://github.com/ooz/olli/blob/master/.scripts/birthdays.py) which reads all birthdays (if present), sorts them by month and day, and prints the entire list with a "today" marker.
 For me, this is a good-enough substitute for Google Calendar birthday notifications.
 
 ## Next Steps
