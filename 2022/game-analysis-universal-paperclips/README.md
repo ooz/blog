@@ -45,6 +45,8 @@ UI and interaction:
 * Manual "Make Paperclip" button is disabled ;)
 * New controls: a slider to manage drone attention between "Work" (making paperclips) and "Think" (generating computing resources)
 
+![Stage 2 UI](up_stage2_ui.png)
+
 Researching "Space Exploration" (120000 ops, 10000k MW-seconds, 5 oct clips) starts Stage 3.
 
 ### Stage 3 "Converting all matter in the universe"
@@ -58,6 +60,8 @@ UI and interaction:
 * Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters
 * A simplistic combat animation illustrates the fight against drifted drones
 * Certain research triggers music
+
+![Stage 3 UI](up_stage3_ui.png)
 
 Eventually, you will learn names of large numbers and reach the maximum paperclip counter:
 
