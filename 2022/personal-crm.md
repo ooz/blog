@@ -5,7 +5,7 @@ date: 2022-02-27T23:33:38Z
 
 Wow, even without a clickbait, SEO-optimized *"How-to ..."* or *"X Reasons ..."* prefix, the post title sounds like a heap of BS! 😅
 
-So far, my biggest pain point [migrating away from BigTech](https://oliz.io/blog/2021/towards-online-autonomy/) was my contacts list neatly synchronized by Google.
+So far, my biggest pain point [migrating away from "big tech"](https://oliz.io/blog/2021/towards-online-autonomy/) was my contacts list neatly synchronized by Google.
 In the last year, I missed quite some birthdays, address updates and have generally been "minimal-social" due to lack of proper bookkeeping!
 
 ## History and Requirements
