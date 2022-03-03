@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Mon, 28 Feb 2022 00:51:08 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Mar 2022 00:11:19 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021 Leftovers</title>
@@ -231,89 +231,6 @@ make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Game Analysis: Universal Paperclips</title>
-      <link>https://oliz.io/blog/2022/game-analysis-universal-paperclips/</link>
-      <pubDate>Tue, 22 Feb 2022 22:00:22 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/game-analysis-universal-paperclips/</guid>
-      <description>&lt;p&gt;&lt;a href="https://www.decisionproblem.com/paperclips/"&gt;Universal Paperclips&lt;/a&gt; (UP) offers a path to world domination through paperclips production.
-It starts humble with manual paperclip assembly but you (and your swarm of drones) will eventually convert all matter in the universe.&lt;/p&gt;
-&lt;p&gt;UP is a typical "numbers go up" grinding game or "idle game" in modern terms. It builds heavily on the exponential function, but compared to other games it does so in favor of the player: instead of requiring exponentially more time to advance, the player benefits from automation and the compound, exponential growth of their paperclip production capabilities.&lt;/p&gt;
-&lt;h2 id="stages"&gt;Stages&lt;/h2&gt;
-&lt;p&gt;The game is structured in three stages with the paperclip counter and a console informing about milestones always being visible.&lt;/p&gt;
-&lt;p&gt;Objectives, UI, inputs and the "optimization problem" vary by stage. As a player, you need to understand how presented data and numbers relate to each other, to your objectives and to your inputs.&lt;/p&gt;
-&lt;h3 id="stage-1-building-a-paperclip-business"&gt;Stage 1 "Building a paperclip business"&lt;/h3&gt;
-&lt;p&gt;Resources, objectives and features:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Manufacturing and selling paperclips. Investing and building a computer&lt;/li&gt;
-&lt;li&gt;Manual control: one button click, one paperclip created&lt;/li&gt;
-&lt;li&gt;Manage resources (Wire, Funds), manage conversion&lt;/li&gt;
-&lt;li&gt;Introduce automation (clips per second), optimize funds per second&lt;/li&gt;
-&lt;li&gt;Computing and Research: manage Operations, Creativity&lt;/li&gt;
-&lt;li&gt;Investment engine, strategic modeling: manage Yomi&lt;/li&gt;
-&lt;li&gt;Manual quantum computing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;UI and interaction:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;UI: watching numbers tick, text. More UI elements and features show up based on research milestones&lt;/li&gt;
-&lt;li&gt;Interaction: clicking buttons, low impact dropdown menus&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Researching "Release the HypnoDrones" (100 Trust) starts Stage 2.&lt;/p&gt;
-&lt;h3 id="stage-2-full-autonomy"&gt;Stage 2 "Full autonomy"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Goal: acquire all matter, check that energy production and consumption are in balance&lt;/li&gt;
-&lt;li&gt;Manage: energy (production + storage), drones (harvester + wire), clip factories&lt;/li&gt;
-&lt;li&gt;Resources: clips and Creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;UI and interaction:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Manufacturing disappears, computing and modeling remain&lt;/li&gt;
-&lt;li&gt;Manual "Make Paperclip" button is disabled ;)&lt;/li&gt;
-&lt;li&gt;New controls: a slider to manage drone attention between "Work" (making paperclips) and "Think" (generating computing resources)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Researching "Space Exploration" (120000 ops, 10000k MW-seconds, 5 oct clips) starts Stage 3.&lt;/p&gt;
-&lt;h3 id="stage-3-converting-all-matter-in-the-universe"&gt;Stage 3 "Converting all matter in the universe"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Launch probes, gain probe Trust, balance Trust and probe configuration against Drift&lt;/li&gt;
-&lt;li&gt;Goal: explore and convert 100% of the universe to paperclips&lt;/li&gt;
-&lt;li&gt;New resource: Honor&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;UI and interaction:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters&lt;/li&gt;
-&lt;li&gt;A simplistic combat animation illustrates the fight against drifted drones&lt;/li&gt;
-&lt;li&gt;Certain research triggers music&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Eventually, you will learn names of large numbers and reach the maximum paperclip counter:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;Paperclips: 30,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;(30 septendecillion)&lt;/p&gt;
-&lt;h2 id="game-over"&gt;Game Over&lt;/h2&gt;
-&lt;p&gt;Most of the lore and story are told via research projects, e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".&lt;/p&gt;
-&lt;p&gt;The epilogue uses the same UI. Eventually, you are presented two options:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Start over in new universe (with slightly different parameters)&lt;/li&gt;
-&lt;li&gt;Stop and dismantle everything, step by step. You even get to manually create the last 100 paperclips&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The replayability stems from the different conditions when starting a new game or trying to get faster playthroughs.
-Failing the game is hard. Sub-optimal decisions just lead to a longer playthrough.&lt;/p&gt;
-&lt;p&gt;The naive playtime is around four to six hours.
-If you want to speed it up a bit, you can follow &lt;a href="https://universalpaperclips.fandom.com/wiki/Universal_Paperclips_Wiki"&gt;recommendations from UP wiki&lt;/a&gt; or use cheats:&lt;/p&gt;
-&lt;details&gt;
-&lt;summary&gt;Cheats (call the functions in your Browser's JavaScript console):&lt;/summary&gt;
-
-
-&lt;pre class="highlight"&gt;&lt;code&gt;cheatClips()
-cheatMoney()
-cheatTrust()
-cheatOps()
-cheatCreat()
-cheatYomi()
-
-cheatHypno()
-cheatPrestigeU()
-cheatPrestigeS()&lt;/code&gt;&lt;/pre&gt;
-&lt;/details&gt;</description>
-    </item>
-    <item>
       <title>Personal Contacts CRM INI File</title>
       <link>https://oliz.io/blog/2022/personal-crm.html</link>
       <pubDate>Sun, 27 Feb 2022 23:33:38 +0000</pubDate>
@@ -403,8 +320,7 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
 &lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
 &lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating contacts to new solution&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;, migrate contacts&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Stopped/minimized using:&lt;/p&gt;
 &lt;ul class="task-list"&gt;
@@ -446,6 +362,91 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Game Analysis: Universal Paperclips</title>
+      <link>https://oliz.io/blog/2022/game-analysis-universal-paperclips/</link>
+      <pubDate>Tue, 22 Feb 2022 22:00:22 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/game-analysis-universal-paperclips/</guid>
+      <description>&lt;p&gt;&lt;a href="https://www.decisionproblem.com/paperclips/"&gt;Universal Paperclips&lt;/a&gt; (UP) offers a path to world domination through paperclips production.
+It starts humble with manual paperclip assembly but you (and your swarm of drones) will eventually convert all matter in the universe.&lt;/p&gt;
+&lt;p&gt;UP is a typical "numbers go up" grinding game or "idle game" in modern terms. It builds heavily on the exponential function, but compared to other games it does so in favor of the player: instead of requiring exponentially more time to advance, the player benefits from automation and the compound, exponential growth of their paperclip production capabilities.&lt;/p&gt;
+&lt;h2 id="stages"&gt;Stages&lt;/h2&gt;
+&lt;p&gt;The game is structured in three stages with the paperclip counter and a console informing about milestones always being visible.&lt;/p&gt;
+&lt;p&gt;Objectives, UI, inputs and the "optimization problem" vary by stage. As a player, you need to understand how presented data and numbers relate to each other, to your objectives and to your inputs.&lt;/p&gt;
+&lt;h3 id="stage-1-building-a-paperclip-business"&gt;Stage 1 "Building a paperclip business"&lt;/h3&gt;
+&lt;p&gt;Resources, objectives and features:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manufacturing and selling paperclips. Investing and building a computer&lt;/li&gt;
+&lt;li&gt;Manual control: one button click, one paperclip created&lt;/li&gt;
+&lt;li&gt;Manage resources (Wire, Funds), manage conversion&lt;/li&gt;
+&lt;li&gt;Introduce automation (clips per second), optimize funds per second&lt;/li&gt;
+&lt;li&gt;Computing and Research: manage Operations, Creativity&lt;/li&gt;
+&lt;li&gt;Investment engine, strategic modeling: manage Yomi&lt;/li&gt;
+&lt;li&gt;Manual quantum computing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI and interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;UI: watching numbers tick, text. More UI elements and features show up based on research milestones&lt;/li&gt;
+&lt;li&gt;Interaction: clicking buttons, low impact dropdown menus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Researching "Release the HypnoDrones" (100 Trust) starts Stage 2.&lt;/p&gt;
+&lt;h3 id="stage-2-full-autonomy"&gt;Stage 2 "Full autonomy"&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Goal: acquire all matter, check that energy production and consumption are in balance&lt;/li&gt;
+&lt;li&gt;Manage: energy (production + storage), drones (harvester + wire), clip factories&lt;/li&gt;
+&lt;li&gt;Resources: clips and Creativity for upgrades/research. Funds from Stage 1 are gone/don't matter anymore!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI and interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Manufacturing disappears, computing and modeling remain&lt;/li&gt;
+&lt;li&gt;Manual "Make Paperclip" button is disabled ;)&lt;/li&gt;
+&lt;li&gt;New controls: a slider to manage drone attention between "Work" (making paperclips) and "Think" (generating computing resources)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Stage 2 UI" src="up_stage2_ui.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Researching "Space Exploration" (120000 ops, 10000k MW-seconds, 5 oct clips) starts Stage 3.&lt;/p&gt;
+&lt;h3 id="stage-3-converting-all-matter-in-the-universe"&gt;Stage 3 "Converting all matter in the universe"&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Launch probes, gain probe Trust, balance Trust and probe configuration against Drift&lt;/li&gt;
+&lt;li&gt;Goal: explore and convert 100% of the universe to paperclips&lt;/li&gt;
+&lt;li&gt;New resource: Honor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UI and interaction:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Controls: Launch Probe, less buttons (factories, harvester and wire drones are spawned automatically based on parameters), up/down buttons to configure probe Trust parameters&lt;/li&gt;
+&lt;li&gt;A simplistic combat animation illustrates the fight against drifted drones&lt;/li&gt;
+&lt;li&gt;Certain research triggers music&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Stage 3 UI" src="up_stage3_ui.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Eventually, you will learn names of large numbers and reach the maximum paperclip counter:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;Paperclips: 30,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000,000&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;(30 septendecillion)&lt;/p&gt;
+&lt;h2 id="game-over"&gt;Game Over&lt;/h2&gt;
+&lt;p&gt;Most of the lore and story are told via research projects, e.g. in Stage 1: "Cure for Cancer", "World Peace" and "A cure for androgenetic alopecia".&lt;/p&gt;
+&lt;p&gt;The epilogue uses the same UI. Eventually, you are presented two options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Start over in new universe (with slightly different parameters)&lt;/li&gt;
+&lt;li&gt;Stop and dismantle everything, step by step. You even get to manually create the last 100 paperclips&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The replayability stems from the different conditions when starting a new game or trying to get faster playthroughs.
+Failing the game is hard. Sub-optimal decisions just lead to a longer playthrough.&lt;/p&gt;
+&lt;p&gt;The naive playtime is around four to six hours.
+If you want to speed it up a bit, you can follow &lt;a href="https://universalpaperclips.fandom.com/wiki/Universal_Paperclips_Wiki"&gt;recommendations from UP wiki&lt;/a&gt; or use cheats:&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt;Cheats (call the functions in your Browser's JavaScript console):&lt;/summary&gt;
+
+
+&lt;pre class="highlight"&gt;&lt;code&gt;cheatClips()
+cheatMoney()
+cheatTrust()
+cheatOps()
+cheatCreat()
+cheatYomi()
+
+cheatHypno()
+cheatPrestigeU()
+cheatPrestigeS()&lt;/code&gt;&lt;/pre&gt;
+&lt;/details&gt;</description>
     </item>
   </channel>
 </rss>
