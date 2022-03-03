@@ -83,7 +83,7 @@ The epilogue uses the same UI. Eventually, you are presented two options:
 The replayability stems from the different conditions when starting a new game or trying to get faster playthroughs.
 Failing the game is hard. Sub-optimal decisions just lead to a longer playthrough.
 
-The naive playtime is around four to six hours.
+The naive, attentive playtime is around four to six hours.
 If you want to speed it up a bit, you can follow [recommendations from UP wiki](https://universalpaperclips.fandom.com/wiki/Universal_Paperclips_Wiki) or use cheats:
 
 <details>
