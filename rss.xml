@@ -5,145 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 05 Mar 2022 00:58:56 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Mar 2022 03:18:22 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2021 Leftovers</title>
-      <link>https://oliz.io/blog/2021/leftovers.html</link>
-      <pubDate>Fri, 31 Dec 2021 20:51:48 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/leftovers.html</guid>
-      <description>&lt;p&gt;&lt;em&gt;Various things I discovered in 2021 which didn't make it into a dedicated post.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="software-development-and-communication"&gt;Software Development and Communication&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.lesswrong.com/tag/crockers-rules"&gt;Crocker's Rules&lt;/a&gt; for effective communication&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://michalzalecki.com/why-using-localStorage-directly-is-a-bad-idea/"&gt;Why using localStorage directly is a bad idea&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sneak.berlin/20191011/stupid-unix-tricks/"&gt;Unix shell and SSH tricks&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://googleprojectzero.blogspot.com/2020/12/an-ios-zero-click-radio-proximity.html"&gt;Behind a zero-click iOS hack&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/"&gt;Token entropy explained by GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.golem.de/news/cto-coach-stephan-schmidt-ich-dachte-ich-bin-in-der-pate-geraten-2105-156026-2.html"&gt;Interview with CTO Stephan Schmidt (German)&lt;/a&gt;:&lt;ul&gt;
-&lt;li&gt;When starting as CTO, don't wait with changes until "you got to know the company". Check &lt;em&gt;security&lt;/em&gt;, &lt;em&gt;systems&lt;/em&gt; and &lt;em&gt;source code&lt;/em&gt; right away and initiate necessary changes.&lt;/li&gt;
-&lt;li&gt;When setting OKRs, include your employees in the process&lt;/li&gt;
-&lt;li&gt;"Estimating software is fractal, it gets bigger the closer you look"&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://stackoverflow.blog/2020/11/25/how-to-write-an-effective-developer-resume-advice-from-a-hiring-manager/"&gt;Writing an effective developer resume - from hiring manager PoV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://betterprogramming.pub/build-a-simple-todolist-app-in-golang-82297ec25c7d"&gt;Building a simple TODO list app in Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://postgrest.org"&gt;RESTful API from any Postgres database&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.thomas-krenn.com/en/wiki/Perform_a_SSD_Secure_Erase"&gt;How-to securely erase a SSD&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/dbartolini/data-oriented-design"&gt;Data Oriented Design: a collection of resources&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="game-development"&gt;Game Development&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://ebiten.org/examples/2048.html"&gt;2048 Game&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Basic 2D game library, written in Go: &lt;a href="https://github.com/hajimehoshi/ebiten"&gt;Ebiten&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Cross-platform rendering library: &lt;a href="https://github.com/bkaradzic/bgfx"&gt;bgfx&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Jason Gregory (lead programmer at Naughty Dog): "Game Engine Architecture"&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/lettier/3d-game-shaders-for-beginners"&gt;Introduction to 3D game shaders&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/mxgmn/WaveFunctionCollapse"&gt;WaveFunctionCollapse&lt;/a&gt;: generating asset and map variations&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://ondras.zarovi.cz/"&gt;Creator of rot.js&lt;/a&gt; and &lt;a href="https://github.com/ondras/star-wars"&gt;a little Star Wars roguelike built using rot.js&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="investing"&gt;Investing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://tickertick.com/"&gt;Stock market news ticker&lt;/a&gt; and its &lt;a href="https://github.com/hczhu/TickerTick-API"&gt;API&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://arxiv.org/pdf/2101.12332.pdf"&gt;Atomic Swaps between BTC and XMR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://github.com/tevador/RandomX"&gt;RandomX algorithm used by XMR&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.crunchbase.com"&gt;Basic overview of companies&lt;/a&gt; (e.g. when applying), &lt;a href="https://www.progression.fyi/"&gt;career paths of various organizations&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Happy New Year!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Just English Things</title>
-      <link>https://oliz.io/blog/2016/english-things.html</link>
-      <pubDate>Sun, 24 Apr 2016 00:27:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2016/english-things.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;Yes, English can be weird.
-It can be understood through tough thorough thought, though.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/olamy/status/723732629674041345"&gt;https://twitter.com/olamy/status/723732629674041345&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id="2018-edition"&gt;2018 edition&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Boris said, "Theresa may resign".&lt;/p&gt;
-&lt;p&gt;"Boris", said Theresa, "may resign".&lt;/p&gt;
-&lt;p&gt;Boris said, "Theresa May: Resign!"&lt;/p&gt;
-&lt;p&gt;"Boris," said Theresa May: "Resign".&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Source: &lt;a href="https://twitter.com/katiejanegraham/status/1074377268284276737"&gt;https://twitter.com/katiejanegraham/status/1074377268284276737&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Game Analysis: Pokemon</title>
-      <link>https://oliz.io/blog/2022/game-analysis-pokemon/</link>
-      <pubDate>Sun, 23 Jan 2022 11:53:38 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/game-analysis-pokemon/</guid>
-      <description>&lt;p&gt;Over the holidays I went through &lt;a href="https://www.youtube.com/watch?v=MvgN5gCuLac"&gt;my stuff™&lt;/a&gt; and discovered unfinished Pokemon Sun/Moon (SM, will &lt;a href="https://en.wikipedia.org/wiki/Pok%C3%A9mon_(video_game_series)#Summary_of_main_series_titles"&gt;abbreviate&lt;/a&gt; &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Generation"&gt;generations&lt;/a&gt; (&lt;a href="https://www.pokewiki.de/Spielgeneration"&gt;German&lt;/a&gt;) from here on) for Nintendo 3DS.
-I bought it back in 2016, finished like 2/3rd of the main story and and abandoned it.
-Now, I somehow felt the need to "finish it" (just beating Elite 4 + Champ and catching the four island "guardian" Fairy type Pokemon). Further exploring the &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Appendix:Sun_and_Moon_walkthrough#Post-Game"&gt;post game&lt;/a&gt; didn't appeal to me. Maintaining &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Affection"&gt;affection&lt;/a&gt; using &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_Refresh"&gt;"Pokemon Refresh"&lt;/a&gt; felt like a chore.&lt;/p&gt;
-&lt;p&gt;By contrast, ORAS, I binged in 3 days from start to Elite 4 + Champ beaten.
-Wondering, whether I just "grew old and tired" of Pokemon or whether the games really got worse,
-I fired up Pokemon Red again:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Charizard still #1!" src="glurak-still-nr1.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Sure, it's not the same as being a child targeted by a multi-channel marketing campaign.
-Imagination augmenting the limited Game Boy graphics to turn Pokemon into more than it is.
-No hand-holding, direct action, freedom to explore and a weirdly motivating grind.
-Despite non-existent postgame and the difficulty boiling down to "pick starter and press A", &lt;em&gt;it was fun&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id="what-makes-a-pokemon-game"&gt;What makes a Pokemon game?&lt;/h2&gt;
-&lt;p&gt;First of all, the games stand and fall with cute/strong/interesting and &lt;em&gt;relatable&lt;/em&gt; Pocket Monsters, duh!
-If you can't pick favorites (motivated early with the &lt;a href="https://www.pokewiki.de/Starter-Pok%C3%A9mon#%C3%9Cbersicht"&gt;starters&lt;/a&gt; in each generation), the games lose quite some pull.&lt;/p&gt;
-&lt;p&gt;In interviews, Game Freak confirmed the target audience to be:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;people who are new to Pokemon,&lt;/li&gt;
-&lt;li&gt;long-time fans and&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.smogon.com/"&gt;eSport, pro players&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(Of course, they want to cater to everyone and keep raking in &lt;a href="https://en.wikipedia.org/wiki/List_of_highest-grossing_media_franchises"&gt;billion$&lt;/a&gt;!)&lt;/p&gt;
-&lt;h3 id="the-core-gameplay"&gt;The core gameplay&lt;/h3&gt;
-&lt;p&gt;...in essence: &lt;em&gt;battle&lt;/em&gt;, &lt;em&gt;catch&lt;/em&gt;, &lt;em&gt;grow&lt;/em&gt;, &lt;em&gt;explore&lt;/em&gt;, &lt;em&gt;connect&lt;/em&gt; and &lt;em&gt;gimmicks&lt;/em&gt;.
-The first five are constants. Gimmicks vary by generation, offering some optional experiments that may not carry over to later installments (e.g. secret base building, Pokemon grooming contests).&lt;/p&gt;
-&lt;h3 id="battle-mechanics"&gt;Battle mechanics&lt;/h3&gt;
-&lt;p&gt;Turn-based Pokemon battles are at the heart of all mainline games.
-This may be a bit dated by modern standards, but it makes the games very accessible.
-To this day, the fundamental mechanics have been established with the first three generations.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Gen1&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://pokemondb.net/pokedex"&gt;The Pokemon itself with its type and stat distribution&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Attacks (same-type attack bonus, STAB)&lt;/li&gt;
-&lt;li&gt;*&lt;a href="https://bulbapedia.bulbagarden.net/wiki/Individual_values"&gt;IV&lt;/a&gt; + &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Effort_values"&gt;EV&lt;/a&gt; (&lt;a href="https://pycosites.com/pkmn/ivcalc_gen2.php"&gt;calculator&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Gen2&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;SpDef&lt;/li&gt;
-&lt;li&gt;Dark/Steel types, balancing Psychic type&lt;/li&gt;
-&lt;li&gt;Held items&lt;/li&gt;
-&lt;li&gt;Friendship o.s.&lt;/li&gt;
-&lt;li&gt;Genders, breeding and shiny&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Gen3&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Abilities&lt;/li&gt;
-&lt;li&gt;*Natures&lt;/li&gt;
-&lt;li&gt;Multi battles (opening the can of "non-stable" battle features like mega evolution, Z attacks, ...)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Later generations then continued with balancing, &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Damage_category"&gt;physical/special split&lt;/a&gt;, Fairy type, affection and further minor changes.&lt;/p&gt;
-&lt;p&gt;All features marked with "*", are not in the interest of the player.
-Meaning, the additional play time required to get optimal IV and natures is in no reasonable relation to the strategic benefit of getting a few more viable builds.
-So much, that competitive Pokemon play mostly happens on simulators, where you are free to build the desired Mon without any grind.
-Recent mainline games are acknowledging this by adding ingame means to &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Hyper_Training"&gt;fix IV&lt;/a&gt; and &lt;a href="https://bulbapedia.bulbagarden.net/wiki/Nature#Synchronize"&gt;force natures&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="the-story"&gt;The "story"&lt;/h3&gt;
-&lt;p&gt;Well, it has to be mentioned for completeness' sake:
-The MC child (you) and rival(s) head out to explore the Pokemon world, grow and beat bad guys/save world.
-Eventually, you'll beat the Pokemon League, Elite 4, champ, catch legendaries and maybe complete the Pokedex.&lt;/p&gt;
-&lt;h2 id="where-is-it-going"&gt;Where is it going?&lt;/h2&gt;
-&lt;p&gt;On the pro side, backwards compatibility is unrivaled in the video game industry.
-Using paid Pokemon Bank/Home services (attachment has its price!), Gen3 Pokemon (from 2002/2003) can be transferred all the way up to current generation.
-Those services also support official emulations of Gen1 and Gen2.&lt;/p&gt;
-&lt;p&gt;However, recent games lacked quality and substance.
-"Pokemon Legends: Arceus" (PLA) is around the corner and it looks like a promising but unpolished experiment,
-a glimpse at what Pokemon games could be in the future.&lt;/p&gt;
-&lt;p&gt;In the meantime, Johto is still comfy:&lt;/p&gt;
-&lt;div style="text-align:center"&gt;&lt;img alt="Typhlosion!" src="absolute-unit.png" /&gt;&lt;/div&gt;
-
-&lt;p&gt;...and I'm working on my own "Monster Tamagotchi": &lt;a href="https://netmons.net"&gt;https://netmons.net&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Asymmetric Encryption and Middle-earth</title>
       <link>https://oliz.io/blog/2022/asym-encryption-lotr/</link>
@@ -368,6 +231,47 @@ More automated encryption and synchronization would be nice.&lt;/p&gt;
 &lt;p&gt;But first, I still need to migrate a good chunk of contacts data. 🙂&lt;/p&gt;</description>
     </item>
     <item>
+      <title>On Software Minimalism</title>
+      <link>https://oliz.io/blog/2020/on-software-minimalism.html</link>
+      <pubDate>Mon, 15 Jun 2020 22:27:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/on-software-minimalism.html</guid>
+      <description>&lt;p&gt;Recently, I iterated on &lt;a href="https://ooz.github.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt; again, which ultimately led to the age-old question:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why (re-invent the wheel)?&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="minimal-software"&gt;Minimal Software&lt;/h2&gt;
+&lt;p&gt;I like the idea of minimal software, just the amount of software needed to solve a problem, to fulfill a need. Typical characteristics of minimal software are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://suckless.org/philosophy/"&gt;Simple, elegant, usable, focused, reasonable and attainable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Easier to understand&lt;/li&gt;
+&lt;li&gt;Less prone to errors&lt;/li&gt;
+&lt;li&gt;Less need for maintenance&lt;/li&gt;
+&lt;li&gt;Less code (maybe)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I acknowledge that &lt;code&gt;gg.py&lt;/code&gt; could have also been realized in shell using the &lt;a href="https://busybox.net/"&gt;BusyBox set of UNIX utilities&lt;/a&gt;.
+Regardless, I enjoy working with Python and having a pet project keeps my language skills and tool chain sharp.
+Software minimalism followed to the extreme would consider Python and anything written in it as "bloat" and not minimal. On a second look, the above traits of minimal software seem to be rather &lt;em&gt;means goals&lt;/em&gt; than end goals. Extrapolated, I see one over-arching objective:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To spend less time with software!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="standard-software-and-innovation"&gt;Standard Software and Innovation&lt;/h2&gt;
+&lt;p&gt;Spending less time with software frees you up to spend more time outside, off the computer, with friends and family. Or to focus on the business side of things. Shell one-liners and clever single-file programs may be one approach, but for plenty of people the use of &lt;em&gt;standard software&lt;/em&gt; is exactly that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The majority of people use it&lt;/li&gt;
+&lt;li&gt;The majority of people has good-enough understanding of its benefits and constraints ("mental model")&lt;/li&gt;
+&lt;li&gt;Someone else develops, maintains and supports it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
+One downside of using standard software is the loss of competitive advantage stemming from superior tools and craft. Then, &lt;a href="http://www.paulgraham.com/avg.html"&gt;beating the averages&lt;/a&gt; and innovation are not a matter of technology, but of appropriate and repeated creative application valuing the zeitgeist.&lt;/p&gt;
+&lt;h2 id="in-perspective"&gt;In Perspective&lt;/h2&gt;
+&lt;p&gt;This cannot be an argument for minimal, custom-built software, nor standard software. Neither seems to grant an advantage inherently, so a healthy dose of pragmatism is required when developing or utilizing software in a competitive space.
+Shifting the point of view, someone's minimal software might be someone else's standard software (e.g. UNIX utilities leveraged by an advanced user) and someone's standard software might be considered "overkill" by minimalists (e.g. WYSIWYG word processors for writing plain text).
+At the end of the day, users minding their respective computer skills could still all agree that their preferred software tool enables them &lt;em&gt;to spend less time&lt;/em&gt; with the computer.&lt;/p&gt;
+&lt;p&gt;This turns the question &lt;em&gt;"does this software enable me to spend more quality time off (or on) the machine?"&lt;/em&gt; into a metric for gauging software value.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does this social network enrich my life or is it just artificially keeping me hooked to my phone for corporate profits?&lt;/li&gt;
+&lt;li&gt;Does this computer game offer quality experience and immersion or is it just a paint over grind to grow &lt;a href="https://www.investopedia.com/terms/m/monthly-active-user-mau.asp"&gt;MAU&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;Does this software tool enable me to get more things done and turn off the computer earlier?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As for &lt;code&gt;gg.py&lt;/code&gt;, it covers &lt;a href="https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html"&gt;my static site generator needs&lt;/a&gt;. Growing with it and having full creative expression are their own rewards. ☺&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Towards Online Autonomy</title>
       <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
       <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
@@ -441,6 +345,8 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;p&gt;Certainly, I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://araw.xyz/"&gt;https://araw.xyz/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://faehnri.ch/"&gt;https://faehnri.ch/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;, &lt;a href="https://observatory.mozilla.org/"&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/li&gt;
@@ -448,6 +354,116 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Three Months With a Fitness Tracker</title>
+      <link>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</link>
+      <pubDate>Fri, 15 Jun 2018 18:00:23 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</guid>
+      <description>&lt;p&gt;In March, I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
+Being interested only in my daily step count and the distance/steps covered on various routine routes, I did not use any of the advanced features like sleep tracking or anything else that required interaction with the Garmin cloud.
+Initializing the tracker required the creation of an account with my birthday (Jan 1st + accurate year 😉), height and mass.&lt;/p&gt;
+&lt;p&gt;Originally this blog post should have been called "One Month With a Fitness Tracker".
+In fact I was barely using the tracker after the first month. So here are the results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The tracker's measurement of distance was surprisingly accurate (to 10 meters, over the course of multiple 5 kilometer tracks), the step count/length was consistent between samples&lt;/li&gt;
+&lt;li&gt;As an office worker, going to the water dispenser or toilet is &lt;em&gt;not enough&lt;/em&gt; to get rid of the sedentary warning bar (for me around 400 steps seem to be required to get rid of the full bar)&lt;/li&gt;
+&lt;li&gt;Even on good (as in active) working days, I do not manage to cover 10000 steps (then the step count is within the 8000-9000 range)&lt;/li&gt;
+&lt;li&gt;Going to lunch outside the office adds at most 2000 steps&lt;/li&gt;
+&lt;li&gt;Doing 10000 steps a day is equivalent to a 1.5 hour walk a day for me&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Due to the consistency of the measurements and me now knowing my metrics, I am mostly using the tracker as a watch now.
+In fact, I only need to know how much time I spent covering a distance to deduct the steps and kilometers done.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I Wrote yet Another Static Site Generator</title>
+      <link>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</link>
+      <pubDate>Fri, 16 Mar 2018 21:28:03 +0000</pubDate>
+      <guid>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Once a while somebody wants to write a blog post...&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Previously my website and blog hosted on GitHub were statically generated using &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;.
+Even before Hugo I tried Jekyll, Pelican and was checking out &lt;a href="https://jamstack.org/generators/"&gt;any site generator&lt;/a&gt;, that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.&lt;/p&gt;
+&lt;p&gt;Hugo certainly is a nice tool, but keeping track of updates and dependencies is annoying.
+Even if I use a popular Hugo theme, I need to track updates of both Hugo and the theme.
+Updates usually involve messing around in the configuration file as well.
+Configuration files are almost always not compatible between different themes.
+The same applies to the folder structure and canonical links.&lt;/p&gt;
+&lt;h2 id="my-requirements"&gt;My Requirements&lt;/h2&gt;
+&lt;p&gt;I did not find a single &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; fulfilling my personal requirements:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Leverage free GitHub infrastructure&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;GitHub Pages is a real asset for me. Anything static, anything just running in someone's browser, I want to deploy using GitHub. Authentication is set up for development work already. Everything is free as in "tea". The behavior is really transparent:&lt;/dd&gt;
+&lt;dd&gt;
+&lt;ul&gt;
+&lt;li&gt;GitHub Pages maps my repos nicely to its &lt;a href="https://ooz.github.io"&gt;github.io&lt;/a&gt; subdomain. A &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should be able to leverage the repository/directory structure!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dd&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; files are rendered nicely on GitHub and can be edited there as well. So the &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should support rendering &lt;code&gt;README.md&lt;/code&gt; files as &lt;code&gt;index.html&lt;/code&gt; files for the repository/directory the file is located in!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/dd&gt;
+&lt;dd&gt;
+&lt;p&gt;If you want to view the markdown file "as is" on GitHub, links to own assets/posts are usually broken in most SSGs due to templated links. GitHub Pages has Jekyll support included, but it is not as transparent as running Jekyll and deploying the result on your own.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Responsive design and pleasant typography&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Despite the mass of themes and free resources, this is still not a baseline. My website/blog should be nice to read everywhere and fonts should not strain the eye!&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Markdown support&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Life is too short to manually write plenty of markup. It was surprisingly hard to find a suitable markdown conversion tool/library, because there are so many dialects/extensions that lack proper implementation. I now decided for &lt;a href="https://python-markdown.github.io/extensions/"&gt;Python Markdown and its extensions&lt;/a&gt;.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Suitable not just for blog posts, but also for other content pages&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Some static site generators and themes are limited to specific use cases, I do not want to be restricted here.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Twitter Card, Open Graph support&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;This is covered by most themes, but it is again theme-dependent and if you develop your own theme, you need to take care of this also.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Portability&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;Unix tools, bash, git, Python and some common apt packages are available even for &lt;a href="https://oliz.io/blog/2018/code-and-deploy-using-termux.html"&gt;my preferred terminal emulator on Android&lt;/a&gt;. The tool should work in this environment.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;Further there are lots of things solved by multiple SSGs that are &lt;em&gt;no requirements for me&lt;/em&gt;. An excerpt:&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;strong&gt;Fast, incremental generation&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;With my blogging frequency this might become an issue when the sun turns red...&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Big theme selection&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;I just need one working theme. &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; themes are seldomly ranked, so it is hard to choose one to commit to.&lt;/dd&gt;
+&lt;dt&gt;&lt;strong&gt;Template engine, theme development option&lt;/strong&gt;&lt;/dt&gt;
+&lt;dd&gt;See above, I just want something working to focus on writing content.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Why don't you just contribute to some project or develop your own theme?&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I attempted to develop my own Hugo theme in the past, but I estimated the effort understanding all concepts and writing the archetypes, snippets and templates greater than just developing my own &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt;.
+For the same reason contribution to another &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; project was out of question: Too much effort catching up, esp. since most general purpose generators emphasize different features, that I do not need (see above).&lt;/p&gt;
+&lt;p&gt;So instead of investing time into things that might not yield the desired result, I decided to go my own path.&lt;/p&gt;
+&lt;h2 id="my-solution"&gt;My Solution&lt;/h2&gt;
+&lt;p&gt;This blog and website are now generated by &lt;a href="https://github.com/ooz/ggpy"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;, a single Python3 file inspired by &lt;a href="https://github.com/cfenollosa/bashblog"&gt;bashblog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Initially, I picked &lt;a href="https://milligram.io/"&gt;Milligram&lt;/a&gt; as CSS baseline. It provides nice defaults without the need to put classes on every HTML element. This is especially handy, since I do not want to post-process the HTML generated from the Markdown input.
+Further dependencies included Google Fonts, Font Awesome and &lt;a href="https://highlightjs.org/"&gt;highlight.js&lt;/a&gt;.
+In the meantime (update 2022-03-06), I removed most CSS/JS dependencies and went with minimal, sane defaults inspired by &lt;a href="http://bettermotherfuckingwebsite.com/"&gt;http://bettermotherfuckingwebsite.com/&lt;/a&gt; (no HTTPS, care!)&lt;/p&gt;
+&lt;p&gt;Open Graph meta data is rendered. The Python configuration file enables future preprocessing steps.&lt;/p&gt;
+&lt;p&gt;The mapping of GitHub repositories to (sub-)pages works nicely. Previous my website and blog were in the single repository &lt;a href="https://github.com/ooz/ooz.github.io"&gt;&lt;code&gt;ooz.github.io&lt;/code&gt;&lt;/a&gt;. Now the &lt;a href="https://github.com/ooz/blog"&gt;&lt;code&gt;blog&lt;/code&gt;&lt;/a&gt; has its own repository which fits in with the GitHub Pages of some personal projects (e.g. &lt;code&gt;ggpy&lt;/code&gt;, &lt;code&gt;handshake&lt;/code&gt; and &lt;code&gt;lifetime-clock&lt;/code&gt;). The new repository/page tree now looks like this:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;ooz.github.io      # GitHub user page
+├── index.html
+├── blog
+│   ├── index.html # Autogenerated from all blog posts
+│   ├── 2018
+│   │   ├── why-i-wrote-yet-another-static-site-gen.html
+│   │   └── why-i-wrote-yet-another-static-site-gen.md
+...
+├── ggpy           # A normal repository page
+├── handshake
+├── lifetime-clock&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="open-ends"&gt;Open Ends&lt;/h2&gt;
+&lt;p&gt;Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
+Things I am still looking forward to:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; XML sitemap and RSS feed support&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Smarter top-level blog post index generation with older posts hidden and a tag cloud&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I thought about supporting Disqus as well, but I will probably rather include a "web 1.0" notice about using Twitter, GitHub issues or email to comment/contact me. This also reduces the attack vector of some German/EU bogus laws.&lt;/p&gt;
+&lt;h2 id="generate-it-up"&gt;Generate it up!&lt;/h2&gt;
+&lt;p&gt;All in all I am pleased with the result so far.
+The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
+Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
