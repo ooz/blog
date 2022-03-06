@@ -6,7 +6,7 @@ title: Why I Wrote yet Another Static Site Generator
 > *Once a while somebody wants to write a blog post...*
 
 Previously my website and blog hosted on GitHub were statically generated using [Hugo](https://gohugo.io/).
-Even before Hugo I tried Jekyll, Pelican and was checking out [any site generator](https://www.staticgen.com/), that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.
+Even before Hugo I tried Jekyll, Pelican and was checking out [any site generator](https://jamstack.org/generators/), that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.
 
 Hugo certainly is a nice tool, but keeping track of updates and dependencies is annoying.
 Even if I use a popular Hugo theme, I need to track updates of both Hugo and the theme.
