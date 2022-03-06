@@ -5,42 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 06 Mar 2022 03:18:22 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Mar 2022 04:35:52 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Asymmetric Encryption and Middle-earth</title>
-      <link>https://oliz.io/blog/2022/asym-encryption-lotr/</link>
-      <pubDate>Sun, 06 Feb 2022 14:28:49 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/asym-encryption-lotr/</guid>
-      <description>&lt;p&gt;Recently, I gave a company-internal talk for mostly non-techies about cryptography fundamentals and their applications.
-On the basics side, I covered &lt;em&gt;encryption&lt;/em&gt; (symmetric), &lt;em&gt;hashing&lt;/em&gt; and &lt;em&gt;signing&lt;/em&gt; (symmetric, asymmetric) with relatable analogies.
-I skipped asymmetric encryption both due to time constraints and lack of a good analogy.
-After the talk, a fellow developer asked me, whether I'd know a good analogy for asymmetric encryption and we both did not know a single one!&lt;/p&gt;
-&lt;p&gt;This bothered me quite a bit. Eventually, I came up with the story below.
-It's not a "real world" analogy, but at least builds on top of the accessible pop culture that is "Lord of the Rings":&lt;/p&gt;
-&lt;h2 id="the-one-ring-and-the-safe-passage-to-mordor-rings"&gt;The One Ring and the "Safe Passage to Mordor" Rings&lt;/h2&gt;
-&lt;p&gt;Imagine, besides the One Ring ("private key"), Sauron mass-forged further, cheap knock-off rings ("public key") with the following properties:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Once put on, you can't take the ring off again and you are phased to the spirit plane, essentially becoming invisible.&lt;/li&gt;
-&lt;li&gt;You are unable to interact with anyone in the real world or spirit plane, except for&lt;/li&gt;
-&lt;li&gt;the wearer of the One Ring (Sauron), who can see you and remove the ring from your finger.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Sauron spreads those cheap rings everywhere, all over Middle-earth, and widely announces what power those rings grant.
-But most people don't really like Sauron!
-They don't see the point in equipping one of those rings just to need to walk into Mordor,
-where the very air you breathe is a poisonous fume, and ask Sauron to remove the ring from their finger.&lt;/p&gt;
-&lt;p&gt;In Isengard, the young wizard Saruman, a good buddy of Sauron, studies orc nutrition.
-Saruman made a break-through discovery that could lead to orcs being able to march in broad daylight ("message")!
-He wants to send a messenger and tell Sauron about it, but all paths to Mordor are roamed by humans, elves and dwarves capturing or killing
-anyone who tries to sneak past.
-So, Saruman ("sender") picks up one of those mass-forged rings littering around everywhere and forces a messenger to put it on ("encrypted message").&lt;/p&gt;
-&lt;p&gt;At last, the messenger makes their way to Sauron in Mordor ("recipient"), unnoticed.
-Sauron then removes the ring, gets to know the great discovery, and everyone lived happily thereafter!&lt;/p&gt;
-&lt;h2 id="the-meme-version"&gt;The Meme Version&lt;/h2&gt;
-&lt;p&gt;(contains graphic scene from the movies)&lt;/p&gt;
-&lt;p&gt;&lt;img alt="" src="asym-encryption-lotr-meme.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Screenshots taken from various Youtube clips of &lt;a href="https://en.wikipedia.org/wiki/The_Lord_of_the_Rings_(film_series)"&gt;"The Lord of the Rings" by Peter Jackson&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>XMRig on Android</title>
       <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
@@ -464,6 +430,52 @@ Things I am still looking forward to:&lt;/p&gt;
 &lt;p&gt;All in all I am pleased with the result so far.
 The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
 Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Corona Sky</title>
+      <link>https://oliz.io/blog/2020/corona-sky/</link>
+      <pubDate>Sun, 23 Aug 2020 15:10:25 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/corona-sky/</guid>
+      <description>&lt;p&gt;Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.&lt;/p&gt;
+&lt;h2 id="corona-skies"&gt;Corona skies&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Corona Sky" src="corona-sky.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The European airspace is one of the most utilized on earth.
+Thus it is rare to look up the sky and not see any condensation trails.&lt;/p&gt;
+&lt;p&gt;Now, living in a city with a nearby airport, we have &lt;em&gt;Corona skies&lt;/em&gt;, which I would define as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The natural sky either clouded or cloudless without any signs of human flight.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="Corona Sky panorama" src="corona-sky_pano.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="dystopian-malls"&gt;Dystopian malls&lt;/h2&gt;
+&lt;p&gt;Whenever getting supplies, there are recorded public announcements playing.
+The content always boils down to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mind the &lt;em&gt;government&lt;/em&gt; Corona &lt;em&gt;laws&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stay &lt;em&gt;safe and healthy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Enjoy and &lt;em&gt;keep shopping&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;EL-OH-EL!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="lingua-coronae"&gt;Lingua Coronae&lt;/h2&gt;
+&lt;p&gt;In reference to &lt;a href="https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii"&gt;Victor Klemperer's LTI&lt;/a&gt;, gathering primarily from the German media:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)&lt;/li&gt;
+&lt;li&gt;coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)&lt;/li&gt;
+&lt;li&gt;Coronaleugner, Coronaverharmloser (invoking language with exclusive association to the Holocaust and anti-human views. Exclusivity was first broken for climate change: "Klimaleugner")&lt;/li&gt;
+&lt;li&gt;Lockdown, Shutdown (previously primarily used in prison/military context)&lt;/li&gt;
+&lt;li&gt;Concern for public health (Nazis would have called it "Volksgesundheit", trying to make individual/private health decisions a matter of public concern, shaming/blaming, claiming higher morals)&lt;/li&gt;
+&lt;li&gt;Einschränkungen (restrictions, euphemism for gross loss/forfeiture/revocation of basic civil liberties, destruction of small-/medium-sized businesses)&lt;/li&gt;
+&lt;li&gt;Impfung, Inzidenz (re-use of existing words with new, slightly altered meaning, not publishing number of tests, not marking/controlling for significant changes in pandemic response)&lt;/li&gt;
+&lt;li&gt;Impfgegner (enemy metaphor, wartime propaganda language), Impfstützpunkt (as in "military base", again militaristic language)&lt;/li&gt;
+&lt;li&gt;3G, 3G+, 2G, 2G+, 1G, -Regel (scientism, buzzwords, variation of those rules have no scientific merit besides pushing people to get vaccinated. As benefit, inconveniences imposed by those rules may be temporarily skipped)&lt;/li&gt;
+&lt;li&gt;Schwurbler (discrediting opposing arguments and people voicing them as idiots, mentally ill)&lt;/li&gt;
+&lt;li&gt;Sicher und effektiv (safe and effective, with various degrees), "trust the science!" (good science doesn't need trust, it is self-evident and accessible to at least any academic. Flying to the moon requires a leap of faith in all the science, engineering and people involved. Experimental drugs do, too!)&lt;/li&gt;
+&lt;li&gt;Alltagsmaske, medizinische Maske, FFP2 mask, Maskenpflicht (salami slice tactic of conditioning population to masks, starting with near-useless ones, moving up to proper masks. Guaranteed sales due to amigo politics)&lt;/li&gt;
+&lt;li&gt;Coronawarnapp, Coronaapp, Coronapass, Coronapasspflicht (salami slice tactic, pushing acceptance of digital means of identification, normalization to "check-in". Implementing technocratic "computer said no", offloading responsibility from politics to technocratic system)&lt;/li&gt;
+&lt;li&gt;"Politisches Versprechen" (political promise, as in: a promise which will be broken for sure, e.g. "no wall", "no road charges", "no additional lockdown")&lt;/li&gt;
+&lt;li&gt;"For freedom!" (through the opposite means of lockdown, technocratic testing and coerced vaccination)&lt;/li&gt;
+&lt;li&gt;News reports suggesting to peach, spy on neighbors during lockdowns&lt;/li&gt;
+&lt;li&gt;News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
