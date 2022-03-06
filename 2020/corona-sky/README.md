@@ -30,9 +30,9 @@ The content always boils down to:
 
 *EL-OH-EL!*
 
-## Lingua Coronae
+## Update 2022-03-06: Lingua Coronae
 
-In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii), gathering primarily from the German media:
+In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii), I've been gathering primarily from the German media:
 
 * Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)
 * coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)
