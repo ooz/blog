@@ -37,7 +37,7 @@ I did not find a single SSG fulfilling my personal requirements:
 :   This is covered by most themes, but it is again theme-dependent and if you develop your own theme, you need to take care of this also.
 
 **Portability**
-:   Unix tools, bash, git, Python and some common apt packages are available even for my terminal emulator on Android. The tool should work in this environment.
+:   Unix tools, bash, git, Python and some common apt packages are available even for [my preferred terminal emulator on Android](https://oliz.io/blog/2018/code-and-deploy-using-termux.html). The tool should work in this environment.
 
 Further there are lots of things solved by multiple SSGs that are *no requirements for me*. An excerpt:
 
