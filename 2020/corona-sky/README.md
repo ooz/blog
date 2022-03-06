@@ -6,7 +6,6 @@ date: 2020-08-23T15:10:25Z
 
 Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.
 
-
 ## Corona skies
 
 ![Corona Sky](corona-sky.jpg)
@@ -20,7 +19,6 @@ Now, living in a city with a nearby airport, we have *Corona skies*, which I wou
 
 ![Corona Sky panorama](corona-sky_pano.jpg)
 
-
 ## Dystopian malls
 
 Whenever getting supplies, there are recorded public announcements playing.
@@ -30,6 +28,26 @@ The content always boils down to:
 2. Stay *safe and healthy*
 3. Enjoy and *keep shopping*
 
-Which perfectly aligns with any dystopian story ever.
+*EL-OH-EL!*
 
+## Lingua Coronae
 
+In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii), gathering primarily from the German media:
+
+* Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)
+* coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)
+* Coronaleugner, Coronaverharmloser (invoking language with exclusive association to the Holocaust and anti-human views. Exclusivity was first broken for climate change: "Klimaleugner")
+* Lockdown, Shutdown (previously primarily used in prison/military context)
+* Concern for public health (Nazis would have called it "Volksgesundheit", trying to make individual/private health decisions a matter of public concern, shaming/blaming, claiming higher morals)
+* Einschränkungen (restrictions, euphemism for gross loss/forfeiture/revocation of basic civil liberties, destruction of small-/medium-sized businesses)
+* Impfung, Inzidenz (re-use of existing words with new, slightly altered meaning, not publishing number of tests, not marking/controlling for significant changes in pandemic response)
+* Impfgegner (enemy metaphor, wartime propaganda language), Impfstützpunkt (as in "military base", again militaristic language)
+* 3G, 3G+, 2G, 2G+, 1G, -Regel (scientism, buzzwords, variation of those rules have no scientific merit besides pushing people to get vaccinated. As benefit, inconveniences imposed by those rules may be temporarily skipped)
+* Schwurbler (discrediting opposing arguments and people voicing them as idiots, mentally ill)
+* Sicher und effektiv (safe and effective, with various degrees), "trust the science!" (good science doesn't need trust, it is self-evident and accessible to at least any academic. Flying to the moon requires a leap of faith in all the science, engineering and people involved. Experimental drugs do, too!)
+* Alltagsmaske, medizinische Maske, FFP2 mask, Maskenpflicht (salami slice tactic of conditioning population to masks, starting with near-useless ones, moving up to proper masks. Guaranteed sales due to amigo politics)
+* Coronawarnapp, Coronaapp, Coronapass, Coronapasspflicht (salami slice tactic, pushing acceptance of digital means of identification, normalization to "check-in". Implementing technocratic "computer said no", offloading responsibility from politics to technocratic system)
+* "Politisches Versprechen" (political promise, as in: a promise which will be broken for sure, e.g. "no wall", "no road charges", "no additional lockdown")
+* "For freedom!" (through the opposite means of lockdown, technocratic testing and coerced vaccination)
+* News reports suggesting to peach, spy on neighbors during lockdowns
+* News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views
