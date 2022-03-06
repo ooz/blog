@@ -84,6 +84,8 @@ Educate others:
 Certainly, I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet:
 
 * https://victoria.dev/blog/make-your-own-independent-website/ (note to self: have a look at webmention)
+* https://araw.xyz/
+* https://faehnri.ch/
 * [Free messaging alternatives](https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/) (haha, this entire post reeks of [sneak.berlin](https://sneak.berlin), great content!)
 * https://riseup.net/ (various independent communication and collaboration services)
 * [Website privacy checker](https://webbkoll.dataskydd.net/en), https://observatory.mozilla.org/
