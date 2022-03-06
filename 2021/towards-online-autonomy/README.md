@@ -81,15 +81,12 @@ Educate others:
 
 ## Further Inspiration and Links
 
-Certainly, I'm not the first to be alienated. So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet:
+Certainly, I'm not the first to be alienated. [So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet](https://oliz.io/links.html). Even more resources and tools:
 
 * https://victoria.dev/blog/make-your-own-independent-website/ (note to self: have a look at webmention)
-* https://araw.xyz/
-* https://faehnri.ch/
 * [Free messaging alternatives](https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/) (haha, this entire post reeks of [sneak.berlin](https://sneak.berlin), great content!)
 * https://riseup.net/ (various independent communication and collaboration services)
 * [Website privacy checker](https://webbkoll.dataskydd.net/en), https://observatory.mozilla.org/
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
 * [Curated list of libre Android apps](https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md)
 * [Web browser privacy comparison](https://privacytests.org/)
-
