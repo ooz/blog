@@ -41,9 +41,6 @@ I did not find a single SSG fulfilling my personal requirements:
 
 Further there are lots of things solved by multiple SSGs that are *no requirements for me*. An excerpt:
 
-**Full local preview and draft support**
-:   I rather deploy fast and update a post incrementally if needed.
-
 **Fast, incremental generation**
 :   With my blogging frequency this might become an issue when the sun turns red...
 
