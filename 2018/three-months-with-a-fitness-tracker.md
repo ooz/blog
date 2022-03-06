@@ -5,7 +5,7 @@ description: Surprise surprise: office work does not move me enough!
 tags: health
 ---
 
-In March I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
+In March, I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
 Being interested only in my daily step count and the distance/steps covered on various routine routes, I did not use any of the advanced features like sleep tracking or anything else that required interaction with the Garmin cloud.
 Initializing the tracker required the creation of an account with my birthday (Jan 1st + accurate year 😉), height and mass.
 
