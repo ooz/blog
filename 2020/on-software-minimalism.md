@@ -6,7 +6,7 @@ description: Exploring how minimal software is a mean to an end searching for qu
 
 Recently, I iterated on [`gg.py`](https://ooz.github.io/ggpy/) again, which ultimately led to the age-old question:
 
-*Why (re-inventing the wheel)?*
+*Why (re-invent the wheel)?*
 
 ## Minimal Software
 
@@ -29,7 +29,7 @@ Software minimalism followed to the extreme would consider Python and anything w
 Spending less time with software frees you up to spend more time outside, off the computer, with friends and family. Or to focus on the business side of things. Shell one-liners and clever single-file programs may be one approach, but for plenty of people the use of *standard software* is exactly that:
 
 * The majority of people use it
-* The majority of people has good-enough understanding of its benefits and constraints
+* The majority of people has good-enough understanding of its benefits and constraints ("mental model")
 * Someone else develops, maintains and supports it
 
 Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
@@ -47,4 +47,4 @@ This turns the question *"does this software enable me to spend more quality tim
 * Does this computer game offer quality experience and immersion or is it just a paint over grind to grow [MAU](https://www.investopedia.com/terms/m/monthly-active-user-mau.asp)?
 * Does this software tool enable me to get more things done and turn off the computer earlier?
 
-As for `gg.py`, it covers my static site generator needs. Growing with it and having full creative expression are their own rewards. ☺
+As for `gg.py`, it covers [my static site generator needs](https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html). Growing with it and having full creative expression are their own rewards. ☺
