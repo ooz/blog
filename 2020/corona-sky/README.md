@@ -36,6 +36,7 @@ In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%8
 
 * Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)
 * coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)
+* social distancing (TODO)
 * Coronaleugner, Coronaverharmloser (invoking language with exclusive association to the Holocaust and anti-human views. Exclusivity was first broken for climate change: "Klimaleugner")
 * Lockdown, Shutdown (previously primarily used in prison/military context)
 * Concern for public health (Nazis would have called it "Volksgesundheit", trying to make individual/private health decisions a matter of public concern, shaming/blaming, claiming higher morals)
