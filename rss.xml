@@ -5,33 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 06 Mar 2022 05:29:39 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Mar 2022 23:13:22 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>XMRig on Android</title>
-      <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
-      <pubDate>Sat, 12 Feb 2022 19:40:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/xmrig-on-android.html</guid>
-      <description>&lt;ol&gt;
-&lt;li&gt;Install Termux&lt;/li&gt;
-&lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
-&lt;li&gt;Setup an Ubuntu environment
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
-proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
-apt-get install git build-essential cmake automake libtool autoconf
-git clone https://github.com/xmrig/xmrig.git
-# Change donation rate if desired
-mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
-./build_deps.sh &amp;amp;&amp;amp; cd ../build
-cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Start &lt;code&gt;xmrig&lt;/code&gt; with minimal configuration
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;modprobe msr # if supported by the system
-./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
     <item>
       <title>Learning German Grammar by Analogy to Programming Concepts</title>
       <link>https://oliz.io/blog/2019/german-grammar-programming-concepts.html</link>
@@ -143,58 +118,6 @@ cheatHypno()
 cheatPrestigeU()
 cheatPrestigeS()&lt;/code&gt;&lt;/pre&gt;
 &lt;/details&gt;</description>
-    </item>
-    <item>
-      <title>Personal Contacts CRM INI File</title>
-      <link>https://oliz.io/blog/2022/personal-crm.html</link>
-      <pubDate>Sun, 27 Feb 2022 23:33:38 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/personal-crm.html</guid>
-      <description>&lt;p&gt;Wow, even without a clickbait, SEO-optimized &lt;em&gt;"How-to ..."&lt;/em&gt; or &lt;em&gt;"X Reasons ..."&lt;/em&gt; prefix, the post title sounds like a heap of BS! 😅&lt;/p&gt;
-&lt;p&gt;So far, my biggest pain point &lt;a href="https://oliz.io/blog/2021/towards-online-autonomy/"&gt;migrating away from "big tech"&lt;/a&gt; was my contacts list neatly synchronized by Google.
-In the last year, I missed quite some birthdays, address updates and have generally been "minimal-social" due to lack of proper bookkeeping!&lt;/p&gt;
-&lt;h2 id="history-and-requirements"&gt;History and Requirements&lt;/h2&gt;
-&lt;p&gt;I already made it a habit to note key learnings after interactions with people I don't meet regularly.
-When companies do this, it's called &lt;a href="https://en.wikipedia.org/wiki/Customer_relationship_management"&gt;Customer Relationship Management (CRM)&lt;/a&gt;, so the ever rotating clerks know of your correspondence.
-This may sound &lt;a href="https://en.wikipedia.org/wiki/Stasi#Recovery_of_Stasi_files"&gt;creepy&lt;/a&gt;, but has the benefit of being more considerate and respectful with each other's time.
-No more &lt;em&gt;"I thought, I already told you"&lt;/em&gt; or &lt;em&gt;"What was the name of your child again?"&lt;/em&gt;
-That "database" was a set of local text files and I wanted to combine it with the contacts list exported from Google (&lt;code&gt;.csv&lt;/code&gt;).&lt;/p&gt;
-&lt;p&gt;Requirements:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Human- and machine-readable, plaintext, easy to edit and process&lt;/li&gt;
-&lt;li&gt;Support structured master data like name, birthday, email, phone, address&lt;/li&gt;
-&lt;li&gt;Support optional, arbitrary fields&lt;/li&gt;
-&lt;li&gt;Support timestamped list of events, meaning what interaction happened with that person on a specific day, key insights gained&lt;/li&gt;
-&lt;li&gt;All data in a single file&lt;/li&gt;
-&lt;li&gt;Store master file/backups in KeePass, have a local copy for scripts to access&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="solution-and-format"&gt;Solution and Format&lt;/h2&gt;
-&lt;p&gt;Eventually, I settled for an &lt;a href="https://en.wikipedia.org/wiki/INI_file"&gt;INI file&lt;/a&gt;.
-&lt;a href="https://docs.python.org/3/library/configparser.html"&gt;Python has built-in support&lt;/a&gt; and &lt;code&gt;grep&lt;/code&gt;ing works, too.
-Each person gets a section.
-Master data are key-value pairs, notable events are date-note pairs.&lt;/p&gt;
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;[FirstName_LastName]
-bday = 1990-09-29
-email = foobar@example.com
-address = Foo St. 23, 01234 City
-2020-06-22 = Met for lunch, recently switched to ABCorp, children are well
-2021-09-29 = Birthday telephone call, vegan for 6 months
-
-[FirstName_?]
-phone = +49 123456789
-info = Met at festival
-
-[unsorted]
-Alice = XYZ user group meetup 2022-02-02, new to City and topic
-John = XYZ user group meetup 2022-02-02, did Karate (6th Kyu) in school&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Keys for unknown values may be omitted, unknown values in structured data may be masked with &lt;code&gt;?&lt;/code&gt; characters (e.g. unknown birth year may become &lt;code&gt;????&lt;/code&gt;).
-This has the benefit of easy parsing/&lt;code&gt;grep&lt;/code&gt;ing.
-I made a little &lt;a href="https://github.com/ooz/olli/blob/master/.scripts/birthdays.py"&gt;script&lt;/a&gt; which reads all birthdays (if present), sorts them by month and day, and prints the entire list with a "today" marker.
-For me, this is a good-enough substitute for Google Calendar birthday notifications.&lt;/p&gt;
-&lt;h2 id="next-steps"&gt;Next Steps&lt;/h2&gt;
-&lt;p&gt;Currently, I keep the INI file locally and back it up to KeePass.
-More automated encryption and synchronization would be nice.&lt;/p&gt;
-&lt;p&gt;But first, I still need to migrate a good chunk of contacts data. 🙂&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Software Minimalism</title>
@@ -474,6 +397,90 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Personal Contacts CRM INI File</title>
+      <link>https://oliz.io/blog/2022/personal-crm.html</link>
+      <pubDate>Sun, 27 Feb 2022 23:33:38 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/personal-crm.html</guid>
+      <description>&lt;p&gt;Wow, even without a clickbait, SEO-optimized &lt;em&gt;"How-to ..."&lt;/em&gt; or &lt;em&gt;"X Reasons ..."&lt;/em&gt; prefix, the post title sounds like a heap of bullshit! 😅&lt;/p&gt;
+&lt;p&gt;So far, my biggest pain point &lt;a href="https://oliz.io/blog/2021/towards-online-autonomy/"&gt;migrating away from "big tech"&lt;/a&gt; was my contacts list neatly synchronized by Google.
+In the last year, I missed quite some birthdays, address updates and have generally been "minimal-social" due to lack of proper bookkeeping!&lt;/p&gt;
+&lt;h2 id="history-and-requirements"&gt;History and Requirements&lt;/h2&gt;
+&lt;p&gt;I already made it a habit to note key learnings after interactions with people I don't meet regularly.
+When companies do this, it's called &lt;a href="https://en.wikipedia.org/wiki/Customer_relationship_management"&gt;Customer Relationship Management (CRM)&lt;/a&gt;, so the ever rotating clerks know of your correspondence.
+This may sound &lt;a href="https://en.wikipedia.org/wiki/Stasi#Recovery_of_Stasi_files"&gt;creepy&lt;/a&gt;, but has the benefit of being more considerate and respectful with each other's time.
+No more &lt;em&gt;"I thought, I already told you"&lt;/em&gt; or &lt;em&gt;"What was the name of your child again?"&lt;/em&gt;
+That "database" was a set of local text files and I wanted to combine it with the contacts list exported from Google (&lt;code&gt;.csv&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Requirements:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Human- and machine-readable, plaintext, easy to edit and process&lt;/li&gt;
+&lt;li&gt;Support structured master data like name, birthday, email, phone, address&lt;/li&gt;
+&lt;li&gt;Support optional, arbitrary fields&lt;/li&gt;
+&lt;li&gt;Support timestamped list of events, meaning what interaction happened with that person on a specific day, key insights gained&lt;/li&gt;
+&lt;li&gt;All data in a single file&lt;/li&gt;
+&lt;li&gt;Store master file/backups in KeePass, have a local copy for scripts to access&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="solution-and-format"&gt;Solution and Format&lt;/h2&gt;
+&lt;p&gt;Eventually, I settled for an &lt;a href="https://en.wikipedia.org/wiki/INI_file"&gt;INI file&lt;/a&gt;.
+&lt;a href="https://docs.python.org/3/library/configparser.html"&gt;Python has built-in support&lt;/a&gt; and &lt;code&gt;grep&lt;/code&gt;ing works, too.
+Each person gets a section.
+Master data are key-value pairs, notable events are date-note pairs.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;[FirstName_LastName]
+bday = 1990-09-29
+email = foobar@example.com
+address = Foo St. 23, 01234 City
+2020-06-22 = Met for lunch, recently switched to ABCorp, children are well
+2021-09-29 = Birthday telephone call, vegan for 6 months
+
+[FirstName_?]
+phone = +49 123456789
+info = Met at festival
+
+[unsorted]
+Alice = XYZ user group meetup 2022-02-02, new to City and topic
+John = XYZ user group meetup 2022-02-02, did Karate (6th Kyu) in school&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Keys for unknown values may be omitted, unknown values in structured data may be masked with &lt;code&gt;?&lt;/code&gt; characters (e.g. unknown birth year may become &lt;code&gt;????&lt;/code&gt;).
+This has the benefit of easy parsing/&lt;code&gt;grep&lt;/code&gt;ing.
+I made a little &lt;a href="https://github.com/ooz/olli/blob/master/.scripts/birthdays.py"&gt;script&lt;/a&gt; which reads all birthdays (if present), sorts them by month and day, and prints the entire list with a "today" marker.
+For me, this is a good-enough substitute for Google Calendar birthday notifications.&lt;/p&gt;
+&lt;h2 id="next-steps"&gt;Next Steps&lt;/h2&gt;
+&lt;p&gt;Currently, I keep the INI file locally and back it up to KeePass.
+More automated encryption and synchronization would be nice.&lt;/p&gt;
+&lt;p&gt;But first, I still need to migrate a good chunk of contacts data. 🙂&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DIY Bungee Cord Pullup Bar Bicycle Lift</title>
+      <link>https://oliz.io/blog/2022/diy-bingo/</link>
+      <pubDate>Thu, 10 Mar 2022 21:28:47 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/diy-bingo/</guid>
+      <description>&lt;p&gt;Originally, I wanted to write on something else, but I'm taking the opportunity to continue my AI-generated, bullshit bingo post title streak. Documenting my engineering feats for future personal reference.&lt;/p&gt;
+&lt;h2 id="problem-and-idea"&gt;Problem and Idea&lt;/h2&gt;
+&lt;p&gt;Last year, someone placed (lost?) nail(s?) on a bicycle lane.
+I was lucky enough to need to replace both inner tube and wheel mantle...&lt;/p&gt;
+&lt;p&gt;Reassembling the rear wheel, I probably didn't tighten the nuts enough,
+so the rear axle continuously pushed further into the frame due to road bumps o.s. (see upper sketch).
+Resulting in the chain losing tension and jumping of the cogs all the time (to the point, the bicycle basically can't be used).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Problem sketch" src="sketch.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;(Black: frame, blue: chain/pedal axle, red/dark green: rear axle)&lt;/p&gt;
+&lt;p&gt;My idea was to lift the bike, loosen the nuts, so gravity pulls the rear wheel down till the chain has proper tension (lower image). Then &lt;em&gt;thoroughly&lt;/em&gt; tighten the nuts.&lt;/p&gt;
+&lt;p&gt;There are special "tripods" for bicycles to lift and maintain them.
+Since I have none and don't intend to get one, I DIY'd it.
+Alternatives include going to a self-service bike workshop, pay a small fee and use the equipment there.&lt;/p&gt;
+&lt;h2 id="behold-der-gerat"&gt;Behold, &lt;em&gt;der Gerät&lt;/em&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Pullup bar + bungee cord + steel cable" src="geraet0.jpg" /&gt;
+&lt;img alt="Full view, except pullup bar" src="geraet1.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;(Routing the steel cable around the saddle resulted in a upright position already, spirit level can be used to check)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Closer view at rear wheel" src="geraet2.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;(Box of recently bought shoes protecting carpeting)&lt;/p&gt;
+&lt;p&gt;MacGyver score: &lt;strong&gt;5 out of 10&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Major league rubber band used&lt;/li&gt;
+&lt;li&gt;Oil spill prevented, carpeting unharmed&lt;/li&gt;
+&lt;li&gt;Swiss Army Knife was in reach, but not needed since proper tools were available&lt;/li&gt;
+&lt;li&gt;No evil guys bicycle sabotage conspiracy uncovered&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
