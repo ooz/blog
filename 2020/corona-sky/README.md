@@ -30,6 +30,20 @@ The content always boils down to:
 
 *EL-OH-EL!*
 
+## The Soundtrack
+
+*Update 2022-03-11*: all songs are also very suitable against the current war mongering.
+
+German:
+
+* Die Ärzte, "Ein Lied für Jetzt": https://www.youtube.com/watch?v=t_s6waEUTbI (melancholic, sarcastic)
+* Die Bergers, positive and uplifting cover of the above: https://www.youtube.com/watch?v=o762F5XaIU0 (thanks, YT algorithm for promoting this gem!)
+* Die Ärzte, "Regierung": https://www.youtube.com/watch?v=REgzERt81zM
+
+English:
+
+* Twisted Sister, "We're Not Gonna Take It": https://www.youtube.com/watch?v=4xmckWVPRaI
+
 ## Update 2022-03-06: Lingua Coronae
 
 In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii), I've been gathering primarily from the German media:
@@ -52,3 +66,4 @@ In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%8
 * "For freedom!" (through the opposite means of lockdown, technocratic testing and coerced vaccination)
 * News reports suggesting to peach, spy on neighbors during lockdowns
 * News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views
+* Geimpft, genesen oder gestorben (TODO)
