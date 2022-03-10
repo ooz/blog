@@ -19,7 +19,7 @@ Resulting in the chain losing tension and jumping of the cogs all the time (to t
 
 (Black: frame, blue: chain/pedal axle, red/dark green: rear axle)
 
-My idea was to lift the bike, loosen the nuts, so gravity pulls the rear wheel down till the chain has proper tension (lower image). Then *thoroughly* tighten the nuts.
+My idea was to lift the bike, loosen the nuts, so gravity pulls the rear wheel down till the chain has proper tension (lower image, I failed at drawing the chain properly, imagine it "tighter"). Then *thoroughly* tighten the nuts.
 
 There are special "tripods" for bicycles to lift and maintain them.
 Since I have none and don't intend to get one, I DIY'd it.
