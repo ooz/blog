@@ -1,6 +1,6 @@
 ---
 title: Corona Sky
-description: My 2020 favorite so far
+description: My 2020 favorites so far
 date: 2020-08-23T15:10:25Z
 ---
 
@@ -19,12 +19,14 @@ Now, living in a city with a nearby airport, we have *Corona skies*, which I wou
 
 ![Corona Sky panorama](corona-sky_pano.jpg)
 
+Eventually, an increase in condensation trails may be a good metric on how much we are going "back to normal".
+
 ## Dystopian Malls
 
 Whenever getting supplies, there are recorded public announcements playing.
 The content always boils down to:
 
-1. Mind the *government* Corona *laws*
+1. Mind the *government Corona laws*
 2. Stay *safe and healthy*
 3. Enjoy and *keep shopping*
 
