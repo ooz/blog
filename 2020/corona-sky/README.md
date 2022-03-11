@@ -32,7 +32,7 @@ The content always boils down to:
 
 ## The Soundtrack
 
-*Update 2022-03-11*: all songs are also very suitable against the current war mongering.
+Update 2022-03-11: all songs are also very suitable for staying sane in war propaganda times.
 
 German:
 
@@ -43,6 +43,7 @@ German:
 English:
 
 * Twisted Sister, "We're Not Gonna Take It": https://www.youtube.com/watch?v=4xmckWVPRaI
+* RHCP, "Throw Away Your Television", "Can't Stop": https://www.youtube.com/watch?v=Mxl2iqtEWvQ, https://www.youtube.com/watch?v=8DyziWtkfBw
 
 ## Update 2022-03-06: Lingua Coronae
 
