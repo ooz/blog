@@ -6,7 +6,7 @@ date: 2020-08-23T15:10:25Z
 
 Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.
 
-## Corona skies
+## Corona Skies
 
 ![Corona Sky](corona-sky.jpg)
 
@@ -19,7 +19,7 @@ Now, living in a city with a nearby airport, we have *Corona skies*, which I wou
 
 ![Corona Sky panorama](corona-sky_pano.jpg)
 
-## Dystopian malls
+## Dystopian Malls
 
 Whenever getting supplies, there are recorded public announcements playing.
 The content always boils down to:
