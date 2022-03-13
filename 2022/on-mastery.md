@@ -97,6 +97,7 @@ Do we know how the pyramids were built? Not quite, but we have some ideas!
 Do we really need to build further pyramids? Probably not.
 
 Did we learn something anyway? Yeah, for instance:
+
 * Stone and paintings last long time, even longer than the language that is used to write the hieroglyphs!
 * Air-tight interlocking sandstone is awesome and very rigid!
 * Air-tight locked rooms and darkness breed deadly fungus and when opened you get very sick and die
