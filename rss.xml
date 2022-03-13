@@ -5,22 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Fri, 11 Mar 2022 08:28:02 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 12 Mar 2022 13:31:22 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Learning German Grammar by Analogy to Programming Concepts</title>
-      <link>https://oliz.io/blog/2019/german-grammar-programming-concepts.html</link>
-      <pubDate>Tue, 12 Mar 2019 22:24:28 +0000</pubDate>
-      <guid>https://oliz.io/blog/2019/german-grammar-programming-concepts.html</guid>
-      <description>&lt;p&gt;Favorite article of the week: &lt;a href="https://wickedchicken.github.io/post/german-for-programmers/"&gt;https://wickedchicken.github.io/post/german-for-programmers/&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gender of nouns -&amp;gt; forward error correction&lt;/li&gt;
-&lt;li&gt;Verb constructs -&amp;gt; context managers&lt;/li&gt;
-&lt;li&gt;Declined articles -&amp;gt; keyword arguments&lt;/li&gt;
-&lt;li&gt;Verb position -&amp;gt; delay slot&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;(originally posted on my Twitter)&lt;/p&gt;</description>
-    </item>
     <item>
       <title>E. W. Dijkstra: On the cruelty of really teaching computing science</title>
       <link>https://oliz.io/blog/2018/dijkstra-on-teaching-cs.html</link>
@@ -451,11 +437,12 @@ Thus it is rare to look up the sky and not see any condensation trails.&lt;/p&gt
 &lt;p&gt;The natural sky either clouded or cloudless without any signs of human flight.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img alt="Corona Sky panorama" src="corona-sky_pano.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Eventually, an increase in condensation trails may be a good metric on how much we are going "back to normal".&lt;/p&gt;
 &lt;h2 id="dystopian-malls"&gt;Dystopian Malls&lt;/h2&gt;
 &lt;p&gt;Whenever getting supplies, there are recorded public announcements playing.
 The content always boils down to:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Mind the &lt;em&gt;government&lt;/em&gt; Corona &lt;em&gt;laws&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Mind the &lt;em&gt;government Corona laws&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Stay &lt;em&gt;safe and healthy&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Enjoy and &lt;em&gt;keep shopping&lt;/em&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -496,6 +483,41 @@ The content always boils down to:&lt;/p&gt;
 &lt;li&gt;News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views&lt;/li&gt;
 &lt;li&gt;Geimpft, genesen oder gestorben (TODO)&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Feedback Friday</title>
+      <link>https://oliz.io/blog/2022/feedback-friday.html</link>
+      <pubDate>Fri, 11 Mar 2022 23:36:38 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/feedback-friday.html</guid>
+      <description>&lt;p&gt;Twitter has the concept of "Follow Friday":&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each Friday, remind yourself to follow a new person&lt;/li&gt;
+&lt;li&gt;This appreciates the work of others, may extend your bubble and their reach&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For Twitter and its users, this has the following effects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Users get Dopamine kicks from gaining followers&lt;/li&gt;
+&lt;li&gt;Users engage more in the platform (spend more time there) by both posting more content and consuming more content&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="better-way"&gt;Better Way&lt;/h2&gt;
+&lt;p&gt;A little reminder, this stuff was already possible is still possible with "web 1.0": via websites and emails, for instance.&lt;/p&gt;
+&lt;p&gt;Thus, I propose "Feedback Friday":&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each Friday, reach out to someone whose work you appreciate, who inspired you. Maybe give pointers if asked for&lt;/li&gt;
+&lt;li&gt;Use the preferred channel of the person you are contacting (email?)&lt;/li&gt;
+&lt;li&gt;Maybe only do so if they explicitly asked for it&lt;/li&gt;
+&lt;li&gt;...or you see, they could use a cheer-up!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="ping"&gt;Ping!&lt;/h2&gt;
+&lt;p&gt;Over the course of the last two weeks, I got appreciative emails from &lt;a href="https://jonathanwieben.com/"&gt;jonathanwieben.com&lt;/a&gt; (a former colleague) and &lt;a href="https://ohio.araw.xyz/"&gt;ohio.araw.xyz&lt;/a&gt; (someone from nearly the opposite of the planet, who has common interests). Thanks all!&lt;/p&gt;
+&lt;p&gt;Both motivated the heck out of me, to write more and get back to work!&lt;/p&gt;
+&lt;h2 id="action"&gt;Action!&lt;/h2&gt;
+&lt;p&gt;Talk is cheap, so the last two weeks...&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Sent a mail to Joshua (&lt;a href="https://falseknees.com/"&gt;https://falseknees.com/&lt;/a&gt;) pointing out that we implemented &lt;a href="https://falseknees.com/111.html"&gt;one of his comics&lt;/a&gt; by accident with &lt;a href="https://oliz.io/handshake/"&gt;Handshake game&lt;/a&gt;. Checking and recognizing later comics, I noticed he's a quite famous person now. Not expecting a reply, the subject may have also been too "spammy". But I hope, if read, it puts a smile on his face!&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Sent a ping to Melissa (&lt;a href="https://gracefully-unsettled.com/"&gt;https://gracefully-unsettled.com/&lt;/a&gt;, former colleague), who hasn't posted an update in a while, asking whether she's fine.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Go go!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
