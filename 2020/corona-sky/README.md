@@ -32,6 +32,16 @@ The content always boils down to:
 
 *EL-OH-EL!*
 
+## Digitization on Warp Speed
+
+I was slightly ahead of the curve by working remotely in a distributed team, having read relevant literature before and ac. Due to the Corona situation, our company and team adapted quickly to full-remote and without problems.
+
+There are studies on how much the Corona situation sped up digitization. Here's an example from our household:
+
+* Ordering clothes online, mostly at [uniqlo](https://www.uniqlo.com/de/de/home).
+* Ordering toiletries, cleaning utensils etc. [online](https://www.dm.de/). Yes, they ship even soft, pleasant, scarce, super valuable toilet paper -- for pennies! WHO is the idiot here?!
+* Ordering organic vegetables, fruit and meat from a local farmer, online
+
 ## The Soundtrack
 
 Update 2022-03-11: all songs are also very suitable for staying sane in war propaganda times.
