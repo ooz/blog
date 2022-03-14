@@ -101,8 +101,9 @@ Did we learn something anyway? Yeah, for instance:
 * Stone and paintings last long time, even longer than the language that is used to write the hieroglyphs!
 * Air-tight interlocking sandstone is awesome and very rigid!
 * Air-tight locked rooms and darkness breed deadly fungus and when opened you get very sick and die
+* Since the construction is so timeless, maybe important information wasn't encoded in language, but in architecture?
 
-Did the pharaohs have a bad intention bury
+Did the pharaohs have a bad intention bury their builders with them?
 We don't know! Maybe it doesn't matter, either!
 
 ---
@@ -120,6 +121,7 @@ II.
 Similarly, some very capable (by my judgement), senior colleagues left for another company.
 That company had huge financial backing and was hiring "senior devs only" to finish an ambitious project on a tight one year schedule.
 I didn't check back again, but here are my assumptions of possible outcomes:
+
 * Too many cooks spoil the broth: Each senior dev has their own ideas how things should work, lots of meetings, agreement takes ages. Eventually, the thing is too late and over budget, oops!
 * Most likely, the senior devs realize the situation, evaluate available abilities, preferences and requirements. Naturally, some of them lead and push bigger design decisions. Others step down a bit and follow. In this case, the company could have hired less seniors and more juniors and probably achieved a similar result, cheaper. Oops! Don't tell that the bean counters!
 * In magical fairytale land, all the seniors devs got along in perfect harmony. They delivered a high quality solution, under budget, on time. After this great achievement, all the great achievers head out to the next challenge (other project, other company). The software works, eventually requirements change, nobody's there anymore to understand the thing and there's limited documentation/onboarding/handover material. What's there can only be understood by great achievers. Eventually, the company hires further great achievers which attest a re-write is needed at great cost. Oops!
