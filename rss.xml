@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Mon, 14 Mar 2022 19:39:39 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Mar 2022 19:43:46 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>On Software Minimalism</title>
@@ -430,6 +430,32 @@ The content always boils down to:&lt;/p&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
+      <title>XMRig on Android</title>
+      <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
+      <pubDate>Sat, 12 Feb 2022 19:40:33 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/xmrig-on-android.html</guid>
+      <description>&lt;p&gt;The Nobel Prize "for Economics" is fake, but money and blockchain are real? If your answer to this is "YES!", you may proceed at your own liability...&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Install Termux&lt;/li&gt;
+&lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
+&lt;li&gt;Setup an Ubuntu environment
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
+proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
+apt-get install git build-essential cmake automake libtool autoconf
+git clone https://github.com/xmrig/xmrig.git
+# Change donation rate if desired
+mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
+./build_deps.sh &amp;amp;&amp;amp; cd ../build
+cmake .. -DXMRIG_DEPS=scripts/deps
+make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;Start &lt;code&gt;xmrig&lt;/code&gt; with minimal configuration
+    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;modprobe msr # if supported by the system
+./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
       <title>On Mastery</title>
       <link>https://oliz.io/blog/2022/on-mastery.html</link>
       <pubDate>Sun, 13 Mar 2022 21:56:15 +0000</pubDate>
@@ -499,7 +525,7 @@ If we don't think like this, e.g. having the need to distinguish between "master
 &lt;p&gt;In other words, the opening sentence of this post could be reworded to:
 &lt;em&gt;If your art, craft etc. dies with you, you were a lesser than all the masters before you!&lt;/em&gt;
 Even if your trade is still relevant to humankind, new students will simply skip past you to the masters before you! The joke is on you there! Ouch!&lt;/p&gt;
-&lt;h2 id="in-architecture-pyramids-and-saint-basils-cathedral"&gt;In architecture: Pyramids and Saint Basil's Cathedral&lt;/h2&gt;
+&lt;h2 id="in-architecture-pyramids-and-saint-basils-cathedral"&gt;In architecture: Pyramids and &lt;a href="https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral"&gt;Saint Basil's Cathedral&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;The master builders of the pyramids got buried with their pharaohs.
 Did we forgot how to build pyramids? Yes!
 Do we know how the pyramids were built? Not quite, but we have some ideas!
@@ -539,32 +565,6 @@ Ufff, that hit hard! Quite a revelation!
 Even if I may have failed that student, it pushed me to try harder.
 I openly motivated my strategy again, so hopefully the rest of them got the message.
 Overall, the students tried hard despite the suboptimal Corona situation, did very well in required presentations and the exam.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>XMRig on Android</title>
-      <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
-      <pubDate>Sat, 12 Feb 2022 19:40:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/xmrig-on-android.html</guid>
-      <description>&lt;p&gt;The Nobel Prize "for Economics" is fake, but blockchain and money are real? If your answer to this is "YES!", you may proceed at your own liability...&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install Termux&lt;/li&gt;
-&lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
-&lt;li&gt;Setup an Ubuntu environment
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
-proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
-apt-get install git build-essential cmake automake libtool autoconf
-git clone https://github.com/xmrig/xmrig.git
-# Change donation rate if desired
-mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
-./build_deps.sh &amp;amp;&amp;amp; cd ../build
-cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Start &lt;code&gt;xmrig&lt;/code&gt; with minimal configuration
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;modprobe msr # if supported by the system
-./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
     </item>
   </channel>
 </rss>
