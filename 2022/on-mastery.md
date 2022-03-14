@@ -5,8 +5,6 @@ date: 2022-03-13T21:56:15Z
 
 *No master without students.*
 
-If your art, craft o.s. dies with you, you were a lesser than all the masters before you.
-
 This is age-old wisdom coming in various iterations and examples.
 Here are some.
 
