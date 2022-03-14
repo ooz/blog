@@ -52,7 +52,7 @@ Mastery is explored extensively in Star Wars.
 * Jedi: A Jedi master may take multiple padawans over the course of his life. A padawan may become a master and teach padawans themselves. Potentially, this ensures greater spread and higher numbers. Some may disagree and may part with the Jedi order to instead become...
 
 * Sith: Who took mastery to the extreme ("absolutes" so to say, hehe) with the "Rule of Two": At any given time there may be only one Sith Lord with only one Sith Apprentice. To become the lord, the apprentice needs to kill the master. Either by sheer force/power or by great wit/deceit, whatever is more suitable for continuation of the Sith given the circumstances.
-The apprentice fails when the lord kills them instead. The master grows more powerful with this, too: Learning how the student tried to outplay, what better qualities to look for in the next apprentice. Darth Sidious had and outgrew multiple apprentices until ultimately killed.
+The apprentice fails when the lord kills them instead. The master grows more powerful with this, too: Learning how the student tried to outplay, what better qualities to look for in the next apprentice. Darth Sidious had and outgrew multiple apprentices until ultimately killed and both sides of the force merged.
 
 As you see, the pattern is pretty omnipresent and told in various forms.
 To reach as many humans as possible.
