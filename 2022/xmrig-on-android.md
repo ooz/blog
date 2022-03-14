@@ -3,7 +3,7 @@ title: XMRig on Android
 date: 2022-02-12T19:40:33Z
 ---
 
-The Nobel Prize "for Economics" is fake, but blockchain and money are real? If your answer to this is "YES!", you may proceed at your own liability...
+The Nobel Prize "for Economics" is fake, but money and blockchain are real? If your answer to this is "YES!", you may proceed at your own liability...
 
 1. Install Termux
 2. Install `proot-distro` package in Termux
