@@ -70,7 +70,7 @@ That's also common wisdom and it's self-evident from the very word: *studere* is
 So the only task a student has, is to try. Try to understand the masters and their greatness. Try to outshine them.
 They don't necessarily need to succeed. They may fail, that's fine.
 They then may look for a different master, a different topic and try again. Others may take their place instead.
-The only bad student is a student who doesn't try, in which case they aren't a "student" by the very sense of the word. A student giving up, simply ceases to be a student. Not offending any master, any craft or anything really, but themselves. By wasting their own time. A master claiming in front of poorly performing students that "they are wasting the masters time" isn't reflecting enough on what he could learn from the student's failures. At the same time, the master implicitly asks them to try harder.
+The only bad student is a student who doesn't try, in which case they aren't a "student" by the very sense of the word. A student giving up, simply ceases to be a student. Not offending any master, any craft or anything really, but themselves. By wasting their own time. A master claiming in front of poorly performing students that "they are wasting the master's time" isn't reflecting enough on what he could learn from the student's failures. At the same time, the master implicitly asks them to try harder.
 
 Thus "bad student" is an inherent oxymoron, while "excellent master" is an obvious tautology.
 If we don't think like this, e.g. having the need to distinguish between "masters" and "great masters". Then, maybe, we have watered down the term "master" a bit too much.
