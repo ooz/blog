@@ -87,7 +87,7 @@ In other words, the opening sentence of this post could be reworded to:
 *If your art, craft etc. dies with you, you were a lesser than all the masters before you!*
 Even if your trade is still relevant to humankind, new students will simply skip past you to the masters before you! The joke is on you there! Ouch!
 
-## In architecture: Pyramids and Saint Basil's Cathedral
+## In architecture: Pyramids and [Saint Basil's Cathedral](https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral)
 
 The master builders of the pyramids got buried with their pharaohs.
 Did we forgot how to build pyramids? Yes!
