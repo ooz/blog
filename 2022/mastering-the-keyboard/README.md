@@ -70,9 +70,7 @@ ins, del, home, pg up etc., just some words
 F1-F12  Function keys, for potions, assign at WILL
 ```
 
-
-
+[LELOL, LOTS OF JIZZ ELSEWHERE](trollon_sig.png)
 
 Seid mal bitte keine "Grammar Nazis" und versucht stattdessen die nAChRIchT zu verstehen! DANKE! BIS ZUM NÄCHSTEN MAL!
-
 
