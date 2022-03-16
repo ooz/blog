@@ -5,241 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Mon, 14 Mar 2022 19:43:46 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Mar 2022 14:38:35 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>On Software Minimalism</title>
-      <link>https://oliz.io/blog/2020/on-software-minimalism.html</link>
-      <pubDate>Mon, 15 Jun 2020 22:27:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2020/on-software-minimalism.html</guid>
-      <description>&lt;p&gt;Recently, I iterated on &lt;a href="https://ooz.github.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt; again, which ultimately led to the age-old question:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Why (re-invent the wheel)?&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="minimal-software"&gt;Minimal Software&lt;/h2&gt;
-&lt;p&gt;I like the idea of minimal software, just the amount of software needed to solve a problem, to fulfill a need. Typical characteristics of minimal software are:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://suckless.org/philosophy/"&gt;Simple, elegant, usable, focused, reasonable and attainable&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Easier to understand&lt;/li&gt;
-&lt;li&gt;Less prone to errors&lt;/li&gt;
-&lt;li&gt;Less need for maintenance&lt;/li&gt;
-&lt;li&gt;Less code (maybe)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I acknowledge that &lt;code&gt;gg.py&lt;/code&gt; could have also been realized in shell using the &lt;a href="https://busybox.net/"&gt;BusyBox set of UNIX utilities&lt;/a&gt;.
-Regardless, I enjoy working with Python and having a pet project keeps my language skills and tool chain sharp.
-Software minimalism followed to the extreme would consider Python and anything written in it as "bloat" and not minimal. On a second look, the above traits of minimal software seem to be rather &lt;em&gt;means goals&lt;/em&gt; than end goals. Extrapolated, I see one over-arching objective:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;To spend less time with software!&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id="standard-software-and-innovation"&gt;Standard Software and Innovation&lt;/h2&gt;
-&lt;p&gt;Spending less time with software frees you up to spend more time outside, off the computer, with friends and family. Or to focus on the business side of things. Shell one-liners and clever single-file programs may be one approach, but for plenty of people the use of &lt;em&gt;standard software&lt;/em&gt; is exactly that:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The majority of people use it&lt;/li&gt;
-&lt;li&gt;The majority of people has good-enough understanding of its benefits and constraints ("mental model")&lt;/li&gt;
-&lt;li&gt;Someone else develops, maintains and supports it&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
-One downside of using standard software is the loss of competitive advantage stemming from superior tools and craft. Then, &lt;a href="http://www.paulgraham.com/avg.html"&gt;beating the averages&lt;/a&gt; and innovation are not a matter of technology, but of appropriate and repeated creative application valuing the zeitgeist.&lt;/p&gt;
-&lt;h2 id="in-perspective"&gt;In Perspective&lt;/h2&gt;
-&lt;p&gt;This cannot be an argument for minimal, custom-built software, nor standard software. Neither seems to grant an advantage inherently, so a healthy dose of pragmatism is required when developing or utilizing software in a competitive space.
-Shifting the point of view, someone's minimal software might be someone else's standard software (e.g. UNIX utilities leveraged by an advanced user) and someone's standard software might be considered "overkill" by minimalists (e.g. WYSIWYG word processors for writing plain text).
-At the end of the day, users minding their respective computer skills could still all agree that their preferred software tool enables them &lt;em&gt;to spend less time&lt;/em&gt; with the computer.&lt;/p&gt;
-&lt;p&gt;This turns the question &lt;em&gt;"does this software enable me to spend more quality time off (or on) the machine?"&lt;/em&gt; into a metric for gauging software value.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Does this social network enrich my life or is it just artificially keeping me hooked to my phone for corporate profits?&lt;/li&gt;
-&lt;li&gt;Does this computer game offer quality experience and immersion or is it just a paint over grind to grow &lt;a href="https://www.investopedia.com/terms/m/monthly-active-user-mau.asp"&gt;MAU&lt;/a&gt;?&lt;/li&gt;
-&lt;li&gt;Does this software tool enable me to get more things done and turn off the computer earlier?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As for &lt;code&gt;gg.py&lt;/code&gt;, it covers &lt;a href="https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html"&gt;my static site generator needs&lt;/a&gt;. Growing with it and having full creative expression are their own rewards. ☺&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Three Months With a Fitness Tracker</title>
-      <link>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</link>
-      <pubDate>Fri, 15 Jun 2018 18:00:23 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/three-months-with-a-fitness-tracker.html</guid>
-      <description>&lt;p&gt;In March, I bought an entry-level fitness tracker ("Garmin Vivofit 3") for 50 €.
-Being interested only in my daily step count and the distance/steps covered on various routine routes, I did not use any of the advanced features like sleep tracking or anything else that required interaction with the Garmin cloud.
-Initializing the tracker required the creation of an account with my birthday (Jan 1st + accurate year 😉), height and mass.&lt;/p&gt;
-&lt;p&gt;Originally this blog post should have been called "One Month With a Fitness Tracker".
-In fact I was barely using the tracker after the first month. So here are the results:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;The tracker's measurement of distance was surprisingly accurate (to 10 meters, over the course of multiple 5 kilometer tracks), the step count/length was consistent between samples&lt;/li&gt;
-&lt;li&gt;As an office worker, going to the water dispenser or toilet is &lt;em&gt;not enough&lt;/em&gt; to get rid of the sedentary warning bar (for me around 400 steps seem to be required to get rid of the full bar)&lt;/li&gt;
-&lt;li&gt;Even on good (as in active) working days, I do not manage to cover 10000 steps (then the step count is within the 8000-9000 range)&lt;/li&gt;
-&lt;li&gt;Going to lunch outside the office adds at most 2000 steps&lt;/li&gt;
-&lt;li&gt;Doing 10000 steps a day is equivalent to a 1.5 hour walk a day for me&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Due to the consistency of the measurements and me now knowing my metrics, I am mostly using the tracker as a watch now.
-In fact, I only need to know how much time I spent covering a distance to deduct the steps and kilometers done.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Why I Wrote yet Another Static Site Generator</title>
-      <link>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</link>
-      <pubDate>Fri, 16 Mar 2018 21:28:03 +0000</pubDate>
-      <guid>https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Once a while somebody wants to write a blog post...&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Previously my website and blog hosted on GitHub were statically generated using &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt;.
-Even before Hugo I tried Jekyll, Pelican and was checking out &lt;a href="https://jamstack.org/generators/"&gt;any site generator&lt;/a&gt;, that had at least some two-digit star count. Jekyll seemed too bloated and heavy-weight for my use case and the last time I looked into Pelican it had a license that I could not fully assess.&lt;/p&gt;
-&lt;p&gt;Hugo certainly is a nice tool, but keeping track of updates and dependencies is annoying.
-Even if I use a popular Hugo theme, I need to track updates of both Hugo and the theme.
-Updates usually involve messing around in the configuration file as well.
-Configuration files are almost always not compatible between different themes.
-The same applies to the folder structure and canonical links.&lt;/p&gt;
-&lt;h2 id="my-requirements"&gt;My Requirements&lt;/h2&gt;
-&lt;p&gt;I did not find a single &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; fulfilling my personal requirements:&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;&lt;strong&gt;Leverage free GitHub infrastructure&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;GitHub Pages is a real asset for me. Anything static, anything just running in someone's browser, I want to deploy using GitHub. Authentication is set up for development work already. Everything is free as in "tea". The behavior is really transparent:&lt;/dd&gt;
-&lt;dd&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub Pages maps my repos nicely to its &lt;a href="https://ooz.github.io"&gt;github.io&lt;/a&gt; subdomain. A &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should be able to leverage the repository/directory structure!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dd&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; files are rendered nicely on GitHub and can be edited there as well. So the &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; should support rendering &lt;code&gt;README.md&lt;/code&gt; files as &lt;code&gt;index.html&lt;/code&gt; files for the repository/directory the file is located in!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/dd&gt;
-&lt;dd&gt;
-&lt;p&gt;If you want to view the markdown file "as is" on GitHub, links to own assets/posts are usually broken in most SSGs due to templated links. GitHub Pages has Jekyll support included, but it is not as transparent as running Jekyll and deploying the result on your own.&lt;/p&gt;
-&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Responsive design and pleasant typography&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Despite the mass of themes and free resources, this is still not a baseline. My website/blog should be nice to read everywhere and fonts should not strain the eye!&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Markdown support&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Life is too short to manually write plenty of markup. It was surprisingly hard to find a suitable markdown conversion tool/library, because there are so many dialects/extensions that lack proper implementation. I now decided for &lt;a href="https://python-markdown.github.io/extensions/"&gt;Python Markdown and its extensions&lt;/a&gt;.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Suitable not just for blog posts, but also for other content pages&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Some static site generators and themes are limited to specific use cases, I do not want to be restricted here.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Twitter Card, Open Graph support&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;This is covered by most themes, but it is again theme-dependent and if you develop your own theme, you need to take care of this also.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Portability&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;Unix tools, bash, git, Python and some common apt packages are available even for &lt;a href="https://oliz.io/blog/2018/code-and-deploy-using-termux.html"&gt;my preferred terminal emulator on Android&lt;/a&gt;. The tool should work in this environment.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;p&gt;Further there are lots of things solved by multiple SSGs that are &lt;em&gt;no requirements for me&lt;/em&gt;. An excerpt:&lt;/p&gt;
-&lt;dl&gt;
-&lt;dt&gt;&lt;strong&gt;Fast, incremental generation&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;With my blogging frequency this might become an issue when the sun turns red...&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Big theme selection&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;I just need one working theme. &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; themes are seldomly ranked, so it is hard to choose one to commit to.&lt;/dd&gt;
-&lt;dt&gt;&lt;strong&gt;Template engine, theme development option&lt;/strong&gt;&lt;/dt&gt;
-&lt;dd&gt;See above, I just want something working to focus on writing content.&lt;/dd&gt;
-&lt;/dl&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;em&gt;Why don't you just contribute to some project or develop your own theme?&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I attempted to develop my own Hugo theme in the past, but I estimated the effort understanding all concepts and writing the archetypes, snippets and templates greater than just developing my own &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt;.
-For the same reason contribution to another &lt;abbr title="Static Site Generator"&gt;SSG&lt;/abbr&gt; project was out of question: Too much effort catching up, esp. since most general purpose generators emphasize different features, that I do not need (see above).&lt;/p&gt;
-&lt;p&gt;So instead of investing time into things that might not yield the desired result, I decided to go my own path.&lt;/p&gt;
-&lt;h2 id="my-solution"&gt;My Solution&lt;/h2&gt;
-&lt;p&gt;This blog and website are now generated by &lt;a href="https://github.com/ooz/ggpy"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;, a single Python3 file inspired by &lt;a href="https://github.com/cfenollosa/bashblog"&gt;bashblog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Initially, I picked &lt;a href="https://milligram.io/"&gt;Milligram&lt;/a&gt; as CSS baseline. It provides nice defaults without the need to put classes on every HTML element. This is especially handy, since I do not want to post-process the HTML generated from the Markdown input.
-Further dependencies included Google Fonts, Font Awesome and &lt;a href="https://highlightjs.org/"&gt;highlight.js&lt;/a&gt;.
-In the meantime (update 2022-03-06), I removed most CSS/JS dependencies and went with minimal, sane defaults inspired by &lt;a href="http://bettermotherfuckingwebsite.com/"&gt;http://bettermotherfuckingwebsite.com/&lt;/a&gt; (no HTTPS, care!)&lt;/p&gt;
-&lt;p&gt;Open Graph meta data is rendered. The Python configuration file enables future preprocessing steps.&lt;/p&gt;
-&lt;p&gt;The mapping of GitHub repositories to (sub-)pages works nicely. Previous my website and blog were in the single repository &lt;a href="https://github.com/ooz/ooz.github.io"&gt;&lt;code&gt;ooz.github.io&lt;/code&gt;&lt;/a&gt;. Now the &lt;a href="https://github.com/ooz/blog"&gt;&lt;code&gt;blog&lt;/code&gt;&lt;/a&gt; has its own repository which fits in with the GitHub Pages of some personal projects (e.g. &lt;code&gt;ggpy&lt;/code&gt;, &lt;code&gt;handshake&lt;/code&gt; and &lt;code&gt;lifetime-clock&lt;/code&gt;). The new repository/page tree now looks like this:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;ooz.github.io      # GitHub user page
-├── index.html
-├── blog
-│   ├── index.html # Autogenerated from all blog posts
-│   ├── 2018
-│   │   ├── why-i-wrote-yet-another-static-site-gen.html
-│   │   └── why-i-wrote-yet-another-static-site-gen.md
-...
-├── ggpy           # A normal repository page
-├── handshake
-├── lifetime-clock&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="open-ends"&gt;Open Ends&lt;/h2&gt;
-&lt;p&gt;Obviously, the 12-hour-hack solution is not feature complete and has some rough edges.
-Things I am still looking forward to:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; XML sitemap and RSS feed support&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; Smarter top-level blog post index generation with older posts hidden and a tag cloud&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I thought about supporting Disqus as well, but I will probably rather include a "web 1.0" notice about using Twitter, GitHub issues or email to comment/contact me. This also reduces the attack vector of some German/EU bogus laws.&lt;/p&gt;
-&lt;h2 id="generate-it-up"&gt;Generate it up!&lt;/h2&gt;
-&lt;p&gt;All in all I am pleased with the result so far.
-The CSS framework, Markdown library and font selection were the biggest pain points costing a lot of development time.
-Writing &lt;code&gt;gg.py&lt;/code&gt; was still a nice exercise: I learned about Twitter cards, Open Graph meta data formats and (re-)discovered some nice bash quirks in the source of &lt;a href="https://github.com/cfenollosa/bashblog/blob/master/bb.sh"&gt;bashblog&lt;/a&gt;!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Towards Online Autonomy</title>
-      <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
-      <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/towards-online-autonomy/</guid>
-      <description>&lt;p&gt;Smartphones have become the "personal computer":
-a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).&lt;/p&gt;
-&lt;p&gt;Ever since, I'm annoyed, that we don't (can't) really &lt;em&gt;own&lt;/em&gt; smartphones like we can own other computing equipment.
-Smartphones have hard- and software obsolescence built-in.
-They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
-Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through &lt;a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy"&gt;attention economy&lt;/a&gt;
-(making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
-If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.&lt;/p&gt;
-&lt;h2 id="tech-is-getting-consolidated"&gt;Tech is Getting Consolidated...&lt;/h2&gt;
-&lt;p&gt;This entire development didn't start and won't end with smartphones.
-&lt;a href="https://stallman.org/"&gt;RMS&lt;/a&gt; has been anticipating and warning about it for decades already (see his &lt;a href="https://stallman.org/glossary.html#used"&gt;definition of "Useds"&lt;/a&gt;). It's common knowledge by now, some examples:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware backdoors (&lt;a href="https://en.wikipedia.org/wiki/Intel_Management_Engine"&gt;Intel ME&lt;/a&gt;, undocumented x86 instructions) in mainline processors&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html"&gt;The internet becoming more centralized&lt;/a&gt; with &lt;a href="https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html"&gt;a dozen of mega corporations owning the majority of the traffic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In the near future, &lt;a href="https://sneak.berlin/20201112/your-computer-isnt-yours/"&gt;we'll get smartphone-level surveillance and "ownership" for our other computers, too&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://oliz.io/blog/2021/pegasus-android-check/"&gt;Pegasus anyone?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
-In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on &lt;em&gt;user-serviceable&lt;/em&gt;, secure hard- and software.
-State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
-&lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
-&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
-So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.
-I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
-&lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
-&lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
-&lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
-&lt;p&gt;Autonomy gained:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;, migrate contacts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Stopped/minimized using:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;XING&lt;/strong&gt;: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
-                Preferring LinkedIn (and considering moving my data out there, too)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;LinkedIn&lt;/strong&gt;: Doing minimal effort there, keeping resume up-to-date and accepting connections I either know or who seem to be real humans reading profiles.
-                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, &lt;a href="https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/"&gt;but then again I'm probably not using it right&lt;/a&gt; nor &lt;a href="https://twitter.com/j4n0/status/1125380024733925377"&gt;properly&lt;/a&gt;. The CV tooling is neat, still I may just abandon it at some point and put the resume on here&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;GitHub Gists&lt;/strong&gt;: Integrated into this blog using &lt;a href="https://oliz.io/ggpy/"&gt;ggpy's&lt;/a&gt; new micro-blogging functionality.&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; &lt;strong&gt;Gmail&lt;/strong&gt;: Contacts are exported and &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;migrated&lt;/a&gt;. Haven't actively reached out to anyone regarding the email change, yet&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;: In general, I prefer to buy in local or specialized (online) shops.
-              Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Kept using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt; (&lt;a href="https://sneak.berlin/20200307/the-case-against-microsoft-and-github/"&gt;Microsoft is a serious offender&lt;/a&gt;): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt; and &lt;a href="https://privacyguides.org/software/file-sharing/#sync"&gt;an alternative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: Microsoft-free VSCode, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Educate others:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;, &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
-&lt;p&gt;Certainly, I'm not the first to be alienated. &lt;a href="https://oliz.io/links.html"&gt;So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet&lt;/a&gt;. Even more resources and tools:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;, &lt;a href="https://observatory.mozilla.org/"&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     <item>
       <title>Personal Contacts CRM INI File</title>
       <link>https://oliz.io/blog/2022/personal-crm.html</link>
@@ -565,6 +332,182 @@ Ufff, that hit hard! Quite a revelation!
 Even if I may have failed that student, it pushed me to try harder.
 I openly motivated my strategy again, so hopefully the rest of them got the message.
 Overall, the students tried hard despite the suboptimal Corona situation, did very well in required presentations and the exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing Executive Summaries</title>
+      <link>https://oliz.io/blog/2022/executive-summaries/</link>
+      <pubDate>Thu, 17 Mar 2022 10:42:50 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/executive-summaries/</guid>
+      <description>&lt;p&gt;You know what always helped me acting upon the wisdom I read in BOOKs:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Writing summaries, or cheat sheets&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can do so even if you haven't read the entire book, yet!
+Then you should just put a version or volume number on it, that you can increment when you gain further noteworthy learnings.&lt;/p&gt;
+&lt;h2 id="bible-example"&gt;Bible Example&lt;/h2&gt;
+&lt;p&gt;Over the last few years I started reading the Bible (New Testament, in GERMAN by MARTIN LUTHER for MAXIMUM AUTHENTICITY). So, please ignore the German words, I'll provide a translation for the summarized ones below the photo:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="side-by-side" src="first.jpg" /&gt;
+&lt;img alt="book-below" src="second.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;(Please excuse poor image quality, I'm not a good photographer, but I hope you get the IDEA)&lt;/p&gt;
+&lt;p&gt;Translation of the German words in the summary, so far:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;learn, read, train
+create, write
+get rid of, improve
+rest, play
+invest, sell&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Me following those motives AND LOVING MY WOMÄN LALA, helped me greatly achieving TRUE GREATNESS and PURE LOVE. Hence I pimped up the empty space with pictures of US:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lala in her BUSINESS SUIT&lt;/li&gt;
+&lt;li&gt;Olli applying for UNIVERSITY, still with military haircut&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(censored for privacy reasons)&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Towards Online Autonomy</title>
+      <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
+      <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
+      <guid>https://oliz.io/blog/2021/towards-online-autonomy/</guid>
+      <description>&lt;p&gt;Smartphones have become the "personal computer":
+a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).&lt;/p&gt;
+&lt;p&gt;Ever since, I'm annoyed, that we don't (can't) really &lt;em&gt;own&lt;/em&gt; smartphones like we can own other computing equipment.
+Smartphones have hard- and software obsolescence built-in.
+They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
+Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through &lt;a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy"&gt;attention economy&lt;/a&gt;
+(making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
+If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.&lt;/p&gt;
+&lt;h2 id="tech-is-getting-consolidated"&gt;Tech is Getting Consolidated...&lt;/h2&gt;
+&lt;p&gt;This entire development didn't start and won't end with smartphones.
+&lt;a href="https://stallman.org/"&gt;RMS&lt;/a&gt; has been anticipating and warning about it for decades already (see his &lt;a href="https://stallman.org/glossary.html#used"&gt;definition of "Useds"&lt;/a&gt;). It's common knowledge by now, some examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware backdoors (&lt;a href="https://en.wikipedia.org/wiki/Intel_Management_Engine"&gt;Intel ME&lt;/a&gt;, undocumented x86 instructions) in mainline processors&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html"&gt;The internet becoming more centralized&lt;/a&gt; with &lt;a href="https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html"&gt;a dozen of mega corporations owning the majority of the traffic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In the near future, &lt;a href="https://sneak.berlin/20201112/your-computer-isnt-yours/"&gt;we'll get smartphone-level surveillance and "ownership" for our other computers, too&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://oliz.io/blog/2021/pegasus-android-check/"&gt;Pegasus anyone?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
+In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on &lt;em&gt;user-serviceable&lt;/em&gt;, secure hard- and software.
+State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
+&lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
+&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
+So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.
+I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
+&lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
+&lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
+&lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
+&lt;p&gt;Autonomy gained:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;, migrate contacts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stopped/minimized using:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;XING&lt;/strong&gt;: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
+                Preferring LinkedIn (and considering moving my data out there, too)
+                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, &lt;a href="https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/"&gt;but then again I'm probably not using it right&lt;/a&gt; nor &lt;a href="https://twitter.com/j4n0/status/1125380024733925377"&gt;properly&lt;/a&gt;. The CV tooling is neat, still I may just abandon it at some point and put the resume on here&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; &lt;strong&gt;Gmail&lt;/strong&gt;: Contacts are exported and &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;migrated&lt;/a&gt;. Haven't actively reached out to anyone regarding the email change, yet&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;: In general, I prefer to buy in local or specialized (online) shops.
+              Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kept using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: Everything is static, in Git, under my domain and their fallback domain &lt;a href="https://ooz.github.io"&gt;https://ooz.github.io&lt;/a&gt;. &lt;em&gt;Migration&lt;/em&gt; to any other service is &lt;em&gt;easy&lt;/em&gt; if desired at all&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;circleci&lt;/strong&gt;: No problem with that company at all, so far. Great FREE plan to offload some computing tasks like building this blog and observing the &lt;a href="https://oliz.io/zeitgeist/"&gt;Zeitgeist&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt; and &lt;a href="https://privacyguides.org/software/file-sharing/#sync"&gt;an alternative&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: VSCode without tracking, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Educate others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look for alternatives, e.g. on &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;, &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
+&lt;p&gt;Certainly, I'm not the first to be alienated. &lt;a href="https://oliz.io/links.html"&gt;So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet&lt;/a&gt;. Even more resources and tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;, &lt;a href="https://observatory.mozilla.org/"&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
+      <link>https://oliz.io/blog/2022/mastering-the-keyboard/</link>
+      <pubDate>Wed, 16 Mar 2022 09:13:03 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/mastering-the-keyboard/</guid>
+      <description>&lt;p&gt;Hey,&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://oliz.io/blog/2022/on-mastery.html"&gt;As you may have read, I recently wrote about mastery.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As a lifelong keyboard warrior, I have always appreciated the efficiency, precision and direct access of one of my best tools: The Keyboard.&lt;/p&gt;
+&lt;p&gt;So, today we are talking about that. Yeah, yeah, of course, I use a mouse, too. But that's a different topic for someone else, really.&lt;/p&gt;
+&lt;h2 id="the-keys"&gt;The Keys&lt;/h2&gt;
+&lt;p&gt;Images go long way, they say. I'm not a good photographer by any means, but I sincerely hope, you get the message:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Some input methods, some of which I claim to own" src="TOOLS.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="my-reading-of-the-keys-and-the-map"&gt;My Reading of The Keys and The Map&lt;/h2&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;ESC     The escape or exit key
+123     Important number keys: I, US, ALL
+^°      Instructions for number keys, lots of space still
+4       Bad luck number, right after important ONES
+5%      Sounds like someone else's rule
+6&amp;amp;      SIX AND (SIX AND (SIX)), oops, slipped a bit there
+7/{     SEVEN, cut, EMBRACE
+8([     Infinity, protect and TRUE STRIKE
+9)]     Opposite of SIX, detach, IMMOVABLE WALL
+0=}     DAMPFLÖCK smiley face with diving googles
+ß?\     some German thing? More work I guess
+´`      A roof
+'Bksp'  Corrects errors if you TYPE TOO FAST
+ENTER   NEWLINE, sends the message of GOD
+üöä     or other regionals, for regional proof
+TAB     Close to instructions, for aiming
+GODKEY  Speak in the TRUE VOICE OF GOD; RTFM first
+Shift   Temp. god speak, may be mistaken at times
+&amp;lt;|&amp;gt;     Looks like some fighter space ship
+CTRL    YOU JUST NEED TO TAKE IT, but easy friends
+ALT     Another modifier, when CTRL doesn't work
+SUPER   or windows or apple key, more WÖRK
+SPACE   Easy to hit, important and big KEY
+,;      joining words, thoughts
+.:      joining sentences, highlighting NEXT
+-_      partially forgotten SAD FACE, for quitters!
+HASH    number sign, high command
++~*     stay positive, vibe, SEE THE LIGHT
+ins, del, home, pg up etc., just some words
+F1-F12  Function keys, for potions, assign at WILL&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>How I always got what I wanted in Life</title>
+      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
+      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
+      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
+I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
+&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
+The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWEsome experience!&lt;/p&gt;
+&lt;p&gt;I was briefly in the military after school (required service in the German air force).
+Basic training was in Goslar, but the last six months we served in Laage (around G8 summit in 2007).
+Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant. While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying. Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.&lt;/p&gt;
+&lt;h2 id="engine-test-run"&gt;Engine test run&lt;/h2&gt;
+&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
+He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hard time breathing&lt;/li&gt;
+&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
+&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.&lt;/p&gt;
+&lt;h2 id="other-movies"&gt;Other movies&lt;/h2&gt;
+&lt;p&gt;I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's enough for a separate post...&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -53,24 +53,23 @@ Stopped/minimized using:
 
 * [x] **XING**: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
                 Preferring LinkedIn (and considering moving my data out there, too)
-* **LinkedIn**: Doing minimal effort there, keeping resume up-to-date and accepting connections I either know or who seem to be real humans reading profiles.
                 Too much and not valuable recruiter spam made me lock down notification settings and network exposure, [but then again I'm probably not using it right](https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/) nor [properly](https://twitter.com/j4n0/status/1125380024733925377). The CV tooling is neat, still I may just abandon it at some point and put the resume on here
-* [x] **GitHub Gists**: Integrated into this blog using [ggpy's](https://oliz.io/ggpy/) new micro-blogging functionality.
 * [ ] **Gmail**: Contacts are exported and [migrated](https://oliz.io/blog/2022/personal-crm.html). Haven't actively reached out to anyone regarding the email change, yet
 * **Amazon**: In general, I prefer to buy in local or specialized (online) shops.
               Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases
 
 Kept using:
 
-* **GitHub** ([Microsoft is a serious offender](https://sneak.berlin/20200307/the-case-against-microsoft-and-github/)): I still use it due to convenience, but everything is static, in Git and under my domain. So, migration to any other service is pretty easy when ultimately needed
-* **Google / Android**: Despite Google having converged towards the average user, it's still unparalleled. Sometimes I use duckduckgo for easy stuff. Smartphone usage is work-related (2FA/Authy, communication)
-* **Dropbox**: Proprietary daemon running in the background at all times, what could possibly go wrong?! Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox) and [an alternative](https://privacyguides.org/software/file-sharing/#sync)
-* [**VSCodium**](https://vscodium.com/): Microsoft-free VSCode, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
+* **GitHub**: Everything is static, in Git, under my domain and their fallback domain [https://ooz.github.io](https://ooz.github.io). *Migration* to any other service is *easy* if desired at all
+* **circleci**: No problem with that company at all, so far. Great FREE plan to offload some computing tasks like building this blog and observing the [Zeitgeist](https://oliz.io/zeitgeist/)!
+* **Google / Android**: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)
+* **Dropbox**: Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox) and [an alternative](https://privacyguides.org/software/file-sharing/#sync)
+* [**VSCodium**](https://vscodium.com/): VSCode without tracking, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
 
 Educate others:
 
 * Setup your own domain and [use it for email](https://sneak.berlin/20201029/stop-emailing-like-a-rube/)
-* Don't buy into/use "walled garden ecosystems", look for alternatives, e.g. on ~~https://www.privacytools.io~~, https://privacyguides.org
+* Look for alternatives, e.g. on ~~https://www.privacytools.io~~, https://privacyguides.org
 
 **Twitter**:
 
