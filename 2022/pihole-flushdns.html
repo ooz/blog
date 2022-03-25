@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
 <meta name="referrer" content="no-referrer">
-<title>Naming Schemes | Oli Z**</title>
-<link rel="canonical" href="https://oliz.io/blog/2017/naming-schemes.html">
+<title>Pi-hole flushdns | Oli Z**</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/pihole-flushdns.html">
 <link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
 <style>
 body {
@@ -81,30 +81,30 @@ function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { tog
 function toggleFontSize() { document.body.classList.toggle("large-font") }
 </script>
 <meta name="author" content="oz">
-<meta name="description" content="Naming Schemes">
-<meta property="og:title" content="Naming Schemes">
+<meta name="description" content="Pi-hole flushdns">
+<meta property="og:title" content="Pi-hole flushdns">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://oliz.io/blog/2017/naming-schemes.html">
-<meta property="og:description" content="Naming Schemes">
+<meta property="og:url" content="https://oliz.io/blog/2022/pihole-flushdns.html">
+<meta property="og:description" content="Pi-hole flushdns">
 <meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
 <meta property="og:locale" content="en-US">
-<meta property="article:published_time" content="2017-10-31T21:22:07Z">
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"Naming Schemes","url":"https://oliz.io/blog/2017/naming-schemes.html","name":"Oli Z**","description":"Naming Schemes"}</script>
+<meta property="article:published_time" content="2022-03-25T19:20:17Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"Pi-hole flushdns","url":"https://oliz.io/blog/2022/pihole-flushdns.html","name":"Oli Z**","description":"Pi-hole flushdns"}</script>
 </head>
 
 <body onload="initTheme()">
 <header>
 <a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
 <div style="text-align:right;">
-<h1 id="naming-schemes">Naming Schemes</h1>
-<small><a href="https://oliz.io">oz</a>, 2017-10-31</small>
+<h1 id="pi-hole-flushdns">Pi-hole flushdns</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-03-25</small>
 </div>
 </header>
 <section>
-<blockquote>
-<p>A good naming scheme is scalable, unique, and easy to remember. The purpose of these naming schemes is to name networked servers, wireless access points or client computers, but it can also be used to name projects, products, variables, streets, pets, kids, or any other project where unique names and rememberable names are required.</p>
-</blockquote>
-<p><a href="https://namingschemes.com">https://namingschemes.com</a></p>
+<pre class="highlight"><code>oz@cubus:~$ ssh pi@berry
+pi@berry:~$ pihole restartdns
+  [✓] Restarting DNS service</code></pre>
+<p>Accessing the admin UI: <a href="https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168">https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168</a></p>
 </section>
 <footer>
 <a href="#" class="nav">top</a>

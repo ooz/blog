@@ -61,7 +61,7 @@ Stopped/minimized using:
 Kept using:
 
 * **GitHub**: Everything is static, in Git, under my domain and their fallback domain [https://ooz.github.io](https://ooz.github.io). *Migration* to any other service is *easy* if desired at all
-* **circleci**: No problem with that company at all, so far. Great FREE plan to offload some computing tasks like building this blog and observing the [Zeitgeist](https://oliz.io/zeitgeist/)!
+* **circleci**: No problem with that, so far. Great free plan to offload some computing tasks like building this blog and observing the [Zeitgeist](https://oliz.io/zeitgeist/)!
 * **Google / Android**: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)
 * **Dropbox**: Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox) and [an alternative](https://privacyguides.org/software/file-sharing/#sync)
 * [**VSCodium**](https://vscodium.com/): VSCode without tracking, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
@@ -89,3 +89,5 @@ Certainly, I'm not the first to be alienated. [So here are a bunch of other nice
 * [General security flaws with modern tech](https://madaidans-insecurities.github.io/) (nice, minimal website, too!)
 * [Curated list of libre Android apps](https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md)
 * [Web browser privacy comparison](https://privacytests.org/)
+* [Ruin My Search History](https://proprivacy.com/tools/ruinmysearchhistory) (a reader suggested this, I like the idea, but use at own risk™)
+

@@ -16,7 +16,7 @@ So, today we are talking about that. Yeah, yeah, of course, I use a mouse, too. 
 
 Images go long way, they say. I'm not a good photographer by any means, but I sincerely hope, you get the message:
 
-![Some input methods, some of which I claim to own](TOOLS.jpg)
+![Some input methods, some of which I claim to own](tools.jpg)
 
 ## My Reading of The Keys and The Map
 

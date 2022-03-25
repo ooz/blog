@@ -15,10 +15,7 @@ Then you should just put a version or volume number on it, that you can incremen
 
 Over the last few years I started reading the Bible (New Testament, in German). So, please ignore the German words, I'll provide a translation for the summarized ones below the photo:
 
-![side-by-side](first.jpg)
-![book-below](second.jpg)
-
-(Please excuse poor image quality, I'm not a good photographer, but I hope you get the idea)
+![Summary and Bible](bible-summary.jpg)
 
 Translation of the German words in the summary, so far:
 
@@ -29,4 +26,5 @@ get rid of, improve
 rest, play
 invest, sell
 ```
+
 
