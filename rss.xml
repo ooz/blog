@@ -5,34 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Tue, 29 Mar 2022 16:45:22 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Mar 2022 17:03:58 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>XMRig on Android</title>
-      <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
-      <pubDate>Sat, 12 Feb 2022 19:40:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/xmrig-on-android.html</guid>
-      <description>&lt;p&gt;The Nobel Prize "for Economics" is fake, but money and blockchain are real? If your answer to this is "YES!", you may proceed at your own liability...&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install Termux&lt;/li&gt;
-&lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
-&lt;li&gt;Setup an Ubuntu environment
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
-proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
-apt-get install git build-essential cmake automake libtool autoconf
-git clone https://github.com/xmrig/xmrig.git
-# Change donation rate if desired
-mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
-./build_deps.sh &amp;amp;&amp;amp; cd ../build
-cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Start &lt;code&gt;xmrig&lt;/code&gt; with minimal configuration
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;modprobe msr # if supported by the system
-./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
     <item>
       <title>How I always got what I wanted in Life</title>
       <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
@@ -401,6 +375,14 @@ Overall, the students tried hard despite the suboptimal Corona situation, did ve
       <guid>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</guid>
       <description>&lt;p&gt;† Yesterday, &lt;a href="https://en.wikipedia.org/wiki/Taylor_Hawkins"&gt;Oliver Taylor Hawkins&lt;/a&gt;, dad and drummer of the Foo Fighters, died.&lt;/p&gt;
 &lt;p&gt;In the spirit of Jimi Hendrix ("When I die, just keep playing the records."), let's listen to their music: &lt;a href="https://www.youtube.com/watch?v=0hu1IMp0-yY"&gt;https://www.youtube.com/watch?v=0hu1IMp0-yY&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Best of F-Droid: Semitone</title>
+      <link>https://oliz.io/blog/2022/semitone-uku-hack.html</link>
+      <pubDate>Tue, 29 Mar 2022 18:58:41 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/semitone-uku-hack.html</guid>
+      <description>&lt;p&gt;Great little no-BS no-ads tuner app available also on F-Droid.&lt;/p&gt;
+&lt;p&gt;Ukulele tuning hack for Gen Y: G-C-E-A (Game-Cube-Electronic-Arts).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
