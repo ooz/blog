@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Tue, 29 Mar 2022 09:02:27 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Mar 2022 09:03:05 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XMRig on Android</title>
@@ -140,25 +140,6 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Pi-hole flushdns</title>
-      <link>https://oliz.io/blog/2022/pihole-flushdns.html</link>
-      <pubDate>Fri, 25 Mar 2022 19:20:17 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/pihole-flushdns.html</guid>
-      <description>&lt;pre class="highlight"&gt;&lt;code&gt;oz@cubus:~$ ssh pi@berry
-pi@berry:~$ pihole restartdns
-  [✓] Restarting DNS service&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Accessing the admin UI: &lt;a href="https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168"&gt;https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>RIP Taylor Hawkins [†]</title>
-      <link>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</link>
-      <pubDate>Sat, 26 Mar 2022 18:11:04 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</guid>
-      <description>&lt;p&gt;† Yesterday, &lt;a href="https://en.wikipedia.org/wiki/Taylor_Hawkins"&gt;Oliver Taylor Hawkins&lt;/a&gt;, dad and drummer of the Foo Fighters, died.&lt;/p&gt;
-&lt;p&gt;In the spirit of Jimi Hendrix ("When I die, just keep playing the records."), let's listen to their music: &lt;a href="https://www.youtube.com/watch?v=VDvCuHO6x-o"&gt;https://www.youtube.com/watch?v=VDvCuHO6x-o&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Grading Skills</title>
       <link>https://oliz.io/blog/2022/grading-skills.html</link>
       <pubDate>Fri, 25 Mar 2022 16:05:45 +0000</pubDate>
@@ -219,15 +200,6 @@ Nevertheless, we still need to keep this style around for automated application 
   Here, probably the most further columns could be derived from.&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.thoughtworks.com/en-de/radar"&gt;Thoughtworks Technology Radar&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Wabi-sabi</title>
-      <link>https://oliz.io/blog/2022/wabi-sabi.html</link>
-      <pubDate>Sat, 26 Mar 2022 11:27:05 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/wabi-sabi.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Wabi-sabi"&gt;Japanese for acceptance of both (im-) and perfection&lt;/a&gt;.
-Kind of suprising, since the Japanese seem very perfectionist to me.
-I guess, wabi-sabi is to balance the strive.&lt;/p&gt;</description>
     </item>
     <item>
       <title>On Mastery</title>
@@ -341,6 +313,52 @@ I openly motivated my strategy again, so hopefully the rest of them got the mess
 Overall, the students tried hard despite the suboptimal Corona situation, did very well in required presentations and the exam.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Pi-hole flushdns</title>
+      <link>https://oliz.io/blog/2022/pihole-flushdns.html</link>
+      <pubDate>Fri, 25 Mar 2022 19:20:17 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/pihole-flushdns.html</guid>
+      <description>&lt;pre class="highlight"&gt;&lt;code&gt;oz@cubus:~$ ssh pi@berry
+pi@berry:~$ pihole restartdns
+  [✓] Restarting DNS service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Accessing the admin UI: &lt;a href="https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168"&gt;https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RIP Taylor Hawkins [†]</title>
+      <link>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</link>
+      <pubDate>Sat, 26 Mar 2022 18:11:04 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</guid>
+      <description>&lt;p&gt;† Yesterday, &lt;a href="https://en.wikipedia.org/wiki/Taylor_Hawkins"&gt;Oliver Taylor Hawkins&lt;/a&gt;, dad and drummer of the Foo Fighters, died.&lt;/p&gt;
+&lt;p&gt;In the spirit of Jimi Hendrix ("When I die, just keep playing the records."), let's listen to their music: &lt;a href="https://www.youtube.com/watch?v=VDvCuHO6x-o"&gt;https://www.youtube.com/watch?v=VDvCuHO6x-o&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wabi-sabi</title>
+      <link>https://oliz.io/blog/2022/wabi-sabi.html</link>
+      <pubDate>Sat, 26 Mar 2022 11:27:05 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/wabi-sabi.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Wabi-sabi"&gt;Japanese for acceptance of both (im-) and perfection&lt;/a&gt;.
+Kind of suprising, since the Japanese seem very perfectionist to me.
+I guess, wabi-sabi is to balance the strive.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Writing Executive Summaries</title>
+      <link>https://oliz.io/blog/2022/executive-summaries/</link>
+      <pubDate>Thu, 17 Mar 2022 10:42:50 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/executive-summaries/</guid>
+      <description>&lt;p&gt;You know what always helped me acting upon the wisdom I read in BOOKs:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Writing summaries, or cheat sheets&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;You can do so even if you haven't read the entire book, yet!
+Then you should just put a version or volume number on it, that you can increment when you gain further noteworthy learnings.&lt;/p&gt;
+&lt;h2 id="bible-example"&gt;Bible Example&lt;/h2&gt;
+&lt;p&gt;Over the last few years I started reading the Bible (New Testament, in German). So, please ignore the German words, I'll provide a translation for the summarized ones below the photo:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Summary and Bible" src="bible-summary.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Translation of the German words in the summary, so far:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;learn, read, train
+create, write
+get rid of, improve
+rest, play
+invest, sell&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
       <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
       <link>https://oliz.io/blog/2022/mastering-the-keyboard/</link>
       <pubDate>Wed, 16 Mar 2022 09:13:03 +0000</pubDate>
@@ -383,25 +401,6 @@ HASH    number sign, high command
 +~*     stay positive, vibe, SEE THE LIGHT
 ins, del, home, pg up etc., just some words
 F1-F12  Function keys, for potions, assign at WILL&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>Writing Executive Summaries</title>
-      <link>https://oliz.io/blog/2022/executive-summaries/</link>
-      <pubDate>Thu, 17 Mar 2022 10:42:50 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/executive-summaries/</guid>
-      <description>&lt;p&gt;You know what always helped me acting upon the wisdom I read in BOOKs:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Writing summaries, or cheat sheets&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You can do so even if you haven't read the entire book, yet!
-Then you should just put a version or volume number on it, that you can increment when you gain further noteworthy learnings.&lt;/p&gt;
-&lt;h2 id="bible-example"&gt;Bible Example&lt;/h2&gt;
-&lt;p&gt;Over the last few years I started reading the Bible (New Testament, in German). So, please ignore the German words, I'll provide a translation for the summarized ones below the photo:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Summary and Bible" src="bible-summary.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Translation of the German words in the summary, so far:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;learn, read, train
-create, write
-get rid of, improve
-rest, play
-invest, sell&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
