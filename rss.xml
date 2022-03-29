@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Tue, 29 Mar 2022 09:07:56 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 29 Mar 2022 16:45:22 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>XMRig on Android</title>
@@ -212,14 +212,6 @@ pi@berry:~$ pihole restartdns
 &lt;p&gt;Accessing the admin UI: &lt;a href="https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168"&gt;https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>RIP Taylor Hawkins [†]</title>
-      <link>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</link>
-      <pubDate>Sat, 26 Mar 2022 18:11:04 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</guid>
-      <description>&lt;p&gt;† Yesterday, &lt;a href="https://en.wikipedia.org/wiki/Taylor_Hawkins"&gt;Oliver Taylor Hawkins&lt;/a&gt;, dad and drummer of the Foo Fighters, died.&lt;/p&gt;
-&lt;p&gt;In the spirit of Jimi Hendrix ("When I die, just keep playing the records."), let's listen to their music: &lt;a href="https://www.youtube.com/watch?v=VDvCuHO6x-o"&gt;https://www.youtube.com/watch?v=VDvCuHO6x-o&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Wabi-sabi</title>
       <link>https://oliz.io/blog/2022/wabi-sabi.html</link>
       <pubDate>Sat, 26 Mar 2022 11:27:05 +0000</pubDate>
@@ -401,6 +393,14 @@ Ufff, that hit hard! Quite a revelation!
 Even if I may have failed that student, it pushed me to try harder.
 I openly motivated my strategy again, so hopefully the rest of them got the message.
 Overall, the students tried hard despite the suboptimal Corona situation, did very well in required presentations and the exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RIP Taylor Hawkins [†]</title>
+      <link>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</link>
+      <pubDate>Sat, 26 Mar 2022 18:11:04 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/rip-oliver-taylor-hawkins.html</guid>
+      <description>&lt;p&gt;† Yesterday, &lt;a href="https://en.wikipedia.org/wiki/Taylor_Hawkins"&gt;Oliver Taylor Hawkins&lt;/a&gt;, dad and drummer of the Foo Fighters, died.&lt;/p&gt;
+&lt;p&gt;In the spirit of Jimi Hendrix ("When I die, just keep playing the records."), let's listen to their music: &lt;a href="https://www.youtube.com/watch?v=0hu1IMp0-yY"&gt;https://www.youtube.com/watch?v=0hu1IMp0-yY&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
