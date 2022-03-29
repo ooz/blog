@@ -21,7 +21,7 @@ config = {
     'social': {
         'blog': 'https://oliz.io/blog/',
         'rss': 'https://oliz.io/blog/rss.xml',
-        'github': 'https://github.com/ooz',
+        'links': 'https://oliz.io/links.html',
         'about': 'https://oliz.io/about.html'
     }
 }
