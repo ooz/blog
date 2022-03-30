@@ -92,6 +92,47 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 </header>
 <section>
 <div>
+<div class="card"><small class="social">2022-03-30</small>
+<details><summary><a href="https://oliz.io/blog/2022/database-normalization.html"><b>Database Normalization</b></a></summary>
+<p>Discovered some old notes for software dev interview prep.: <a href="https://en.wikipedia.org/wiki/Database_normalization">Database normalization</a>!</p>
+<table>
+<thead>
+<tr>
+<th>Normal form</th>
+<th>Criteria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1NF</td>
+<td>only atomic attribute values</td>
+</tr>
+<tr>
+<td>2NF</td>
+<td>all non-key attributes are functionally dependent on a key</td>
+</tr>
+<tr>
+<td>3NF</td>
+<td>no transitive dependencies between non-key attributes</td>
+</tr>
+<tr>
+<td>BCNF</td>
+<td>no transitive dependencies between key attributes, every determinant is key</td>
+</tr>
+<tr>
+<td>4NF</td>
+<td>no pair-wise, independent, multi-value dependencies between attributes</td>
+</tr>
+<tr>
+<td>5NF</td>
+<td>no JOIN-dependency</td>
+</tr>
+</tbody>
+</table>
+<p>On the same prep. sheet:
+Knuth-Morris-Pratt algorithm (KMP) for String/Substring-Problem is in <code>O(n + k)</code></p>
+</details>
+</div>
 <div class="card"><small class="social">2022-03-29</small>
 <a href="https://oliz.io/blog/2022/semitone-uku-hack.html"><b>Best of F-Droid: Semitone</b></a>
 <div>
