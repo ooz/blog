@@ -63,7 +63,7 @@ In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%8
 
 * Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)
 * coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)
-* social distancing (TODO)
+* social distancing (taken over from English, similar but different to "public viewing", which isn't an actual English concept. Signals some kind of internationally accepted standard)
 * Coronaleugner, Coronaverharmloser (invoking language with exclusive association to the Holocaust and anti-human views. Exclusivity was first broken for climate change: "Klimaleugner")
 * Lockdown, Shutdown (previously primarily used in prison/military context)
 * Concern for public health (Nazis would have called it "Volksgesundheit", trying to make individual/private health decisions a matter of public concern, shaming/blaming, claiming higher morals)
@@ -79,4 +79,4 @@ In reference to [Victor Klemperer's LTI](https://en.wikipedia.org/wiki/LTI_%E2%8
 * "For freedom!" (through the opposite means of lockdown, technocratic testing and coerced vaccination)
 * News reports suggesting to peach, spy on neighbors during lockdowns
 * News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views
-* Geimpft, genesen oder gestorben (TODO)
+* Geimpft, genesen oder gestorben (both German president and health minister echoed this triplet of "vaccinated, recovered or dead". Aimed to push people to get vaccinated, although a tautology: after more than two years of pandemic, most people are probably recovered without even knowing [if they didn't get vaccinated])
