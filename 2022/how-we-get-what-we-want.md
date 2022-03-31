@@ -1,6 +1,7 @@
 ---
 title: How I always got what I wanted in Life
 date: 2022-03-20T12:56:28Z
+tags: podracing, comedy
 ---
 
 As a child I saw Star Wars Ep1 in the cinema.
@@ -11,7 +12,9 @@ The sound design, the racers crashing into the sand, the experience in the cinem
 
 I was briefly in the military after school (required service in the German air force).
 Basic training was in Goslar, but the last six months we served in Laage (around G8 summit in 2007).
-Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant. While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying. Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.
+Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
+While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
+Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.
 
 ## Engine test run
 
