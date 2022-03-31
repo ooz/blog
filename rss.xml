@@ -5,152 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 30 Mar 2022 10:40:10 -0000</lastBuildDate>
+    <lastBuildDate>Thu, 31 Mar 2022 09:20:08 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Towards Online Autonomy</title>
-      <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
-      <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
-      <guid>https://oliz.io/blog/2021/towards-online-autonomy/</guid>
-      <description>&lt;p&gt;Smartphones have become the "personal computer":
-a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).&lt;/p&gt;
-&lt;p&gt;Ever since, I'm annoyed, that we don't (can't) really &lt;em&gt;own&lt;/em&gt; smartphones like we can own other computing equipment.
-Smartphones have hard- and software obsolescence built-in.
-They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
-Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through &lt;a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy"&gt;attention economy&lt;/a&gt;
-(making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
-If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.&lt;/p&gt;
-&lt;h2 id="tech-is-getting-consolidated"&gt;Tech is Getting Consolidated...&lt;/h2&gt;
-&lt;p&gt;This entire development didn't start and won't end with smartphones.
-&lt;a href="https://stallman.org/"&gt;RMS&lt;/a&gt; has been anticipating and warning about it for decades already (see his &lt;a href="https://stallman.org/glossary.html#used"&gt;definition of "Useds"&lt;/a&gt;). It's common knowledge by now, some examples:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hardware backdoors (&lt;a href="https://en.wikipedia.org/wiki/Intel_Management_Engine"&gt;Intel ME&lt;/a&gt;, undocumented x86 instructions) in mainline processors&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html"&gt;The internet becoming more centralized&lt;/a&gt; with &lt;a href="https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html"&gt;a dozen of mega corporations owning the majority of the traffic&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;In the near future, &lt;a href="https://sneak.berlin/20201112/your-computer-isnt-yours/"&gt;we'll get smartphone-level surveillance and "ownership" for our other computers, too&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://oliz.io/blog/2021/pegasus-android-check/"&gt;Pegasus anyone?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
-In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on &lt;em&gt;user-serviceable&lt;/em&gt;, secure hard- and software.
-State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
-&lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
-&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
-So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.
-I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
-&lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
-&lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
-&lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
-&lt;p&gt;Autonomy gained:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;, migrate contacts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Stopped/minimized using:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;XING&lt;/strong&gt;: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
-                Preferring LinkedIn (and considering moving my data out there, too)
-                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, &lt;a href="https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/"&gt;but then again I'm probably not using it right&lt;/a&gt; nor &lt;a href="https://twitter.com/j4n0/status/1125380024733925377"&gt;properly&lt;/a&gt;. The CV tooling is neat, still I may just abandon it at some point and put the resume on here&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; &lt;strong&gt;Gmail&lt;/strong&gt;: Contacts are exported and &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;migrated&lt;/a&gt;. Haven't actively reached out to anyone regarding the email change, yet&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;: In general, I prefer to buy in local or specialized (online) shops.
-              Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Kept using:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: Everything is static, in Git, under my domain and their fallback domain &lt;a href="https://ooz.github.io"&gt;https://ooz.github.io&lt;/a&gt;. &lt;em&gt;Migration&lt;/em&gt; to any other service is &lt;em&gt;easy&lt;/em&gt; if desired at all&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;circleci&lt;/strong&gt;: No problem with that, so far. Great free plan to offload some computing tasks like building this blog and observing the &lt;a href="https://oliz.io/zeitgeist/"&gt;Zeitgeist&lt;/a&gt;!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt; and &lt;a href="https://privacyguides.org/software/file-sharing/#sync"&gt;an alternative&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: VSCode without tracking, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Educate others:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Look for alternatives, e.g. on &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;, &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul class="task-list"&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
-&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
-&lt;p&gt;Certainly, I'm not the first to be alienated. &lt;a href="https://oliz.io/links.html"&gt;So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet&lt;/a&gt;. Even more resources and tools:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;, &lt;a href="https://observatory.mozilla.org/"&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://proprivacy.com/tools/ruinmysearchhistory"&gt;Ruin My Search History&lt;/a&gt; (a reader suggested this, I like the idea, but use at own risk™)&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Grading Skills</title>
-      <link>https://oliz.io/blog/2022/grading-skills.html</link>
-      <pubDate>Fri, 25 Mar 2022 16:05:45 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/grading-skills.html</guid>
-      <description>&lt;p&gt;I always found "X years experience in Y" or "working with Z since year ABCD" or "EFG certified" not indicative of a person's skill whatsoever.
-Nevertheless, we still need to keep this style around for automated application screenings based on keywords and numbers.&lt;/p&gt;
-&lt;h2 id="skill-matrix"&gt;Skill Matrix&lt;/h2&gt;
-&lt;p&gt;Instead, I propose to grade skill level on further dimensions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Currently actively &lt;strong&gt;learning&lt;/strong&gt; (solo/team/course)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Productivity&lt;/strong&gt;, can you create value using this? (guided/solo/team)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mentoring&lt;/strong&gt; capability. Maybe explain this further, e.g. how this happens in your team, via code reviews, one-on-one mentoring etc.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;E.g. for programming languages:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Skill&lt;/th&gt;
-&lt;th&gt;Years Exp.&lt;/th&gt;
-&lt;th&gt;Certification&lt;/th&gt;
-&lt;th&gt;Learning&lt;/th&gt;
-&lt;th&gt;Productivity&lt;/th&gt;
-&lt;th&gt;Mentoring&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Python&lt;/td&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;solo&lt;/td&gt;
-&lt;td&gt;solo&lt;/td&gt;
-&lt;td&gt;FOSS work&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Java&lt;/td&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;OCP Java 11&lt;/td&gt;
-&lt;td&gt;team&lt;/td&gt;
-&lt;td&gt;team&lt;/td&gt;
-&lt;td&gt;via code reviews, FOSS work&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;JavaScript&lt;/td&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;td&gt;solo&lt;/td&gt;
-&lt;td&gt;guided&lt;/td&gt;
-&lt;td&gt;-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;For tools, natural languages and other qualifications similar tables could be made.&lt;/p&gt;
-&lt;p&gt;Also, one should probably list, what one is &lt;em&gt;not interested at all in&lt;/em&gt; and what one want to &lt;em&gt;learn in the future&lt;/em&gt; (learning backlog).&lt;/p&gt;
-&lt;h2 id="similar-assessments"&gt;Similar Assessments&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.cpj.fyi/the-undercurrent-skills-maturity-matrix/"&gt;Skill Maturity Matrix&lt;/a&gt; &lt;br&gt;
-  Here, probably the most further columns could be derived from.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.thoughtworks.com/en-de/radar"&gt;Thoughtworks Technology Radar&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     <item>
       <title>Pi-hole flushdns</title>
       <link>https://oliz.io/blog/2022/pihole-flushdns.html</link>
@@ -402,6 +258,102 @@ Overall, the students tried hard despite the suboptimal Corona situation, did ve
 &lt;/table&gt;
 &lt;p&gt;On the same prep. sheet:
 Knuth-Morris-Pratt algorithm (KMP) for String/Substring-Problem is in &lt;code&gt;O(n + k)&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I always got what I wanted in Life</title>
+      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
+      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
+      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
+I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
+&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
+The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWEsome experience!&lt;/p&gt;
+&lt;p&gt;I was briefly in the military after school (required service in the German air force).
+Basic training was in Goslar, but the last six months we served in Laage (around G8 summit in 2007).
+Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
+While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
+Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.&lt;/p&gt;
+&lt;h2 id="engine-test-run"&gt;Engine test run&lt;/h2&gt;
+&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
+He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hard time breathing&lt;/li&gt;
+&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
+&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.&lt;/p&gt;
+&lt;h2 id="other-movies"&gt;Other movies&lt;/h2&gt;
+&lt;p&gt;I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's enough for a separate post...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Corona Sky</title>
+      <link>https://oliz.io/blog/2020/corona-sky/</link>
+      <pubDate>Sun, 23 Aug 2020 15:10:25 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/corona-sky/</guid>
+      <description>&lt;p&gt;Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.&lt;/p&gt;
+&lt;h2 id="corona-skies"&gt;Corona Skies&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Corona Sky" src="corona-sky.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The European airspace is one of the most utilized on earth.
+Thus it is rare to look up the sky and not see any condensation trails.&lt;/p&gt;
+&lt;p&gt;Now, living in a city with a nearby airport, we have &lt;em&gt;Corona skies&lt;/em&gt;, which I would define as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The natural sky either clouded or cloudless without any signs of human flight.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="Corona Sky panorama" src="corona-sky_pano.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Eventually, an increase in condensation trails may be a good metric on how much we are going "back to normal".&lt;/p&gt;
+&lt;h2 id="dystopian-malls"&gt;Dystopian Malls&lt;/h2&gt;
+&lt;p&gt;Whenever getting supplies, there are recorded public announcements playing.
+The content always boils down to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mind the &lt;em&gt;government Corona laws&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stay &lt;em&gt;safe and healthy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Enjoy and &lt;em&gt;keep shopping&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;EL-OH-EL!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="digitization-on-warp-speed"&gt;Digitization on Warp Speed&lt;/h2&gt;
+&lt;p&gt;I was slightly ahead of the curve by working remotely in a distributed team, having read relevant literature before and ac. Due to the Corona situation, our company and team adapted quickly to full-remote and without problems.&lt;/p&gt;
+&lt;p&gt;There are studies on how much the Corona situation sped up digitization. Here's an example from our household:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ordering clothes online, mostly at &lt;a href="https://www.uniqlo.com/de/de/home"&gt;uniqlo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Ordering toiletries, cleaning utensils etc. &lt;a href="https://www.dm.de/"&gt;online&lt;/a&gt;. Yes, they ship even soft, pleasant, scarce, super valuable toilet paper -- for pennies! WHO is the idiot here?!&lt;/li&gt;
+&lt;li&gt;Ordering organic vegetables, fruit and meat from a local farmer, online&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-soundtrack"&gt;The Soundtrack&lt;/h2&gt;
+&lt;p&gt;Update 2022-03-11: all songs are also very suitable for staying sane in war propaganda times.&lt;/p&gt;
+&lt;p&gt;German:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die Ärzte, "Ein Lied für Jetzt": &lt;a href="https://www.youtube.com/watch?v=t_s6waEUTbI"&gt;https://www.youtube.com/watch?v=t_s6waEUTbI&lt;/a&gt; (melancholic, sarcastic)&lt;/li&gt;
+&lt;li&gt;Die Bergers, positive and uplifting cover of the above: &lt;a href="https://www.youtube.com/watch?v=o762F5XaIU0"&gt;https://www.youtube.com/watch?v=o762F5XaIU0&lt;/a&gt; (thanks, YT algorithm for promoting this gem!)&lt;/li&gt;
+&lt;li&gt;Die Ärzte, "Regierung": &lt;a href="https://www.youtube.com/watch?v=REgzERt81zM"&gt;https://www.youtube.com/watch?v=REgzERt81zM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;English:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twisted Sister, "We're Not Gonna Take It": &lt;a href="https://www.youtube.com/watch?v=4xmckWVPRaI"&gt;https://www.youtube.com/watch?v=4xmckWVPRaI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RHCP, "Throw Away Your Television", "Can't Stop": &lt;a href="https://www.youtube.com/watch?v=Mxl2iqtEWvQ"&gt;https://www.youtube.com/watch?v=Mxl2iqtEWvQ&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=8DyziWtkfBw"&gt;https://www.youtube.com/watch?v=8DyziWtkfBw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="update-2022-03-06-lingua-coronae"&gt;Update 2022-03-06: Lingua Coronae&lt;/h2&gt;
+&lt;p&gt;In reference to &lt;a href="https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii"&gt;Victor Klemperer's LTI&lt;/a&gt;, gathering primarily from the German media:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)&lt;/li&gt;
+&lt;li&gt;coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)&lt;/li&gt;
+&lt;li&gt;social distancing (taken over from English, similar but different to "public viewing", which isn't an actual English concept. Signals some kind of internationally accepted standard)&lt;/li&gt;
+&lt;li&gt;Coronaleugner, Coronaverharmloser (invoking language with exclusive association to the Holocaust and anti-human views. Exclusivity was first broken for climate change: "Klimaleugner")&lt;/li&gt;
+&lt;li&gt;Lockdown, Shutdown (previously primarily used in prison/military context)&lt;/li&gt;
+&lt;li&gt;Concern for public health (Nazis would have called it "Volksgesundheit", trying to make individual/private health decisions a matter of public concern, shaming/blaming, claiming higher morals)&lt;/li&gt;
+&lt;li&gt;Einschränkungen (restrictions, euphemism for gross loss/forfeiture/revocation of basic civil liberties, destruction of small-/medium-sized businesses)&lt;/li&gt;
+&lt;li&gt;Impfung, Inzidenz (re-use of existing words with new, slightly altered meaning, not publishing number of tests, not marking/controlling for significant changes in pandemic response)&lt;/li&gt;
+&lt;li&gt;Impfgegner (enemy metaphor, wartime propaganda language), Impfstützpunkt (as in "military base", again militaristic language)&lt;/li&gt;
+&lt;li&gt;3G, 3G+, 2G, 2G+, 1G, -Regel (scientism, buzzwords, variation of those rules have no scientific merit besides pushing people to get vaccinated. As benefit, inconveniences imposed by those rules may be temporarily skipped)&lt;/li&gt;
+&lt;li&gt;Schwurbler (discrediting opposing arguments and people voicing them as idiots, mentally ill)&lt;/li&gt;
+&lt;li&gt;Sicher und effektiv (safe and effective, with various degrees), "trust the science!" (good science doesn't need trust, it is self-evident and accessible to at least any academic. Flying to the moon requires a leap of faith in all the science, engineering and people involved. Experimental drugs do, too!)&lt;/li&gt;
+&lt;li&gt;Alltagsmaske, medizinische Maske, FFP2 mask, Maskenpflicht (salami slice tactic of conditioning population to masks, starting with near-useless ones, moving up to proper masks. Guaranteed sales due to amigo politics)&lt;/li&gt;
+&lt;li&gt;Coronawarnapp, Coronaapp, Coronapass, Coronapasspflicht (salami slice tactic, pushing acceptance of digital means of identification, normalization to "check-in". Implementing technocratic "computer said no", offloading responsibility from politics to technocratic system)&lt;/li&gt;
+&lt;li&gt;"Politisches Versprechen" (political promise, as in: a promise which will be broken for sure, e.g. "no wall", "no road charges", "no additional lockdown")&lt;/li&gt;
+&lt;li&gt;"For freedom!" (through the opposite means of lockdown, technocratic testing and coerced vaccination)&lt;/li&gt;
+&lt;li&gt;News reports suggesting to peach, spy on neighbors during lockdowns&lt;/li&gt;
+&lt;li&gt;News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views&lt;/li&gt;
+&lt;li&gt;Geimpft, genesen oder gestorben (both German president and health minister echoed this triplet of "vaccinated, recovered or dead". Aimed to push people to get vaccinated, although a tautology: after more than two years of pandemic, most people are probably recovered without even knowing [if they didn't get vaccinated])&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
