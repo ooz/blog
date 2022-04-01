@@ -16,7 +16,7 @@ Due to performing good work on scrubbing Eurofighters, me and a friend were allo
 While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
 Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.
 
-## Engine test run
+## Engine Test Run
 
 The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
 He turned the engine up and down and I could feel (from memory now):
@@ -27,7 +27,7 @@ He turned the engine up and down and I could feel (from memory now):
 
 The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.
 
-## Other movies
+## Other Movies
 
-I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's enough for a separate post...
+I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's for a separate post, really...
 
