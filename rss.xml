@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Thu, 31 Mar 2022 09:20:08 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Apr 2022 06:52:32 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pi-hole flushdns</title>
@@ -260,32 +260,6 @@ Overall, the students tried hard despite the suboptimal Corona situation, did ve
 Knuth-Morris-Pratt algorithm (KMP) for String/Substring-Problem is in &lt;code&gt;O(n + k)&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>How I always got what I wanted in Life</title>
-      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
-      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
-      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
-I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
-&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
-The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWEsome experience!&lt;/p&gt;
-&lt;p&gt;I was briefly in the military after school (required service in the German air force).
-Basic training was in Goslar, but the last six months we served in Laage (around G8 summit in 2007).
-Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
-While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
-Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.&lt;/p&gt;
-&lt;h2 id="engine-test-run"&gt;Engine test run&lt;/h2&gt;
-&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
-He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hard time breathing&lt;/li&gt;
-&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
-&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.&lt;/p&gt;
-&lt;h2 id="other-movies"&gt;Other movies&lt;/h2&gt;
-&lt;p&gt;I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's enough for a separate post...&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Corona Sky</title>
       <link>https://oliz.io/blog/2020/corona-sky/</link>
       <pubDate>Sun, 23 Aug 2020 15:10:25 +0000</pubDate>
@@ -354,6 +328,32 @@ The content always boils down to:&lt;/p&gt;
 &lt;li&gt;News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views&lt;/li&gt;
 &lt;li&gt;Geimpft, genesen oder gestorben (both German president and health minister echoed this triplet of "vaccinated, recovered or dead". Aimed to push people to get vaccinated, although a tautology: after more than two years of pandemic, most people are probably recovered without even knowing [if they didn't get vaccinated])&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>How I always got what I wanted in Life</title>
+      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
+      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
+      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
+I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
+&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
+The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWEsome experience!&lt;/p&gt;
+&lt;p&gt;I was briefly in the military after school (required service in the German air force).
+Basic training was in Goslar, but the last six months we served in Laage (around G8 summit in 2007).
+Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
+While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
+Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.&lt;/p&gt;
+&lt;h2 id="engine-test-run"&gt;Engine Test Run&lt;/h2&gt;
+&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
+He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hard time breathing&lt;/li&gt;
+&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
+&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.&lt;/p&gt;
+&lt;h2 id="other-movies"&gt;Other Movies&lt;/h2&gt;
+&lt;p&gt;I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's for a separate post, really...&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
