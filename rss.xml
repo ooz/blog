@@ -5,18 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sat, 02 Apr 2022 06:52:32 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 02 Apr 2022 17:45:54 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pi-hole flushdns</title>
-      <link>https://oliz.io/blog/2022/pihole-flushdns.html</link>
-      <pubDate>Fri, 25 Mar 2022 19:20:17 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/pihole-flushdns.html</guid>
-      <description>&lt;pre class="highlight"&gt;&lt;code&gt;oz@cubus:~$ ssh pi@berry
-pi@berry:~$ pihole restartdns
-  [✓] Restarting DNS service&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Accessing the admin UI: &lt;a href="https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168"&gt;https://discourse.pi-hole.net/t/how-do-i-access-pi-holes-dashboard-admin-interface/3168&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Wabi-sabi</title>
       <link>https://oliz.io/blog/2022/wabi-sabi.html</link>
@@ -354,6 +344,33 @@ He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
 &lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.&lt;/p&gt;
 &lt;h2 id="other-movies"&gt;Other Movies&lt;/h2&gt;
 &lt;p&gt;I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's for a separate post, really...&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>P. Levels: Startup Cycle and More</title>
+      <link>https://oliz.io/blog/2022/plevels-startup-cycle.html</link>
+      <pubDate>Sat, 02 Apr 2022 19:41:43 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/plevels-startup-cycle.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://levels.io/"&gt;P. Levels&lt;/a&gt; pretty famous indie maker and &lt;a href="https://nomadlist.com/"&gt;digital nomad&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;His startup cycle:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Idea&lt;/li&gt;
+&lt;li&gt;Build it!&lt;/li&gt;
+&lt;li&gt;Launch it!&lt;/li&gt;
+&lt;li&gt;Grow it!&lt;/li&gt;
+&lt;li&gt;Monetize!&lt;/li&gt;
+&lt;li&gt;Automate!&lt;/li&gt;
+&lt;li&gt;Exit!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;His predictions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Marriage is disappearing&lt;/li&gt;
+&lt;li&gt;Relationship churn is fast&lt;/li&gt;
+&lt;li&gt;Home ownership is disappearing&lt;/li&gt;
+&lt;li&gt;People will travel more&lt;/li&gt;
+&lt;li&gt;Different family units&lt;/li&gt;
+&lt;li&gt;The collective existential crisis due to automation&lt;/li&gt;
+&lt;li&gt;We have remote now, we want async&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
