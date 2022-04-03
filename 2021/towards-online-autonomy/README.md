@@ -63,13 +63,13 @@ Kept using:
 * **GitHub**: Everything is static, in Git, under my domain and their fallback domain [https://ooz.github.io](https://ooz.github.io). *Migration* to any other service is *easy* if desired at all
 * **circleci**: No problem with that, so far. Great free plan to offload some computing tasks like building this blog and observing the [Zeitgeist](https://oliz.io/zeitgeist/)!
 * **Google / Android**: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)
-* **Dropbox**: Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox) and [an alternative](https://privacyguides.org/software/file-sharing/#sync). I'm trying out [Syncthing](https://syncthing.net/)
+* **Dropbox**: Still using due to convenience, [here is a guide to isolate the process](https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox) and I'm trying out [Syncthing](https://syncthing.net/) as an alternative
 * [**VSCodium**](https://vscodium.com/): VSCode without tracking, plus [`vim`](https://github.com/ooz/olli/blob/master/.vimrc) of course
 
 Educate others:
 
 * Setup your own domain and [use it for email](https://sneak.berlin/20201029/stop-emailing-like-a-rube/)
-* Look for alternatives, e.g. on ~~https://www.privacytools.io~~, https://privacyguides.org
+* Look for alternatives, e.g. on https://privacyguides.org (fka ~~https://www.privacytools.io~~)
 
 **Twitter**:
 
