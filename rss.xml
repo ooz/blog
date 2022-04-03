@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 03 Apr 2022 08:15:01 -0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Apr 2022 08:25:19 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Writing Executive Summaries</title>
@@ -417,13 +417,13 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: Everything is static, in Git, under my domain and their fallback domain &lt;a href="https://ooz.github.io"&gt;https://ooz.github.io&lt;/a&gt;. &lt;em&gt;Migration&lt;/em&gt; to any other service is &lt;em&gt;easy&lt;/em&gt; if desired at all&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;circleci&lt;/strong&gt;: No problem with that, so far. Great free plan to offload some computing tasks like building this blog and observing the &lt;a href="https://oliz.io/zeitgeist/"&gt;Zeitgeist&lt;/a&gt;!&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt; and &lt;a href="https://privacyguides.org/software/file-sharing/#sync"&gt;an alternative&lt;/a&gt;. I'm trying out &lt;a href="https://syncthing.net/"&gt;Syncthing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt; and I'm trying out &lt;a href="https://syncthing.net/"&gt;Syncthing&lt;/a&gt; as an alternative&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: VSCode without tracking, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Educate others:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Look for alternatives, e.g. on &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;, &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look for alternatives, e.g. on &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt; (fka &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul class="task-list"&gt;
