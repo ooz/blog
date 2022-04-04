@@ -17,7 +17,7 @@ This post should serve as another summary of the talk.
 * Less security issues
 * Less user issues
 * Less support
-* 66% more productive
+* Despite initial work to introduce CD, teams get 66% more productive
 * Less burnout, more psychological safety
 
 ## Misunderstanding CD
