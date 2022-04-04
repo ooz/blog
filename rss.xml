@@ -5,27 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 03 Apr 2022 08:25:19 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Apr 2022 05:45:37 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Writing Executive Summaries</title>
-      <link>https://oliz.io/blog/2022/executive-summaries/</link>
-      <pubDate>Thu, 17 Mar 2022 10:42:50 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/executive-summaries/</guid>
-      <description>&lt;p&gt;You know what always helped me acting upon the wisdom I read in BOOKs:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Writing summaries, or cheat sheets&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You can do so even if you haven't read the entire book, yet!
-Then you should just put a version or volume number on it, that you can increment when you gain further noteworthy learnings.&lt;/p&gt;
-&lt;h2 id="bible-example"&gt;Bible Example&lt;/h2&gt;
-&lt;p&gt;Over the last few years I started reading the Bible (New Testament, in German). So, please ignore the German words, I'll provide a translation for the summarized ones below the photo:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Summary and Bible" src="bible-summary.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Translation of the German words in the summary, so far:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;learn, read, train
-create, write
-get rid of, improve
-rest, play
-invest, sell&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
     <item>
       <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
       <link>https://oliz.io/blog/2022/mastering-the-keyboard/</link>
@@ -444,6 +425,58 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://proprivacy.com/tools/ruinmysearchhistory"&gt;Ruin My Search History&lt;/a&gt; (a reader suggested this, I like the idea, but use at own risk™)&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>E. Wolff: Why Continuous Delivery Doesn&amp;#x27;t Work</title>
+      <link>https://oliz.io/blog/2022/when-cd-doesnt-work.html</link>
+      <pubDate>Mon, 04 Apr 2022 07:08:35 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/when-cd-doesnt-work.html</guid>
+      <description>&lt;p&gt;On 2020-11-10 (yes, I'm slightly behind on blog schedule), E. Wolff replicated his &lt;a href="https://www.youtube.com/watch?v=lNR92yO_9y8"&gt;famous talk&lt;/a&gt; for SWK Chemnitz.
+At that time, I was also lecturing Software Engineering at university and recommended students to attend the meetup or watch the talk on YT.
+This post should serve as another summary of the talk.&lt;/p&gt;
+&lt;h2 id="reasons-to-do-continuous-delivery-cd"&gt;Reasons to do Continuous Delivery (CD)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Faster time to market&lt;/li&gt;
+&lt;li&gt;Faster to restore service&lt;/li&gt;
+&lt;li&gt;Lower failure rate&lt;/li&gt;
+&lt;li&gt;Less unplanned work&lt;/li&gt;
+&lt;li&gt;Less rework&lt;/li&gt;
+&lt;li&gt;Less security issues&lt;/li&gt;
+&lt;li&gt;Less user issues&lt;/li&gt;
+&lt;li&gt;Less support&lt;/li&gt;
+&lt;li&gt;66% more productive&lt;/li&gt;
+&lt;li&gt;Less burnout, more psychological safety&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="misunderstanding-cd"&gt;Misunderstanding CD&lt;/h2&gt;
+&lt;p&gt;CD isn't just about deploying multiple times a day (or on demand).
+Instead:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It's about feedback, not features&lt;/li&gt;
+&lt;li&gt;It's treating working software as a series of experiments&lt;/li&gt;
+&lt;li&gt;CD enables more experiments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Improving the software process is a positive side-effect!&lt;/p&gt;
+&lt;h2 id="why-do-some-not-like-feedback"&gt;Why do some not like feedback?&lt;/h2&gt;
+&lt;p&gt;Traditional business setting: People doing mistakes gets them fired.
+As a consequence, people try to avoid doing mistakes and seek no feedback.
+For some, feedback is only valuable if the plan is bad and it's hard for those people to admit, that their plan is bad.&lt;/p&gt;
+&lt;p&gt;Problem: &lt;strong&gt;60-90% of ideas do not improve metrics&lt;/strong&gt; (and lots don't even have proper metrics/KPIs)&lt;/p&gt;
+&lt;p&gt;Typical statements of this crowd:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;"We need to train users"&lt;/li&gt;
+&lt;li&gt;"Users don't want new features"&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-get-cd-to-work"&gt;How to get CD to work?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Culture is key!&lt;/strong&gt; E. Wolff named some examples (HP developing and deploying printer firmware on emulators), even outside software development (&lt;a href="https://en.wikipedia.org/wiki/NUMMI"&gt;NUMMI&lt;/a&gt;).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accept feedback&lt;/li&gt;
+&lt;li&gt;Handle mistakes&lt;/li&gt;
+&lt;li&gt;Make stakeholders appreciate and demand better tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="questions-and-feedback-from-the-audience"&gt;Questions and feedback from the audience&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Q: How do Sprints and CD fit together?"&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A: Sprints are a frame for feedback loops. Sprints order input tasks, CD delivers outputs. Someone recommended &lt;a href="https://www.youtube.com/watch?v=502ILHjX9EE"&gt;https://www.youtube.com/watch?v=502ILHjX9EE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also related: &lt;a href="https://puppet.com/resources/report/2021-state-of-devops-report/"&gt;https://puppet.com/resources/report/2021-state-of-devops-report/&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

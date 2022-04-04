@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>E. Wolff: Why Continuous Delivery Doesn&#x27;t Work | Oli Z**</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/when-cd-doesnt-work.html">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; max-width: 5rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="E. Wolff: Why Continuous Delivery Doesn&#x27;t Work">
+<meta property="og:title" content="E. Wolff: Why Continuous Delivery Doesn&#x27;t Work">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2022/when-cd-doesnt-work.html">
+<meta property="og:description" content="E. Wolff: Why Continuous Delivery Doesn&#x27;t Work">
+<meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2022-04-04T07:08:35Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"E. Wolff: Why Continuous Delivery Doesn't Work","url":"https://oliz.io/blog/2022/when-cd-doesnt-work.html","name":"Oli Z**","description":"E. Wolff: Why Continuous Delivery Doesn't Work"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="e-wolff-why-continuous-delivery-doesnt-work">E. Wolff: Why Continuous Delivery Doesn&#x27;t Work</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-04-04</small>
+</div>
+</header>
+<section>
+<p>On 2020-11-10 (yes, I'm slightly behind on blog schedule), E. Wolff replicated his <a href="https://www.youtube.com/watch?v=lNR92yO_9y8">famous talk</a> for SWK Chemnitz.
+At that time, I was also lecturing Software Engineering at university and recommended students to attend the meetup or watch the talk on YT.
+This post should serve as another summary of the talk.</p>
+<h2 id="reasons-to-do-continuous-delivery-cd">Reasons to do Continuous Delivery (CD)</h2>
+<ul>
+<li>Faster time to market</li>
+<li>Faster to restore service</li>
+<li>Lower failure rate</li>
+<li>Less unplanned work</li>
+<li>Less rework</li>
+<li>Less security issues</li>
+<li>Less user issues</li>
+<li>Less support</li>
+<li>66% more productive</li>
+<li>Less burnout, more psychological safety</li>
+</ul>
+<h2 id="misunderstanding-cd">Misunderstanding CD</h2>
+<p>CD isn't just about deploying multiple times a day (or on demand).
+Instead:</p>
+<ul>
+<li>It's about feedback, not features</li>
+<li>It's treating working software as a series of experiments</li>
+<li>CD enables more experiments</li>
+</ul>
+<p>Improving the software process is a positive side-effect!</p>
+<h2 id="why-do-some-not-like-feedback">Why do some not like feedback?</h2>
+<p>Traditional business setting: People doing mistakes gets them fired.
+As a consequence, people try to avoid doing mistakes and seek no feedback.
+For some, feedback is only valuable if the plan is bad and it's hard for those people to admit, that their plan is bad.</p>
+<p>Problem: <strong>60-90% of ideas do not improve metrics</strong> (and lots don't even have proper metrics/KPIs)</p>
+<p>Typical statements of this crowd:</p>
+<ul>
+<li>"We need to train users"</li>
+<li>"Users don't want new features"</li>
+</ul>
+<h2 id="how-to-get-cd-to-work">How to get CD to work?</h2>
+<p><strong>Culture is key!</strong> E. Wolff named some examples (HP developing and deploying printer firmware on emulators), even outside software development (<a href="https://en.wikipedia.org/wiki/NUMMI">NUMMI</a>).</p>
+<ul>
+<li>Accept feedback</li>
+<li>Handle mistakes</li>
+<li>Make stakeholders appreciate and demand better tools</li>
+</ul>
+<h2 id="questions-and-feedback-from-the-audience">Questions and feedback from the audience</h2>
+<p><em>Q: How do Sprints and CD fit together?"</em></p>
+<p>A: Sprints are a frame for feedback loops. Sprints order input tasks, CD delivers outputs. Someone recommended <a href="https://www.youtube.com/watch?v=502ILHjX9EE">https://www.youtube.com/watch?v=502ILHjX9EE</a></p>
+<p>Also related: <a href="https://puppet.com/resources/report/2021-state-of-devops-report/">https://puppet.com/resources/report/2021-state-of-devops-report/</a></p>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://oliz.io/links.html" class="social">links</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>
