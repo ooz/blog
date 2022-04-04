@@ -7,7 +7,7 @@ config = {
         'generate_sitemap': True,
         'generate_rss': True,
         'additional_sitemap_entries': [],
-        'title': 'Oli Z**',
+        'title': 'Oli Z.',
         'logo': 'static/owl_256.png',
         'head': [
             '''<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">''',
