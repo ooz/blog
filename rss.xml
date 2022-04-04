@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oli Z**</title>
+    <title>Oli Z.</title>
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Mon, 04 Apr 2022 05:45:37 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Apr 2022 08:34:37 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
