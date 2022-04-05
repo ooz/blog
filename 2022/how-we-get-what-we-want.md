@@ -27,6 +27,7 @@ C: OKAY, MECHANIC ASSISTANCE AT MILITARY AIRPORT IT IS!
 ```
 
 So, by basically saying what I like/wanted, I got to work with Eurofighter mechanics (after getting security clearance etc.)
+NICE!
 Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
 While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
 Luckily, I didn't stay in the military, didn't kill anyone and studied Computer Science instead.
