@@ -5,52 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Tue, 05 Apr 2022 07:41:28 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Apr 2022 07:47:29 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
-      <link>https://oliz.io/blog/2022/mastering-the-keyboard/</link>
-      <pubDate>Wed, 16 Mar 2022 09:13:03 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/mastering-the-keyboard/</guid>
-      <description>&lt;p&gt;Hey,&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://oliz.io/blog/2022/on-mastery.html"&gt;As you may have read, I recently wrote about mastery.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;As a lifelong keyboard warrior, I have always appreciated the efficiency, precision and direct access of one of my best tools: The Keyboard.&lt;/p&gt;
-&lt;p&gt;So, today we are talking about that. Yeah, yeah, of course, I use a mouse, too. But that's a different topic for someone else, really.&lt;/p&gt;
-&lt;h2 id="the-keys"&gt;The Keys&lt;/h2&gt;
-&lt;p&gt;Images go long way, they say. I'm not a good photographer by any means, but I sincerely hope, you get the message:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Some input methods, some of which I claim to own" src="tools.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="my-reading-of-the-keys-and-the-map"&gt;My Reading of The Keys and The Map&lt;/h2&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;ESC     The escape or exit key
-123     Important number keys: I, US, ALL
-^°      Instructions for number keys, lots of space still
-4       Bad luck number, right after important ONES
-5%      Sounds like someone else's rule
-6&amp;amp;      SIX AND (SIX AND (SIX)), oops, slipped a bit there
-7/{     SEVEN, cut, EMBRACE
-8([     Infinity, protect and TRUE STRIKE
-9)]     Opposite of SIX, detach, IMMOVABLE WALL
-0=}     DAMPFLÖCK smiley face with diving googles
-ß?\     some German thing? More work I guess
-´`      A roof
-'Bksp'  Corrects errors if you TYPE TOO FAST
-ENTER   NEWLINE, sends the message of GOD
-üöä     or other regionals, for regional proof
-TAB     Close to instructions, for aiming
-GODKEY  Speak in the TRUE VOICE OF GOD; RTFM first
-Shift   Temp. god speak, may be mistaken at times
-&amp;lt;|&amp;gt;     Looks like some fighter space ship
-CTRL    YOU JUST NEED TO TAKE IT, but easy friends
-ALT     Another modifier, when CTRL doesn't work
-SUPER   or windows or apple key, more WÖRK
-SPACE   Easy to hit, important and big KEY
-,;      joining words, thoughts
-.:      joining sentences, highlighting NEXT
--_      partially forgotten SAD FACE, for quitters!
-HASH    number sign, high command
-+~*     stay positive, vibe, SEE THE LIGHT
-ins, del, home, pg up etc., just some words
-F1-F12  Function keys, for potions, assign at WILL&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
     <item>
       <title>On Mastery</title>
       <link>https://oliz.io/blog/2022/on-mastery.html</link>
@@ -474,6 +430,7 @@ Me (still baffled): I like computers and jet planes, that's why I'm here!?
 
 C: OKAY, MECHANIC ASSISTANCE AT MILITARY AIRPORT IT IS!&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;So, by basically saying what I like/wanted, I got to work with Eurofighter mechanics (after getting security clearance etc.)
+NICE!
 Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
 While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
 Luckily, I didn't stay in the military, didn't kill anyone and studied Computer Science instead.&lt;/p&gt;
@@ -486,6 +443,50 @@ He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
 &lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
+      <link>https://oliz.io/blog/2022/mastering-the-keyboard/</link>
+      <pubDate>Wed, 16 Mar 2022 09:13:03 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/mastering-the-keyboard/</guid>
+      <description>&lt;p&gt;Hey,&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://oliz.io/blog/2022/on-mastery.html"&gt;As you may have read, I recently wrote about mastery.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As a lifelong keyboard warrior, I have always appreciated the efficiency, precision and direct access of one of my best tools: The Keyboard.&lt;/p&gt;
+&lt;p&gt;So, today I'm writing about that. Yeah, yeah, of course, I use a mouse, too. But that's a different topic for someone else, really.&lt;/p&gt;
+&lt;h2 id="the-keys"&gt;The Keys&lt;/h2&gt;
+&lt;p&gt;Images go long way, they say. I'm not a good photographer by any means, but I sincerely hope, you get the idea:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Some input methods" src="tools.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="my-reading-of-the-keys-and-the-map"&gt;My Reading of The Keys and The Map&lt;/h2&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;ESC     The escape or exit key
+123     Important number keys: I, US, ALL
+^°      Instructions for number keys, lots of space still
+4       Bad luck number, right after important ONES
+5%      Sounds like someone else's rule
+6&amp;amp;      SIX AND (SIX AND (SIX)), oops, slipped a bit there
+7/{     SEVEN, cut, EMBRACE
+8([     Infinity, protect and TRUE STRIKE
+9)]     Opposite of SIX, detach, IMMOVABLE WALL
+0=}     DAMPFLÖCK smiley face with diving googles
+ß?\     some German thing? More work I guess
+´`      A roof
+'Bksp'  Corrects errors when you TYPE TOO FAST
+ENTER   NEWLINE, sends the message of GOD
+üöä     or other regionals, for fast regional proof
+TAB     Close to instructions, for aiming
+GODKEY  Speak in the TRUE VOICE OF GOD; but RTFM first
+Shift   Temp. god speak, may be mistaken at times
+&amp;lt;|&amp;gt;     Looks like some space ship, for computers
+CTRL    YOU JUST NEED TO TAKE IT, but easy friends
+ALT     Another modifier, when CTRL doesn't work
+SUPER   or windows or apple key, more WÖRK
+SPACE   Easy to hit, important and big KEY
+,;      joining words, thoughts
+.:      joining sentences, highlighting NEXT
+-_      partially forgotten SAD FACE, for quitters!
+HASH    number sign, high command
++~*     stay positive, vibe, SEE THE LIGHT
+ins, del, home, pg up etc., just some words
+F1-F12  Function keys, for potions, assign at WILL&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
