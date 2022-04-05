@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Mon, 04 Apr 2022 16:39:47 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Apr 2022 07:41:28 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
@@ -292,32 +292,6 @@ The content always boils down to:&lt;/p&gt;
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>How I always got what I wanted in Life</title>
-      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
-      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
-      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
-I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
-&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
-The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWEsome experience!&lt;/p&gt;
-&lt;p&gt;I was briefly in the military after school (required service in the German air force).
-Basic training was in Goslar, but the last six months we served in Laage (around G8 summit in 2007).
-Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
-While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
-Luckily, I didn't stay in the military, didn't kill a real person, studied hard and met my girlfriend at work instead.&lt;/p&gt;
-&lt;h2 id="engine-test-run"&gt;Engine Test Run&lt;/h2&gt;
-&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
-He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hard time breathing&lt;/li&gt;
-&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
-&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now.&lt;/p&gt;
-&lt;h2 id="other-movies"&gt;Other Movies&lt;/h2&gt;
-&lt;p&gt;I also saw "The Lion King" with my step mom, which is still a great movie to watch with children! But that's for a separate post, really...&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>P. Levels: Startup Cycle and More</title>
       <link>https://oliz.io/blog/2022/plevels-startup-cycle.html</link>
       <pubDate>Sat, 02 Apr 2022 19:41:43 +0000</pubDate>
@@ -477,6 +451,41 @@ For some, feedback is only valuable if the plan is bad and it's hard for those p
 &lt;p&gt;&lt;em&gt;Q: How do Sprints and CD fit together?"&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A: Sprints are a frame for feedback loops. Sprints order input tasks, CD delivers outputs. Someone recommended &lt;a href="https://www.youtube.com/watch?v=502ILHjX9EE"&gt;https://www.youtube.com/watch?v=502ILHjX9EE&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Also related: &lt;a href="https://puppet.com/resources/report/2021-state-of-devops-report/"&gt;https://puppet.com/resources/report/2021-state-of-devops-report/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I always got what I wanted in Life</title>
+      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
+      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
+      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
+I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
+&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
+The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWESOME experience (esp. for children not having seen Ben-Hur)!&lt;/p&gt;
+&lt;p&gt;I was briefly in the military after school (required service in the German Air Force).
+After basic training (first three out of nine months), the Captain (C) asked me regarding further deployment.
+The conversation went like this:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;C: WHY ARE YOU HERE?
+
+Me (baffled): Errm, mandatory military service I guess?
+
+C: OKAY, LET ME REPHRASE: WHAT DO YOU WANT?
+
+Me (still baffled): I like computers and jet planes, that's why I'm here!?
+
+C: OKAY, MECHANIC ASSISTANCE AT MILITARY AIRPORT IT IS!&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So, by basically saying what I like/wanted, I got to work with Eurofighter mechanics (after getting security clearance etc.)
+Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
+While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
+Luckily, I didn't stay in the military, didn't kill anyone and studied Computer Science instead.&lt;/p&gt;
+&lt;h2 id="engine-test-run"&gt;Engine Test Run&lt;/h2&gt;
+&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
+He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hard time breathing&lt;/li&gt;
+&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
+&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
