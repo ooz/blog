@@ -10,13 +10,13 @@ Hey,
 
 As a lifelong keyboard warrior, I have always appreciated the efficiency, precision and direct access of one of my best tools: The Keyboard.
 
-So, today we are talking about that. Yeah, yeah, of course, I use a mouse, too. But that's a different topic for someone else, really.
+So, today I'm writing about that. Yeah, yeah, of course, I use a mouse, too. But that's a different topic for someone else, really.
 
 ## The Keys
 
-Images go long way, they say. I'm not a good photographer by any means, but I sincerely hope, you get the message:
+Images go long way, they say. I'm not a good photographer by any means, but I sincerely hope, you get the idea:
 
-![Some input methods, some of which I claim to own](tools.jpg)
+![Some input methods](tools.jpg)
 
 ## My Reading of The Keys and The Map
 
@@ -33,13 +33,13 @@ ESC     The escape or exit key
 0=}     DAMPFLÖCK smiley face with diving googles
 ß?\     some German thing? More work I guess
 ´`      A roof
-'Bksp'  Corrects errors if you TYPE TOO FAST
+'Bksp'  Corrects errors when you TYPE TOO FAST
 ENTER   NEWLINE, sends the message of GOD
-üöä     or other regionals, for regional proof
+üöä     or other regionals, for fast regional proof
 TAB     Close to instructions, for aiming
-GODKEY  Speak in the TRUE VOICE OF GOD; RTFM first
+GODKEY  Speak in the TRUE VOICE OF GOD; but RTFM first
 Shift   Temp. god speak, may be mistaken at times
-<|>     Looks like some fighter space ship
+<|>     Looks like some space ship, for computers
 CTRL    YOU JUST NEED TO TAKE IT, but easy friends
 ALT     Another modifier, when CTRL doesn't work
 SUPER   or windows or apple key, more WÖRK
