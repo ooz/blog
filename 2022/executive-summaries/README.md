@@ -27,4 +27,9 @@ rest, play
 invest, sell
 ```
 
+## What if the Summary is Wrong/Lacking?
+
+As with books, you then add an additional edition counter.
+E.g. the above executive summary lacks basics like the Golden Rule, which seemed to obvious to me, so I omitted it.
+A 2nd edition of vol. 1 could include: "Be nice to others". Easy!
 
