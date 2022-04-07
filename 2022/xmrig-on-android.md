@@ -28,3 +28,6 @@ The Nobel Prize "for Economics" is fake, but money and blockchain are real? If y
     modprobe msr # if supported by the system
 	./xmrig -o ${POOL} -u ${WALLET} -k --tls
     ```
+
+Bonus: [How to mine on p2pool (nice summary in one of the posts)](https://www.reddit.com/r/Monero/comments/sse4b1/stop_minexmr_p2pool_guide_how_to_mine_xmr_using/)
+
