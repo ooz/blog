@@ -1,6 +1,7 @@
 ---
 title: Remove snap(d)
 date: 2022-04-11T14:49:25Z
+tags: __inline__
 ---
 
 Sometimes it may be desired to get packages from `apt` instead of `snap`,
