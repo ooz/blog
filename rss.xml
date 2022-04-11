@@ -5,16 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Thu, 07 Apr 2022 05:44:16 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 Apr 2022 12:53:38 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Best of F-Droid: Semitone</title>
-      <link>https://oliz.io/blog/2022/semitone-uku-hack.html</link>
-      <pubDate>Tue, 29 Mar 2022 18:58:41 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/semitone-uku-hack.html</guid>
-      <description>&lt;p&gt;Great little no-BS no-ads tuner app available also on F-Droid.&lt;/p&gt;
-&lt;p&gt;Ukulele tuning hack for Gen Y: G-C-E-A (Game-Cube-Electronic-Arts).&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Database Normalization</title>
       <link>https://oliz.io/blog/2022/database-normalization.html</link>
@@ -418,6 +410,26 @@ make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 ./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Bonus: &lt;a href="https://www.reddit.com/r/Monero/comments/sse4b1/stop_minexmr_p2pool_guide_how_to_mine_xmr_using/"&gt;How to mine on p2pool (nice summary in one of the posts)&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Remove snap(d)</title>
+      <link>https://oliz.io/blog/2022/remove-snap.html</link>
+      <pubDate>Mon, 11 Apr 2022 14:49:25 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/remove-snap.html</guid>
+      <description>&lt;p&gt;Sometimes it may be desired to get packages from &lt;code&gt;apt&lt;/code&gt; instead of &lt;code&gt;snap&lt;/code&gt;,
+e.g. the Chromium snap doesn't have hardware acceleration for video conferences.&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;# Remove all snap packages
+snap list
+sudo snap remove --purge $SNAP_NAME
+
+# Remove cache
+sudo rm -rf /var/cache/snapd/
+sudo apt autoremove --purge snapd gnome-software-plugin-snap
+rm -rf ~/snap
+
+# Block snap from auto-installing
+sudo apt-mark hold snapd
+sudo apt install gnome-software&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
