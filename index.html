@@ -92,7 +92,24 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 </header>
 <section>
 <div>
-<div class="card"><small class="social">2022-04-11</small><a href="https://oliz.io/blog/2022/remove-snap.html"><b>Remove snap(d)</b></a></div>
+<div class="card"><small class="social">2022-04-11</small>
+<details><summary><a href="https://oliz.io/blog/2022/remove-snap.html"><b>Remove snap(d)</b></a></summary>
+<p>Sometimes it may be desired to get packages from <code>apt</code> instead of <code>snap</code>,
+e.g. the Chromium snap doesn't have hardware acceleration for video conferences.</p>
+<pre class="highlight"><code># Remove all snap packages
+snap list
+sudo snap remove --purge $SNAP_NAME
+
+# Remove cache
+sudo rm -rf /var/cache/snapd/
+sudo apt autoremove --purge snapd gnome-software-plugin-snap
+rm -rf ~/snap
+
+# Block snap from auto-installing
+sudo apt-mark hold snapd
+sudo apt install gnome-software</code></pre>
+</details>
+</div>
 <div class="card"><small class="social">2022-04-04</small><a href="https://oliz.io/blog/2022/when-cd-doesnt-work.html"><b>E. Wolff: Why Continuous Delivery Doesn&#x27;t Work</b></a></div>
 <div class="card"><small class="social">2022-04-02</small><a href="https://oliz.io/blog/2022/plevels-startup-cycle.html"><b>P. Levels: Startup Cycle and More</b></a></div>
 <div class="card"><small class="social">2022-03-30</small>
