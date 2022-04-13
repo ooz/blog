@@ -5,35 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 13 Apr 2022 06:01:53 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Apr 2022 06:14:44 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>P. Levels: Startup Cycle and More</title>
-      <link>https://oliz.io/blog/2022/plevels-startup-cycle.html</link>
-      <pubDate>Sat, 02 Apr 2022 19:41:43 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/plevels-startup-cycle.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://levels.io/"&gt;P. Levels&lt;/a&gt; pretty famous indie maker and &lt;a href="https://nomadlist.com/"&gt;digital nomad&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;His startup cycle:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Idea&lt;/li&gt;
-&lt;li&gt;Build it!&lt;/li&gt;
-&lt;li&gt;Launch it!&lt;/li&gt;
-&lt;li&gt;Grow it!&lt;/li&gt;
-&lt;li&gt;Monetize!&lt;/li&gt;
-&lt;li&gt;Automate!&lt;/li&gt;
-&lt;li&gt;Exit!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;His predictions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Marriage is disappearing&lt;/li&gt;
-&lt;li&gt;Relationship churn is fast&lt;/li&gt;
-&lt;li&gt;Home ownership is disappearing&lt;/li&gt;
-&lt;li&gt;People will travel more&lt;/li&gt;
-&lt;li&gt;Different family units&lt;/li&gt;
-&lt;li&gt;The collective existential crisis due to automation&lt;/li&gt;
-&lt;li&gt;We have remote now, we want async&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     <item>
       <title>Towards Online Autonomy</title>
       <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
@@ -436,6 +409,37 @@ Overall, the students tried hard despite the suboptimal Corona situation, did ve
       <guid>https://oliz.io/blog/2022/rousseau.html</guid>
       <description>&lt;p&gt;Humans are as free, healthy and happy as it is possible in nature, when they focus on work a single person can handle.
 Unhappiness and inequality stem from society and its need to forage, own, depend, compare and compete, which promotes innate human differences (e.g. in ability, preferences, talents).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>P. Levels: Startup Cycle and More</title>
+      <link>https://oliz.io/blog/2022/plevels-startup-cycle.html</link>
+      <pubDate>Sat, 02 Apr 2022 19:41:43 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/plevels-startup-cycle.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://levels.io/"&gt;P. Levels&lt;/a&gt; pretty famous indie maker and &lt;a href="https://nomadlist.com/"&gt;digital nomad&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;His startup cycle:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Idea&lt;/li&gt;
+&lt;li&gt;Build it!&lt;/li&gt;
+&lt;li&gt;Launch it!&lt;/li&gt;
+&lt;li&gt;Grow it!&lt;/li&gt;
+&lt;li&gt;Monetize!&lt;/li&gt;
+&lt;li&gt;Automate!&lt;/li&gt;
+&lt;li&gt;Exit!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;His predictions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Marriage is disappearing&lt;/li&gt;
+&lt;li&gt;Relationship churn is fast&lt;/li&gt;
+&lt;li&gt;Home ownership is disappearing&lt;/li&gt;
+&lt;li&gt;People will travel more&lt;/li&gt;
+&lt;li&gt;Different family units&lt;/li&gt;
+&lt;li&gt;The collective existential crisis due to automation&lt;/li&gt;
+&lt;li&gt;We have remote now, we want async&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;What hit home most for me:
+He adviced on building solutions to one's own problems. Then grow organically, e.g. by using the above formula.
+&lt;strong&gt;If others built solutions to all your problems already, you are likely boring and your life just isn't very original!&lt;/strong&gt;
+Uff!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
