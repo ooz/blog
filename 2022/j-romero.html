@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>J. Romero: Programming Principles | Oli Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/j-romero.html">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; max-width: 5rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="J. Romero: Programming Principles">
+<meta property="og:title" content="J. Romero: Programming Principles">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2022/j-romero.html">
+<meta property="og:description" content="J. Romero: Programming Principles">
+<meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2022-04-15T06:18:33Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"J. Romero: Programming Principles","url":"https://oliz.io/blog/2022/j-romero.html","name":"Oli Z.","description":"J. Romero: Programming Principles"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="j-romero-programming-principles">J. Romero: Programming Principles</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-04-15</small>
+</div>
+</header>
+<section>
+<p>From <a href="https://en.wikipedia.org/wiki/John_Romero">John Romero</a>'s standard talk on the early days of "id Software", which I also witnessed in person once:</p>
+<ol>
+<li>No prototypes. <strong>Just make the game</strong>, polish as you go. Don't depend on polish happening later. Always maintain constantly shippable code.</li>
+<li>It is incredibly important that your <strong>game can always be run by your team</strong>. Bulletproof your engine by providing defaults upon load failure.</li>
+<li><strong>Keep your code absolutely simple</strong>. Keep looking at your functions and figure out how you can simplify further.</li>
+<li><strong>Great tools</strong> help make great games. Spend as much time on tools as possible.</li>
+<li>We are our own best testing team and should <strong>never allow anyone else to experience bugs or see the game crash</strong>. Don't waste others' time. Test thoroughly before checking in your code.</li>
+<li><strong>As soon as you see a bug, you fix it!</strong> Do not continue on. If you don't fix your bugs your new code will be built on a buggy codebase and ensure an unstable foundation.</li>
+<li>Use a superior system than your target.</li>
+<li>Write your code for this game only – not for a future game. <strong>You're going to be writing new code later because you'll be smarter</strong>.</li>
+<li><strong>Encapsulate functionality</strong> to ensure design consistency. This minimizes mistakes and saves design time.</li>
+<li>Try to <strong>code transparently</strong>. Tell your lead and peers exactly how you are going to solve your current task and <strong>get feedback and advice</strong>. Do not treat game programming like each coder is a black box. The project could go off the rails and cause delays.</li>
+<li><strong>Programming is a creative art form based in logic</strong>. Every programmer is different and will code differently. It's the output that matters.</li>
+</ol>
+<p>Sources:</p>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=QKXj_OW96YQ">https://www.youtube.com/watch?v=QKXj_OW96YQ</a></li>
+<li><a href="https://www.heise.de/newsticker/meldung/John-Romero-Von-id-Softwares-Anfaengen-und-World-of-Warcraft-Sucht-3296840.html">https://www.heise.de/newsticker/meldung/John-Romero-Von-id-Softwares-Anfaengen-und-World-of-Warcraft-Sucht-3296840.html</a></li>
+</ul>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://oliz.io/links.html" class="social">links</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>
