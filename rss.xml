@@ -5,44 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Fri, 15 Apr 2022 14:08:13 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 16 Apr 2022 06:55:12 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How I always got what I wanted in Life</title>
-      <link>https://oliz.io/blog/2022/how-we-get-what-we-want.html</link>
-      <pubDate>Sun, 20 Mar 2022 12:56:28 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/how-we-get-what-we-want.html</guid>
-      <description>&lt;p&gt;As a child I saw Star Wars Ep1 in the cinema.
-I was already a Star Wars™ Fan before, since I watched it with my brothers (or/and father?) before.&lt;/p&gt;
-&lt;p&gt;I watched the movie multiple times, since the &lt;a href="https://www.youtube.com/watch?v=iRmRGP9hzy8"&gt;pod race was my favourite scene&lt;/a&gt;.
-The sound design, the racers crashing into the sand, the experience in the cinema, the ad-hoc engineering performed by Ani in his pod to survive the race. Just an overall AWESOME experience (esp. for children not having seen Ben-Hur)!&lt;/p&gt;
-&lt;p&gt;I was briefly in the military after school (required service in the German Air Force).
-After basic training (first three out of nine months), the Captain (C) asked me regarding further deployment.
-The conversation went like this:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;C: WHY ARE YOU HERE?
-
-Me (baffled): Errm, mandatory military service I guess?
-
-C: OKAY, LET ME REPHRASE: WHAT DO YOU WANT?
-
-Me (still baffled): I like computers and jet planes, that's why I'm here!?
-
-C: OKAY, MECHANIC ASSISTANCE AT MILITARY AIRPORT IT IS!&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;So, by basically saying what I like/wanted, I got to work with Eurofighter mechanics (after getting security clearance etc.)
-NICE!
-Due to performing good work on scrubbing Eurofighters, me and a friend were allowed to take part in an engine test run by our superior Staff Sergeant.
-While the friend and I targeted a military officer career, the Staff Sergeant lamented that he always regretted not studying.
-Luckily, I didn't stay in the military, didn't kill anyone and studied Computer Science instead.&lt;/p&gt;
-&lt;h2 id="engine-test-run"&gt;Engine Test Run&lt;/h2&gt;
-&lt;p&gt;The engine test run was just "like" podracing in the movie, except I got the rear seat and the mechanic colleague sat in the front seat and controlled the machine.
-He turned the engine up and down and I could feel (from memory now):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Hard time breathing&lt;/li&gt;
-&lt;li&gt;Hot, sticky air, I used the pilot helmet+mask to blow fresh air into my face&lt;/li&gt;
-&lt;li&gt;2x Hell boxed in steel, just a few meters behind me reminding just how AWEsome jet engines are. A true engineering feat demonstrating the superiority of the human mind and body!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The entire experience was the closest I ever got to "real" podracing and "real" engineering. But at least I'm a Software Engineer, now!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Mastering the Keyboard, the Mouse and Any Input Method or Tool, Really</title>
       <link>https://oliz.io/blog/2022/mastering-the-keyboard/</link>
@@ -339,6 +303,32 @@ Uff!&lt;/p&gt;</description>
       <guid>https://oliz.io/blog/2022/fran-lebowitz.html</guid>
       <description>&lt;p&gt;"Is it a self-help book?" - "It is, it is helping myself"&lt;/p&gt;
 &lt;p&gt;Source: &lt;a href="https://www.youtube.com/watch?v=G46BVjjkDfA&amp;amp;t=1774s"&gt;https://www.youtube.com/watch?v=G46BVjjkDfA&amp;amp;t=1774s&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Jack Ma Life Advice</title>
+      <link>https://oliz.io/blog/2022/jack-ma.html</link>
+      <pubDate>Sat, 16 Apr 2022 08:46:52 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/jack-ma.html</guid>
+      <description>&lt;p&gt;I didn't record the source of the following in my notes, but it was probably some Youtube video or article on &lt;a href="https://en.wikipedia.org/wiki/Jack_Ma"&gt;Jack Ma&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Till 25: learn, do mistakes, be a good student&lt;/li&gt;
+&lt;li&gt;Till 30: Follow someone, learn from them&lt;/li&gt;
+&lt;li&gt;Till 40: Work for yourself&lt;/li&gt;
+&lt;li&gt;Till 50: Do the things you are good at&lt;/li&gt;
+&lt;li&gt;Till 60: Work for the young people&lt;/li&gt;
+&lt;li&gt;Over 60: Spend time for yourself&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="on-business"&gt;On Business&lt;/h2&gt;
+&lt;p&gt;Focus on company culture! Focus on, in order:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Customers&lt;/li&gt;
+&lt;li&gt;Employees (often overlooked)&lt;/li&gt;
+&lt;li&gt;Investors&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Have a good (personal, company) name! Reputation is key!&lt;/li&gt;
+&lt;li&gt;Follow Larry Page's "Toothbrush Rule": People should want to use a product/service worth billions at least twice a day!&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
