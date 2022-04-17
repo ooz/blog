@@ -1,11 +1,11 @@
 ---
-title: Blog
+title: Weblog
 tags: __index__
 ---
 
-# Blog
+# Weblog
 
-My personal blog about time, life, design and software engineering.
+My personal blog about time, life, design, zen and software engineering.
 
 ## License
 
