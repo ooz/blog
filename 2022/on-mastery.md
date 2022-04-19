@@ -87,6 +87,9 @@ In other words, the opening sentence of this post could be reworded to:
 *If your art, craft etc. dies with you, you were a lesser than all the masters before you!*
 Even if your trade is still relevant to humankind, new students will simply skip past you to the masters before you! The joke is on you there! Ouch!
 
+However, another, positive way to see this: mediocre students will be students forever, always learning, learning from lots of masters.
+Trying and trying and trying again, to achieve mastery!
+
 ## In architecture: Pyramids and [Saint Basil's Cathedral](https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral)
 
 The master builders of the pyramids got buried with their pharaohs.
