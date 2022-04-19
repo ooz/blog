@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="script-src 'unsafe-inline'">
+<meta name="referrer" content="no-referrer">
+<title>Software Engineering vs. &quot;Real Engineering&quot; | Oli Z.</title>
+<link rel="canonical" href="https://oliz.io/blog/2022/real-engineering.html">
+<link rel="shortcut icon" href="https://oliz.io/blog/static/owl_256.png">
+<style>
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: #363636;
+    background: #FFF;
+    margin: 1rem auto;
+    padding: 0 .6rem 1rem .6rem;
+    max-width: 44em;
+    scroll-behavior: smooth;
+}
+a { color: #07A; text-decoration: none; }
+blockquote {
+    background: #EAEAEA;
+    border-left: .3rem solid #07A;
+    border-radius: .3rem;
+    margin: 0 .2rem;
+    padding: 0 .5rem;
+}
+code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    padding: .2rem .5rem;
+    white-space: nowrap;
+}
+footer { margin-top: 1rem; }
+h1 { text-align: center; margin: 0 auto; }
+h1, h2, h3, h4, h5, h6 { font-family: serif; font-weight: bold; }
+header { text-align:center; }
+img { max-width: 100%; }
+ul.task-list, ul.task-list li.task-list-item {
+    list-style-type: none;
+    list-style-image: none;
+}
+pre { border-left: .3rem solid #07A; }
+pre > code {
+    font-size: .9rem;
+    background: #EAEAEA;
+    box-sizing: inherit;
+    display: block;
+    overflow-x: auto;
+    margin: 0 .2rem;
+    white-space: pre;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+td, th {
+    border-bottom: .1rem solid;
+    padding: .8rem 1rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.dark-mode { color: #CACACA; background: #363636; }
+.dark-mode a { color: #0A7; }
+.dark-mode blockquote { background: #222; border-left: .3rem solid #0A7; }
+.dark-mode code { background: #222; }
+.dark-mode pre { border-left: .3rem solid #0A7; }
+.large-font { font-size: 1.2em; }
+
+.avatar { border-radius: 50%; max-width: 5rem; }
+.nav { float: left; margin-right: 1rem; }
+.card { background: rgba(0, 0, 0, 0.1); border-radius: 5px; padding: .8rem; margin-top: .8rem; }
+.social { float: right; margin-left: 1rem; }
+</style>
+<script>
+function toggleTheme() { document.body.classList.toggle("dark-mode") }
+function initTheme() { let h=new Date().getHours(); if (h <= 8 || h >= 20) { toggleTheme() } }
+function toggleFontSize() { document.body.classList.toggle("large-font") }
+</script>
+<meta name="author" content="oz">
+<meta name="description" content="Insights from a recent trip to Düsseldorf">
+<meta property="og:title" content="Software Engineering vs. &quot;Real Engineering&quot;">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://oliz.io/blog/2022/real-engineering.html">
+<meta property="og:description" content="Insights from a recent trip to Düsseldorf">
+<meta property="og:image" content="https://oliz.io/blog/static/owl_256.png">
+<meta property="og:locale" content="en-US">
+<meta property="article:published_time" content="2022-05-06T19:42:32Z">
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","headline":"Software Engineering vs. \"Real Engineering\"","url":"https://oliz.io/blog/2022/real-engineering.html","name":"Oli Z.","description":"Insights from a recent trip to Düsseldorf"}</script>
+</head>
+
+<body onload="initTheme()">
+<header>
+<a href="https://oliz.io"><img src="https://oliz.io/blog/static/owl_256.png" class="avatar" /></a>
+<div style="text-align:right;">
+<h1 id="software-engineering-vs-real-engineering">Software Engineering vs. &quot;Real Engineering&quot;</h1>
+<small><a href="https://oliz.io">oz</a>, 2022-05-06</small>
+</div>
+</header>
+<section>
+<p>Some examples from a recent trip to Düsseldorf (Germany).</p>
+<h2 id="yellow-stage-pedestrian-traffic-lights">Yellow Stage Pedestrian Traffic Lights</h2>
+<p>They tested this and then didn't get rid of it again. Now, Düsseldorf is the only German city with yellow for pedestrians.</p>
+<p><img alt="As for cars, 'new yellow' you can still go, 'long yellow' you better wait" src="ddorf-traffic-lights.jpg" /></p>
+<p>In software, temporary experiments also tend to stick around.</p>
+<h2 id="oberkasseler-bridge"><a href="https://de.m.wikipedia.org/wiki/Oberkasseler_Br%C3%BCcke">Oberkasseler Bridge</a></h2>
+<p>The old bridge wasn't supporting enough traffic anymore. So they built the new, wider bridge next to it.
+In an engineering marvel they pushed the new bridge over the old one in just two days.</p>
+<p>Software developers, engineers and operators: hot swapping, red-blue-green deployments anyone?</p>
+<h2 id="failed-airport-noise-reduction">Failed Airport Noise Reduction</h2>
+<p>Friends are living near the Düsseldorf airport.
+By German regulations, their flat's windows should be isolating air traffic noise with three layers of glass instead of the regular two layers.
+They only have regular windows, but experimental tubing in the walls which was supposed to reduce air traffic noise.
+The experiment failed and better windows weren't installed.</p>
+<p>Software engineering can go wrong, so does real engineering.</p>
+<h2 id="ending-on-high-notes">Ending on High Notes</h2>
+<ul>
+<li>Tasty, vegan chocolate fancy cake: <a href="https://www.gruenartig.de/vegane-schokotorte/">https://www.gruenartig.de/vegane-schokotorte/</a> (German, sorry)</li>
+<li>Programming charts, animations and visualizations in Haskell: <a href="https://code.world/">https://code.world/</a></li>
+</ul>
+</section>
+<footer>
+<a href="#" class="nav">top</a>
+<a href="javascript:toggleTheme()" class="nav">🌓</a>
+<a href="javascript:toggleFontSize()" class="nav">aA</a>
+<a href="https://oliz.io/about.html" class="social">about</a>
+<a href="https://oliz.io/links.html" class="social">links</a>
+<a href="https://oliz.io/blog/rss.xml" class="social">rss</a>
+<a href="https://oliz.io/blog/" class="social">blog</a>
+</footer>
+</body>
+</html>

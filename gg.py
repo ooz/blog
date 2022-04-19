@@ -4,7 +4,7 @@
 Author: Oliver Z., https://oliz.io
 Description: Minimal static site generator easy to use with GitHub Pages o.s.
 Website: https://oliz.io/ggpy/
-Version: 3.1.0
+Version: 3.1.1
 License: Dual-licensed under GNU AGPLv3 or MIT License,
          see LICENSE.txt file for details.
 
@@ -106,7 +106,7 @@ def logo_url(config:Optional[dict]=None) -> str:
     config = config or {}
     base_url = str(config.get('site', {}).get('base_url', ''))
     logo_url = base_url + '/' + str(config.get('site', {}).get('logo', ''))
-    return logo_url if logo_url != '/' else ''
+    return logo_url if (logo_url != '/' and len(logo_url) > len(base_url) + 1) else ''
 
 def header(post:dict, date:str='', config:Optional[dict]=None) -> str:
     config = config or {}
@@ -602,8 +602,9 @@ REPO = None
 try:
     import git
     REPO = git.Repo()
-except ImportError: # pragma: no cover because git package is normally present, last_modified tested without
-    print('No gitpython package found, degrading functionality (no last_modified support)!', file=sys.stderr)
+except Exception: # pragma: no cover because git package is normally present, last_modified tested without
+    print('No gitpython package or git repository found!', file=sys.stderr)
+    print('Degrading functionality (no last_modified support)!', file=sys.stderr)
 
 def last_modified(filepath:str, default:str='') -> str:
     if REPO:

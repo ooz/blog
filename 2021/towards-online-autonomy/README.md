@@ -90,4 +90,5 @@ Certainly, I'm not the first to be alienated. [So here are a bunch of other nice
 * [Curated list of libre Android apps](https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md)
 * [Web browser privacy comparison](https://privacytests.org/)
 * [Ruin My Search History](https://proprivacy.com/tools/ruinmysearchhistory) (a reader suggested this, I like the idea, but use at own risk™)
+* [Threat Modeling](https://www.privacyguides.org/threat-modeling/)
 

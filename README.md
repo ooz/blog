@@ -1,5 +1,5 @@
 ---
-title: Weblog
+title: Blog
 tags: __index__
 ---
 

@@ -5,228 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 17 Apr 2022 14:30:19 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 May 2022 18:50:31 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Writing Executive Summaries</title>
-      <link>https://oliz.io/blog/2022/executive-summaries/</link>
-      <pubDate>Thu, 17 Mar 2022 10:42:50 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/executive-summaries/</guid>
-      <description>&lt;p&gt;You know what always helped me acting upon the wisdom I read in BOOKs:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Writing summaries, or cheat sheets&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;You can do so even if you haven't read the entire book, yet!
-Then you should just put a version or volume number on it, that you can increment when you gain further noteworthy learnings.&lt;/p&gt;
-&lt;h2 id="bible-example"&gt;Bible Example&lt;/h2&gt;
-&lt;p&gt;Over the last few years I started reading the Bible (New Testament, in German). So, please ignore the German words, I'll provide a translation for the summarized ones below the photo:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Summary and Bible" src="bible-summary.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Translation of the German words in the summary, so far:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;learn, read, train
-create, write
-get rid of, improve
-rest, play
-invest, sell&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id="what-if-the-summary-is-wronglacking"&gt;What if the Summary is Wrong/Lacking?&lt;/h2&gt;
-&lt;p&gt;As with books, you then add an additional edition counter.
-E.g. the above executive summary lacks basics like the Golden Rule, which seemed to obvious to me, so I omitted it.
-A 2nd edition of vol. 1 could include: "Be nice to others". Easy!&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>XMRig on Android</title>
-      <link>https://oliz.io/blog/2022/xmrig-on-android.html</link>
-      <pubDate>Sat, 12 Feb 2022 19:40:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/xmrig-on-android.html</guid>
-      <description>&lt;p&gt;The Nobel Prize "for Economics" is fake, but money and blockchain are real? If your answer to this is "YES!", you may proceed at your own liability...&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Install Termux&lt;/li&gt;
-&lt;li&gt;Install &lt;code&gt;proot-distro&lt;/code&gt; package in Termux&lt;/li&gt;
-&lt;li&gt;Setup an Ubuntu environment
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;proot-distro install ubuntu
-proot-distro login ubuntu&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Follow &lt;a href="https://xmrig.com/docs/miner/build/ubuntu"&gt;https://xmrig.com/docs/miner/build/ubuntu&lt;/a&gt;
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;apt update &amp;amp;&amp;amp; apt upgrade
-apt-get install git build-essential cmake automake libtool autoconf
-git clone https://github.com/xmrig/xmrig.git
-# Change donation rate if desired
-mkdir xmrig/build &amp;amp;&amp;amp; cd xmrig/scripts
-./build_deps.sh &amp;amp;&amp;amp; cd ../build
-cmake .. -DXMRIG_DEPS=scripts/deps
-make -j$(nproc)&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;li&gt;Start &lt;code&gt;xmrig&lt;/code&gt; with minimal configuration
-    &lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;modprobe msr # if supported by the system
-./xmrig -o ${POOL} -u ${WALLET} -k --tls&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Bonus: &lt;a href="https://www.reddit.com/r/Monero/comments/sse4b1/stop_minexmr_p2pool_guide_how_to_mine_xmr_using/"&gt;How to mine on p2pool (nice summary in one of the posts)&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Remove snap(d)</title>
-      <link>https://oliz.io/blog/2022/remove-snap.html</link>
-      <pubDate>Mon, 11 Apr 2022 14:49:25 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/remove-snap.html</guid>
-      <description>&lt;p&gt;Sometimes it may be desired to get packages from &lt;code&gt;apt&lt;/code&gt; instead of &lt;code&gt;snap&lt;/code&gt;,
-e.g. the Chromium snap doesn't have hardware acceleration for video conferences.&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;# Remove all snap packages
-snap list
-sudo snap remove --purge $SNAP_NAME
-
-# Remove cache
-sudo rm -rf /var/cache/snapd/
-sudo apt autoremove --purge snapd gnome-software-plugin-snap
-rm -rf ~/snap
-
-# Block snap from auto-installing
-sudo apt-mark hold snapd
-sudo apt install gnome-software&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
-      <title>On Mastery</title>
-      <link>https://oliz.io/blog/2022/on-mastery.html</link>
-      <pubDate>Sun, 13 Mar 2022 21:56:15 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/on-mastery.html</guid>
-      <description>&lt;p&gt;&lt;em&gt;No master without students.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;This is age-old wisdom coming in various iterations and examples.
-Here are some.&lt;/p&gt;
-&lt;h2 id="in-art-eg-paintings-classical-music"&gt;In art (e.g. paintings, classical music)&lt;/h2&gt;
-&lt;p&gt;Some great artists were recognized at their time, amassed great fortune and fame, had plenty of contemporary students to teach to and learn from.
-Others also did great work, but died alone, poor, without recognition, without any direct students.&lt;/p&gt;
-&lt;p&gt;So, you can seemingly fail as a master during your lifetime.
-But if you were determined and truly great, you will get redeemed by your future students.
-Across time.
-Ultimately, the joke is on them: because you aren't around anymore to be asked questions and the students were "too late" to get the cues, they now need to try extra hard to understand! Haha!&lt;/p&gt;
-&lt;h2 id="in-martial-arts-japanese-shuhari-and-karate"&gt;In martial arts: Japanese &lt;a href="https://en.wikipedia.org/wiki/Shuhari"&gt;Shuhari&lt;/a&gt; and Karate&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Shu ("protect", "obey"): student learns, repeats and practises basics, following the master&lt;/li&gt;
-&lt;li&gt;Ha ("detach", "digress"): the master student, "master" (1st kyu [highest brown belt], 1st dan [first black belt]) is at the high of their ability and execution, knowing all the relevant stuff and realizing they aren't the first to reach this point. Maybe they challenge the master to include or adapt things with a fresh view. The master student may lead the dojo in the master's absence or on their behalf.&lt;/li&gt;
-&lt;li&gt;Ri ("leave", "separate"): master on the path to true mastery perpetuating their great art. By applying, displaying and teaching. By breaking down and questioning learned forms, movements. Together with new students, both master and students lift the art to "go with the times", "stay current" and thus real.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Karate:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Earlier Okinawan people practiced mixed martial arts (similar to Chinese Kung Fu), incorporated their available tools and weapons to repel pirate raiders. This laid the foundation for modern day Judo and Karate-Do ("Karate" literally first meant "Chinese Hand"). Practitioners trained all kinds of techniques to overpower and kill (e.g. sweeps, throws, chokes, grappling). They trained hard, harming their body in the long term, but this was appropriate to handle the raiders. Otherwise, they would have not reached old age anyway.&lt;/li&gt;
-&lt;li&gt;Karate in the military: Karate was used as physical education. Low, wide stances and punches don't make sense in industrialized, armed conflict, but the strengthening, endurance and discipline aspects go long ways also in war. Masters were aware and adapted teachings to circumstances.&lt;/li&gt;
-&lt;li&gt;Modern day: Anyone (incl. women, children, &lt;a href="https://www.youtube.com/watch?v=SaXU8_soOBQ"&gt;impaired people&lt;/a&gt;) can train this and adapt the forms to their bodily limits and try to reach further. &lt;a href="https://oliz.io/blog/2021/sensomotorik-und-handlungskompetenz/"&gt;Karate can be trained till old age with great health, motor, cognitive benefits&lt;/a&gt;, without ever getting into a real fight. Even if that's just due to anticipation, avoiding fights in the first place instead of physical prowess. The "way of the empty hand" (contemporary reading of "Karate"), so to say.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Despite, fighting capability and spirit are still very important for further propagation of the art. Masters take this into account and screen for the "warrior heart". Quitters don't win and won't graduate the black belt. Even if they get it while lacking quality, maybe the master's attention slipped and didn't notice the flaw in character. Then they will doubt themselves, see how poor their forms are compared to other black belts, other masters and they will eventually stop wearing the belt, quitting Karate.&lt;/p&gt;
-&lt;h2 id="in-education-and-academia"&gt;In education and academia&lt;/h2&gt;
-&lt;p&gt;When you achieve a "master title" in academia or your "master diploma" as a craftsman (f/m/d),
-you have demonstrated that you are at the top of your game, know all the relevant stuff and are ready to be released onto the world without training wheels.
-Some of those masters teach students, take apprentices, become doctors, professors. Others may create such great things, that even without taking direct students, future students will study their work for insights.&lt;/p&gt;
-&lt;h2 id="in-mathematics-students-t-distribution"&gt;In mathematics: &lt;a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution"&gt;Student's t-distribution&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;So this "math master", instead of getting his name attributed to his works (like most of the masters before and after him), he chose to delay credit (it got attributed anyway, check the linked Wikipedia article) and by choosing a considerate pseudonym spread the idea that even a master must be a perpetual student.
-Any proper math teacher or professor will explain the name, that the distribution is really called "student" not because a person was named like this, but because the person wanted to highlight that they saw themselves as "eternal math students" and that there always will be something left to study.&lt;/p&gt;
-&lt;h2 id="in-popular-culture-star-wars"&gt;In popular culture: Star Wars&lt;/h2&gt;
-&lt;p&gt;Mastery is explored extensively in Star Wars.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Galen Erso (&lt;a href="https://starwars.fandom.com/wiki/Rogue_One"&gt;Rogue One&lt;/a&gt;) is a master weapon builder, engineer and scientist. He is forced to finish the most powerful weapon ever: the Death Star. Knowing that the evil empire will discard him after, he planned a long-running plot: He built in weak point by design to be found and relayed to the rebels/resistance by his daughter. The rebels then studied it hard and destroyed the Death Star (+ later iterations). Each time with greater ease. They basically achieved "undo evil powerful weapons" mastery, as their master Galen Erso intended with his master work. The incapable evil empire couldn't fix the inherent design flaws, because they weren't masters and also poor students. It took a while, but after the 3rd station got destroyed they got the message and stopped building "just another Death Star"™, but went with a more conservative approach "even bigger fleet". Well, no mastery there either, judging by how it turned out.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Jedi: A Jedi master may take multiple padawans over the course of his life. A padawan may become a master and teach padawans themselves. Potentially, this ensures greater spread and higher numbers. Some may disagree and may part with the Jedi order to instead become...&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Sith: Who took mastery to the extreme ("absolutes" so to say, hehe) with the "Rule of Two": At any given time there may be only one Sith Lord with only one Sith Apprentice. To become the lord, the apprentice needs to kill the master. Either by sheer force/power or by great wit/deceit, whatever is more suitable for continuation of the Sith given the circumstances.
-The apprentice fails when the lord kills them instead. The master grows more powerful with this, too: Learning how the student tried to outplay, what better qualities to look for in the next apprentice. Darth Sidious had and outgrew multiple apprentices until ultimately killed and both sides of the force merged.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;As you see, the pattern is pretty omnipresent and told in various forms.
-To reach as many humans as possible.
-I'm sure, you can find further examples!&lt;/p&gt;
-&lt;h2 id="on-students"&gt;On Students&lt;/h2&gt;
-&lt;p&gt;Now we talked a lot about "masters" and "mastery", but little about students.
-That's because there isn't much to say, if you understood it to this point:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;No such thing as "bad students".&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;That's also common wisdom and it's self-evident from the very word: &lt;em&gt;studere&lt;/em&gt; is Latin for "to sincerely try".&lt;/p&gt;
-&lt;p&gt;So the only task a student has, is to try. Try to understand the masters and their greatness. Try to outshine them.
-They don't necessarily need to succeed. They may fail, that's fine.
-They then may look for a different master, a different topic and try again. Others may take their place instead.
-The only bad student is a student who doesn't try, in which case they aren't a "student" by the very sense of the word. A student giving up, simply ceases to be a student. Not offending any master, any craft or anything really, but themselves. By wasting their own time. A master claiming in front of poorly performing students that "they are wasting the master's time" isn't reflecting enough on what he could learn from the student's failures. At the same time, the master implicitly asks them to try harder.&lt;/p&gt;
-&lt;p&gt;Thus "bad student" is an inherent oxymoron, while "excellent master" is an obvious tautology.
-If we don't think like this, e.g. having the need to distinguish between "masters" and "great masters". Then, maybe, we have watered down the term "master" a bit too much.&lt;/p&gt;
-&lt;p&gt;So, I hope this post corrected the image. Highlighting that obtaining mastery is a perpetual, self-correcting process. Sounds a lot like all of life, huh?&lt;/p&gt;
-&lt;h2 id="on-mediocrity"&gt;On Mediocrity&lt;/h2&gt;
-&lt;p&gt;What happens with the masters who aren't good enough and the students who never achieved mastery in anything ever?&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Mediocrity will simply be forgotten.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;In other words, the opening sentence of this post could be reworded to:
-&lt;em&gt;If your art, craft etc. dies with you, you were a lesser than all the masters before you!&lt;/em&gt;
-Even if your trade is still relevant to humankind, new students will simply skip past you to the masters before you! The joke is on you there! Ouch!&lt;/p&gt;
-&lt;h2 id="in-architecture-pyramids-and-saint-basils-cathedral"&gt;In architecture: Pyramids and &lt;a href="https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral"&gt;Saint Basil's Cathedral&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The master builders of the pyramids got buried with their pharaohs.
-Did we forgot how to build pyramids? Yes!
-Do we know how the pyramids were built? Not quite, but we have some ideas!
-Do we really need to build further pyramids? Probably not.&lt;/p&gt;
-&lt;p&gt;Did we learn something anyway? Yeah, for instance:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Stone and paintings last long time, even longer than the language that is used to write the hieroglyphs!&lt;/li&gt;
-&lt;li&gt;Air-tight interlocking sandstone is awesome and very rigid!&lt;/li&gt;
-&lt;li&gt;Air-tight locked rooms and darkness breed deadly fungus and when opened you get very sick and die&lt;/li&gt;
-&lt;li&gt;Since the construction is so timeless, maybe important information wasn't encoded in language, but in architecture?&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Did the pharaohs have a bad intention bury their builders with them?
-We don't know! Maybe it doesn't matter, either!&lt;/p&gt;
-&lt;hr /&gt;
-&lt;h2 id="personal-anecdotes"&gt;Personal Anecdotes&lt;/h2&gt;
-&lt;p&gt;Form my software engineering life:&lt;/p&gt;
-&lt;p&gt;I.
-I once interviewed an applicant for a (senior) software development position.
-Previously, the candidate worked in a consulting firm literally called "senior dev only" specializing in renting out senior developers to needy companies. I wondered, how that'd work and how they'd know that they are all "senior developers". Was it by age (to fight blatant agism, let's mean "years of experience")? Was by the amount of money they charge gullible companies?
-The candidate wasn't that good by my judgement, some knowledge at display was outdated. We ended up not hiring the candidate.&lt;/p&gt;
-&lt;p&gt;II.
-Similarly, some very capable (by my judgement), senior colleagues left for another company.
-That company had huge financial backing and was hiring "senior devs only" to finish an ambitious project on a tight one year schedule.
-I didn't check back again, but here are my assumptions of possible outcomes:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Too many cooks spoil the broth: Each senior dev has their own ideas how things should work, lots of meetings, agreement takes ages. Eventually, the thing is too late and over budget, oops!&lt;/li&gt;
-&lt;li&gt;Most likely, the senior devs realize the situation, evaluate available abilities, preferences and requirements. Naturally, some of them lead and push bigger design decisions. Others step down a bit and follow. In this case, the company could have hired less seniors and more juniors and probably achieved a similar result, cheaper. Oops! Don't tell that the bean counters!&lt;/li&gt;
-&lt;li&gt;In magical fairytale land, all the seniors devs got along in perfect harmony. They delivered a high quality solution, under budget, on time. After this great achievement, all the great achievers head out to the next challenge (other project, other company). The software works, eventually requirements change, nobody's there anymore to understand the thing and there's limited documentation/onboarding/handover material. What's there can only be understood by great achievers. Eventually, the company hires further great achievers which attest a re-write is needed at great cost. Oops!&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;III.
-So I was teaching "modern" software engineering for one semester (2020-2021 during pandemic) at university, which is a separate blog post still in the making©.
-The gist is, I worked my way backwards from primary motive of "working software" (duh, surprise!) in the Agile Manifesto.
-Close to the end of semester, I got evaluated by the students.
-Besides all the benevolent feedback which I received, the most helpful one was (paraphrased):
-"Agile is pseudo-scientific mumbojumbo and I wished the lecturer would have instead focussed more on &lt;em&gt;real engineering&lt;/em&gt;, not personal anecdotes."
-Ufff, that hit hard! Quite a revelation!
-Even if I may have failed that student, it pushed me to try harder.
-I openly motivated my strategy again, so hopefully the rest of them got the message.
-Overall, the students tried hard despite the suboptimal Corona situation, did very well in required presentations and the exam.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Rousseau in Two Sentences</title>
-      <link>https://oliz.io/blog/2022/rousseau.html</link>
-      <pubDate>Wed, 13 Apr 2022 07:51:34 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/rousseau.html</guid>
-      <description>&lt;p&gt;Humans are as free, healthy and happy as it is possible in nature, when they focus on work a single person can handle.
-Unhappiness and inequality stem from society and its need to forage, own, depend, compare and compete, which promotes innate human differences (e.g. in ability, preferences, talents).&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>P. Levels: Startup Cycle and More</title>
-      <link>https://oliz.io/blog/2022/plevels-startup-cycle.html</link>
-      <pubDate>Sat, 02 Apr 2022 19:41:43 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/plevels-startup-cycle.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://levels.io/"&gt;P. Levels&lt;/a&gt; pretty famous indie maker and &lt;a href="https://nomadlist.com/"&gt;digital nomad&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;His startup cycle:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Idea&lt;/li&gt;
-&lt;li&gt;Build it!&lt;/li&gt;
-&lt;li&gt;Launch it!&lt;/li&gt;
-&lt;li&gt;Grow it!&lt;/li&gt;
-&lt;li&gt;Monetize!&lt;/li&gt;
-&lt;li&gt;Automate!&lt;/li&gt;
-&lt;li&gt;Exit!&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;His predictions:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Marriage is disappearing&lt;/li&gt;
-&lt;li&gt;Relationship churn is fast&lt;/li&gt;
-&lt;li&gt;Home ownership is disappearing&lt;/li&gt;
-&lt;li&gt;People will travel more&lt;/li&gt;
-&lt;li&gt;Different family units&lt;/li&gt;
-&lt;li&gt;The collective existential crisis due to automation&lt;/li&gt;
-&lt;li&gt;We have remote now, we want async&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;What hit home most for me:
-He adviced on building solutions to one's own problems. Then grow organically, e.g. by using the above formula.
-&lt;strong&gt;If others built solutions to all your problems already, you are likely boring and your life just isn't very original!&lt;/strong&gt;
-Uff!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>J. Romero: Programming Principles</title>
       <link>https://oliz.io/blog/2022/j-romero.html</link>
@@ -355,6 +135,279 @@ Forgetting details is a way of generalizing and applying past memories, past exa
 Those abstractions are then used to explain the present, predict the future.
 Sometimes the abstractions are wrong because a relevant detail has been left out.
 Then we need a new abstraction, a new model.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Mastery</title>
+      <link>https://oliz.io/blog/2022/on-mastery.html</link>
+      <pubDate>Sun, 13 Mar 2022 21:56:15 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/on-mastery.html</guid>
+      <description>&lt;p&gt;&lt;em&gt;No master without students.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This is age-old wisdom coming in various iterations and examples.
+Here are some.&lt;/p&gt;
+&lt;h2 id="in-art-eg-paintings-classical-music"&gt;In art (e.g. paintings, classical music)&lt;/h2&gt;
+&lt;p&gt;Some great artists were recognized at their time, amassed great fortune and fame, had plenty of contemporary students to teach to and learn from.
+Others also did great work, but died alone, poor, without recognition, without any direct students.&lt;/p&gt;
+&lt;p&gt;So, you can seemingly fail as a master during your lifetime.
+But if you were determined and truly great, you will get redeemed by your future students.
+Across time.
+Ultimately, the joke is on them: because you aren't around anymore to be asked questions and the students were "too late" to get the cues, they now need to try extra hard to understand! Haha!&lt;/p&gt;
+&lt;h2 id="in-martial-arts-japanese-shuhari-and-karate"&gt;In martial arts: Japanese &lt;a href="https://en.wikipedia.org/wiki/Shuhari"&gt;Shuhari&lt;/a&gt; and Karate&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Shu ("protect", "obey"): student learns, repeats and practises basics, following the master&lt;/li&gt;
+&lt;li&gt;Ha ("detach", "digress"): the master student, "master" (1st kyu [highest brown belt], 1st dan [first black belt]) is at the high of their ability and execution, knowing all the relevant stuff and realizing they aren't the first to reach this point. Maybe they challenge the master to include or adapt things with a fresh view. The master student may lead the dojo in the master's absence or on their behalf.&lt;/li&gt;
+&lt;li&gt;Ri ("leave", "separate"): master on the path to true mastery perpetuating their great art. By applying, displaying and teaching. By breaking down and questioning learned forms, movements. Together with new students, both master and students lift the art to "go with the times", "stay current" and thus real.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Karate:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Earlier Okinawan people practiced mixed martial arts (similar to Chinese Kung Fu), incorporated their available tools and weapons to repel pirate raiders. This laid the foundation for modern day Judo and Karate-Do ("Karate" literally first meant "Chinese Hand"). Practitioners trained all kinds of techniques to overpower and kill (e.g. sweeps, throws, chokes, grappling). They trained hard, harming their body in the long term, but this was appropriate to handle the raiders. Otherwise, they would have not reached old age anyway.&lt;/li&gt;
+&lt;li&gt;Karate in the military: Karate was used as physical education. Low, wide stances and punches don't make sense in industrialized, armed conflict, but the strengthening, endurance and discipline aspects go long ways also in war. Masters were aware and adapted teachings to circumstances.&lt;/li&gt;
+&lt;li&gt;Modern day: Anyone (incl. women, children, &lt;a href="https://www.youtube.com/watch?v=SaXU8_soOBQ"&gt;impaired people&lt;/a&gt;) can train this and adapt the forms to their bodily limits and try to reach further. &lt;a href="https://oliz.io/blog/2021/sensomotorik-und-handlungskompetenz/"&gt;Karate can be trained till old age with great health, motor, cognitive benefits&lt;/a&gt;, without ever getting into a real fight. Even if that's just due to anticipation, avoiding fights in the first place instead of physical prowess. The "way of the empty hand" (contemporary reading of "Karate"), so to say.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Despite, fighting capability and spirit are still very important for further propagation of the art. Masters take this into account and screen for the "warrior heart". Quitters don't win and won't graduate the black belt. Even if they get it while lacking quality, maybe the master's attention slipped and didn't notice the flaw in character. Then they will doubt themselves, see how poor their forms are compared to other black belts, other masters and they will eventually stop wearing the belt, quitting Karate.&lt;/p&gt;
+&lt;h2 id="in-education-and-academia"&gt;In education and academia&lt;/h2&gt;
+&lt;p&gt;When you achieve a "master title" in academia or your "master diploma" as a craftsman (f/m/d),
+you have demonstrated that you are at the top of your game, know all the relevant stuff and are ready to be released onto the world without training wheels.
+Some of those masters teach students, take apprentices, become doctors, professors. Others may create such great things, that even without taking direct students, future students will study their work for insights.&lt;/p&gt;
+&lt;h2 id="in-mathematics-students-t-distribution"&gt;In mathematics: &lt;a href="https://en.wikipedia.org/wiki/Student%27s_t-distribution"&gt;Student's t-distribution&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;So this "math master", instead of getting his name attributed to his works (like most of the masters before and after him), he chose to delay credit (it got attributed anyway, check the linked Wikipedia article) and by choosing a considerate pseudonym spread the idea that even a master must be a perpetual student.
+Any proper math teacher or professor will explain the name, that the distribution is really called "student" not because a person was named like this, but because the person wanted to highlight that they saw themselves as "eternal math students" and that there always will be something left to study.&lt;/p&gt;
+&lt;h2 id="in-popular-culture-star-wars"&gt;In popular culture: Star Wars&lt;/h2&gt;
+&lt;p&gt;Mastery is explored extensively in Star Wars.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Galen Erso (&lt;a href="https://starwars.fandom.com/wiki/Rogue_One"&gt;Rogue One&lt;/a&gt;) is a master weapon builder, engineer and scientist. He is forced to finish the most powerful weapon ever: the Death Star. Knowing that the evil empire will discard him after, he planned a long-running plot: He built in weak point by design to be found and relayed to the rebels/resistance by his daughter. The rebels then studied it hard and destroyed the Death Star (+ later iterations). Each time with greater ease. They basically achieved "undo evil powerful weapons" mastery, as their master Galen Erso intended with his master work. The incapable evil empire couldn't fix the inherent design flaws, because they weren't masters and also poor students. It took a while, but after the 3rd station got destroyed they got the message and stopped building "just another Death Star"™, but went with a more conservative approach "even bigger fleet". Well, no mastery there either, judging by how it turned out.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Jedi: A Jedi master may take multiple padawans over the course of his life. A padawan may become a master and teach padawans themselves. Potentially, this ensures greater spread and higher numbers. Some may disagree and may part with the Jedi order to instead become...&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sith: Who took mastery to the extreme ("absolutes" so to say, hehe) with the "Rule of Two": At any given time there may be only one Sith Lord with only one Sith Apprentice. To become the lord, the apprentice needs to kill the master. Either by sheer force/power or by great wit/deceit, whatever is more suitable for continuation of the Sith given the circumstances.
+The apprentice fails when the lord kills them instead. The master grows more powerful with this, too: Learning how the student tried to outplay, what better qualities to look for in the next apprentice. Darth Sidious had and outgrew multiple apprentices until ultimately killed and both sides of the force merged.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As you see, the pattern is pretty omnipresent and told in various forms.
+To reach as many humans as possible.
+I'm sure, you can find further examples!&lt;/p&gt;
+&lt;h2 id="on-students"&gt;On Students&lt;/h2&gt;
+&lt;p&gt;Now we talked a lot about "masters" and "mastery", but little about students.
+That's because there isn't much to say, if you understood it to this point:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;No such thing as "bad students".&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;That's also common wisdom and it's self-evident from the very word: &lt;em&gt;studere&lt;/em&gt; is Latin for "to sincerely try".&lt;/p&gt;
+&lt;p&gt;So the only task a student has, is to try. Try to understand the masters and their greatness. Try to outshine them.
+They don't necessarily need to succeed. They may fail, that's fine.
+They then may look for a different master, a different topic and try again. Others may take their place instead.
+The only bad student is a student who doesn't try, in which case they aren't a "student" by the very sense of the word. A student giving up, simply ceases to be a student. Not offending any master, any craft or anything really, but themselves. By wasting their own time. A master claiming in front of poorly performing students that "they are wasting the master's time" isn't reflecting enough on what he could learn from the student's failures. At the same time, the master implicitly asks them to try harder.&lt;/p&gt;
+&lt;p&gt;Thus "bad student" is an inherent oxymoron, while "excellent master" is an obvious tautology.
+If we don't think like this, e.g. having the need to distinguish between "masters" and "great masters". Then, maybe, we have watered down the term "master" a bit too much.&lt;/p&gt;
+&lt;p&gt;So, I hope this post corrected the image. Highlighting that obtaining mastery is a perpetual, self-correcting process. Sounds a lot like all of life, huh?&lt;/p&gt;
+&lt;h2 id="on-mediocrity"&gt;On Mediocrity&lt;/h2&gt;
+&lt;p&gt;What happens with the masters who aren't good enough and the students who never achieved mastery in anything ever?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Mediocrity will simply be forgotten.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In other words, the opening sentence of this post could be reworded to:
+&lt;em&gt;If your art, craft etc. dies with you, you were a lesser than all the masters before you!&lt;/em&gt;
+Even if your trade is still relevant to humankind, new students will simply skip past you to the masters before you! The joke is on you there! Ouch!&lt;/p&gt;
+&lt;p&gt;However, another, positive way to see this: mediocre students will be students forever, always learning, learning from lots of masters.
+Trying and trying and trying again, to achieve mastery!&lt;/p&gt;
+&lt;h2 id="in-architecture-pyramids-and-saint-basils-cathedral"&gt;In architecture: Pyramids and &lt;a href="https://en.wikipedia.org/wiki/Saint_Basil%27s_Cathedral"&gt;Saint Basil's Cathedral&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The master builders of the pyramids got buried with their pharaohs.
+Did we forgot how to build pyramids? Yes!
+Do we know how the pyramids were built? Not quite, but we have some ideas!
+Do we really need to build further pyramids? Probably not.&lt;/p&gt;
+&lt;p&gt;Did we learn something anyway? Yeah, for instance:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stone and paintings last long time, even longer than the language that is used to write the hieroglyphs!&lt;/li&gt;
+&lt;li&gt;Air-tight interlocking sandstone is awesome and very rigid!&lt;/li&gt;
+&lt;li&gt;Air-tight locked rooms and darkness breed deadly fungus and when opened you get very sick and die&lt;/li&gt;
+&lt;li&gt;Since the construction is so timeless, maybe important information wasn't encoded in language, but in architecture?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Did the pharaohs have a bad intention bury their builders with them?
+We don't know! Maybe it doesn't matter, either!&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id="personal-anecdotes"&gt;Personal Anecdotes&lt;/h2&gt;
+&lt;p&gt;Form my software engineering life:&lt;/p&gt;
+&lt;p&gt;I.
+I once interviewed an applicant for a (senior) software development position.
+Previously, the candidate worked in a consulting firm literally called "senior dev only" specializing in renting out senior developers to needy companies. I wondered, how that'd work and how they'd know that they are all "senior developers". Was it by age (to fight blatant agism, let's mean "years of experience")? Was by the amount of money they charge gullible companies?
+The candidate wasn't that good by my judgement, some knowledge at display was outdated. We ended up not hiring the candidate.&lt;/p&gt;
+&lt;p&gt;II.
+Similarly, some very capable (by my judgement), senior colleagues left for another company.
+That company had huge financial backing and was hiring "senior devs only" to finish an ambitious project on a tight one year schedule.
+I didn't check back again, but here are my assumptions of possible outcomes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Too many cooks spoil the broth: Each senior dev has their own ideas how things should work, lots of meetings, agreement takes ages. Eventually, the thing is too late and over budget, oops!&lt;/li&gt;
+&lt;li&gt;Most likely, the senior devs realize the situation, evaluate available abilities, preferences and requirements. Naturally, some of them lead and push bigger design decisions. Others step down a bit and follow. In this case, the company could have hired less seniors and more juniors and probably achieved a similar result, cheaper. Oops! Don't tell that the bean counters!&lt;/li&gt;
+&lt;li&gt;In magical fairytale land, all the seniors devs got along in perfect harmony. They delivered a high quality solution, under budget, on time. After this great achievement, all the great achievers head out to the next challenge (other project, other company). The software works, eventually requirements change, nobody's there anymore to understand the thing and there's limited documentation/onboarding/handover material. What's there can only be understood by great achievers. Eventually, the company hires further great achievers which attest a re-write is needed at great cost. Oops!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;III.
+So I was teaching "modern" software engineering for one semester (2020-2021 during pandemic) at university, which is a separate blog post still in the making©.
+The gist is, I worked my way backwards from primary motive of "working software" (duh, surprise!) in the Agile Manifesto.
+Close to the end of semester, I got evaluated by the students.
+Besides all the benevolent feedback which I received, the most helpful one was (paraphrased):
+"Agile is pseudo-scientific mumbojumbo and I wished the lecturer would have instead focussed more on &lt;em&gt;real engineering&lt;/em&gt;, not personal anecdotes."
+Ufff, that hit hard! Quite a revelation!
+Even if I may have failed that student, it pushed me to try harder.
+I openly motivated my strategy again, so hopefully the rest of them got the message.
+Overall, the students tried hard despite the suboptimal Corona situation, did very well in required presentations and the exam.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Star Wars Short: The Padawan Master</title>
+      <link>https://oliz.io/blog/2022/sternenkrieg.html</link>
+      <pubDate>Wed, 04 May 2022 08:05:49 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/sternenkrieg.html</guid>
+      <description>&lt;p&gt;A Jedi master is teaching young Padawans an important lesson on the Force.
+Towards the end, one bored and exhausted youngling challenges the master: "I don't get it, maybe I can learn it from a real Jedi master and just not from you!"
+The master, smiling, asks back: "Why is that?"
+The youngling points to the master's Padawan braid.
+The master, still smiling: "Exactly, because of younglings like you, I kept wearing the braid: to remind us, that there is always something to learn about the Force, for Jedi masters and Padawans alike. Lesson's over."&lt;/p&gt;
+&lt;p&gt;May the 4th be with you!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enable Emoji-Support for MySQL-Databases</title>
+      <link>https://oliz.io/blog/2022/mysql-emoji-support.html</link>
+      <pubDate>Wed, 27 Apr 2022 18:17:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/mysql-emoji-support.html</guid>
+      <description>&lt;p&gt;&lt;img alt="Copy&amp;amp;pastable below" src="mysql_utf8_collation.png" /&gt;&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;-- ...
+`CUSTOMER_COMMENT` varchar(1000) COLLATE utf8mb4_bin DEFAULT NULL,
+-- ...
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Software Engineering vs. &amp;quot;Real Engineering&amp;quot;</title>
+      <link>https://oliz.io/blog/2022/real-engineering.html</link>
+      <pubDate>Fri, 06 May 2022 19:42:32 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/real-engineering.html</guid>
+      <description>&lt;p&gt;Some examples from a recent trip to Düsseldorf (Germany).&lt;/p&gt;
+&lt;h2 id="yellow-stage-pedestrian-traffic-lights"&gt;Yellow Stage Pedestrian Traffic Lights&lt;/h2&gt;
+&lt;p&gt;They tested this and then didn't get rid of it again. Now, Düsseldorf is the only German city with yellow for pedestrians.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="As for cars, 'new yellow' you can still go, 'long yellow' you better wait" src="ddorf-traffic-lights.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;In software, temporary experiments also tend to stick around.&lt;/p&gt;
+&lt;h2 id="oberkasseler-bridge"&gt;&lt;a href="https://de.m.wikipedia.org/wiki/Oberkasseler_Br%C3%BCcke"&gt;Oberkasseler Bridge&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The old bridge wasn't supporting enough traffic anymore. So they built the new, wider bridge next to it.
+In an engineering marvel they pushed the new bridge over the old one in just two days.&lt;/p&gt;
+&lt;p&gt;Software developers, engineers and operators: hot swapping, red-blue-green deployments anyone?&lt;/p&gt;
+&lt;h2 id="failed-airport-noise-reduction"&gt;Failed Airport Noise Reduction&lt;/h2&gt;
+&lt;p&gt;Friends are living near the Düsseldorf airport.
+By German regulations, their flat's windows should be isolating air traffic noise with three layers of glass instead of the regular two layers.
+They only have regular windows, but experimental tubing in the walls which was supposed to reduce air traffic noise.
+The experiment failed and better windows weren't installed.&lt;/p&gt;
+&lt;p&gt;Software engineering can go wrong, so does real engineering.&lt;/p&gt;
+&lt;h2 id="ending-on-high-notes"&gt;Ending on High Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tasty, vegan chocolate fancy cake: &lt;a href="https://www.gruenartig.de/vegane-schokotorte/"&gt;https://www.gruenartig.de/vegane-schokotorte/&lt;/a&gt; (German, sorry)&lt;/li&gt;
+&lt;li&gt;Programming charts, animations and visualizations in Haskell: &lt;a href="https://code.world/"&gt;https://code.world/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Towards Online Autonomy</title>
+      <link>https://oliz.io/blog/2021/towards-online-autonomy/</link>
+      <pubDate>Sun, 06 Jun 2021 21:49:18 +0000</pubDate>
+      <guid>https://oliz.io/blog/2021/towards-online-autonomy/</guid>
+      <description>&lt;p&gt;Smartphones have become the "personal computer":
+a computer in your hand, solving most of your consumer computer use-cases (e.g. communication, (re-)search, navigation, shopping, photo, video, music, social and other media).&lt;/p&gt;
+&lt;p&gt;Ever since, I'm annoyed, that we don't (can't) really &lt;em&gt;own&lt;/em&gt; smartphones like we can own other computing equipment.
+Smartphones have hard- and software obsolescence built-in.
+They are tailored towards consumption and guided interactions, most of the time they are inferior tools for creation.
+Users may perceive value from interacting with a smartphone, but the majority of interactions generate more revenue/profit for other entities through &lt;a href="https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/#attention-economy"&gt;attention economy&lt;/a&gt;
+(making platforms more attractive for other users, network effects, data classification, entry and generation etc.)
+If you don't use your smartphone to make money (media creator, influencer?), you are paying -sometimes premium- for being used and distracted.&lt;/p&gt;
+&lt;h2 id="tech-is-getting-consolidated"&gt;Tech is Getting Consolidated...&lt;/h2&gt;
+&lt;p&gt;This entire development didn't start and won't end with smartphones.
+&lt;a href="https://stallman.org/"&gt;RMS&lt;/a&gt; has been anticipating and warning about it for decades already (see his &lt;a href="https://stallman.org/glossary.html#used"&gt;definition of "Useds"&lt;/a&gt;). It's common knowledge by now, some examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hardware backdoors (&lt;a href="https://en.wikipedia.org/wiki/Intel_Management_Engine"&gt;Intel ME&lt;/a&gt;, undocumented x86 instructions) in mainline processors&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://staltz.com/the-web-began-dying-in-2014-heres-how.html"&gt;The internet becoming more centralized&lt;/a&gt; with &lt;a href="https://www.visualcapitalist.com/wp-content/uploads/2019/08/top-100-websites-ranking.html"&gt;a dozen of mega corporations owning the majority of the traffic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;In the near future, &lt;a href="https://sneak.berlin/20201112/your-computer-isnt-yours/"&gt;we'll get smartphone-level surveillance and "ownership" for our other computers, too&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://oliz.io/blog/2021/pegasus-android-check/"&gt;Pegasus anyone?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Expiring computers may be fine for most companies leasing or cycling every 2-3 years and some users, who rotate in a similar fashion to "stay on the edge".
+In my opinion, sustainable, exhaustive tech usage should be preferred, which is also dependent on &lt;em&gt;user-serviceable&lt;/em&gt;, secure hard- and software.
+State and malicious actors may like loopholes, but &lt;a href="https://www.wired.com/story/power-grid-cyberattack-facebook-phone-numbers-security-news/"&gt;insecure infrastructure ultimately harms everyone&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The general population (not just the nerds) is spending more screentime consuming social media, streaming content and games. Thus we are increasingly exposed to and determined by the above developments.&lt;/p&gt;
+&lt;h2 id="and-boring"&gt;...and Boring&lt;/h2&gt;
+&lt;p&gt;Starting in 2019, I noticed how I barely got any value out of Twitter anymore. Of course, there was the occasional interesting tech news, story or funny pastime, but interacting with it felt like a chore.
+So I stopped using it, &lt;a href="https://sneak.berlin/20200211/instagram/"&gt;social media isn't there to connect us anyway&lt;/a&gt;.
+I'm still in the process of migrating my content away from the platform.&lt;/p&gt;
+&lt;p&gt;Another wake-up call has been &lt;a href="https://blog.google/products/photos/storage-changes/"&gt;Google Photos' changed storage policy&lt;/a&gt;: Unlimited photo storage and sync has been so convenient. Google profited greatly from all the training data! Now that the noise is increasing and the value is diminishing, economics are back to remind us all: "Useds" of a free service don't own anything.&lt;/p&gt;
+&lt;p&gt;So, this sped up my migration away from my previously central &lt;code&gt;gmail.com&lt;/code&gt; address towards my own &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020. I evaluated my exposure to and reliance on "big tech", too.&lt;/p&gt;
+&lt;h2 id="progress-so-far-to-be-updated-over-time"&gt;Progress so Far (to Be Updated Over Time)&lt;/h2&gt;
+&lt;p&gt;Autonomy gained:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Acquire &lt;code&gt;oliz.io&lt;/code&gt; domain in 2020&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Use &lt;a href="https://mailbox.org"&gt;https://mailbox.org&lt;/a&gt; with own domain for email&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Build static website on &lt;code&gt;oliz.io&lt;/code&gt; domain, using &lt;a href="https://oliz.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;Find good, local solution for keeping track of birthdays and contacts&lt;/a&gt;, migrate contacts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stopped/minimized using:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;XING&lt;/strong&gt;: Used its "one year pause" mode which recently expired, it spammed me again and I deleted it permanently.
+                Preferring LinkedIn (and considering moving my data out there, too)
+                Too much and not valuable recruiter spam made me lock down notification settings and network exposure, &lt;a href="https://blog.calebjay.com/posts/how-to-use-linkedin-as-a-coding-bootcamp-grad/"&gt;but then again I'm probably not using it right&lt;/a&gt; nor &lt;a href="https://twitter.com/j4n0/status/1125380024733925377"&gt;properly&lt;/a&gt;. The CV tooling is neat, still I may just abandon it at some point and put the resume on here&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; &lt;strong&gt;Gmail&lt;/strong&gt;: Contacts are exported and &lt;a href="https://oliz.io/blog/2022/personal-crm.html"&gt;migrated&lt;/a&gt;. Haven't actively reached out to anyone regarding the email change yet, but this will happen gradually as I only use the new email address&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Amazon&lt;/strong&gt;: In general, I prefer to buy in local or specialized (online) shops.
+              Amazon still has the superior customer service and return/refund policy, so I may go with it for uncertain/risky purchases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Kept using:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: Everything is static, in Git, under my domain and their fallback domain &lt;a href="https://ooz.github.io"&gt;https://ooz.github.io&lt;/a&gt;. &lt;em&gt;Migration&lt;/em&gt; to any other service is &lt;em&gt;easy&lt;/em&gt; if desired at all&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;circleci&lt;/strong&gt;: No problem with that, so far. Great free plan to offload some computing tasks like building this blog and observing the &lt;a href="https://oliz.io/zeitgeist/"&gt;Zeitgeist&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google / Android&lt;/strong&gt;: It's still unparalleled for advanced users. Smartphone usage is mostly work-related :)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dropbox&lt;/strong&gt;: Still using due to convenience, &lt;a href="https://www.grepular.com/Protecting_Your_GNU_Linux_System_from_Dropbox"&gt;here is a guide to isolate the process&lt;/a&gt; and I'm trying out &lt;a href="https://syncthing.net/"&gt;Syncthing&lt;/a&gt; as an alternative&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://vscodium.com/"&gt;&lt;strong&gt;VSCodium&lt;/strong&gt;&lt;/a&gt;: VSCode without tracking, plus &lt;a href="https://github.com/ooz/olli/blob/master/.vimrc"&gt;&lt;code&gt;vim&lt;/code&gt;&lt;/a&gt; of course&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Educate others:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setup your own domain and &lt;a href="https://sneak.berlin/20201029/stop-emailing-like-a-rube/"&gt;use it for email&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Look for alternatives, e.g. on &lt;a href="https://privacyguides.org"&gt;https://privacyguides.org&lt;/a&gt; (fka &lt;del&gt;&lt;a href="https://www.privacytools.io"&gt;https://www.privacytools.io&lt;/a&gt;&lt;/del&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Twitter&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul class="task-list"&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Not using it anymore&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled checked/&gt; Add RSS feed generation to ggpy to make it easier for others to subscribe to my content&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; WIP: Migrating my content to this blog&lt;/li&gt;
+&lt;li class="task-list-item"&gt;&lt;input type="checkbox" disabled/&gt; I still need a solution to follow some people I know or like&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="further-inspiration-and-links"&gt;Further Inspiration and Links&lt;/h2&gt;
+&lt;p&gt;Certainly, I'm not the first to be alienated. &lt;a href="https://oliz.io/links.html"&gt;So here are a bunch of other nice, informative websites/blogs by people following the same idea of an independent internet&lt;/a&gt;. Even more resources and tools:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://victoria.dev/blog/make-your-own-independent-website/"&gt;https://victoria.dev/blog/make-your-own-independent-website/&lt;/a&gt; (note to self: have a look at webmention)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://sneak.berlin/20200220/discord-is-not-an-acceptable-choice-for-free-software-projects/"&gt;Free messaging alternatives&lt;/a&gt; (haha, this entire post reeks of &lt;a href="https://sneak.berlin"&gt;sneak.berlin&lt;/a&gt;, great content!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://riseup.net/"&gt;https://riseup.net/&lt;/a&gt; (various independent communication and collaboration services)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://webbkoll.dataskydd.net/en"&gt;Website privacy checker&lt;/a&gt;, &lt;a href="https://observatory.mozilla.org/"&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://madaidans-insecurities.github.io/"&gt;General security flaws with modern tech&lt;/a&gt; (nice, minimal website, too!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gitlab.com/linuxcafefederation/awesome-android/-/blob/main/README.md"&gt;Curated list of libre Android apps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://privacytests.org/"&gt;Web browser privacy comparison&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://proprivacy.com/tools/ruinmysearchhistory"&gt;Ruin My Search History&lt;/a&gt; (a reader suggested this, I like the idea, but use at own risk™)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.privacyguides.org/threat-modeling/"&gt;Threat Modeling&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>DIY Sith and Jedi Lightsaber</title>
+      <link>https://oliz.io/blog/2022/lightsaber-crafting/</link>
+      <pubDate>Fri, 22 Apr 2022 07:04:34 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/lightsaber-crafting/</guid>
+      <description>&lt;p&gt;I always thought of myself more of a Jedi, but today I made a Sith lightsaber. Here's how.&lt;/p&gt;
+&lt;h2 id="sith-lightsaber"&gt;Sith Lightsaber&lt;/h2&gt;
+&lt;h3 id="bill-of-materials"&gt;Bill of Materials&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Cheers!" src="mats.jpg" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Black bicycle air pump&lt;/li&gt;
+&lt;li&gt;Black Isolation tape&lt;/li&gt;
+&lt;li&gt;Black carabiner&lt;/li&gt;
+&lt;li&gt;Black shoe string&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="final-result"&gt;Final Result&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Final thing" src="result.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;With a little imagination, light shoots out of both sides when the pump or the "buttons" are pressed!&lt;/p&gt;
+&lt;h3 id="suitable-sith-ship"&gt;Suitable Sith Ship&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://oliz.io/mocs/spaceships/the-shiv/"&gt;https://oliz.io/mocs/spaceships/the-shiv/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;(made that recently, you are welcome!)&lt;/p&gt;
+&lt;h3 id="alternative-uses"&gt;Alternative uses&lt;/h3&gt;
+&lt;p&gt;It's still an air pump for bicycles, just remove the shoe string and you can pump your rides!&lt;/p&gt;
+&lt;h2 id="jedi-lightsaber"&gt;Jedi Lightsaber&lt;/h2&gt;
+&lt;p&gt;I got this as a present from my partner. It's from &lt;a href="https://www.muji.com/"&gt;Muji&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Jedi Lightsaber with safety on" src="jedi_lightsaber.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;It's a manual paper shredder, because I always disliked the noise of the electric ones. Safety instructions are on the backside, hand for scale. You turn the handle above, put the paper in and paper scrabs come out at the bottom. Turning the handle feels like turning on a lightsaber, too!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
