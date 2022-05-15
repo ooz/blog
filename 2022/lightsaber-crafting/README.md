@@ -41,7 +41,7 @@ I got this as a present from my partner. It's from [Muji](https://www.muji.com/)
 
 It's a manual paper shredder, because I always disliked the noise of the electric ones. Safety instructions are on the backside. You turn the handle above, put the paper in and paper scrabs come out at the bottom. Turning the handle feels like turning on a lightsaber! Again, add some black isotape and a loop at the bottom and imagine light coming out of the handle end, voila!
 
-MacGyver score: 8 out of 10
+MacGyver score: **8.5 out of 10**
 
 * Isolation tape used
 * Light sabers retain their original use-cases of air pumping and paper shredding
