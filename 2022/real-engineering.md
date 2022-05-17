@@ -28,7 +28,7 @@ By German regulations, their flat's windows should be isolating air traffic nois
 They only have regular windows, but experimental tubing in the walls which was supposed to reduce air traffic noise.
 The experiment failed and better windows weren't installed.
 
-Software engineering can go wrong, so does real engineering.
+Software engineering can go wrong, so can real engineering.
 
 ## Ending on High Notes
 
