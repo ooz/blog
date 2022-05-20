@@ -11,3 +11,10 @@ date: 2022-04-27T18:17:27Z
 -- ...
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
 ```
+
+Convert existing table:
+
+```sql
+ALTER TABLE `CUSTOMER`
+  CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;
+```
