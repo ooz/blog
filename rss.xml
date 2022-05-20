@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Tue, 17 May 2022 18:32:09 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 May 2022 17:08:21 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>J. Romero: Programming Principles</title>
@@ -333,17 +333,6 @@ I'm still in the process of migrating my content away from the platform.&lt;/p&g
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Enable Emoji-Support for MySQL-Databases</title>
-      <link>https://oliz.io/blog/2022/mysql-emoji-support.html</link>
-      <pubDate>Wed, 27 Apr 2022 18:17:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/mysql-emoji-support.html</guid>
-      <description>&lt;p&gt;&lt;img alt="Copy&amp;amp;pastable below" src="mysql_utf8_collation.png" /&gt;&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;-- ...
-`CUSTOMER_COMMENT` varchar(1000) COLLATE utf8mb4_bin DEFAULT NULL,
--- ...
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    <item>
       <title>A Star Wars Short: The Padawan Master</title>
       <link>https://oliz.io/blog/2022/sternenkrieg.html</link>
       <pubDate>Wed, 04 May 2022 08:05:49 +0000</pubDate>
@@ -416,6 +405,20 @@ The experiment failed and better windows weren't installed.&lt;/p&gt;
 &lt;li&gt;Tasty, vegan chocolate fancy cake: &lt;a href="https://www.gruenartig.de/vegane-schokotorte/"&gt;https://www.gruenartig.de/vegane-schokotorte/&lt;/a&gt; (German, sorry)&lt;/li&gt;
 &lt;li&gt;Programming charts, animations and visualizations in Haskell: &lt;a href="https://code.world/"&gt;https://code.world/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Enable Emoji-Support for MySQL-Databases</title>
+      <link>https://oliz.io/blog/2022/mysql-emoji-support.html</link>
+      <pubDate>Wed, 27 Apr 2022 18:17:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/mysql-emoji-support.html</guid>
+      <description>&lt;p&gt;&lt;img alt="Copy&amp;amp;pastable below" src="mysql_utf8_collation.png" /&gt;&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;-- ...
+`CUSTOMER_COMMENT` varchar(1000) COLLATE utf8mb4_bin DEFAULT NULL,
+-- ...
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Convert existing table:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;ALTER TABLE `CUSTOMER`
+  CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
   </channel>
 </rss>
