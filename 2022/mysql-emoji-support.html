@@ -106,6 +106,9 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 `CUSTOMER_COMMENT` varchar(1000) COLLATE utf8mb4_bin DEFAULT NULL,
 -- ...
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;</code></pre>
+<p>Convert existing table:</p>
+<pre class="highlight"><code class="language-sql">ALTER TABLE `CUSTOMER`
+  CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;</code></pre>
 </section>
 <footer>
 <a href="#" class="nav">top</a>
