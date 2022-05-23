@@ -5,33 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 22 May 2022 13:28:22 -0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 May 2022 19:33:56 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>J. Romero: Programming Principles</title>
-      <link>https://oliz.io/blog/2022/j-romero.html</link>
-      <pubDate>Fri, 15 Apr 2022 06:18:33 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/j-romero.html</guid>
-      <description>&lt;p&gt;From &lt;a href="https://en.wikipedia.org/wiki/John_Romero"&gt;John Romero&lt;/a&gt;'s standard talk on the early days of "id Software", which I also witnessed in person once:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;No prototypes. &lt;strong&gt;Just make the game&lt;/strong&gt;, polish as you go. Don't depend on polish happening later. Always maintain constantly shippable code.&lt;/li&gt;
-&lt;li&gt;It is incredibly important that your &lt;strong&gt;game can always be run by your team&lt;/strong&gt;. Bulletproof your engine by providing defaults upon load failure.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Keep your code absolutely simple&lt;/strong&gt;. Keep looking at your functions and figure out how you can simplify further.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Great tools&lt;/strong&gt; help make great games. Spend as much time on tools as possible.&lt;/li&gt;
-&lt;li&gt;We are our own best testing team and should &lt;strong&gt;never allow anyone else to experience bugs or see the game crash&lt;/strong&gt;. Don't waste others' time. Test thoroughly before checking in your code.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;As soon as you see a bug, you fix it!&lt;/strong&gt; Do not continue on. If you don't fix your bugs your new code will be built on a buggy codebase and ensure an unstable foundation.&lt;/li&gt;
-&lt;li&gt;Use a superior system than your target.&lt;/li&gt;
-&lt;li&gt;Write your code for this game only – not for a future game. &lt;strong&gt;You're going to be writing new code later because you'll be smarter&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Encapsulate functionality&lt;/strong&gt; to ensure design consistency. This minimizes mistakes and saves design time.&lt;/li&gt;
-&lt;li&gt;Try to &lt;strong&gt;code transparently&lt;/strong&gt;. Tell your lead and peers exactly how you are going to solve your current task and &lt;strong&gt;get feedback and advice&lt;/strong&gt;. Do not treat game programming like each coder is a black box. The project could go off the rails and cause delays.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Programming is a creative art form based in logic&lt;/strong&gt;. Every programmer is different and will code differently. It's the output that matters.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Sources:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://www.youtube.com/watch?v=QKXj_OW96YQ"&gt;https://www.youtube.com/watch?v=QKXj_OW96YQ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.heise.de/newsticker/meldung/John-Romero-Von-id-Softwares-Anfaengen-und-World-of-Warcraft-Sucht-3296840.html"&gt;https://www.heise.de/newsticker/meldung/John-Romero-Von-id-Softwares-Anfaengen-und-World-of-Warcraft-Sucht-3296840.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
     <item>
       <title>F. Lebowitz on self-help books</title>
       <link>https://oliz.io/blog/2022/fran-lebowitz.html</link>
@@ -419,6 +394,58 @@ The experiment failed and better windows weren't installed.&lt;/p&gt;
 &lt;p&gt;Convert existing table:&lt;/p&gt;
 &lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;ALTER TABLE `CUSTOMER`
   CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Crafting a Durable Personal Kanban Board</title>
+      <link>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</link>
+      <pubDate>Sun, 29 Oct 2017 00:40:20 +0200</pubDate>
+      <guid>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</guid>
+      <description>&lt;p&gt;One of my highlights at this year's &lt;a href="https://www.socrates-conference.de/"&gt;SoCraTes in Soltau&lt;/a&gt; was a session about Personal Kanban hosted by &lt;a href="https://twitter.com/rradczewski/"&gt;Raimo&lt;/a&gt; and &lt;a href="https://twitter.com/janernsting/"&gt;Jan&lt;/a&gt;.
+They shared their experiences, practises and highlighted the advantages of a physical board.
+We even got provided material to build our own Personal Kanban boards. Mine looked like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Opened Personal Kanban board from SoCraTes 2017" src="pkanban_paper_open.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Front cover of my Personal Kanban board from SoCraTes 2017" src="pkanban_paper_front.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;While it was really neat that you could start using it right away, I felt the need to have a more durable board to really start utilizing it.
+The solution was simple:&lt;/p&gt;
+&lt;h2 id="more-plastic"&gt;&lt;a href="https://youtu.be/7W33HRc1A6c?t=350"&gt;MORE PLASTIC!&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;During the session I already had the idea, that my old plastic clipboard would be the perfect board material. The plastic is really smooth and sticky notes just, well, &lt;em&gt;stick&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;This week I made it to a stationery shop in Hamburg and bought some more transparent and black clipboards:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Clipboard base material" src="pkanban_clipboards.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;With some skill, tools and the right amount of force you can remove the clipboard part:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Plastic boards without clip" src="pkanban_remove_clip.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;It goes faster after the second bolt, since you know how much force you can apply without damaging the plastic board. Still I cracked one of the transparent boards slightly. Be careful!&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Waste" src="pkanban_waste.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="tools-used"&gt;Tools used&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Used tools" src="pkanban_tools.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Adhesive tape" src="pkanban_krepp.jpg" /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A flat screwdriver to pry open the bolts&lt;/li&gt;
+&lt;li&gt;A strong pincer to destroy and remove the bolts&lt;/li&gt;
+&lt;li&gt;Adhesive tape to join 2 boards&lt;/li&gt;
+&lt;li&gt;Scissors to cut the tape&lt;/li&gt;
+&lt;li&gt;A ruler for drawing lines&lt;/li&gt;
+&lt;li&gt;Black / white permanent markers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="actually-composing-the-board"&gt;Actually composing the board&lt;/h2&gt;
+&lt;p&gt;The hard part is over, the rest is just joining and labeling the board.&lt;/p&gt;
+&lt;p&gt;If you put two of those boards back to back, you get a laptop-ish clamshell design. You need to keep a gap when joining the two boards, so they stay foldable:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Mind the gap" src="pkanban_fold.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;After drawing the sections and labels:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_transparent_open.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="result"&gt;Result&lt;/h2&gt;
+&lt;p&gt;My girlfriend liked the board so much, I needed to craft an additional one:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_black_board_open.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Applying some stickers lying around (I do not like putting them on laptops):&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Resulting Personal Kanban boards" src="pkanban_result.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Costs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Money: 9.60 € for 2 plastic clipboards, 4.30 € for a new adhesive tape reel, 7.50 € for the two (black + white) permanent markers. So ca. 30 € for two Personal Kanban boards, ca. 11 € per board if you consider the amount of tape / ink used.&lt;/li&gt;
+&lt;li&gt;Time: ca. 40 minutes for the transparent board with black permanent marker (incl. learning how to remove the board clips), ca. 1 hour for the black board with white permanent marker (be careful with the ink, it can get really messy!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, the best result is that I actually apply Personal Kanban now! :)&lt;/p&gt;
+&lt;h2 id="update-2022-05-23"&gt;Update 2022-05-23&lt;/h2&gt;
+&lt;p&gt;Today, I broke my board in a &lt;del&gt;boating&lt;/del&gt; electrical standing desk accident.
+The front half is still somewhat usable thanks to the stickers which prevented further splintering.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
