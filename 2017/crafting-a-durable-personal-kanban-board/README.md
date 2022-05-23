@@ -71,3 +71,9 @@ Costs:
 * Time: ca. 40 minutes for the transparent board with black permanent marker (incl. learning how to remove the board clips), ca. 1 hour for the black board with white permanent marker (be careful with the ink, it can get really messy!)
 
 Of course, the best result is that I actually apply Personal Kanban now! :)
+
+## Update 2022-05-23
+
+Today, I broke my board in a ~~boating~~ electrical standing desk accident.
+The front half is still somewhat usable thanks to the stickers which prevented further splintering.
+
