@@ -5,16 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 25 May 2022 20:52:57 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jun 2022 18:39:22 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>F. Lebowitz on self-help books</title>
-      <link>https://oliz.io/blog/2022/fran-lebowitz.html</link>
-      <pubDate>Fri, 15 Apr 2022 16:05:54 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/fran-lebowitz.html</guid>
-      <description>&lt;p&gt;"Is it a self-help book?" - "It is, it is helping myself"&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href="https://www.youtube.com/watch?v=G46BVjjkDfA&amp;amp;t=1774s"&gt;https://www.youtube.com/watch?v=G46BVjjkDfA&amp;amp;t=1774s&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Jack Ma Life Advice</title>
       <link>https://oliz.io/blog/2022/jack-ma.html</link>
@@ -446,6 +438,98 @@ The solution was simple:&lt;/p&gt;
 &lt;h2 id="update-2022-05-23"&gt;Update 2022-05-23&lt;/h2&gt;
 &lt;p&gt;Today, I broke my board in a &lt;del&gt;boating&lt;/del&gt; electrical standing desk accident.
 The front half is still somewhat usable thanks to the stickers which prevented further splintering.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>P. De Ryck: Common API Security Pitfalls</title>
+      <link>https://oliz.io/blog/2022/api-security-pitfalls.html</link>
+      <pubDate>Tue, 07 Jun 2022 20:33:04 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/api-security-pitfalls.html</guid>
+      <description>&lt;p&gt;This list is a compiled from the &lt;a href="https://www.youtube.com/watch?v=YQzU8xEBiPg"&gt;Devoxx Belgium 2017 talk&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="pitfalls"&gt;Pitfalls&lt;/h2&gt;
+&lt;p&gt;(read: don't do this!)&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;"Allowing access to your API over HTTP"&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;don't support redirect from HTTP to HTTPS, use HSTS&lt;/li&gt;
+&lt;li&gt;Configure &lt;strong&gt;HTTP Strict Transport Security (HSTS)&lt;/strong&gt; to prevent falling back to HTTP (this will tell the browser to use HTTPS for every request)&lt;/li&gt;
+&lt;li&gt;Strict-Transport-Security: max-age=31536000&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Not rate limiting calls to your API"&lt;/p&gt;
+&lt;p&gt;Possible strategies:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Limit per connection (IP address)&lt;/li&gt;
+&lt;li&gt;Limit per user (account, token, key)&lt;/li&gt;
+&lt;li&gt;Limit per application property (account, resource)&lt;/li&gt;
+&lt;li&gt;Limit based on context (region, app type)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Use HTTP 429 Too Many Requests
+and Retry-After: 3600&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Using insecure direct object references"&lt;/p&gt;
+&lt;p&gt;-&amp;gt; always combine basic authentication check with authorization checks (resource ownership)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Mishandling client-side session data"&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Server-side sessions share an ID with the client and store data on the server
+  -&amp;gt; Attacks on session management (guessing or stealing the ID)
+  -&amp;gt; The data stored with the server-side session can be considered trusted&lt;/li&gt;
+&lt;li&gt;Client-side sessions are a completely different paradigm&lt;/li&gt;
+&lt;li&gt;Data is stored on the client, so it can easily be accessed&lt;/li&gt;
+&lt;li&gt;Data comes from the client, so it is untrusted by default&lt;/li&gt;
+&lt;li&gt;Client-side sessions require additional data protection measures&lt;/li&gt;
+&lt;li&gt;Mandatory integrity checks to detect data tempering&lt;/li&gt;
+&lt;li&gt;Optional confidentiality mechanisms to prevent information disclosure&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&amp;gt; Client-side session data can be read and manipulated, so you need to ensure confidentiality and integrity&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Not verifying the integrity of your JWTs"&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;JWT spec supports signing and encryption. Default mode is signing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&amp;gt; Only use JWT libraries that verify its integrity (esp. in the backend)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Using the wrong signature scheme on JWTs"&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Sign tokens with a private key, distribute the public key for verification by clients&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&amp;gt; Use shared secrets for verifying JWTs only within your app boundaries. Otherwise use a public/private key pair&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Not propagating identity information"&lt;/p&gt;
+&lt;p&gt;Pass all relevant identity information to downstream services to enable them to do authorization decisions and to create an audit trail!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Minimizing the impact of the transport mechanism"&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;TODO: continue!&lt;/p&gt;
+&lt;ol start="9"&gt;
+&lt;li&gt;
+&lt;p&gt;"Underestimating the importance of CSRF"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Insecure CORS configuration / implementation"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Lack of input validation"&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;"Relying on input validation"&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="question-everything"&gt;Question Everything&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;How is this different from what we used to do?&lt;/li&gt;
+&lt;li&gt;Do we really understand what we are doing?&lt;/li&gt;
+&lt;li&gt;Have we validated the integrity and format of that data?&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
