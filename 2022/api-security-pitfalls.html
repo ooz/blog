@@ -104,17 +104,13 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 <p>This list is a compiled from the <a href="https://www.youtube.com/watch?v=YQzU8xEBiPg">Devoxx Belgium 2017 talk</a>.</p>
 <h2 id="pitfalls">Pitfalls</h2>
 <p>(read: don't do this!)</p>
-<ol>
-<li>
-<p>"Allowing access to your API over HTTP"</p>
+<h3 id="1-allowing-access-to-your-api-over-http">1. "Allowing access to your API over HTTP"</h3>
 <ul>
 <li>don't support redirect from HTTP to HTTPS, use HSTS</li>
 <li>Configure <strong>HTTP Strict Transport Security (HSTS)</strong> to prevent falling back to HTTP (this will tell the browser to use HTTPS for every request)</li>
 <li>Strict-Transport-Security: max-age=31536000</li>
 </ul>
-</li>
-<li>
-<p>"Not rate limiting calls to your API"</p>
+<h3 id="2-not-rate-limiting-calls-to-your-api">2. "Not rate limiting calls to your API"</h3>
 <p>Possible strategies:</p>
 <ul>
 <li>Limit per connection (IP address)</li>
@@ -124,13 +120,9 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 </ul>
 <p>Use HTTP 429 Too Many Requests
 and Retry-After: 3600</p>
-</li>
-<li>
-<p>"Using insecure direct object references"</p>
+<h3 id="3-using-insecure-direct-object-references">3. "Using insecure direct object references"</h3>
 <p>-&gt; always combine basic authentication check with authorization checks (resource ownership)</p>
-</li>
-<li>
-<p>"Mishandling client-side session data"</p>
+<h3 id="4-mishandling-client-side-session-data">4. "Mishandling client-side session data"</h3>
 <ul>
 <li>Server-side sessions share an ID with the client and store data on the server
   -&gt; Attacks on session management (guessing or stealing the ID)
@@ -143,44 +135,24 @@ and Retry-After: 3600</p>
 <li>Optional confidentiality mechanisms to prevent information disclosure</li>
 </ul>
 <p>-&gt; Client-side session data can be read and manipulated, so you need to ensure confidentiality and integrity</p>
-</li>
-<li>
-<p>"Not verifying the integrity of your JWTs"</p>
+<h3 id="5-not-verifying-the-integrity-of-your-jwts">5. "Not verifying the integrity of your JWTs"</h3>
 <ul>
 <li>JWT spec supports signing and encryption. Default mode is signing</li>
 </ul>
 <p>-&gt; Only use JWT libraries that verify its integrity (esp. in the backend)</p>
-</li>
-<li>
-<p>"Using the wrong signature scheme on JWTs"</p>
+<h3 id="6-using-the-wrong-signature-scheme-on-jwts">6. "Using the wrong signature scheme on JWTs"</h3>
 <ul>
 <li>Sign tokens with a private key, distribute the public key for verification by clients</li>
 </ul>
 <p>-&gt; Use shared secrets for verifying JWTs only within your app boundaries. Otherwise use a public/private key pair</p>
-</li>
-<li>
-<p>"Not propagating identity information"</p>
+<h3 id="7-not-propagating-identity-information">7. "Not propagating identity information"</h3>
 <p>Pass all relevant identity information to downstream services to enable them to do authorization decisions and to create an audit trail!</p>
-</li>
-<li>
-<p>"Minimizing the impact of the transport mechanism"</p>
-</li>
-</ol>
+<h3 id="8-minimizing-the-impact-of-the-transport-mechanism">8. "Minimizing the impact of the transport mechanism"</h3>
 <p>TODO: continue!</p>
-<ol start="9">
-<li>
-<p>"Underestimating the importance of CSRF"</p>
-</li>
-<li>
-<p>"Insecure CORS configuration / implementation"</p>
-</li>
-<li>
-<p>"Lack of input validation"</p>
-</li>
-<li>
-<p>"Relying on input validation"</p>
-</li>
-</ol>
+<h3 id="9-underestimating-the-importance-of-csrf">9. "Underestimating the importance of CSRF"</h3>
+<h3 id="10-insecure-cors-configuration-implementation">10. "Insecure CORS configuration / implementation"</h3>
+<h3 id="11-lack-of-input-validation">11. "Lack of input validation"</h3>
+<h3 id="12-relying-on-input-validation">12. "Relying on input validation"</h3>
 <h2 id="question-everything">Question Everything</h2>
 <ul>
 <li>How is this different from what we used to do?</li>
