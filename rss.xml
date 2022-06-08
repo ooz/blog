@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Tue, 07 Jun 2022 20:53:02 -0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jun 2022 15:23:06 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jack Ma Life Advice</title>
@@ -491,10 +491,36 @@ and Retry-After: 3600&lt;/p&gt;
 &lt;h3 id="7-not-propagating-identity-information"&gt;7. "Not propagating identity information"&lt;/h3&gt;
 &lt;p&gt;Pass all relevant identity information to downstream services to enable them to do authorization decisions and to create an audit trail!&lt;/p&gt;
 &lt;h3 id="8-minimizing-the-impact-of-the-transport-mechanism"&gt;8. "Minimizing the impact of the transport mechanism"&lt;/h3&gt;
-&lt;p&gt;TODO: continue!&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Cookies enable CSRF, but are attached to all requests&lt;/li&gt;
+&lt;li&gt;Authorization header seems easier at first, but you need to be sure where to store the data in the client&lt;/li&gt;
+&lt;li&gt;Cookies are hard to get right for non-web apps, authorization header is easier to use there&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&amp;gt; understand pros/cons of cookies vs. authorization header for your app&lt;/p&gt;
 &lt;h3 id="9-underestimating-the-importance-of-csrf"&gt;9. "Underestimating the importance of CSRF"&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Again, only a problem if you use cookies, because browser automatically attaches them to outgoing requests&lt;/li&gt;
+&lt;li&gt;Traditional defense: hidden form tokens, not applicable in API context. Can be replicated with a custom header&lt;/li&gt;
+&lt;li&gt;CSRF is less relevant for JSON APIs, since GET/form POST will have a different content type&lt;/li&gt;
+&lt;li&gt;APIs using other mechanism than form POST/GET, CORS security policy applies&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="10-insecure-cors-configuration-implementation"&gt;10. "Insecure CORS configuration / implementation"&lt;/h3&gt;
+&lt;p&gt;Common misconfigurations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Partial match against origin header&lt;/li&gt;
+&lt;li&gt;Allowing &lt;code&gt;null&lt;/code&gt; origin&lt;/li&gt;
+&lt;li&gt;Only checking domain, not entire origin (incl. HTTPS)&lt;/li&gt;
+&lt;li&gt;Reflecting back &lt;code&gt;Origin&lt;/code&gt; header (= API is wide open for anyone)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;-&amp;gt; don't allow more access than necessary!&lt;/p&gt;
 &lt;h3 id="11-lack-of-input-validation"&gt;11. "Lack of input validation"&lt;/h3&gt;
+&lt;p&gt;Best practices:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Only accept content types you expect, reject everything else&lt;/li&gt;
+&lt;li&gt;Validate each input field against its expected data type&lt;/li&gt;
+&lt;li&gt;Have length validation in place, set upper bounds&lt;/li&gt;
+&lt;li&gt;Use a secure parser for inputs&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="12-relying-on-input-validation"&gt;12. "Relying on input validation"&lt;/h3&gt;
 &lt;h2 id="question-everything"&gt;Question Everything&lt;/h2&gt;
 &lt;ul&gt;

@@ -148,10 +148,36 @@ and Retry-After: 3600</p>
 <h3 id="7-not-propagating-identity-information">7. "Not propagating identity information"</h3>
 <p>Pass all relevant identity information to downstream services to enable them to do authorization decisions and to create an audit trail!</p>
 <h3 id="8-minimizing-the-impact-of-the-transport-mechanism">8. "Minimizing the impact of the transport mechanism"</h3>
-<p>TODO: continue!</p>
+<ul>
+<li>Cookies enable CSRF, but are attached to all requests</li>
+<li>Authorization header seems easier at first, but you need to be sure where to store the data in the client</li>
+<li>Cookies are hard to get right for non-web apps, authorization header is easier to use there</li>
+</ul>
+<p>-&gt; understand pros/cons of cookies vs. authorization header for your app</p>
 <h3 id="9-underestimating-the-importance-of-csrf">9. "Underestimating the importance of CSRF"</h3>
+<ul>
+<li>Again, only a problem if you use cookies, because browser automatically attaches them to outgoing requests</li>
+<li>Traditional defense: hidden form tokens, not applicable in API context. Can be replicated with a custom header</li>
+<li>CSRF is less relevant for JSON APIs, since GET/form POST will have a different content type</li>
+<li>APIs using other mechanism than form POST/GET, CORS security policy applies</li>
+</ul>
 <h3 id="10-insecure-cors-configuration-implementation">10. "Insecure CORS configuration / implementation"</h3>
+<p>Common misconfigurations:</p>
+<ul>
+<li>Partial match against origin header</li>
+<li>Allowing <code>null</code> origin</li>
+<li>Only checking domain, not entire origin (incl. HTTPS)</li>
+<li>Reflecting back <code>Origin</code> header (= API is wide open for anyone)</li>
+</ul>
+<p>-&gt; don't allow more access than necessary!</p>
 <h3 id="11-lack-of-input-validation">11. "Lack of input validation"</h3>
+<p>Best practices:</p>
+<ul>
+<li>Only accept content types you expect, reject everything else</li>
+<li>Validate each input field against its expected data type</li>
+<li>Have length validation in place, set upper bounds</li>
+<li>Use a secure parser for inputs</li>
+</ul>
 <h3 id="12-relying-on-input-validation">12. "Relying on input validation"</h3>
 <h2 id="question-everything">Question Everything</h2>
 <ul>
