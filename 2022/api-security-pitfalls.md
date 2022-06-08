@@ -63,13 +63,38 @@ Pass all relevant identity information to downstream services to enable them to 
 
 ### 8. "Minimizing the impact of the transport mechanism"
 
-TODO: continue!
+* Cookies enable CSRF, but are attached to all requests
+* Authorization header seems easier at first, but you need to be sure where to store the data in the client
+* Cookies are hard to get right for non-web apps, authorization header is easier to use there
+
+-> understand pros/cons of cookies vs. authorization header for your app
 
 ### 9. "Underestimating the importance of CSRF"
 
+* Again, only a problem if you use cookies, because browser automatically attaches them to outgoing requests
+* Traditional defense: hidden form tokens, not applicable in API context. Can be replicated with a custom header
+* CSRF is less relevant for JSON APIs, since GET/form POST will have a different content type
+* APIs using other mechanism than form POST/GET, CORS security policy applies
+
 ### 10. "Insecure CORS configuration / implementation"
 
+Common misconfigurations:
+
+* Partial match against origin header
+* Allowing `null` origin
+* Only checking domain, not entire origin (incl. HTTPS)
+* Reflecting back `Origin` header (= API is wide open for anyone)
+
+-> don't allow more access than necessary!
+
 ### 11. "Lack of input validation"
+
+Best practices:
+
+* Only accept content types you expect, reject everything else
+* Validate each input field against its expected data type
+* Have length validation in place, set upper bounds
+* Use a secure parser for inputs
 
 ### 12. "Relying on input validation"
 
