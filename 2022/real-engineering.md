@@ -1,5 +1,5 @@
 ---
-title: Software Engineering vs. "Real Engineering"
+title: Software Engineering vs. Real Engineering
 description: Insights from a recent trip to Düsseldorf
 date: 2022-05-06T19:42:32Z
 ---
