@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Wed, 08 Jun 2022 15:23:06 -0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Jun 2022 16:41:58 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jack Ma Life Advice</title>
@@ -348,32 +348,6 @@ The master, still smiling: "Exactly, because of younglings like you, I kept wear
 &lt;/ul&gt;</description>
     </item>
     <item>
-      <title>Software Engineering vs. &amp;quot;Real Engineering&amp;quot;</title>
-      <link>https://oliz.io/blog/2022/real-engineering.html</link>
-      <pubDate>Fri, 06 May 2022 19:42:32 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/real-engineering.html</guid>
-      <description>&lt;p&gt;Some examples from a recent trip to Düsseldorf (Germany).&lt;/p&gt;
-&lt;h2 id="yellow-stage-pedestrian-traffic-lights"&gt;Yellow Stage Pedestrian Traffic Lights&lt;/h2&gt;
-&lt;p&gt;They tested this and then didn't get rid of it again. Now, Düsseldorf is the only German city with yellow for pedestrians.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="As for cars, 'new yellow' you can still go, 'long yellow' you better wait" src="ddorf-traffic-lights.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;In software, temporary experiments also tend to stick around.&lt;/p&gt;
-&lt;h2 id="oberkasseler-bridge"&gt;&lt;a href="https://de.m.wikipedia.org/wiki/Oberkasseler_Br%C3%BCcke"&gt;Oberkasseler Bridge&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The old bridge wasn't supporting enough traffic anymore. So they built the new, wider bridge next to it.
-In an engineering marvel they pushed the new bridge over the old one in just two days.&lt;/p&gt;
-&lt;p&gt;Software developers, engineers and operators: hot swapping, red-blue-green deployments anyone?&lt;/p&gt;
-&lt;h2 id="failed-airport-noise-reduction"&gt;Failed Airport Noise Reduction&lt;/h2&gt;
-&lt;p&gt;Friends are living near the Düsseldorf airport.
-By German regulations, their flat's windows should be isolating air traffic noise with three layers of glass instead of the regular two layers.
-They only have regular windows, but experimental tubing in the walls which was supposed to reduce air traffic noise.
-The experiment failed and better windows weren't installed.&lt;/p&gt;
-&lt;p&gt;Software engineering can go wrong, so can real engineering.&lt;/p&gt;
-&lt;h2 id="ending-on-high-notes"&gt;Ending on High Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tasty, vegan chocolate fancy cake: &lt;a href="https://www.gruenartig.de/vegane-schokotorte/"&gt;https://www.gruenartig.de/vegane-schokotorte/&lt;/a&gt; (German, sorry)&lt;/li&gt;
-&lt;li&gt;Programming charts, animations and visualizations in Haskell: &lt;a href="https://code.world/"&gt;https://code.world/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
       <title>Enable Emoji-Support for MySQL-Databases</title>
       <link>https://oliz.io/blog/2022/mysql-emoji-support.html</link>
       <pubDate>Wed, 27 Apr 2022 18:17:27 +0000</pubDate>
@@ -527,6 +501,32 @@ and Retry-After: 3600&lt;/p&gt;
 &lt;li&gt;How is this different from what we used to do?&lt;/li&gt;
 &lt;li&gt;Do we really understand what we are doing?&lt;/li&gt;
 &lt;li&gt;Have we validated the integrity and format of that data?&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Software Engineering vs. Real Engineering</title>
+      <link>https://oliz.io/blog/2022/real-engineering.html</link>
+      <pubDate>Fri, 06 May 2022 19:42:32 +0000</pubDate>
+      <guid>https://oliz.io/blog/2022/real-engineering.html</guid>
+      <description>&lt;p&gt;Some examples from a recent trip to Düsseldorf (Germany).&lt;/p&gt;
+&lt;h2 id="yellow-stage-pedestrian-traffic-lights"&gt;Yellow Stage Pedestrian Traffic Lights&lt;/h2&gt;
+&lt;p&gt;They tested this and then didn't get rid of it again. Now, Düsseldorf is the only German city with yellow for pedestrians.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="As for cars, 'new yellow' you can still go, 'long yellow' you better wait" src="ddorf-traffic-lights.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;In software, temporary experiments also tend to stick around.&lt;/p&gt;
+&lt;h2 id="oberkasseler-bridge"&gt;&lt;a href="https://de.m.wikipedia.org/wiki/Oberkasseler_Br%C3%BCcke"&gt;Oberkasseler Bridge&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The old bridge wasn't supporting enough traffic anymore. So they built the new, wider bridge next to it.
+In an engineering marvel they pushed the new bridge over the old one in just two days.&lt;/p&gt;
+&lt;p&gt;Software developers, engineers and operators: hot swapping, red-blue-green deployments anyone?&lt;/p&gt;
+&lt;h2 id="failed-airport-noise-reduction"&gt;Failed Airport Noise Reduction&lt;/h2&gt;
+&lt;p&gt;Friends are living near the Düsseldorf airport.
+By German regulations, their flat's windows should be isolating air traffic noise with three layers of glass instead of the regular two layers.
+They only have regular windows, but experimental tubing in the walls which was supposed to reduce air traffic noise.
+The experiment failed and better windows weren't installed.&lt;/p&gt;
+&lt;p&gt;Software engineering can go wrong, so can real engineering.&lt;/p&gt;
+&lt;h2 id="ending-on-high-notes"&gt;Ending on High Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tasty, vegan chocolate fancy cake: &lt;a href="https://www.gruenartig.de/vegane-schokotorte/"&gt;https://www.gruenartig.de/vegane-schokotorte/&lt;/a&gt; (German, sorry)&lt;/li&gt;
+&lt;li&gt;Programming charts, animations and visualizations in Haskell: &lt;a href="https://code.world/"&gt;https://code.world/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
