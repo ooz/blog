@@ -13,3 +13,6 @@ TL;DW:
 * High sugar (fructose) is high fat diet
 * "Fat or Fart": eat fiber, it's good for you
 
+![Clinical intervention program for kids](kids_intervention.png)
+![Exercise can't compensate nutrition, it's still important](role_of_exercise.png)
+
