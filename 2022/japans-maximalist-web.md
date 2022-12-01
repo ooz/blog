@@ -5,7 +5,7 @@ tags: __inline__
 ---
 
 [The algorithm™ recommended me a video on the subject.](https://www.youtube.com/watch?v=z6ep308goxQ)
-[But there is a website with more details.](https://sabrinas.space/)
+[But there is also a website with more details.](https://sabrinas.space/)
 
 TL;DW/R:
 
