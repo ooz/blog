@@ -93,3 +93,9 @@ However, for version 20.04 further tweaks are needed:
     gsettings set org.gnome.gnome-flashback root-background true
     gsettings set org.gnome.gnome-flashback desktop false
     ```
+
+## Update 2023-03-26
+
+Today, I upgraded two machines from Ubuntu 20.04 to 22.04 without any problems or need for tweaks.
+The `Gnome + Xmonad` session just works.
+
