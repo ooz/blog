@@ -92,6 +92,15 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 </header>
 <section>
 <div>
+<div class="card"><small class="social">2023-04-08</small>
+<a href="https://oliz.io/blog/2023/ubuntu-wifi-issues.html"><b>Ubuntu 22.04 WiFi Issues</b></a>
+<div>
+<p>I was getting silent wifi disconnects, this fixed the issue:</p>
+<pre class="highlight"><code>sudo vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf</code></pre>
+<p>Change from <code>3</code> (powersave enabled) to <code>2</code> (powersave disabled)</p>
+<p>Source: <a href="https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts">https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts</a></p>
+</div>
+</div>
 <div class="card"><small class="social">2022-12-01</small>
 <details><summary><a href="https://oliz.io/blog/2022/japans-maximalist-web.html"><b>Why the Japanese Web Looks so Maximalist</b></a></summary>
 <p><a href="https://www.youtube.com/watch?v=z6ep308goxQ">The algorithm™ recommended me a video on the subject.</a>

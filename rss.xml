@@ -5,20 +5,8 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 26 Mar 2023 20:50:28 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Apr 2023 22:57:47 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Star Wars Short: The Padawan Master</title>
-      <link>https://oliz.io/blog/2022/sternenkrieg.html</link>
-      <pubDate>Wed, 04 May 2022 08:05:49 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/sternenkrieg.html</guid>
-      <description>&lt;p&gt;A Jedi master is teaching young Padawans an important lesson on the Force.
-Towards the end, one bored and exhausted youngling challenges the master: "I don't get it, maybe I can learn it from a real Jedi master and just not from you!"
-The master, smiling, asks back: "Why is that?"
-The youngling points to the master's Padawan braid.
-The master, still smiling: "Exactly, because of younglings like you, I kept wearing the braid: to remind us, that there is always something to learn about the Force, for Jedi masters and Padawans alike. Lesson's over."&lt;/p&gt;
-&lt;p&gt;May the 4th be with you!&lt;/p&gt;</description>
-    </item>
     <item>
       <title>DIY Sith and Jedi Lightsaber</title>
       <link>https://oliz.io/blog/2022/lightsaber-crafting/</link>
@@ -390,6 +378,16 @@ gsettings set org.gnome.gnome-flashback desktop false&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id="update-2023-03-26"&gt;Update 2023-03-26&lt;/h2&gt;
 &lt;p&gt;Today, I upgraded two machines from Ubuntu 20.04 to 22.04 without any problems or need for tweaks.
 The &lt;code&gt;Gnome + Xmonad&lt;/code&gt; session just works.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu 22.04 WiFi Issues</title>
+      <link>https://oliz.io/blog/2023/ubuntu-wifi-issues.html</link>
+      <pubDate>Sat, 08 Apr 2023 00:45:04 +0000</pubDate>
+      <guid>https://oliz.io/blog/2023/ubuntu-wifi-issues.html</guid>
+      <description>&lt;p&gt;I was getting silent wifi disconnects, this fixed the issue:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;sudo vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change from &lt;code&gt;3&lt;/code&gt; (powersave enabled) to &lt;code&gt;2&lt;/code&gt; (powersave disabled)&lt;/p&gt;
+&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts"&gt;https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
