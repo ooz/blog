@@ -43,4 +43,4 @@ https://askubuntu.com/questions/1068921/how-to-disable-the-window-not-responding
 
 ## Closing
 
-Maybe, I'll give [Bluefin](https://projectbluefin.io/) a try instead of updating to the next Ubuntu LTS, since I moved on from tinkering with my OS.
+Maybe, I'll give [Bluefin](https://projectbluefin.io/) a try instead of updating to the next Ubuntu LTS, since I moved on from tinkering with my OS a few years ago.
