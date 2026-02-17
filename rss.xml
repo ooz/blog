@@ -5,379 +5,82 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Sun, 04 Feb 2024 23:18:00 -0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Feb 2026 00:03:46 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>DIY Sith and Jedi Lightsaber</title>
-      <link>https://oliz.io/blog/2022/lightsaber-crafting/</link>
-      <pubDate>Fri, 22 Apr 2022 07:04:34 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/lightsaber-crafting/</guid>
-      <description>&lt;p&gt;I always thought of myself more of a Jedi, but today I made a Sith lightsaber. Here's how.&lt;/p&gt;
-&lt;h2 id="sith-lightsaber"&gt;Sith Lightsaber&lt;/h2&gt;
-&lt;h3 id="bill-of-materials"&gt;Bill of Materials&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Cheers!" src="mats.jpg" /&gt;&lt;/p&gt;
+      <title>J. Langr on Twitter: Top IntelliJ IDEA refactoring keys</title>
+      <link>https://oliz.io/blog/2019/top-intellij-idea-refactoring-shortcuts.html</link>
+      <pubDate>Sun, 15 Dec 2019 14:15:49 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/top-intellij-idea-refactoring-shortcuts.html</guid>
+      <description>&lt;p&gt;&lt;a href="https://twitter.com/jlangr/status/1204482861845250048"&gt;Jeff Langr&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;top IntelliJ IDEA refactoring keys:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Black bicycle air pump&lt;/li&gt;
-&lt;li&gt;Black Isolation tape&lt;/li&gt;
-&lt;li&gt;Black carabiner&lt;/li&gt;
-&lt;li&gt;Black shoe string&lt;/li&gt;
+&lt;li&gt;extract Method: Cmd-Alt-M&lt;/li&gt;
+&lt;li&gt;extract Variable: Cmd-Alt-V&lt;/li&gt;
+&lt;li&gt;iNline: Cmd-Alt-N&lt;/li&gt;
+&lt;li&gt;rename: Sh-F6&lt;/li&gt;
+&lt;li&gt;move method:  F6&lt;/li&gt;
+&lt;li&gt;change sig: Cmd-F6&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="final-result"&gt;Final Result&lt;/h3&gt;
-&lt;p&gt;&lt;img alt="Final thing" src="result.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;With a little imagination, light shoots out of both sides when the pump or the "buttons" are pressed!&lt;/p&gt;
-&lt;h3 id="suitable-sith-ship"&gt;Suitable Sith Ship&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://oliz.io/mocs/spaceships/the-shiv/"&gt;https://oliz.io/mocs/spaceships/the-shiv/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;(made that recently, you are welcome!)&lt;/p&gt;
-&lt;h3 id="alternative-uses"&gt;Alternative uses&lt;/h3&gt;
-&lt;p&gt;It's still an air pump for bicycles, just remove the shoe string and you can pump your rides!&lt;/p&gt;
-&lt;h2 id="jedi-lightsaber"&gt;Jedi Lightsaber&lt;/h2&gt;
-&lt;p&gt;I got this as a present from my partner. It's from &lt;a href="https://www.muji.com/"&gt;Muji&lt;/a&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Jedi Lightsaber with safety on" src="jedi_lightsaber.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;It's a manual paper shredder, because I always disliked the noise of the electric ones. Safety instructions are on the backside. You turn the handle above, put the paper in and paper scrabs come out at the bottom. Turning the handle feels like turning on a lightsaber! Again, add some black isotape and a loop at the bottom and imagine light coming out of the handle end, voila!&lt;/p&gt;
-&lt;p&gt;MacGyver score: &lt;strong&gt;8.5 out of 10&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Isolation tape used&lt;/li&gt;
-&lt;li&gt;Light sabers retain their original use-cases of air pumping and paper shredding&lt;/li&gt;
-&lt;li&gt;Good for the environment&lt;/li&gt;
-&lt;li&gt;No Swiss Army Knife needed, regular scissors are enough&lt;/li&gt;
-&lt;li&gt;Balances the force between good and evil folks&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;p&gt;These 6 operations represent &amp;gt;80% of your minute-to-minute transforms. Ingrain them! (And don't forget Alt-Enter.)&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     <item>
-      <title>Enable Emoji-Support for MySQL-Databases</title>
-      <link>https://oliz.io/blog/2022/mysql-emoji-support.html</link>
-      <pubDate>Wed, 27 Apr 2022 18:17:27 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/mysql-emoji-support.html</guid>
-      <description>&lt;p&gt;&lt;img alt="Copy&amp;amp;pastable below" src="mysql_utf8_collation.png" /&gt;&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;-- ...
-`CUSTOMER_COMMENT` varchar(1000) COLLATE utf8mb4_bin DEFAULT NULL,
--- ...
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Convert existing table:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-sql"&gt;ALTER TABLE `CUSTOMER`
-  CONVERT TO CHARACTER SET utf8mb4 COLLATE utf8mb4_bin;&lt;/code&gt;&lt;/pre&gt;</description>
+      <title>Learning German Grammar by Analogy to Programming Concepts</title>
+      <link>https://oliz.io/blog/2019/german-grammar-programming-concepts.html</link>
+      <pubDate>Tue, 12 Mar 2019 22:24:28 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/german-grammar-programming-concepts.html</guid>
+      <description>&lt;p&gt;Favorite article of the week: &lt;a href="https://wickedchicken.github.io/post/german-for-programmers/"&gt;https://wickedchicken.github.io/post/german-for-programmers/&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gender of nouns -&amp;gt; forward error correction&lt;/li&gt;
+&lt;li&gt;Verb constructs -&amp;gt; context managers&lt;/li&gt;
+&lt;li&gt;Declined articles -&amp;gt; keyword arguments&lt;/li&gt;
+&lt;li&gt;Verb position -&amp;gt; delay slot&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;(originally posted on my Twitter)&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Crafting a Durable Personal Kanban Board</title>
-      <link>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</link>
-      <pubDate>Sun, 29 Oct 2017 00:40:20 +0200</pubDate>
-      <guid>https://oliz.io/blog/2017/crafting-a-durable-personal-kanban-board/</guid>
-      <description>&lt;p&gt;One of my highlights at this year's &lt;a href="https://www.socrates-conference.de/"&gt;SoCraTes in Soltau&lt;/a&gt; was a session about Personal Kanban hosted by &lt;a href="https://twitter.com/rradczewski/"&gt;Raimo&lt;/a&gt; and &lt;a href="https://twitter.com/janernsting/"&gt;Jan&lt;/a&gt;.
-They shared their experiences, practises and highlighted the advantages of a physical board.
-We even got provided material to build our own Personal Kanban boards. Mine looked like this:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Opened Personal Kanban board from SoCraTes 2017" src="pkanban_paper_open.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Front cover of my Personal Kanban board from SoCraTes 2017" src="pkanban_paper_front.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;While it was really neat that you could start using it right away, I felt the need to have a more durable board to really start utilizing it.
-The solution was simple:&lt;/p&gt;
-&lt;h2 id="more-plastic"&gt;&lt;a href="https://youtu.be/7W33HRc1A6c?t=350"&gt;MORE PLASTIC!&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;During the session I already had the idea, that my old plastic clipboard would be the perfect board material. The plastic is really smooth and sticky notes just, well, &lt;em&gt;stick&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;This week I made it to a stationery shop in Hamburg and bought some more transparent and black clipboards:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Clipboard base material" src="pkanban_clipboards.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;With some skill, tools and the right amount of force you can remove the clipboard part:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Plastic boards without clip" src="pkanban_remove_clip.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;It goes faster after the second bolt, since you know how much force you can apply without damaging the plastic board. Still I cracked one of the transparent boards slightly. Be careful!&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Waste" src="pkanban_waste.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="tools-used"&gt;Tools used&lt;/h2&gt;
-&lt;p&gt;&lt;img alt="Used tools" src="pkanban_tools.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Adhesive tape" src="pkanban_krepp.jpg" /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A flat screwdriver to pry open the bolts&lt;/li&gt;
-&lt;li&gt;A strong pincer to destroy and remove the bolts&lt;/li&gt;
-&lt;li&gt;Adhesive tape to join 2 boards&lt;/li&gt;
-&lt;li&gt;Scissors to cut the tape&lt;/li&gt;
-&lt;li&gt;A ruler for drawing lines&lt;/li&gt;
-&lt;li&gt;Black / white permanent markers&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="actually-composing-the-board"&gt;Actually composing the board&lt;/h2&gt;
-&lt;p&gt;The hard part is over, the rest is just joining and labeling the board.&lt;/p&gt;
-&lt;p&gt;If you put two of those boards back to back, you get a laptop-ish clamshell design. You need to keep a gap when joining the two boards, so they stay foldable:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Mind the gap" src="pkanban_fold.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;After drawing the sections and labels:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_transparent_open.jpg" /&gt;&lt;/p&gt;
-&lt;h2 id="result"&gt;Result&lt;/h2&gt;
-&lt;p&gt;My girlfriend liked the board so much, I needed to craft an additional one:&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Black Personal Kanban board with white ink" src="pkanban_black_board_open.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Applying some stickers lying around (I do not like putting them on laptops):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Resulting Personal Kanban boards" src="pkanban_result.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;Costs:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Money: 9.60 € for 2 plastic clipboards, 4.30 € for a new adhesive tape reel, 7.50 € for the two (black + white) permanent markers. So ca. 30 € for two Personal Kanban boards, ca. 11 € per board if you consider the amount of tape / ink used.&lt;/li&gt;
-&lt;li&gt;Time: ca. 40 minutes for the transparent board with black permanent marker (incl. learning how to remove the board clips), ca. 1 hour for the black board with white permanent marker (be careful with the ink, it can get really messy!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Of course, the best result is that I actually apply Personal Kanban now! :)&lt;/p&gt;
-&lt;h2 id="update-2022-05-23"&gt;Update 2022-05-23&lt;/h2&gt;
-&lt;p&gt;Today, I broke my board in a &lt;del&gt;boating&lt;/del&gt; electrical standing desk accident.
-The front half is still somewhat usable thanks to the stickers which prevented further splintering.&lt;/p&gt;</description>
+      <title>Today I Created my First Lego Instruction</title>
+      <link>https://oliz.io/blog/2019/first-lego-instruction/</link>
+      <pubDate>Sun, 14 Apr 2019 10:06:48 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/first-lego-instruction/</guid>
+      <description>&lt;p&gt;"The Mosquito": &lt;a href="https://oliz.io/mocs/spaceships/the-mosquito/"&gt;https://oliz.io/mocs/spaceships/the-mosquito/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I have 4-5 more spaceships/rockets to be digitalized, freeing up bricks.
+&lt;a href="https://www.bricklink.com/v3/studio/download.page"&gt;BrickLink Studio&lt;/a&gt; is an amazing tool -- unfortunately, I did not even have a camera as a child... :D&lt;/p&gt;</description>
     </item>
     <item>
-      <title>P. De Ryck: Common API Security Pitfalls</title>
-      <link>https://oliz.io/blog/2022/api-security-pitfalls.html</link>
-      <pubDate>Tue, 07 Jun 2022 20:33:04 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/api-security-pitfalls.html</guid>
-      <description>&lt;p&gt;This list is a compiled from the &lt;a href="https://www.youtube.com/watch?v=YQzU8xEBiPg"&gt;Devoxx Belgium 2017 talk&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="pitfalls"&gt;Pitfalls&lt;/h2&gt;
-&lt;p&gt;(read: don't do this!)&lt;/p&gt;
-&lt;h3 id="1-allowing-access-to-your-api-over-http"&gt;1. "Allowing access to your API over HTTP"&lt;/h3&gt;
+      <title>Fixing the Middle Trackpoint Button on Old Thinkpad Keyboards</title>
+      <link>https://oliz.io/blog/2019/fixing-middle-trackpoint-button/</link>
+      <pubDate>Sun, 24 Feb 2019 21:00:02 +0000</pubDate>
+      <guid>https://oliz.io/blog/2019/fixing-middle-trackpoint-button/</guid>
+      <description>&lt;p&gt;So far, I worked with two ThinkPads:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;don't support redirect from HTTP to HTTPS, use HSTS&lt;/li&gt;
-&lt;li&gt;Configure &lt;strong&gt;HTTP Strict Transport Security (HSTS)&lt;/strong&gt; to prevent falling back to HTTP (this will tell the browser to use HTTPS for every request)&lt;/li&gt;
-&lt;li&gt;Strict-Transport-Security: max-age=31536000&lt;/li&gt;
+&lt;li&gt;T410, bought new in 2010. I replaced HDD/SSD, RAM, fan and keyboard.&lt;/li&gt;
+&lt;li&gt;X220, bought refurbished in 2016 with an IPS screen. I cleaned it thoroughly, swapped SSD, RAM and keyboard.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="2-not-rate-limiting-calls-to-your-api"&gt;2. "Not rate limiting calls to your API"&lt;/h3&gt;
-&lt;p&gt;Possible strategies:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Limit per connection (IP address)&lt;/li&gt;
-&lt;li&gt;Limit per user (account, token, key)&lt;/li&gt;
-&lt;li&gt;Limit per application property (account, resource)&lt;/li&gt;
-&lt;li&gt;Limit based on context (region, app type)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Use HTTP 429 Too Many Requests
-and Retry-After: 3600&lt;/p&gt;
-&lt;h3 id="3-using-insecure-direct-object-references"&gt;3. "Using insecure direct object references"&lt;/h3&gt;
-&lt;p&gt;-&amp;gt; always combine basic authentication check with authorization checks (resource ownership)&lt;/p&gt;
-&lt;h3 id="4-mishandling-client-side-session-data"&gt;4. "Mishandling client-side session data"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Server-side sessions share an ID with the client and store data on the server
-  -&amp;gt; Attacks on session management (guessing or stealing the ID)
-  -&amp;gt; The data stored with the server-side session can be considered trusted&lt;/li&gt;
-&lt;li&gt;Client-side sessions are a completely different paradigm&lt;/li&gt;
-&lt;li&gt;Data is stored on the client, so it can easily be accessed&lt;/li&gt;
-&lt;li&gt;Data comes from the client, so it is untrusted by default&lt;/li&gt;
-&lt;li&gt;Client-side sessions require additional data protection measures&lt;/li&gt;
-&lt;li&gt;Mandatory integrity checks to detect data tempering&lt;/li&gt;
-&lt;li&gt;Optional confidentiality mechanisms to prevent information disclosure&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;-&amp;gt; Client-side session data can be read and manipulated, so you need to ensure confidentiality and integrity&lt;/p&gt;
-&lt;h3 id="5-not-verifying-the-integrity-of-your-jwts"&gt;5. "Not verifying the integrity of your JWTs"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;JWT spec supports signing and encryption. Default mode is signing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;-&amp;gt; Only use JWT libraries that verify its integrity (esp. in the backend)&lt;/p&gt;
-&lt;h3 id="6-using-the-wrong-signature-scheme-on-jwts"&gt;6. "Using the wrong signature scheme on JWTs"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Sign tokens with a private key, distribute the public key for verification by clients&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;-&amp;gt; Use shared secrets for verifying JWTs only within your app boundaries. Otherwise use a public/private key pair&lt;/p&gt;
-&lt;h3 id="7-not-propagating-identity-information"&gt;7. "Not propagating identity information"&lt;/h3&gt;
-&lt;p&gt;Pass all relevant identity information to downstream services to enable them to do authorization decisions and to create an audit trail!&lt;/p&gt;
-&lt;h3 id="8-minimizing-the-impact-of-the-transport-mechanism"&gt;8. "Minimizing the impact of the transport mechanism"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Cookies enable CSRF, but are attached to all requests&lt;/li&gt;
-&lt;li&gt;Authorization header seems easier at first, but you need to be sure where to store the data in the client&lt;/li&gt;
-&lt;li&gt;Cookies are hard to get right for non-web apps, authorization header is easier to use there&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;-&amp;gt; understand pros/cons of cookies vs. authorization header for your app&lt;/p&gt;
-&lt;h3 id="9-underestimating-the-importance-of-csrf"&gt;9. "Underestimating the importance of CSRF"&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Again, only a problem if you use cookies, because browser automatically attaches them to outgoing requests&lt;/li&gt;
-&lt;li&gt;Traditional defense: hidden form tokens, not applicable in API context. Can be replicated with a custom header&lt;/li&gt;
-&lt;li&gt;CSRF is less relevant for JSON APIs, since GET/form POST will have a different content type&lt;/li&gt;
-&lt;li&gt;APIs using other mechanism than form POST/GET, CORS security policy applies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="10-insecure-cors-configuration-implementation"&gt;10. "Insecure CORS configuration / implementation"&lt;/h3&gt;
-&lt;p&gt;Common misconfigurations:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Partial match against origin header&lt;/li&gt;
-&lt;li&gt;Allowing &lt;code&gt;null&lt;/code&gt; origin&lt;/li&gt;
-&lt;li&gt;Only checking domain, not entire origin (incl. HTTPS)&lt;/li&gt;
-&lt;li&gt;Reflecting back &lt;code&gt;Origin&lt;/code&gt; header (= API is wide open for anyone)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;-&amp;gt; don't allow more access than necessary!&lt;/p&gt;
-&lt;h3 id="11-lack-of-input-validation"&gt;11. "Lack of input validation"&lt;/h3&gt;
-&lt;p&gt;Best practices:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Only accept content types you expect, reject everything else&lt;/li&gt;
-&lt;li&gt;Validate each input field against its expected data type&lt;/li&gt;
-&lt;li&gt;Have length validation in place, set upper bounds&lt;/li&gt;
-&lt;li&gt;Use a secure parser for inputs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="12-relying-on-input-validation"&gt;12. "Relying on input validation"&lt;/h3&gt;
-&lt;h2 id="question-everything"&gt;Question Everything&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;How is this different from what we used to do?&lt;/li&gt;
-&lt;li&gt;Do we really understand what we are doing?&lt;/li&gt;
-&lt;li&gt;Have we validated the integrity and format of that data?&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Software Engineering vs. Real Engineering</title>
-      <link>https://oliz.io/blog/2022/real-engineering.html</link>
-      <pubDate>Fri, 06 May 2022 19:42:32 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/real-engineering.html</guid>
-      <description>&lt;p&gt;Some examples from a recent trip to Düsseldorf (Germany).&lt;/p&gt;
-&lt;h2 id="yellow-stage-pedestrian-traffic-lights"&gt;Yellow Stage Pedestrian Traffic Lights&lt;/h2&gt;
-&lt;p&gt;They tested this and then didn't get rid of it again. Now, Düsseldorf is the only German city with yellow for pedestrians.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="As for cars, 'new yellow' you can still go, 'long yellow' you better wait" src="ddorf-traffic-lights.jpg" /&gt;&lt;/p&gt;
-&lt;p&gt;In software, temporary experiments also tend to stick around.&lt;/p&gt;
-&lt;h2 id="oberkasseler-bridge"&gt;&lt;a href="https://de.m.wikipedia.org/wiki/Oberkasseler_Br%C3%BCcke"&gt;Oberkasseler Bridge&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The old bridge wasn't supporting enough traffic anymore. So they built the new, wider bridge next to it.
-In an engineering marvel they pushed the new bridge over the old one in just two days.&lt;/p&gt;
-&lt;p&gt;Software developers, engineers and operators: hot swapping, red-blue-green deployments anyone?&lt;/p&gt;
-&lt;h2 id="failed-airport-noise-reduction"&gt;Failed Airport Noise Reduction&lt;/h2&gt;
-&lt;p&gt;Friends are living near the Düsseldorf airport.
-By German regulations, their flat's windows should be isolating air traffic noise with three layers of glass instead of the regular two layers.
-They only have regular windows, but experimental tubing in the walls which was supposed to reduce air traffic noise.
-The experiment failed and better windows weren't installed.&lt;/p&gt;
-&lt;p&gt;Software engineering can go wrong, so can real engineering.&lt;/p&gt;
-&lt;h2 id="ending-on-high-notes"&gt;Ending on High Notes&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Tasty, vegan chocolate fancy cake: &lt;a href="https://www.gruenartig.de/vegane-schokotorte/"&gt;https://www.gruenartig.de/vegane-schokotorte/&lt;/a&gt; (German, sorry)&lt;/li&gt;
-&lt;li&gt;Programming charts, animations and visualizations in Haskell: &lt;a href="https://code.world/"&gt;https://code.world/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>R. H. Lustig: Sugar: The Bitter Truth</title>
-      <link>https://oliz.io/blog/2022/sugar/</link>
-      <pubDate>Mon, 03 Oct 2022 00:29:34 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/sugar/</guid>
-      <description>&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=dBnniua6-oM"&gt;Talk on YouTube&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;TL;DW:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fructose, like ethanol, is a toxin. It's metabolized similarly&lt;/li&gt;
-&lt;li&gt;A calorie is not a calorie, fructose is not glucose&lt;/li&gt;
-&lt;li&gt;High sugar (fructose) is high fat diet&lt;/li&gt;
-&lt;li&gt;"Fat or Fart": eat fiber, it's good for you&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img alt="Clinical intervention program for kids" src="kids_intervention.png" /&gt;
-&lt;img alt="Exercise can't compensate nutrition, it's still important" src="role_of_exercise.png" /&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>S. Crater, K. Pepperdine: Java in the Cloud: Sensible JVM Configuration</title>
-      <link>https://oliz.io/blog/2022/jvm-cloud.html</link>
-      <pubDate>Mon, 17 Oct 2022 22:17:24 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/jvm-cloud.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=Ce_mEZP1XFk"&gt;https://www.youtube.com/watch?v=Ce_mEZP1XFk&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;TL;DW:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Use defaults, usually there is no need to mess with JVM flags!&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If you insist changing things:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Start with defaults&lt;/li&gt;
-&lt;li&gt;Measure app behavior&lt;/li&gt;
-&lt;li&gt;Change things one by one:&lt;ul&gt;
-&lt;li&gt;heap size&lt;/li&gt;
-&lt;li&gt;number of helper threads&lt;/li&gt;
-&lt;li&gt;garbage collector&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="know-the-defaults"&gt;Know the defaults!&lt;/h2&gt;
-&lt;p&gt;Heap size:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Initial: 1/64 of real memory&lt;/li&gt;
-&lt;li&gt;Max, &amp;lt;250MB available: 1/2 of real memory&lt;/li&gt;
-&lt;li&gt;Max, &amp;gt;250MB available: 1/4 of real memory&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Helper threads:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&amp;lt;5 cores: threads = number of cores&lt;/li&gt;
-&lt;li&gt;5+ cores: threads = 5/8 * number of cores&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Default Garbage Collector:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;JDK8: ParallelGC (shouldn't be used in the cloud anymore, from pre-container days!)&lt;/li&gt;
-&lt;li&gt;JDK11+, 1 CPU and &amp;lt;1728MB memory: SerialGC&lt;/li&gt;
-&lt;li&gt;JDK11+, 2+ CPU or &amp;gt;1728MB memory: G1GC&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="recommendations"&gt;Recommendations&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Set heap size based on allocation rate and live set size&lt;/li&gt;
-&lt;li&gt;Ideally, number of active threads = number of cores&lt;/li&gt;
-&lt;li&gt;Don't change the default GC ;)&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
-    <item>
-      <title>Why the Japanese Web Looks so Maximalist</title>
-      <link>https://oliz.io/blog/2022/japans-maximalist-web.html</link>
-      <pubDate>Thu, 01 Dec 2022 19:16:38 +0000</pubDate>
-      <guid>https://oliz.io/blog/2022/japans-maximalist-web.html</guid>
-      <description>&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=z6ep308goxQ"&gt;The algorithm™ recommended me a video on the subject.&lt;/a&gt;
-&lt;a href="https://sabrinas.space/"&gt;But there is also a website with more details.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;TL;DW/R:&lt;/p&gt;
+&lt;p&gt;The hardware is still suitable for modern-day software development work and I have yet to find a better typing experience on a laptop keyboard!&lt;/p&gt;
+&lt;p&gt;Some time ago, I broke one bolt keeping the middle trackpoint button of the X220 keyboard in place. This resulted in an unpleasant scrolling experience.&lt;/p&gt;
+&lt;p&gt;When trying to remove the button to further investigate and fix the issue (no repair manual was consulted ☹), I broke the other bolt.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Middle trackpoint button hinges" src="middle_trackpoint_button.jpg" /&gt;&lt;/p&gt;
+&lt;h2 id="isolation-tape-to-the-rescue"&gt;Isolation tape to the rescue!&lt;/h2&gt;
+&lt;p&gt;The solution was straightforward:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;Yes, the Japanese web is maximalist, information-dense and colorful indeed&lt;/li&gt;
-&lt;li&gt;This is because:&lt;ul&gt;
-&lt;li&gt;the Japanese smartphone revolution happened 10 years before the iPhone&lt;/li&gt;
-&lt;li&gt;Japan is old and slow to adopt new tech&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    <item>
-      <title>How to configure Xmonad for Ubuntu</title>
-      <link>https://oliz.io/blog/2017/xmonad-ubuntu.html</link>
-      <pubDate>Sun, 02 Apr 2017 21:20:32 +0200</pubDate>
-      <guid>https://oliz.io/blog/2017/xmonad-ubuntu.html</guid>
-      <description>&lt;p&gt;In the last six months I must have set up my default Ubuntu 16.04 + Xmonad desktop environment on like four or more machines.
-The goal looks like this (I like to have the top bar for status and widgets):&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Ubuntu and Xmonad" src="ubuntu_xmonad.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Here is a small guide for future reference:&lt;/p&gt;
-&lt;h2 id="step-by-step-guide"&gt;Step-by-step Guide&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Install the Xmonad package:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo apt install xmonad&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;At this point you can already select an Xmonad session at the login screen.
-But this is not recommended.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;So additionally you should install the &lt;a href="https://github.com/Gekkio/gnome-session-xmonad"&gt;&lt;code&gt;gnome-session-xmonad&lt;/code&gt; package&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code class="language-bash"&gt;sudo add-apt-repository ppa:gekkio/xmonad
-sudo apt-get update
-sudo apt-get install gnome-session-xmonad&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Configure Xmonad. The Xmonad configuration is written in Haskell. If you are uncertain or need something working to start from, you are free to take &lt;a href="https://github.com/ooz/olli/blob/master/.xmonad/xmonad.hs"&gt;my configuration&lt;/a&gt;. Place it here: &lt;code&gt;~/.xmonad/xmonad.hs&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Relog and choose the &lt;strong&gt;GNOME + XMonad&lt;/strong&gt; session at the login screen.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;If you dislike the bottom panel (like I do, see above screenshot), you can disable it with:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel']"
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To redisplay it, execute:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;dconf write /org/gnome/gnome-panel/layout/toplevel-id-list "['top-panel','bottom-panel']"&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
+&lt;li&gt;Push the hooks into the hook catchers, ensure the button rubber does not dislocate&lt;/li&gt;
+&lt;li&gt;Cut a strip of isolation tape in half&lt;/li&gt;
+&lt;li&gt;Attach the tape to the button and wrap it around to the backside of the keyboard, firmly&lt;/li&gt;
+&lt;li&gt;Use the second half to secure the first half below the keyboard&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Have fun!&lt;/p&gt;
-&lt;h2 id="update-2021-09-14"&gt;Update 2021-09-14&lt;/h2&gt;
-&lt;p&gt;The above guide also works for Ubuntu 18.04 and 20.04.
-However, for version 20.04 further tweaks are needed:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Fix layout switch (Super+Space):&lt;/p&gt;
-&lt;p&gt;The shortcut is claimed by GNOME and needs to be disabled in "Settings &amp;gt; Keyboard Shortcuts &amp;gt; Switch to next input source"&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Remove the Terminal title bar:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;sudo apt install gnome-shell-extension-pixelsaver
-gnome-extensions enable pixel-saver@deadalnix.me
-gsettings set org.gnome.Terminal.Legacy.Settings headerbar false&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230157/how-to-remove-title-bar-from-terminal-on-the-new-ubuntu-20-04&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Hide desktop icons:&lt;/p&gt;
-&lt;p&gt;Inspired by: &lt;a href="https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04"&gt;https://askubuntu.com/questions/1230877/how-to-remove-home-folder-icon-from-desktop-in-ubuntu-20-04&lt;/a&gt; (the keys however don't work for &lt;code&gt;GNOME + XMonad&lt;/code&gt; session). Correct key:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback.desktop show-icons false&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Dark theme:&lt;/p&gt;
-&lt;p&gt;It's called 'Yaru-dark' (default is 'Yaru', a light theme) and can be set under &lt;code&gt;org.gnome.desktop.interface.gtk-theme&lt;/code&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Chromium snap context menu&lt;/p&gt;
-&lt;p&gt;For me, context menu (e.g. right click on links) didn't work with the new Chromium snap.
-The solution is to &lt;a href="https://askubuntu.com/questions/1315914/chrome-chromium-context-menu-lag"&gt;disable hardware accerlation&lt;/a&gt;.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://github.com/Gekkio/gnome-session-xmonad/issues/14#issuecomment-663922710"&gt;If top Gnome Panel disappears randomly on login&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class="highlight"&gt;&lt;code&gt;gsettings set org.gnome.gnome-flashback root-background true
-gsettings set org.gnome.gnome-flashback desktop false&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="update-2023-03-26"&gt;Update 2023-03-26&lt;/h2&gt;
-&lt;p&gt;Today, I upgraded two machines from Ubuntu 20.04 to 22.04 without any problems or need for tweaks.
-The &lt;code&gt;Gnome + Xmonad&lt;/code&gt; session just works.&lt;/p&gt;</description>
+&lt;p&gt;The result:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Final result" src="result.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;MacGyver score: &lt;strong&gt;6 out of 10&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Swiss Army Knife was used to (un-)screw the keyboard&lt;/li&gt;
+&lt;li&gt;Tape fixed the issue&lt;/li&gt;
+&lt;li&gt;Bubble gum was only chewed, not applied&lt;/li&gt;
+&lt;li&gt;No evil plan was spoiled&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;☺&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ubuntu 22.04 WiFi Issues</title>
@@ -388,6 +91,246 @@ The &lt;code&gt;Gnome + Xmonad&lt;/code&gt; session just works.&lt;/p&gt;</descr
 &lt;pre class="highlight"&gt;&lt;code&gt;sudo vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Change from &lt;code&gt;3&lt;/code&gt; (powersave enabled) to &lt;code&gt;2&lt;/code&gt; (powersave disabled)&lt;/p&gt;
 &lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts"&gt;https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Software Minimalism</title>
+      <link>https://oliz.io/blog/2020/on-software-minimalism.html</link>
+      <pubDate>Mon, 15 Jun 2020 22:27:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/on-software-minimalism.html</guid>
+      <description>&lt;p&gt;Recently, I iterated on &lt;a href="https://ooz.github.io/ggpy/"&gt;&lt;code&gt;gg.py&lt;/code&gt;&lt;/a&gt; again, which ultimately led to the age-old question:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why (re-invent the wheel)?&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="minimal-software"&gt;Minimal Software&lt;/h2&gt;
+&lt;p&gt;I like the idea of minimal software, just the amount of software needed to solve a problem, to fulfill a need. Typical characteristics of minimal software are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://suckless.org/philosophy/"&gt;Simple, elegant, usable, focused, reasonable and attainable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Easier to understand&lt;/li&gt;
+&lt;li&gt;Less prone to errors&lt;/li&gt;
+&lt;li&gt;Less need for maintenance&lt;/li&gt;
+&lt;li&gt;Less code (maybe)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I acknowledge that &lt;code&gt;gg.py&lt;/code&gt; could have also been realized in shell using the &lt;a href="https://busybox.net/"&gt;BusyBox set of UNIX utilities&lt;/a&gt;.
+Regardless, I enjoy working with Python and having a pet project keeps my language skills and tool chain sharp.
+Software minimalism followed to the extreme would consider Python and anything written in it as "bloat" and not minimal. On a second look, the above traits of minimal software seem to be rather &lt;em&gt;means goals&lt;/em&gt; than end goals. Extrapolated, I see one over-arching objective:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To spend less time with software!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="standard-software-and-innovation"&gt;Standard Software and Innovation&lt;/h2&gt;
+&lt;p&gt;Spending less time with software frees you up to spend more time outside, off the computer, with friends and family. Or to focus on the business side of things. Shell one-liners and clever single-file programs may be one approach, but for plenty of people the use of &lt;em&gt;standard software&lt;/em&gt; is exactly that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The majority of people use it&lt;/li&gt;
+&lt;li&gt;The majority of people has good-enough understanding of its benefits and constraints ("mental model")&lt;/li&gt;
+&lt;li&gt;Someone else develops, maintains and supports it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Standard software is not necessarily user-facing software, but also common software libraries, frameworks, programming languages, open-source or industry standards.
+One downside of using standard software is the loss of competitive advantage stemming from superior tools and craft. Then, &lt;a href="http://www.paulgraham.com/avg.html"&gt;beating the averages&lt;/a&gt; and innovation are not a matter of technology, but of appropriate and repeated creative application valuing the zeitgeist.&lt;/p&gt;
+&lt;h2 id="in-perspective"&gt;In Perspective&lt;/h2&gt;
+&lt;p&gt;This cannot be an argument for minimal, custom-built software, nor standard software. Neither seems to grant an advantage inherently, so a healthy dose of pragmatism is required when developing or utilizing software in a competitive space.
+Shifting the point of view, someone's minimal software might be someone else's standard software (e.g. UNIX utilities leveraged by an advanced user) and someone's standard software might be considered "overkill" by minimalists (e.g. WYSIWYG word processors for writing plain text).
+At the end of the day, users minding their respective computer skills could still all agree that their preferred software tool enables them &lt;em&gt;to spend less time&lt;/em&gt; with the computer.&lt;/p&gt;
+&lt;p&gt;This turns the question &lt;em&gt;"does this software enable me to spend more quality time off (or on) the machine?"&lt;/em&gt; into a metric for gauging software value.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does this social network enrich my life or is it just artificially keeping me hooked to my phone for corporate profits?&lt;/li&gt;
+&lt;li&gt;Does this computer game offer quality experience and immersion or is it just a paint over grind to grow &lt;a href="https://www.investopedia.com/terms/m/monthly-active-user-mau.asp"&gt;MAU&lt;/a&gt;?&lt;/li&gt;
+&lt;li&gt;Does this software tool enable me to get more things done and turn off the computer earlier?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As for &lt;code&gt;gg.py&lt;/code&gt;, it covers &lt;a href="https://oliz.io/blog/2018/why-i-wrote-yet-another-static-site-gen.html"&gt;my static site generator needs&lt;/a&gt;. Growing with it and having full creative expression are their own rewards. ☺&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>On Fact Checks</title>
+      <link>https://oliz.io/blog/2020/on-fact-checks.html</link>
+      <pubDate>Thu, 01 Oct 2020 17:30:27 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/on-fact-checks.html</guid>
+      <description>&lt;p&gt;Isn't it ironic after decades of framing and "appeal to emotion" by media and PR, those techniques are now so universally used that the same organisations losing control are urged to provide "fact checks"? 😅&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Corona Sky</title>
+      <link>https://oliz.io/blog/2020/corona-sky/</link>
+      <pubDate>Sun, 23 Aug 2020 15:10:25 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/corona-sky/</guid>
+      <description>&lt;p&gt;Despite all the negative effects of Corona, I prefer to appreciate the novel experiences.&lt;/p&gt;
+&lt;h2 id="corona-skies"&gt;Corona Skies&lt;/h2&gt;
+&lt;p&gt;&lt;img alt="Corona Sky" src="corona-sky.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The European airspace is one of the most utilized on earth.
+Thus it is rare to look up the sky and not see any condensation trails.&lt;/p&gt;
+&lt;p&gt;Now, living in a city with a nearby airport, we have &lt;em&gt;Corona skies&lt;/em&gt;, which I would define as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The natural sky either clouded or cloudless without any signs of human flight.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img alt="Corona Sky panorama" src="corona-sky_pano.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Eventually, an increase in condensation trails may be a good metric on how much we are going "back to normal".&lt;/p&gt;
+&lt;h2 id="dystopian-malls"&gt;Dystopian Malls&lt;/h2&gt;
+&lt;p&gt;Whenever getting supplies, there are recorded public announcements playing.
+The content always boils down to:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Mind the &lt;em&gt;government Corona laws&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Stay &lt;em&gt;safe and healthy&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Enjoy and &lt;em&gt;keep shopping&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;em&gt;EL-OH-EL!&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id="digitization-on-warp-speed"&gt;Digitization on Warp Speed&lt;/h2&gt;
+&lt;p&gt;I was slightly ahead of the curve by working remotely in a distributed team, having read relevant literature before and ac. Due to the Corona situation, our company and team adapted quickly to full-remote and without problems.&lt;/p&gt;
+&lt;p&gt;There are studies on how much the Corona situation sped up digitization. Here's an example from our household:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ordering clothes online, mostly at &lt;a href="https://www.uniqlo.com/de/de/home"&gt;uniqlo&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Ordering toiletries, cleaning utensils etc. &lt;a href="https://www.dm.de/"&gt;online&lt;/a&gt;. Yes, they ship even soft, pleasant, scarce, super valuable toilet paper -- for pennies! WHO is the idiot here?!&lt;/li&gt;
+&lt;li&gt;Ordering organic vegetables, fruit and meat from a local farmer, online&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-soundtrack"&gt;The Soundtrack&lt;/h2&gt;
+&lt;p&gt;Update 2022-03-11: all songs are also very suitable for staying sane in war propaganda times.&lt;/p&gt;
+&lt;p&gt;German:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Die Ärzte, "Ein Lied für Jetzt": &lt;a href="https://www.youtube.com/watch?v=t_s6waEUTbI"&gt;https://www.youtube.com/watch?v=t_s6waEUTbI&lt;/a&gt; (melancholic, sarcastic)&lt;/li&gt;
+&lt;li&gt;Die Bergers, positive and uplifting cover of the above: &lt;a href="https://www.youtube.com/watch?v=o762F5XaIU0"&gt;https://www.youtube.com/watch?v=o762F5XaIU0&lt;/a&gt; (thanks, YT algorithm for promoting this gem!)&lt;/li&gt;
+&lt;li&gt;Die Ärzte, "Regierung": &lt;a href="https://www.youtube.com/watch?v=REgzERt81zM"&gt;https://www.youtube.com/watch?v=REgzERt81zM&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;English:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Twisted Sister, "We're Not Gonna Take It": &lt;a href="https://www.youtube.com/watch?v=4xmckWVPRaI"&gt;https://www.youtube.com/watch?v=4xmckWVPRaI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;RHCP, "Throw Away Your Television", "Can't Stop": &lt;a href="https://www.youtube.com/watch?v=Mxl2iqtEWvQ"&gt;https://www.youtube.com/watch?v=Mxl2iqtEWvQ&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=8DyziWtkfBw"&gt;https://www.youtube.com/watch?v=8DyziWtkfBw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="update-2022-03-06-lingua-coronae"&gt;Update 2022-03-06: Lingua Coronae&lt;/h2&gt;
+&lt;p&gt;In reference to &lt;a href="https://en.wikipedia.org/wiki/LTI_%E2%80%93_Lingua_Tertii_Imperii"&gt;Victor Klemperer's LTI&lt;/a&gt;, gathering primarily from the German media:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Speaker announcements "Helden an der Front" (meaning "heroic front line" workers like supermarket employees, farmers, medical personell. Wartime propaganda language)&lt;/li&gt;
+&lt;li&gt;coronapositiv, "mit Coronavirus infiziert", anstecken, infizieren (invoking language with majority association to HIV)&lt;/li&gt;
+&lt;li&gt;social distancing (taken over from English, similar but different to "public viewing", which isn't an actual English concept. Signals some kind of internationally accepted standard)&lt;/li&gt;
+&lt;li&gt;Coronaleugner, Coronaverharmloser (invoking language with exclusive association to the Holocaust and anti-human views. Exclusivity was first broken for climate change: "Klimaleugner")&lt;/li&gt;
+&lt;li&gt;Lockdown, Shutdown (previously primarily used in prison/military context)&lt;/li&gt;
+&lt;li&gt;Concern for public health (Nazis would have called it "Volksgesundheit", trying to make individual/private health decisions a matter of public concern, shaming/blaming, claiming higher morals)&lt;/li&gt;
+&lt;li&gt;Einschränkungen (restrictions, euphemism for gross loss/forfeiture/revocation of basic civil liberties, destruction of small-/medium-sized businesses)&lt;/li&gt;
+&lt;li&gt;Impfung, Inzidenz (re-use of existing words with new, slightly altered meaning, not publishing number of tests, not marking/controlling for significant changes in pandemic response)&lt;/li&gt;
+&lt;li&gt;Impfgegner (enemy metaphor, wartime propaganda language), Impfstützpunkt (as in "military base", again militaristic language)&lt;/li&gt;
+&lt;li&gt;3G, 3G+, 2G, 2G+, 1G, -Regel (scientism, buzzwords, variation of those rules have no scientific merit besides pushing people to get vaccinated. As benefit, inconveniences imposed by those rules may be temporarily skipped)&lt;/li&gt;
+&lt;li&gt;Schwurbler (discrediting opposing arguments and people voicing them as idiots, mentally ill)&lt;/li&gt;
+&lt;li&gt;Sicher und effektiv (safe and effective, with various degrees), "trust the science!" (good science doesn't need trust, it is self-evident and accessible to at least any academic. Flying to the moon requires a leap of faith in all the science, engineering and people involved. Experimental drugs do, too!)&lt;/li&gt;
+&lt;li&gt;Alltagsmaske, medizinische Maske, FFP2 mask, Maskenpflicht (salami slice tactic of conditioning population to masks, starting with near-useless ones, moving up to proper masks. Guaranteed sales due to amigo politics)&lt;/li&gt;
+&lt;li&gt;Coronawarnapp, Coronaapp, Coronapass, Coronapasspflicht (salami slice tactic, pushing acceptance of digital means of identification, normalization to "check-in". Implementing technocratic "computer said no", offloading responsibility from politics to technocratic system)&lt;/li&gt;
+&lt;li&gt;"Politisches Versprechen" (political promise, as in: a promise which will be broken for sure, e.g. "no wall", "no road charges", "no additional lockdown")&lt;/li&gt;
+&lt;li&gt;"For freedom!" (through the opposite means of lockdown, technocratic testing and coerced vaccination)&lt;/li&gt;
+&lt;li&gt;News reports suggesting to peach, spy on neighbors during lockdowns&lt;/li&gt;
+&lt;li&gt;News reports of married couples having arguments of vaccine decision, holiday advice on how to deal with relatives having different views&lt;/li&gt;
+&lt;li&gt;Geimpft, genesen oder gestorben (both German president and health minister echoed this triplet of "vaccinated, recovered or dead". Aimed to push people to get vaccinated, although a tautology: after more than two years of pandemic, most people are probably recovered without even knowing [if they didn't get vaccinated])&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Software Craft Community @DATEV: The Economics of Software Design / Manufacturing Slack by J. B. Rainsberger</title>
+      <link>https://oliz.io/blog/2020/economics-of-software-design/</link>
+      <pubDate>Wed, 07 Oct 2020 20:49:10 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/economics-of-software-design/</guid>
+      <description>&lt;p&gt;On Oct 1st 2020 &lt;a href="https://ti.to/scc-datev/jbrains/en"&gt;DATEV hosted an online meetup&lt;/a&gt; with &lt;a href="https://www.jbrains.ca"&gt;J. B. Rainsberger&lt;/a&gt; ("JBR" for the rest of the post) condensing two of his workshops/talks into 1.5 hours.
+While I missed the first ten minutes of the talk (first argument?), the rest was still very interesting and spot-on!&lt;/p&gt;
+&lt;h2 id="cost-of-changing-software"&gt;Cost of Changing Software&lt;/h2&gt;
+&lt;p&gt;JBR started with how to communicate the benefit of good software development practices to managers and co-workers. To accountants, he'd recommend the goal of evolutionary design as:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;"Reduce the volatility in the marginal cost of features" - JBR&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;which basically means that good practices make software development cost more predictable, easier to account for.&lt;/p&gt;
+&lt;p&gt;He illustrated this with two exponential functions (all three diagrams drawn by JBR, shot&amp;amp;cropped by me). In Fig. 1:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Red curve describing ad-hoc design, spaghetti code, few/no tests, no refactoring etc.&lt;/li&gt;
+&lt;li&gt;Green curve following good software development practices like agile, evolutionary design, TDD etc.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;JBR acknowledged that software development cost always follows exponential functions.
+He motivated the base of the red exponential function being &lt;em&gt;e&lt;/em&gt; (Euler's number) with technical debt accumulating like compound interest. Good practices result in a lower base and higher initial cost.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Two exponential functions for software development cost" src="00_two_functions.png" /&gt;
+[Fig. 1: cost of software development practices (green good, red poor).]&lt;/p&gt;
+&lt;p&gt;There's a point in time where the accumulated costs (integrals) of both approaches are equal (at &lt;em&gt;t0&lt;/em&gt;). Past this point, the project following evolutionary design becomes cheaper.
+&lt;img alt="Equal cost of both approaches at t0" src="01_t0_equal_cost.png" /&gt;
+[Fig. 2: t0, time of equal project cost.]&lt;/p&gt;
+&lt;p&gt;At some further point in time, &lt;em&gt;project heat death&lt;/em&gt; is reached: Change becomes too expensive and a rewrite is favored (Fig. 3). The goal of any good development practice should be&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;to have &lt;em&gt;t0&lt;/em&gt; as early as possible and&lt;/li&gt;
+&lt;li&gt;to delay project heat death as long as possible.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Project heat death" src="02_project_heat_death.png" /&gt;
+[Fig. 3: project heat death occurs when cost of change is unreasonably high.]&lt;/p&gt;
+&lt;p&gt;On the contrary, spaghetti software development may still be favored by managers if they gamble on the project dying before &lt;em&gt;t0&lt;/em&gt;. Then the big question is: Do managers account for this consciously?&lt;/p&gt;
+&lt;h2 id="from-waterfall-to-tdd-to-lean-startup"&gt;From Waterfall to TDD to Lean Startup&lt;/h2&gt;
+&lt;p&gt;The last part was about transforming any waterfall-ish development process into the ideal &lt;em&gt;lean startup&lt;/em&gt; (LS) by introducing feedback loops, repeatedly cutting feedback loops in half and as a result moving process throughput from micro-level "working code" to organization-level "money/revenue". JBR referred to foundations in queuing theory.&lt;/p&gt;
+&lt;p&gt;Citing the &lt;a href="http://www-scf.usc.edu/~csci201/lectures/Lecture11/royce1970.pdf"&gt;infamous and greatly misunderstood W. W. Royce paper from 1970&lt;/a&gt;, JBR reminded the audience, that the Waterfall model was said to only ever work for straight-forward projects. Even in the original concept, it was described as risky and prone to failures (p. 2, s. 1).&lt;/p&gt;
+&lt;p&gt;To improve the Waterfall concept of&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;R --v               # Research / Requirements / Analysis
+   D --v            # Design
+       C --v        # Code
+           T --v    # Test
+               M    # Maintenance / Ops&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One could first introduce the feedback loop of test-first programming (TFP) iterating between code and tests. The throughput of this feedback loop is working code. The Waterfall then becomes&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;R --v
+   D --v
+       TFP --v
+             M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Iterating between design and TFP using refactoring is essentially test-driven development (TDD), producing well-designed and working code. This replaces another part of the Waterfall&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;R --v
+    TDD --v
+          M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Continuing the pattern and looping between requirement analysis and TDD, the process becomes behavior-driven development (BDD). The throughput will be well-designed, working code which reflects business needs. JBR suggested "talk to me in examples" to inquire requirements of stakeholders. The Waterfall shrinks to a puddle:&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;BDD --v
+      M&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Looping feedback between BDD and maintenance/operations results in continuous delivery (CD). Eventually the throughput becomes real value: money/revenue. Further shortening the feedback cycles, CD becomes the ideal LS ("cash in my pockets sooner" - JBR).&lt;/p&gt;
+&lt;pre class="highlight"&gt;&lt;code&gt;CD --shorter cycles--&amp;gt; LS&lt;/code&gt;&lt;/pre&gt;</description>
+    </item>
+    <item>
+      <title>Software Development Talks Binge and Random Wisdom</title>
+      <link>https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/</link>
+      <pubDate>Mon, 09 Nov 2020 22:32:10 +0000</pubDate>
+      <guid>https://oliz.io/blog/2020/dev-talk-binge-random-wisdom/</guid>
+      <description>&lt;p&gt;While researching for &lt;a href="../economics-of-software-design/"&gt;the previous blog post&lt;/a&gt;, I stumbled upon another &lt;a href="https://www.youtube.com/watch?v=WSes_PexXcA"&gt;J. B. Rainsberger talk&lt;/a&gt; on how accidental complications sabotage estimations, which is also excellent on a meta level since he hits his talk duration estimate on the second!&lt;/p&gt;
+&lt;p&gt;From there on the YouTube algorithm dragged me further into the maze...&lt;/p&gt;
+&lt;h2 id="overwatch-gameplay-architecture-and-netcode"&gt;&lt;a href="https://www.youtube.com/watch?v=W3aieHjyNvw"&gt;Overwatch Gameplay Architecture and Netcode&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;How Overwatch implemented Entity Component System (ECS) as an architecture:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Components have no functions&lt;/li&gt;
+&lt;li&gt;Systems have no state&lt;/li&gt;
+&lt;li&gt;Systems cannot call other systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Some more:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Game runs at fixed frame rate, sends a sliding window (ring buffer) of input to mitigate UDP packet loss&lt;/li&gt;
+&lt;li&gt;The input buffer size is dynamic: the higher the latency, the bigger the buffer&lt;/li&gt;
+&lt;li&gt;Entire simulation is deterministic, can be interpolated and re-winded&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you take away one lesson from this talk let it be this: behaviors are much less complex if they are expressed in a single callsite, in which all major behavioral sideeffects are localized to that callsite.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="networking-scripted-weapons-and-abilities-in-overwatch"&gt;&lt;a href="https://www.youtube.com/watch?v=ScyZjcjTlA4"&gt;Networking Scripted Weapons and Abilities in Overwatch&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;"Statescript", custom scripting language for gameplay&lt;/li&gt;
+&lt;li&gt;Key game design insight: "awesome moves" (specials) block re-winding, so significant player abilities/cooldowns are not rolled back&lt;/li&gt;
+&lt;li&gt;Overall not as interesting as the first talk, but has some nice diagrams for the netcode and prediction:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img alt="Predicted StatescriptPacket" src="predicted_packet.png" /&gt;
+&lt;img alt="Mispredicted StatescriptPacket" src="mispredicted_packet.png" /&gt;
+(screenshots from the talk linked above)&lt;/p&gt;
+&lt;h2 id="roguelike-development"&gt;&lt;a href="https://www.youtube.com/watch?v=jviNpRGuCIU"&gt;Roguelike Development&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;(from the &lt;a href="https://www.gridsagegames.com/cogmind/"&gt;Cogmind&lt;/a&gt; developer)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Develop the critical path first, focus on the core mechanic, release early and often, blog&lt;/li&gt;
+&lt;li&gt;Recommends to practice making smaller roguelikes first, e.g. 7-day roguelikes (7DRL)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.reddit.com/r/roguelikedev/"&gt;roguelike development reddit&lt;/a&gt; for plenty of resources, discussion and help&lt;/li&gt;
+&lt;li&gt;Mind accessibility, e.g. Cogmind players prefer tileset graphics and mouse controls&lt;/li&gt;
+&lt;li&gt;All in all, nice overview of plenty of roguelike themes, mechanics and layouts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here the binge ended, but more happened since the last blog post:&lt;/p&gt;
+&lt;h2 id="softwerkskammmer-leipzig-working-from-home-special"&gt;&lt;a href="https://www.meetup.com/de-DE/LE-software-craft-community/events/273864764/"&gt;Softwerkskammmer Leipzig: Working From Home Special&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Lean Coffee on remote work mostly due to Corona. When talking about "overcommunicating", we recalled documentation essentials:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;URL&lt;/li&gt;
+&lt;li&gt;Author&lt;/li&gt;
+&lt;li&gt;Timestamp, versioning&lt;/li&gt;
+&lt;li&gt;Searchable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="attention-economy"&gt;&lt;a href="https://aeon.co/videos/a-handful-of-executives-control-the-attention-economy-time-for-attentive-resistance"&gt;Attention Economy&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A nice video on the attention economy, social media selling attention of their users.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[...] a wealth of information creates a poverty of attention [...]
+-- Herbert A. Simon, 1971&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="further-links"&gt;Further Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/huge-success/sanic/"&gt;Python Sanic: a web app framework&lt;/a&gt; which looks like an evolution of &lt;a href="https://palletsprojects.com/p/flask/"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://docs.fedoraproject.org/en-US/quick-docs/understanding-and-administering-systemd/index.html"&gt;systemd: basics (Fedora documentation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/linux/usage/systemd.md"&gt;systemd: basic service template for Raspberry Pi&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.raspberrypi.org/documentation/linux/usage/cron.md"&gt;cron reference (Raspberry Pi documentation)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://briarproject.org"&gt;https://briarproject.org&lt;/a&gt; -- encrypted P2P messaging and forums, as an alternative to Telegram, WhatsApp and Threema&lt;/li&gt;
+&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>
