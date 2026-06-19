@@ -5,7 +5,7 @@
     <link>https://oliz.io/blog</link>
     <description></description>
     <generator>Good Generator.py -- ggpy -- https://oliz.io/ggpy</generator>
-    <lastBuildDate>Fri, 12 Jun 2026 23:43:29 -0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jun 2026 19:13:43 -0000</lastBuildDate>
     <atom:link href="https://oliz.io/blog/rss.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enable Emoji-Support for MySQL-Databases</title>
@@ -351,10 +351,12 @@ The &lt;code&gt;Gnome + Xmonad&lt;/code&gt; session just works.&lt;/p&gt;</descr
       <description>&lt;p&gt;I was getting silent wifi disconnects, this fixed the issue:&lt;/p&gt;
 &lt;pre class="highlight"&gt;&lt;code&gt;sudo vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Change from &lt;code&gt;3&lt;/code&gt; (powersave enabled) to &lt;code&gt;2&lt;/code&gt; (powersave disabled)&lt;/p&gt;
-&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts"&gt;https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Source: &lt;a href="https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts"&gt;https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="update-2026-06-19"&gt;Update 2026-06-19&lt;/h2&gt;
+&lt;p&gt;Same issue and fix also apply to Ubuntu 24.04 and Ubuntu 26.06.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Ubuntu 24.04 LTS Fixes and Tweaks</title>
+      <title>Ubuntu 24.04 Fixes and Tweaks</title>
       <link>https://oliz.io/blog/2026/ubuntu-2404-fixes-and-tweaks.html</link>
       <pubDate>Tue, 17 Feb 2026 00:05:04 +0000</pubDate>
       <guid>https://oliz.io/blog/2026/ubuntu-2404-fixes-and-tweaks.html</guid>

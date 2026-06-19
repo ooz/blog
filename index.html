@@ -92,15 +92,16 @@ function toggleFontSize() { document.body.classList.toggle("large-font") }
 </header>
 <section>
 <div>
-<div class="card"><small class="social">2026-02-17</small><a href="https://oliz.io/blog/2026/ubuntu-2404-fixes-and-tweaks.html"><b>Ubuntu 24.04 LTS Fixes and Tweaks</b></a></div>
+<div class="card"><small class="social">2026-02-17</small><a href="https://oliz.io/blog/2026/ubuntu-2404-fixes-and-tweaks.html"><b>Ubuntu 24.04 Fixes and Tweaks</b></a></div>
 <div class="card"><small class="social">2023-04-08</small>
-<a href="https://oliz.io/blog/2023/ubuntu-wifi-issues.html"><b>Ubuntu 22.04 WiFi Issues</b></a>
-<div>
+<details><summary><a href="https://oliz.io/blog/2023/ubuntu-wifi-issues.html"><b>Ubuntu 22.04 WiFi Issues</b></a></summary>
 <p>I was getting silent wifi disconnects, this fixed the issue:</p>
 <pre class="highlight"><code>sudo vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf</code></pre>
 <p>Change from <code>3</code> (powersave enabled) to <code>2</code> (powersave disabled)</p>
 <p>Source: <a href="https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts">https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts</a></p>
-</div>
+<h2 id="update-2026-06-19">Update 2026-06-19</h2>
+<p>Same issue and fix also apply to Ubuntu 24.04 and Ubuntu 26.06.</p>
+</details>
 </div>
 <div class="card"><small class="social">2022-12-01</small>
 <details><summary><a href="https://oliz.io/blog/2022/japans-maximalist-web.html"><b>Why the Japanese Web Looks so Maximalist</b></a></summary>
