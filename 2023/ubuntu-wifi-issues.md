@@ -13,3 +13,8 @@ sudo vim /etc/NetworkManager/conf.d/default-wifi-powersave-on.conf
 Change from `3` (powersave enabled) to `2` (powersave disabled)
 
 Source: https://askubuntu.com/questions/1403954/wifi-issues-in-ubuntu-22-04lts
+
+## Update 2026-06-19
+
+Same issue and fix also apply to Ubuntu 24.04 and Ubuntu 26.06.
+

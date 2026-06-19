@@ -1,9 +1,7 @@
 ---
-title: Ubuntu 24.04 LTS Fixes and Tweaks
+title: Ubuntu 24.04 Fixes and Tweaks
 date: 2026-02-17T00:05:04Z
 ---
-
-
 
 I'm a little late to the party here, it's soon Ubuntu 26.04 LTS time marking my 20-year Ubuntu anniversary!
 
